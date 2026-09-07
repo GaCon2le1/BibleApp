@@ -70,6 +70,18 @@ private func verse(_ id: String, tier: Int, topics: [Topic] = [.hope]) -> Verse 
     #expect(q.verses.count == 3)
 }
 
+@Test func exhaustedPoolReplaysAllSavedBeforeAllUnsaved() {
+    let engine = FeedEngine(verses: [
+        verse("a", tier: 1), verse("b", tier: 2),
+        verse("c", tier: 3), verse("d", tier: 1)
+    ])
+    let q = engine.queue(selectedTopics: [], seen: ["a", "b", "c", "d"],
+                         saved: ["a", "c"], seed: 1)
+    #expect(q.isReplay == true)
+    #expect(Set(q.verses.prefix(2).map(\.id)) == ["a", "c"])
+    #expect(Set(q.verses.suffix(2).map(\.id)) == ["b", "d"])
+}
+
 @Test func exhaustedPoolWithNoSavedStillReplaysEverything() {
     let engine = FeedEngine(verses: [verse("a", tier: 1), verse("b", tier: 2)])
     let q = engine.queue(selectedTopics: [], seen: ["a", "b"], saved: [], seed: 1)
