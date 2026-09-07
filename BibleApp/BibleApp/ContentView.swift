@@ -1,29 +1,41 @@
-//
-//  ContentView.swift
-//  BibleApp
-//
-//  Created by Gacon on 7/9/26.
-//
-
 import SwiftUI
-import BibleFeedKit
+import SwiftData
 
 struct ContentView: View {
+    @Environment(\.modelContext) private var context
+    @Query private var states: [UserState]
     @State private var store = ContentStore()
 
     var body: some View {
-        VStack(spacing: 8) {
-            Text("\(store.verses.count) verses loaded")
-                .font(.headline)
-            if let first = store.verses.first {
-                Text(first.reference).foregroundStyle(.secondary)
+        Group {
+            if store.loadFailed {
+                ContentUnavailableView {
+                    Label("Content unavailable", systemImage: "exclamationmark.triangle")
+                } description: {
+                    Text("The verse library could not be loaded.")
+                } actions: {
+                    Button("Try again") { store.load() }
+                }
+            } else if let state = states.first {
+                if state.hasCompletedOnboarding {
+                    FeedView(store: store, state: state)
+                } else {
+                    OnboardingView(state: state)
+                }
+            } else {
+                ProgressView()
             }
         }
-        .padding()
-        .onAppear { store.load() }
+        .onAppear {
+            store.load()
+            if states.isEmpty {
+                context.insert(UserState())
+            }
+        }
     }
 }
 
 #Preview {
     ContentView()
+        .modelContainer(for: UserState.self, inMemory: true)
 }
