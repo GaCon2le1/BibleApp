@@ -220,5 +220,18 @@ class ValidateFeedTests(unittest.TestCase):
                            for e in errs), f"error should mention JSON/parse issue: {errs}")
 
 
+class ShippedFeedTests(unittest.TestCase):
+    """validate_feed.py has no automated coverage of the file the app actually
+    ships. This is the permanent guard for that: run the real validator
+    against the real shipped feed_verses.json, so bad data fails the build
+    instead of only being caught by someone remembering to run the script by
+    hand."""
+
+    def test_shipped_feed_verses_has_no_errors(self):
+        shipped = ROOT / "BibleApp" / "BibleApp" / "Resources" / "feed_verses.json"
+        self.assertTrue(shipped.is_file(), f"missing shipped feed file: {shipped}")
+        self.assertEqual(validate_feed(shipped), [])
+
+
 if __name__ == "__main__":
     unittest.main()
