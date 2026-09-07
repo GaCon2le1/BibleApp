@@ -1,11 +1,5 @@
-//
-//  BibleAppApp.swift
-//  BibleApp
-//
-//  Created by Gacon on 7/9/26.
-//
-
 import SwiftUI
+import SwiftData
 
 @main
 struct BibleAppApp: App {
@@ -13,5 +7,6 @@ struct BibleAppApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: UserState.self)
     }
 }
