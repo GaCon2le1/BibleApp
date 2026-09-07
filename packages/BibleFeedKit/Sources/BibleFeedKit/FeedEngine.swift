@@ -13,6 +13,9 @@ public struct FeedQueue: Equatable, Sendable {
 public struct FeedEngine: Sendable {
     private let verses: [Verse]
 
+    /// Verse array order must be stable across calls for seeded reproducibility.
+    /// `shuffled(using:)` permutes from the current array position, so identical seeds with different input order produce different results.
+    /// This assumption is satisfied in practice when verses come from JSONDecoder, which preserves JSON array source order.
     public init(verses: [Verse]) {
         self.verses = verses
     }
