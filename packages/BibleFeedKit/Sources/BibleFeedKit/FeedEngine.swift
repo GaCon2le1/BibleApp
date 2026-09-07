@@ -33,8 +33,17 @@ public struct FeedEngine: Sendable {
                       saved: Set<String>,
                       seed: UInt64) -> FeedQueue {
         let unseen = verses.filter { !seen.contains($0.id) }
-        return FeedQueue(verses: rank(unseen, selectedTopics: selectedTopics, seed: seed),
-                         isReplay: false)
+        if !unseen.isEmpty || verses.isEmpty {
+            return FeedQueue(verses: rank(unseen, selectedTopics: selectedTopics, seed: seed),
+                             isReplay: false)
+        }
+
+        // Every verse has been seen. Reopen the queue, saved verses first.
+        let savedVerses = verses.filter { saved.contains($0.id) }
+        let rest = verses.filter { !saved.contains($0.id) }
+        let replay = rank(savedVerses, selectedTopics: selectedTopics, seed: seed)
+            + rank(rest, selectedTopics: selectedTopics, seed: seed &+ 1)
+        return FeedQueue(verses: replay, isReplay: true)
     }
 
     private func rank(_ pool: [Verse],

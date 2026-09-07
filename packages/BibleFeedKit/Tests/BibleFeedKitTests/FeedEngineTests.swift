@@ -49,3 +49,37 @@ private func verse(_ id: String, tier: Int, topics: [Topic] = [.hope]) -> Verse 
     #expect(Set(q.verses.map(\.id)) == Set(verses.map(\.id)))
     #expect(q.verses.count == 50)
 }
+
+@Test func seenVersesAreExcluded() {
+    let engine = FeedEngine(verses: [
+        verse("a", tier: 1), verse("b", tier: 1), verse("c", tier: 1)
+    ])
+    let q = engine.queue(selectedTopics: [], seen: ["a", "c"], saved: [], seed: 1)
+    #expect(q.verses.map(\.id) == ["b"])
+    #expect(q.isReplay == false)
+}
+
+@Test func exhaustedPoolReplaysWithSavedFirst() {
+    let engine = FeedEngine(verses: [
+        verse("a", tier: 3), verse("b", tier: 1), verse("c", tier: 2)
+    ])
+    let q = engine.queue(selectedTopics: [], seen: ["a", "b", "c"],
+                         saved: ["a"], seed: 1)
+    #expect(q.isReplay == true)
+    #expect(q.verses.first?.id == "a")
+    #expect(q.verses.count == 3)
+}
+
+@Test func exhaustedPoolWithNoSavedStillReplaysEverything() {
+    let engine = FeedEngine(verses: [verse("a", tier: 1), verse("b", tier: 2)])
+    let q = engine.queue(selectedTopics: [], seen: ["a", "b"], saved: [], seed: 1)
+    #expect(q.isReplay == true)
+    #expect(Set(q.verses.map(\.id)) == ["a", "b"])
+}
+
+@Test func emptyLibraryProducesEmptyQueue() {
+    let engine = FeedEngine(verses: [])
+    let q = engine.queue(selectedTopics: [], seen: [], saved: [], seed: 1)
+    #expect(q.verses.isEmpty)
+    #expect(q.isReplay == false)
+}
