@@ -4,7 +4,12 @@ import BibleFeedKit
 struct OnboardingView: View {
     let state: UserState
 
-    @State private var chosen: Set<Topic> = []
+    @State private var chosen: Set<Topic>
+
+    init(state: UserState) {
+        self.state = state
+        _chosen = State(initialValue: state.topics)
+    }
 
     private let columns = [GridItem(.adaptive(minimum: 110), spacing: 12)]
     private var canContinue: Bool { (3...5).contains(chosen.count) }
