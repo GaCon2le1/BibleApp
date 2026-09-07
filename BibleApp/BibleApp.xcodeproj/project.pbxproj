@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A130C3E3304F1AB000DBEEFA /* BibleFeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = A130C3E2304F1AB000DBEEFA /* BibleFeedKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A130C3CC304E714300DBEEFA /* BibleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A130C3E3304F1AB000DBEEFA /* BibleFeedKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = BibleApp;
 			packageProductDependencies = (
+				A130C3E2304F1AB000DBEEFA /* BibleFeedKit */,
 			);
 			productName = BibleApp;
 			productReference = A130C3CC304E714300DBEEFA /* BibleApp.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = A130C3C3304E714300DBEEFA;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A130C3E1304F1AB000DBEEFA /* XCLocalSwiftPackageReference "../packages/BibleFeedKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A130C3CD304E714300DBEEFA /* Products */;
 			projectDirPath = "";
@@ -353,6 +362,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A130C3E1304F1AB000DBEEFA /* XCLocalSwiftPackageReference "../packages/BibleFeedKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../packages/BibleFeedKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A130C3E2304F1AB000DBEEFA /* BibleFeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BibleFeedKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A130C3C4304E714300DBEEFA /* Project object */;
 }
