@@ -32,14 +32,6 @@
       ]
     },
     {
-      "id": "GEN.4.9",
-      "tier": 2,
-      "topics": [
-        "love",
-        "guidance"
-      ]
-    },
-    {
       "id": "GEN.9.13",
       "tier": 3,
       "topics": [
@@ -51,16 +43,8 @@
       "id": "GEN.15.6",
       "tier": 3,
       "topics": [
-        "doubt",
-        "hope"
-      ]
-    },
-    {
-      "id": "GEN.18.14",
-      "tier": 2,
-      "topics": [
-        "doubt",
-        "hope"
+        "hope",
+        "purpose"
       ]
     },
     {
@@ -85,13 +69,12 @@
       "id": "EXO.3.14",
       "tier": 2,
       "topics": [
-        "purpose",
-        "doubt"
+        "purpose"
       ]
     },
     {
       "id": "EXO.14.14",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "peace",
         "anxiety"
@@ -114,19 +97,19 @@
       ]
     },
     {
+      "id": "EXO.20.13",
+      "tier": 1,
+      "topics": [
+        "guidance",
+        "peace"
+      ]
+    },
+    {
       "id": "EXO.33.14",
       "tier": 2,
       "topics": [
         "peace",
         "guidance"
-      ]
-    },
-    {
-      "id": "EXO.34.6",
-      "tier": 3,
-      "topics": [
-        "forgiveness",
-        "love"
       ]
     },
     {
@@ -146,14 +129,6 @@
       ]
     },
     {
-      "id": "NUM.6.26",
-      "tier": 2,
-      "topics": [
-        "peace",
-        "hope"
-      ]
-    },
-    {
       "id": "NUM.23.19",
       "tier": 3,
       "topics": [
@@ -166,15 +141,7 @@
       "tier": 3,
       "topics": [
         "guidance",
-        "doubt"
-      ]
-    },
-    {
-      "id": "DEU.6.5",
-      "tier": 2,
-      "topics": [
-        "love",
-        "guidance"
+        "hope"
       ]
     },
     {
@@ -183,31 +150,6 @@
       "topics": [
         "purpose",
         "guidance"
-      ]
-    },
-    {
-      "id": "DEU.31.6",
-      "tier": 1,
-      "topics": [
-        "strength",
-        "anxiety"
-      ]
-    },
-    {
-      "id": "DEU.31.8",
-      "tier": 2,
-      "topics": [
-        "anxiety",
-        "peace"
-      ]
-    },
-    {
-      "id": "DEU.33.27",
-      "tier": 2,
-      "topics": [
-        "peace",
-        "grief",
-        "strength"
       ]
     },
     {
@@ -259,19 +201,11 @@
       ]
     },
     {
-      "id": "2SA.22.2",
-      "tier": 3,
-      "topics": [
-        "strength",
-        "anxiety"
-      ]
-    },
-    {
       "id": "1KI.18.21",
       "tier": 3,
       "topics": [
         "purpose",
-        "doubt"
+        "guidance"
       ]
     },
     {
@@ -327,7 +261,7 @@
       "tier": 2,
       "topics": [
         "strength",
-        "gratitude"
+        "hope"
       ]
     },
     {
@@ -335,7 +269,7 @@
       "tier": 2,
       "topics": [
         "purpose",
-        "doubt"
+        "strength"
       ]
     },
     {
@@ -363,6 +297,14 @@
       ]
     },
     {
+      "id": "JOB.14.1",
+      "tier": 3,
+      "topics": [
+        "grief",
+        "doubt"
+      ]
+    },
+    {
       "id": "JOB.19.25",
       "tier": 2,
       "topics": [
@@ -379,11 +321,19 @@
       ]
     },
     {
-      "id": "JOB.42.5",
+      "id": "JOB.38.4",
       "tier": 3,
       "topics": [
         "doubt",
-        "hope"
+        "purpose"
+      ]
+    },
+    {
+      "id": "JOB.42.5",
+      "tier": 3,
+      "topics": [
+        "hope",
+        "purpose"
       ]
     },
     {
@@ -415,7 +365,15 @@
       "tier": 3,
       "topics": [
         "worth",
-        "doubt"
+        "purpose"
+      ]
+    },
+    {
+      "id": "PSA.8.5",
+      "tier": 2,
+      "topics": [
+        "worth",
+        "gratitude"
       ]
     },
     {
@@ -423,7 +381,15 @@
       "tier": 3,
       "topics": [
         "hope",
-        "worth"
+        "anxiety"
+      ]
+    },
+    {
+      "id": "PSA.10.1",
+      "tier": 3,
+      "topics": [
+        "doubt",
+        "grief"
       ]
     },
     {
@@ -485,7 +451,7 @@
     },
     {
       "id": "PSA.23.3",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "guidance",
         "strength"
@@ -497,6 +463,14 @@
       "topics": [
         "grief",
         "anxiety",
+        "peace"
+      ]
+    },
+    {
+      "id": "PSA.23.5",
+      "tier": 1,
+      "topics": [
+        "gratitude",
         "peace"
       ]
     },
@@ -540,19 +514,19 @@
       ]
     },
     {
+      "id": "PSA.29.11",
+      "tier": 2,
+      "topics": [
+        "peace",
+        "strength"
+      ]
+    },
+    {
       "id": "PSA.30.5",
       "tier": 2,
       "topics": [
         "grief",
         "hope"
-      ]
-    },
-    {
-      "id": "PSA.31.24",
-      "tier": 3,
-      "topics": [
-        "hope",
-        "strength"
       ]
     },
     {
@@ -571,8 +545,16 @@
       ]
     },
     {
+      "id": "PSA.34.17",
+      "tier": 2,
+      "topics": [
+        "grief",
+        "hope"
+      ]
+    },
+    {
       "id": "PSA.34.18",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "grief",
         "peace"
@@ -592,6 +574,14 @@
       "topics": [
         "guidance",
         "hope"
+      ]
+    },
+    {
+      "id": "PSA.37.23",
+      "tier": 2,
+      "topics": [
+        "guidance",
+        "purpose"
       ]
     },
     {
@@ -641,7 +631,15 @@
       "tier": 2,
       "topics": [
         "anxiety",
-        "doubt"
+        "hope"
+      ]
+    },
+    {
+      "id": "PSA.56.8",
+      "tier": 3,
+      "topics": [
+        "grief",
+        "love"
       ]
     },
     {
@@ -653,10 +651,26 @@
       ]
     },
     {
+      "id": "PSA.73.13",
+      "tier": 3,
+      "topics": [
+        "doubt",
+        "purpose"
+      ]
+    },
+    {
       "id": "PSA.73.26",
       "tier": 3,
       "topics": [
         "strength",
+        "grief"
+      ]
+    },
+    {
+      "id": "PSA.77.9",
+      "tier": 3,
+      "topics": [
+        "doubt",
         "grief"
       ]
     },
@@ -674,6 +688,14 @@
       "topics": [
         "forgiveness",
         "love"
+      ]
+    },
+    {
+      "id": "PSA.88.14",
+      "tier": 3,
+      "topics": [
+        "doubt",
+        "grief"
       ]
     },
     {
@@ -717,6 +739,22 @@
       ]
     },
     {
+      "id": "PSA.95.2",
+      "tier": 2,
+      "topics": [
+        "gratitude",
+        "peace"
+      ]
+    },
+    {
+      "id": "PSA.100.2",
+      "tier": 1,
+      "topics": [
+        "gratitude",
+        "purpose"
+      ]
+    },
+    {
       "id": "PSA.100.4",
       "tier": 2,
       "topics": [
@@ -732,7 +770,7 @@
     },
     {
       "id": "PSA.103.12",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "forgiveness"
       ]
@@ -743,6 +781,21 @@
       "topics": [
         "gratitude",
         "love"
+      ]
+    },
+    {
+      "id": "PSA.116.12",
+      "tier": 3,
+      "topics": [
+        "gratitude"
+      ]
+    },
+    {
+      "id": "PSA.116.15",
+      "tier": 2,
+      "topics": [
+        "grief",
+        "hope"
       ]
     },
     {
@@ -769,14 +822,6 @@
       ]
     },
     {
-      "id": "PSA.121.2",
-      "tier": 3,
-      "topics": [
-        "strength",
-        "hope"
-      ]
-    },
-    {
       "id": "PSA.126.5",
       "tier": 2,
       "topics": [
@@ -793,26 +838,11 @@
       ]
     },
     {
-      "id": "PSA.136.1",
-      "tier": 3,
-      "topics": [
-        "gratitude",
-        "love"
-      ]
-    },
-    {
       "id": "PSA.139.7",
       "tier": 3,
       "topics": [
-        "doubt",
-        "peace"
-      ]
-    },
-    {
-      "id": "PSA.139.13",
-      "tier": 2,
-      "topics": [
-        "worth"
+        "peace",
+        "hope"
       ]
     },
     {
@@ -828,12 +858,12 @@
       "tier": 3,
       "topics": [
         "guidance",
-        "doubt"
+        "purpose"
       ]
     },
     {
       "id": "PSA.147.3",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "grief",
         "peace"
@@ -906,8 +936,7 @@
       "id": "PRO.14.12",
       "tier": 3,
       "topics": [
-        "guidance",
-        "doubt"
+        "guidance"
       ]
     },
     {
@@ -927,10 +956,34 @@
       ]
     },
     {
+      "id": "PRO.16.9",
+      "tier": 2,
+      "topics": [
+        "guidance",
+        "purpose"
+      ]
+    },
+    {
+      "id": "PRO.16.18",
+      "tier": 1,
+      "topics": [
+        "guidance",
+        "worth"
+      ]
+    },
+    {
       "id": "PRO.17.17",
       "tier": 1,
       "topics": [
         "love"
+      ]
+    },
+    {
+      "id": "PRO.17.22",
+      "tier": 2,
+      "topics": [
+        "grief",
+        "hope"
       ]
     },
     {
@@ -1003,6 +1056,14 @@
       ]
     },
     {
+      "id": "ECC.1.2",
+      "tier": 1,
+      "topics": [
+        "purpose",
+        "doubt"
+      ]
+    },
+    {
       "id": "ECC.3.1",
       "tier": 1,
       "topics": [
@@ -1027,10 +1088,10 @@
       ]
     },
     {
-      "id": "ECC.4.12",
-      "tier": 3,
+      "id": "ECC.9.10",
+      "tier": 2,
       "topics": [
-        "love",
+        "purpose",
         "strength"
       ]
     },
@@ -1113,7 +1174,7 @@
     },
     {
       "id": "ISA.26.3",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "peace",
         "anxiety"
@@ -1123,6 +1184,14 @@
       "id": "ISA.30.21",
       "tier": 2,
       "topics": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "ISA.40.8",
+      "tier": 2,
+      "topics": [
+        "hope",
         "guidance"
       ]
     },
@@ -1180,6 +1249,14 @@
       "topics": [
         "hope",
         "purpose"
+      ]
+    },
+    {
+      "id": "ISA.43.25",
+      "tier": 2,
+      "topics": [
+        "forgiveness",
+        "peace"
       ]
     },
     {
@@ -1254,11 +1331,11 @@
       ]
     },
     {
-      "id": "ISA.61.1",
-      "tier": 2,
+      "id": "ISA.64.8",
+      "tier": 3,
       "topics": [
-        "purpose",
-        "hope"
+        "worth",
+        "purpose"
       ]
     },
     {
@@ -1289,7 +1366,6 @@
       "id": "JER.17.9",
       "tier": 3,
       "topics": [
-        "doubt",
         "guidance"
       ]
     },
@@ -1314,14 +1390,6 @@
       "tier": 2,
       "topics": [
         "love"
-      ]
-    },
-    {
-      "id": "JER.32.27",
-      "tier": 3,
-      "topics": [
-        "doubt",
-        "strength"
       ]
     },
     {
@@ -1370,22 +1438,6 @@
       "topics": [
         "hope",
         "grief"
-      ]
-    },
-    {
-      "id": "DAN.3.17",
-      "tier": 2,
-      "topics": [
-        "doubt",
-        "strength"
-      ]
-    },
-    {
-      "id": "DAN.3.18",
-      "tier": 3,
-      "topics": [
-        "strength",
-        "purpose"
       ]
     },
     {
@@ -1444,6 +1496,14 @@
       ]
     },
     {
+      "id": "MIC.7.19",
+      "tier": 2,
+      "topics": [
+        "forgiveness",
+        "hope"
+      ]
+    },
+    {
       "id": "NAM.1.7",
       "tier": 3,
       "topics": [
@@ -1452,11 +1512,11 @@
       ]
     },
     {
-      "id": "HAB.2.4",
+      "id": "HAB.1.2",
       "tier": 3,
       "topics": [
         "doubt",
-        "hope"
+        "grief"
       ]
     },
     {
@@ -1480,7 +1540,7 @@
       "tier": 2,
       "topics": [
         "strength",
-        "doubt"
+        "guidance"
       ]
     },
     {
@@ -1508,11 +1568,35 @@
       ]
     },
     {
-      "id": "MAT.5.8",
-      "tier": 3,
+      "id": "MAT.5.5",
+      "tier": 1,
       "topics": [
         "worth",
-        "purpose"
+        "hope"
+      ]
+    },
+    {
+      "id": "MAT.5.6",
+      "tier": 2,
+      "topics": [
+        "purpose",
+        "hope"
+      ]
+    },
+    {
+      "id": "MAT.5.7",
+      "tier": 2,
+      "topics": [
+        "forgiveness",
+        "love"
+      ]
+    },
+    {
+      "id": "MAT.5.8",
+      "tier": 1,
+      "topics": [
+        "purpose",
+        "hope"
       ]
     },
     {
@@ -1539,10 +1623,10 @@
       ]
     },
     {
-      "id": "MAT.5.44",
-      "tier": 2,
+      "id": "MAT.5.39",
+      "tier": 1,
       "topics": [
-        "love",
+        "peace",
         "forgiveness"
       ]
     },
@@ -1552,6 +1636,21 @@
       "topics": [
         "guidance",
         "purpose"
+      ]
+    },
+    {
+      "id": "MAT.6.11",
+      "tier": 1,
+      "topics": [
+        "gratitude",
+        "anxiety"
+      ]
+    },
+    {
+      "id": "MAT.6.12",
+      "tier": 1,
+      "topics": [
+        "forgiveness"
       ]
     },
     {
@@ -1571,6 +1670,14 @@
     {
       "id": "MAT.6.26",
       "tier": 2,
+      "topics": [
+        "anxiety",
+        "worth"
+      ]
+    },
+    {
+      "id": "MAT.6.28",
+      "tier": 1,
       "topics": [
         "anxiety",
         "worth"
@@ -1617,6 +1724,22 @@
       ]
     },
     {
+      "id": "MAT.7.13",
+      "tier": 2,
+      "topics": [
+        "guidance",
+        "purpose"
+      ]
+    },
+    {
+      "id": "MAT.7.24",
+      "tier": 1,
+      "topics": [
+        "guidance",
+        "strength"
+      ]
+    },
+    {
       "id": "MAT.11.28",
       "tier": 1,
       "topics": [
@@ -1634,11 +1757,11 @@
       ]
     },
     {
-      "id": "MAT.16.26",
+      "id": "MAT.14.31",
       "tier": 2,
       "topics": [
-        "purpose",
-        "worth"
+        "doubt",
+        "anxiety"
       ]
     },
     {
@@ -1658,6 +1781,14 @@
       ]
     },
     {
+      "id": "MAT.19.6",
+      "tier": 1,
+      "topics": [
+        "love",
+        "purpose"
+      ]
+    },
+    {
       "id": "MAT.19.14",
       "tier": 3,
       "topics": [
@@ -1669,8 +1800,8 @@
       "id": "MAT.19.26",
       "tier": 1,
       "topics": [
-        "doubt",
-        "hope"
+        "hope",
+        "strength"
       ]
     },
     {
@@ -1681,18 +1812,19 @@
       ]
     },
     {
-      "id": "MAT.22.39",
-      "tier": 1,
-      "topics": [
-        "love"
-      ]
-    },
-    {
       "id": "MAT.25.40",
       "tier": 1,
       "topics": [
         "love",
         "purpose"
+      ]
+    },
+    {
+      "id": "MAT.28.6",
+      "tier": 1,
+      "topics": [
+        "hope",
+        "grief"
       ]
     },
     {
@@ -1726,6 +1858,14 @@
       ]
     },
     {
+      "id": "MRK.4.40",
+      "tier": 2,
+      "topics": [
+        "doubt",
+        "anxiety"
+      ]
+    },
+    {
       "id": "MRK.5.36",
       "tier": 2,
       "topics": [
@@ -1742,26 +1882,10 @@
       ]
     },
     {
-      "id": "MRK.9.23",
-      "tier": 2,
-      "topics": [
-        "doubt",
-        "hope"
-      ]
-    },
-    {
       "id": "MRK.9.24",
       "tier": 2,
       "topics": [
         "doubt"
-      ]
-    },
-    {
-      "id": "MRK.10.27",
-      "tier": 2,
-      "topics": [
-        "doubt",
-        "hope"
       ]
     },
     {
@@ -1770,28 +1894,6 @@
       "topics": [
         "hope",
         "guidance"
-      ]
-    },
-    {
-      "id": "MRK.12.31",
-      "tier": 2,
-      "topics": [
-        "love"
-      ]
-    },
-    {
-      "id": "MRK.16.15",
-      "tier": 3,
-      "topics": [
-        "purpose"
-      ]
-    },
-    {
-      "id": "LUK.1.37",
-      "tier": 1,
-      "topics": [
-        "doubt",
-        "hope"
       ]
     },
     {
@@ -1818,25 +1920,10 @@
       ]
     },
     {
-      "id": "LUK.4.18",
-      "tier": 3,
-      "topics": [
-        "purpose",
-        "hope"
-      ]
-    },
-    {
-      "id": "LUK.6.31",
+      "id": "LUK.6.35",
       "tier": 2,
       "topics": [
         "love",
-        "guidance"
-      ]
-    },
-    {
-      "id": "LUK.6.37",
-      "tier": 2,
-      "topics": [
         "forgiveness"
       ]
     },
@@ -1844,8 +1931,8 @@
       "id": "LUK.6.38",
       "tier": 2,
       "topics": [
-        "gratitude",
-        "love"
+        "love",
+        "guidance"
       ]
     },
     {
@@ -1853,14 +1940,6 @@
       "tier": 2,
       "topics": [
         "purpose"
-      ]
-    },
-    {
-      "id": "LUK.11.9",
-      "tier": 2,
-      "topics": [
-        "hope",
-        "guidance"
       ]
     },
     {
@@ -1888,11 +1967,11 @@
       ]
     },
     {
-      "id": "LUK.18.27",
-      "tier": 3,
+      "id": "LUK.15.24",
+      "tier": 2,
       "topics": [
-        "doubt",
-        "hope"
+        "forgiveness",
+        "worth"
       ]
     },
     {
@@ -1900,7 +1979,7 @@
       "tier": 3,
       "topics": [
         "purpose",
-        "worth"
+        "hope"
       ]
     },
     {
@@ -1919,11 +1998,11 @@
       ]
     },
     {
-      "id": "LUK.24.6",
-      "tier": 2,
+      "id": "LUK.24.38",
+      "tier": 3,
       "topics": [
-        "hope",
-        "grief"
+        "doubt",
+        "peace"
       ]
     },
     {
@@ -1937,6 +2016,14 @@
       "id": "JHN.1.5",
       "tier": 2,
       "topics": [
+        "hope"
+      ]
+    },
+    {
+      "id": "JHN.1.12",
+      "tier": 2,
+      "topics": [
+        "worth",
         "hope"
       ]
     },
@@ -1970,6 +2057,14 @@
       "topics": [
         "purpose",
         "peace"
+      ]
+    },
+    {
+      "id": "JHN.8.7",
+      "tier": 1,
+      "topics": [
+        "forgiveness",
+        "love"
       ]
     },
     {
@@ -2024,6 +2119,14 @@
       "tier": 2,
       "topics": [
         "love"
+      ]
+    },
+    {
+      "id": "JHN.13.35",
+      "tier": 2,
+      "topics": [
+        "love",
+        "purpose"
       ]
     },
     {
@@ -2082,6 +2185,14 @@
       ]
     },
     {
+      "id": "JHN.16.22",
+      "tier": 2,
+      "topics": [
+        "grief",
+        "hope"
+      ]
+    },
+    {
       "id": "JHN.16.33",
       "tier": 2,
       "topics": [
@@ -2095,6 +2206,14 @@
       "tier": 1,
       "topics": [
         "purpose"
+      ]
+    },
+    {
+      "id": "JHN.20.27",
+      "tier": 2,
+      "topics": [
+        "doubt",
+        "hope"
       ]
     },
     {
@@ -2168,14 +2287,6 @@
       ]
     },
     {
-      "id": "ROM.3.23",
-      "tier": 1,
-      "topics": [
-        "forgiveness",
-        "worth"
-      ]
-    },
-    {
       "id": "ROM.5.1",
       "tier": 3,
       "topics": [
@@ -2204,6 +2315,14 @@
       "tier": 2,
       "topics": [
         "forgiveness",
+        "peace"
+      ]
+    },
+    {
+      "id": "ROM.8.16",
+      "tier": 2,
+      "topics": [
+        "worth",
         "peace"
       ]
     },
@@ -2240,6 +2359,14 @@
       ]
     },
     {
+      "id": "ROM.8.35",
+      "tier": 2,
+      "topics": [
+        "love",
+        "strength"
+      ]
+    },
+    {
       "id": "ROM.8.37",
       "tier": 2,
       "topics": [
@@ -2248,16 +2375,8 @@
       ]
     },
     {
-      "id": "ROM.8.38",
-      "tier": 2,
-      "topics": [
-        "love",
-        "anxiety"
-      ]
-    },
-    {
       "id": "ROM.8.39",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "love",
         "peace"
@@ -2288,11 +2407,11 @@
       ]
     },
     {
-      "id": "ROM.12.12",
-      "tier": 3,
+      "id": "ROM.12.15",
+      "tier": 2,
       "topics": [
-        "hope",
-        "anxiety"
+        "grief",
+        "love"
       ]
     },
     {
@@ -2301,6 +2420,14 @@
       "topics": [
         "forgiveness",
         "strength"
+      ]
+    },
+    {
+      "id": "ROM.13.10",
+      "tier": 2,
+      "topics": [
+        "love",
+        "guidance"
       ]
     },
     {
@@ -2343,14 +2470,6 @@
       ]
     },
     {
-      "id": "1CO.12.27",
-      "tier": 3,
-      "topics": [
-        "purpose",
-        "worth"
-      ]
-    },
-    {
       "id": "1CO.13.1",
       "tier": 1,
       "topics": [
@@ -2358,40 +2477,18 @@
       ]
     },
     {
-      "id": "1CO.13.2",
-      "tier": 3,
-      "topics": [
-        "love"
-      ]
-    },
-    {
-      "id": "1CO.13.4",
-      "tier": 1,
-      "topics": [
-        "love"
-      ]
-    },
-    {
-      "id": "1CO.13.5",
-      "tier": 2,
-      "topics": [
-        "love",
-        "forgiveness"
-      ]
-    },
-    {
-      "id": "1CO.13.7",
-      "tier": 2,
-      "topics": [
-        "love",
-        "hope"
-      ]
-    },
-    {
       "id": "1CO.13.8",
       "tier": 1,
       "topics": [
         "love"
+      ]
+    },
+    {
+      "id": "1CO.13.11",
+      "tier": 1,
+      "topics": [
+        "purpose",
+        "guidance"
       ]
     },
     {
@@ -2435,14 +2532,6 @@
       ]
     },
     {
-      "id": "2CO.4.8",
-      "tier": 3,
-      "topics": [
-        "strength",
-        "hope"
-      ]
-    },
-    {
       "id": "2CO.4.16",
       "tier": 3,
       "topics": [
@@ -2468,7 +2557,7 @@
     },
     {
       "id": "2CO.5.17",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "hope",
         "forgiveness"
@@ -2478,8 +2567,8 @@
       "id": "2CO.9.7",
       "tier": 2,
       "topics": [
-        "gratitude",
-        "love"
+        "love",
+        "guidance"
       ]
     },
     {
@@ -2507,11 +2596,11 @@
       ]
     },
     {
-      "id": "GAL.5.22",
-      "tier": 1,
+      "id": "GAL.4.7",
+      "tier": 2,
       "topics": [
-        "love",
-        "peace"
+        "worth",
+        "hope"
       ]
     },
     {
@@ -2531,15 +2620,8 @@
       ]
     },
     {
-      "id": "EPH.1.7",
-      "tier": 3,
-      "topics": [
-        "forgiveness"
-      ]
-    },
-    {
       "id": "EPH.2.8",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "forgiveness",
         "hope"
@@ -2554,24 +2636,8 @@
       ]
     },
     {
-      "id": "EPH.3.20",
-      "tier": 2,
-      "topics": [
-        "hope",
-        "strength"
-      ]
-    },
-    {
-      "id": "EPH.4.2",
-      "tier": 3,
-      "topics": [
-        "love",
-        "peace"
-      ]
-    },
-    {
       "id": "EPH.4.32",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "forgiveness",
         "love"
@@ -2605,15 +2671,7 @@
       "tier": 3,
       "topics": [
         "love",
-        "worth"
-      ]
-    },
-    {
-      "id": "PHP.3.13",
-      "tier": 3,
-      "topics": [
-        "hope",
-        "forgiveness"
+        "guidance"
       ]
     },
     {
@@ -2657,11 +2715,19 @@
       ]
     },
     {
+      "id": "PHP.4.11",
+      "tier": 2,
+      "topics": [
+        "gratitude",
+        "peace"
+      ]
+    },
+    {
       "id": "PHP.4.13",
       "tier": 1,
       "topics": [
         "strength",
-        "doubt"
+        "hope"
       ]
     },
     {
@@ -2669,7 +2735,7 @@
       "tier": 2,
       "topics": [
         "hope",
-        "gratitude"
+        "anxiety"
       ]
     },
     {
@@ -2703,10 +2769,11 @@
       ]
     },
     {
-      "id": "COL.3.23",
+      "id": "COL.3.17",
       "tier": 2,
       "topics": [
-        "purpose"
+        "purpose",
+        "gratitude"
       ]
     },
     {
@@ -2718,11 +2785,11 @@
       ]
     },
     {
-      "id": "1TH.5.11",
-      "tier": 3,
+      "id": "1TH.4.14",
+      "tier": 2,
       "topics": [
-        "love",
-        "strength"
+        "grief",
+        "hope"
       ]
     },
     {
@@ -2780,7 +2847,7 @@
     },
     {
       "id": "2TI.1.7",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "anxiety",
         "strength"
@@ -2810,14 +2877,6 @@
       ]
     },
     {
-      "id": "TIT.3.5",
-      "tier": 3,
-      "topics": [
-        "forgiveness",
-        "hope"
-      ]
-    },
-    {
       "id": "HEB.4.12",
       "tier": 2,
       "topics": [
@@ -2834,22 +2893,6 @@
       ]
     },
     {
-      "id": "HEB.6.19",
-      "tier": 2,
-      "topics": [
-        "hope",
-        "anxiety"
-      ]
-    },
-    {
-      "id": "HEB.10.25",
-      "tier": 3,
-      "topics": [
-        "love",
-        "purpose"
-      ]
-    },
-    {
       "id": "HEB.11.1",
       "tier": 1,
       "topics": [
@@ -2861,15 +2904,7 @@
       "id": "HEB.11.6",
       "tier": 3,
       "topics": [
-        "doubt",
-        "hope"
-      ]
-    },
-    {
-      "id": "HEB.12.1",
-      "tier": 2,
-      "topics": [
-        "strength",
+        "hope",
         "purpose"
       ]
     },
@@ -2898,19 +2933,19 @@
       ]
     },
     {
-      "id": "JAS.1.2",
-      "tier": 3,
-      "topics": [
-        "grief",
-        "strength"
-      ]
-    },
-    {
       "id": "JAS.1.5",
       "tier": 2,
       "topics": [
         "guidance",
-        "doubt"
+        "hope"
+      ]
+    },
+    {
+      "id": "JAS.1.6",
+      "tier": 2,
+      "topics": [
+        "doubt",
+        "guidance"
       ]
     },
     {
@@ -2941,7 +2976,7 @@
       "tier": 3,
       "topics": [
         "purpose",
-        "doubt"
+        "guidance"
       ]
     },
     {
@@ -2958,14 +2993,6 @@
       "topics": [
         "forgiveness",
         "strength"
-      ]
-    },
-    {
-      "id": "1PE.1.3",
-      "tier": 3,
-      "topics": [
-        "hope",
-        "gratitude"
       ]
     },
     {
@@ -3002,7 +3029,7 @@
     },
     {
       "id": "1PE.5.7",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "anxiety",
         "peace"
@@ -3014,13 +3041,6 @@
       "topics": [
         "anxiety",
         "strength"
-      ]
-    },
-    {
-      "id": "2PE.1.4",
-      "tier": 3,
-      "topics": [
-        "hope"
       ]
     },
     {
@@ -3048,18 +3068,26 @@
       ]
     },
     {
+      "id": "1JN.3.2",
+      "tier": 2,
+      "topics": [
+        "worth",
+        "hope"
+      ]
+    },
+    {
+      "id": "1JN.3.18",
+      "tier": 2,
+      "topics": [
+        "love",
+        "purpose"
+      ]
+    },
+    {
       "id": "1JN.4.8",
       "tier": 1,
       "topics": [
         "love"
-      ]
-    },
-    {
-      "id": "1JN.4.16",
-      "tier": 2,
-      "topics": [
-        "love",
-        "peace"
       ]
     },
     {
@@ -3087,14 +3115,6 @@
       ]
     },
     {
-      "id": "JUD.1.24",
-      "tier": 3,
-      "topics": [
-        "hope",
-        "peace"
-      ]
-    },
-    {
       "id": "REV.1.8",
       "tier": 3,
       "topics": [
@@ -3119,14 +3139,6 @@
       ]
     },
     {
-      "id": "REV.7.17",
-      "tier": 3,
-      "topics": [
-        "grief",
-        "hope"
-      ]
-    },
-    {
       "id": "REV.21.4",
       "tier": 1,
       "topics": [
@@ -3139,14 +3151,6 @@
       "tier": 3,
       "topics": [
         "hope"
-      ]
-    },
-    {
-      "id": "REV.22.13",
-      "tier": 3,
-      "topics": [
-        "hope",
-        "purpose"
       ]
     }
   ]
