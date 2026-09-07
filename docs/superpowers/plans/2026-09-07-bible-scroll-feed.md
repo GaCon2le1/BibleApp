@@ -1691,7 +1691,7 @@ struct FeedView: View {
         }
         .scrollTargetBehavior(.paging)
         .scrollIndicators(.hidden)
-        .ignoresSafeArea(edges: .bottom)
+        .ignoresSafeArea()
         .onAppear(perform: rebuild)
     }
 
@@ -1929,7 +1929,7 @@ In `BibleApp/BibleApp/Views/FeedView.swift`, add this state property alongside t
     @State private var showLibrary = false
 ```
 
-and attach these modifiers to the `ScrollView`, after `.ignoresSafeArea(edges: .bottom)`:
+and attach these modifiers to the `ScrollView`, after `.ignoresSafeArea()`:
 
 ```swift
         .overlay(alignment: .top) {
@@ -1947,7 +1947,7 @@ and attach these modifiers to the `ScrollView`, after `.ignoresSafeArea(edges: .
                 .accessibilityLabel("Saved verses")
             }
             .padding(.horizontal, 24)
-            .padding(.top, 8)
+            .safeAreaPadding(.top, 8)
         }
         .sheet(isPresented: $showLibrary) {
             LibraryView(store: store, state: state)
