@@ -15,7 +15,7 @@
 - `BibleFeedKit` must import neither SwiftUI nor SwiftData.
 - Verse `text` is KJV verbatim, extracted programmatically from `data/source/KJV.json`. **Never type verse text by hand.**
 - Verse `displayText` is what the UI renders. It is `text` with any leading psalm
-  superscription, Hebrew acrostic letter, or trailing colophon removed, derived
+  superscription, Hebrew acrostic letter, or trailing musical marker removed, derived
   programmatically and validated as an **exact contiguous substring of `text`**.
   Equal to `text` for most verses.
   Source spelling is preserved otherwise, including "The Lord" rather than "LORD".
@@ -588,10 +588,11 @@ SUPERSCRIPTIONS = {
     "PSA.133.1": "A Song of degrees of David. ",
 }
 
-# Some verses carry a trailing colophon rather than a leading heading.
-# Same explicit-table treatment, keyed by verse id.
-TRAILING_COLOPHONS = {
-    "HAB.3.19": ' To the chief singer on my stringed instruments.',
+# Some verses carry a trailing musical or liturgical marker rather than a
+# leading heading. Same explicit-table treatment, keyed by verse id.
+TRAILING_MARKERS = {
+    "HAB.3.19": " To the chief singer on my stringed instruments.",
+    "PSA.77.9": " Selah.",
 }
 
 # Any selected verse whose text looks like it carries a heading but is not in
@@ -617,12 +618,17 @@ def display_text_for(vid, text):
         raise SystemExit(
             f"{vid}: text looks like it carries a heading but is not in "
             f"SUPERSCRIPTIONS — add it explicitly or confirm it is verse content")
-    suffix = TRAILING_COLOPHONS.get(vid)
+    suffix = TRAILING_MARKERS.get(vid)
     if suffix is not None:
         if not text.endswith(suffix):
             raise SystemExit(
-                f"{vid}: TRAILING_COLOPHONS suffix does not match source text")
+                f"{vid}: TRAILING_MARKERS suffix does not match source text")
         return text[:-len(suffix)].strip()
+    # "Selah" is a liturgical marker, never verse content. Catch any that were
+    # not listed rather than shipping one onto a card.
+    if text.rstrip().endswith("Selah."):
+        raise SystemExit(
+            f"{vid}: text ends with 'Selah.' but is not in TRAILING_MARKERS")
     return text
 
 
