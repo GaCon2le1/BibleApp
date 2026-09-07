@@ -1532,7 +1532,7 @@
     },
     {
       "id": "MAT.5.3",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "grief",
         "hope"
@@ -1540,7 +1540,7 @@
     },
     {
       "id": "MAT.5.4",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "grief",
         "peace"
@@ -1548,7 +1548,7 @@
     },
     {
       "id": "MAT.5.5",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "worth",
         "hope"
@@ -1572,7 +1572,7 @@
     },
     {
       "id": "MAT.5.8",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "purpose",
         "hope"
@@ -1580,7 +1580,7 @@
     },
     {
       "id": "MAT.5.9",
-      "tier": 1,
+      "tier": 2,
       "topics": [
         "peace"
       ]
