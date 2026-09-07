@@ -6,16 +6,21 @@
 //
 
 import SwiftUI
+import BibleFeedKit
 
 struct ContentView: View {
+    @State private var store = ContentStore()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 8) {
+            Text("\(store.verses.count) verses loaded")
+                .font(.headline)
+            if let first = store.verses.first {
+                Text(first.reference).foregroundStyle(.secondary)
+            }
         }
         .padding()
+        .onAppear { store.load() }
     }
 }
 
