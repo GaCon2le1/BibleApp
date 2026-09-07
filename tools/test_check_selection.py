@@ -5,6 +5,34 @@ from check_selection import check_selection, TOPICS, TOTAL
 
 REPO = pathlib.Path(__file__).resolve().parents[1]
 SELECTION = REPO / "data" / "curation" / "selection.json"
+KJV_SOURCE = REPO / "data" / "source" / "KJV.json"
+BIBLE_BOOKS = REPO / "BibleApp" / "BibleApp" / "Resources" / "bible_books.json"
+
+
+def _load_kjv_verse_ids():
+    """Build the set of every "BOOK.CHAPTER.VERSE" id that actually exists in
+    the vendored KJV text.
+
+    data/source/KJV.json pairs by index with the 66 canon == "protestant"
+    entries of bible_books.json (that file also lists deuterocanonical
+    books, which KJV.json does not carry) -- see the module docstring
+    contract check_selection.py's callers rely on. This lives in the test
+    file, not in check_selection.py, so the checker itself stays free of a
+    hard dependency on the 8 MB KJV file.
+    """
+    books_meta = json.loads(BIBLE_BOOKS.read_text())["books"]
+    protestant = [b for b in books_meta if b["canon"] == "protestant"]
+    kjv_books = json.loads(KJV_SOURCE.read_text())["books"]
+    assert len(protestant) == len(kjv_books) == 66, (
+        "expected 66 protestant-canon books lined up with 66 KJV books, "
+        "got %d and %d" % (len(protestant), len(kjv_books)))
+
+    ids = set()
+    for meta, book in zip(protestant, kjv_books):
+        for chapter in book["chapters"]:
+            for verse in chapter["verses"]:
+                ids.add("%s.%d.%d" % (meta["id"], chapter["chapter"], verse["verse"]))
+    return ids
 
 # Real book ids with their real chapter counts, so every fixture id below is a
 # verse that actually exists in the KJV (chapter N verse 1 of a real chapter).
@@ -58,6 +86,19 @@ class ShippedSelectionTests(unittest.TestCase):
     def test_repository_selection_is_clean(self):
         doc = json.loads(SELECTION.read_text())
         self.assertEqual(check_selection(doc), [])
+
+
+class ShippedSelectionIdsResolveTests(unittest.TestCase):
+    """check_selection.py only checks an id's shape (BOOK.CHAPTER.VERSE), not
+    whether it names a real verse -- it would happily accept "ZZZ.0.0". This
+    is the permanent guard against that: every id in the real selection.json
+    must resolve against the vendored KJV text."""
+
+    def test_every_selected_id_resolves_against_kjv(self):
+        valid_ids = _load_kjv_verse_ids()
+        doc = json.loads(SELECTION.read_text())
+        bad = [e["id"] for e in doc["selected"] if e.get("id") not in valid_ids]
+        self.assertEqual(bad, [], "ids not found in data/source/KJV.json: %s" % bad)
 
 
 class CountAndDistributionTests(unittest.TestCase):
