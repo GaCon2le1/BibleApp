@@ -72,7 +72,13 @@ layer is an addition, not a rewrite.
 - `text` — KJV verbatim, extracted from source, never hand-typed
 - `context` — one or two sentences of plain modern English: who spoke, to whom,
   in what situation. This field is what makes the app teach rather than decorate.
-- `tier` — 1 to 3, drives feed ranking
+- `tier` — 1 to 3, drives feed ranking, assigned by these criteria:
+  - **1** — verses a non-churchgoer would plausibly recognise out of context
+    (John 3:16, Psalm 23:1, Philippians 4:13). Roughly 100 of the 400.
+  - **2** — well known within the church, quotable standalone, but not household
+    phrases. Roughly 200.
+  - **3** — worth reading and clear on its own, included for topical coverage
+    where tiers 1 and 2 leave a topic thin. Roughly 100.
 - `topics` — one to three tags drawn from the fixed list below
 
 ### Topics
@@ -95,7 +101,7 @@ Twelve, chosen for seekers, avoiding theological vocabulary:
 | `ContentStore` | Loads and decodes JSON at launch | Bundle |
 | `FeedEngine` | Builds the verse queue from topics, seen set and tier | ContentStore, UserState |
 | `UserState` | SwiftData: seenIDs, savedIDs, topics, streak | — |
-| `OnboardingView` | First-run topic picker, 3 to 5 choices | UserState |
+| `OnboardingView` | First-run topic picker, 3 to 5 choices, skippable | UserState |
 | `FeedView` | Vertical paging, one card per page | FeedEngine |
 | `VerseCard` | Text, reference, context, save control | — |
 | `LibraryView` | Saved verses, filterable by topic | UserState |
@@ -113,12 +119,23 @@ Twelve, chosen for seekers, avoiding theological vocabulary:
    past does not consume it.
 5. When the pool empties, show a milestone screen, then reopen the queue giving
    priority to saved verses.
+6. Scrolling back to an already-seen card does not re-consume it; seen is
+   permanent for the current cycle.
+
+### Streak
+
+A day counts once the user marks at least one card seen, in device local time.
+The streak increments on consecutive counted days and resets to zero after a
+full calendar day with none. It is stored in `UserState` and shown in the
+feed header. No grace days, no freezes, in v1.
 
 ## Error handling
 
 - JSON decode failure: fatal in debug, since it is a programming error. In
   release, an empty state with a retry control.
-- No topics selected: fall back to all twelve.
+- Onboarding skipped, or no topics selected: fall back to all twelve, so the
+  topic bonus contributes nothing and ranking falls back to tier alone. Topics
+  stay editable later from settings.
 - Empty pool: milestone screen, never a blank view.
 
 ## Testing
