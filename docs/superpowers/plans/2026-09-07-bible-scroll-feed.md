@@ -1262,7 +1262,7 @@ public enum StreakCalculator {
 - [ ] **Step 4: Run test to verify it passes**
 
 Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && swift test --package-path packages/BibleFeedKit`
-Expected: PASS, 19 tests
+Expected: PASS, 20 tests
 
 - [ ] **Step 5: Commit**
 
@@ -1995,7 +1995,7 @@ with the previous choices clearable.
 - [ ] **Step 5: Run the full test suite one more time**
 
 Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && swift test --package-path packages/BibleFeedKit && python3 -m unittest discover -s tools && python3 tools/validate_feed.py BibleApp/BibleApp/Resources/feed_verses.json`
-Expected: 19 Swift tests pass, 8 Python tests pass, `0 error(s)`
+Expected: Swift and Python test counts may have grown via review fix rounds since this plan was drafted — check actual counts pass, not the literal numbers, `0 error(s)`
 
 - [ ] **Step 6: Commit**
 
