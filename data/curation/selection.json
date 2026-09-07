@@ -132,7 +132,6 @@
       "id": "NUM.23.19",
       "tier": 3,
       "topics": [
-        "doubt",
         "hope"
       ]
     },
@@ -300,8 +299,7 @@
       "id": "JOB.14.1",
       "tier": 3,
       "topics": [
-        "grief",
-        "doubt"
+        "grief"
       ]
     },
     {
@@ -324,7 +322,6 @@
       "id": "JOB.38.4",
       "tier": 3,
       "topics": [
-        "doubt",
         "purpose"
       ]
     },
@@ -872,8 +869,7 @@
       "id": "PRO.3.5",
       "tier": 1,
       "topics": [
-        "guidance",
-        "doubt"
+        "guidance"
       ]
     },
     {
@@ -951,8 +947,7 @@
       "id": "PRO.16.18",
       "tier": 1,
       "topics": [
-        "guidance",
-        "worth"
+        "guidance"
       ]
     },
     {
@@ -1626,7 +1621,6 @@
       "id": "MAT.6.11",
       "tier": 1,
       "topics": [
-        "gratitude",
         "anxiety"
       ]
     },
@@ -2314,7 +2308,6 @@
       "id": "ROM.8.26",
       "tier": 2,
       "topics": [
-        "doubt",
         "peace"
       ]
     },
@@ -2686,7 +2679,6 @@
       "id": "PHP.4.11",
       "tier": 2,
       "topics": [
-        "gratitude",
         "peace"
       ]
     },
