@@ -369,14 +369,6 @@
       ]
     },
     {
-      "id": "PSA.8.5",
-      "tier": 2,
-      "topics": [
-        "worth",
-        "gratitude"
-      ]
-    },
-    {
       "id": "PSA.9.10",
       "tier": 3,
       "topics": [
@@ -744,14 +736,6 @@
       "topics": [
         "gratitude",
         "peace"
-      ]
-    },
-    {
-      "id": "PSA.100.2",
-      "tier": 1,
-      "topics": [
-        "gratitude",
-        "purpose"
       ]
     },
     {
@@ -1998,14 +1982,6 @@
       ]
     },
     {
-      "id": "LUK.24.38",
-      "tier": 3,
-      "topics": [
-        "doubt",
-        "peace"
-      ]
-    },
-    {
       "id": "JHN.1.1",
       "tier": 1,
       "topics": [
@@ -2356,14 +2332,6 @@
       "topics": [
         "strength",
         "anxiety"
-      ]
-    },
-    {
-      "id": "ROM.8.35",
-      "tier": 2,
-      "topics": [
-        "love",
-        "strength"
       ]
     },
     {
@@ -3151,6 +3119,37 @@
       "tier": 3,
       "topics": [
         "hope"
+      ]
+    },
+    {
+      "id": "ISA.43.4",
+      "tier": 2,
+      "topics": [
+        "love",
+        "worth"
+      ]
+    },
+    {
+      "id": "PSA.107.8",
+      "tier": 3,
+      "topics": [
+        "gratitude"
+      ]
+    },
+    {
+      "id": "PSA.34.4",
+      "tier": 2,
+      "topics": [
+        "anxiety",
+        "hope"
+      ]
+    },
+    {
+      "id": "1CO.15.58",
+      "tier": 3,
+      "topics": [
+        "purpose",
+        "strength"
       ]
     }
   ]
