@@ -51,10 +51,21 @@ class ValidateFeedTests(unittest.TestCase):
             return f.name
 
     def test_accepts_stripped_leading_superscription(self):
+        # Mutating JHN.3.16 with a fabricated prefix would fail the
+        # unrelated, pre-existing KJV-verbatim check (the fixture's text
+        # would no longer match its real KJV source). PSA.23.1 genuinely
+        # carries this superscription in the KJV source, so both checks see
+        # legitimate data and only the displayText logic is under test.
         import os
 
         def mutate(entry):
-            entry["text"] = "A Psalm of David. " + entry["text"]
+            entry["id"] = "PSA.23.1"
+            entry["reference"] = "Psalms 23:1"
+            entry["book"] = "PSA"
+            entry["chapter"] = 23
+            entry["verse"] = 1
+            entry["text"] = "A Psalm of David. The Lord is my shepherd; I shall not want."
+            entry["displayText"] = "The Lord is my shepherd; I shall not want."
 
         path = self._feed_with(mutate)
         try:
@@ -63,10 +74,24 @@ class ValidateFeedTests(unittest.TestCase):
             os.unlink(path)
 
     def test_accepts_stripped_trailing_colophon(self):
+        # Same reasoning as above: HAB.3.19 genuinely ends in this colophon
+        # in the KJV source, so this is real data, not a fabricated mutation.
         import os
 
         def mutate(entry):
-            entry["text"] = entry["text"] + " To the chief singer."
+            entry["id"] = "HAB.3.19"
+            entry["reference"] = "Habakkuk 3:19"
+            entry["book"] = "HAB"
+            entry["chapter"] = 3
+            entry["verse"] = 19
+            entry["text"] = (
+                "The Lord God is my strength, and he will make my feet like "
+                "hinds’ feet, and he will make me to walk upon mine high "
+                "places. To the chief singer on my stringed instruments.")
+            entry["displayText"] = (
+                "The Lord God is my strength, and he will make my feet like "
+                "hinds’ feet, and he will make me to walk upon mine high "
+                "places.")
 
         path = self._feed_with(mutate)
         try:
