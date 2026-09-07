@@ -29,7 +29,7 @@ struct FeedView: View {
         }
         .scrollTargetBehavior(.paging)
         .scrollIndicators(.hidden)
-        .ignoresSafeArea(edges: .bottom)
+        .ignoresSafeArea()
         .onAppear(perform: rebuild)
     }
 
