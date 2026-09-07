@@ -46,4 +46,8 @@ final class UserState {
             savedIDs.append(id)
         }
     }
+
+    func reopenTopicPicker() {
+        hasCompletedOnboarding = false
+    }
 }
