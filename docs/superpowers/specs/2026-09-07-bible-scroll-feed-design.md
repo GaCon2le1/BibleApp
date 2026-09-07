@@ -36,10 +36,13 @@ iconic form, and the `context` field carries the plain-English explanation.
 
 ## Architecture
 
-SwiftUI, iOS 17+, no backend. Three layers:
+SwiftUI, no backend. The Xcode project targets iOS 26.4 under Xcode 26.4
+and Swift 6.3. Three layers:
 
 - **Content** — static JSON in the app bundle, read-only, versioned
-- **Engine** — `FeedEngine`, pure logic, no SwiftUI import, independently testable
+- **Engine** — `FeedEngine`, pure logic, shipped as the local Swift package
+  `BibleFeedKit`. It imports neither SwiftUI nor SwiftData, and its tests run
+  headless with `swift test`, because the Xcode project has no unit test target.
 - **UI** — SwiftUI views holding no ordering logic
 
 Persistence is SwiftData, on device only.
