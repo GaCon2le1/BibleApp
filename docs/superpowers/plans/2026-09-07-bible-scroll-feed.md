@@ -18,6 +18,9 @@
 - `topics` is a non-empty subset of exactly these twelve, lowercase:
   `anxiety hope love forgiveness strength guidance peace doubt purpose gratitude grief worth`
 - `tier` is 1, 2 or 3. Target distribution across the 400: ~100 tier 1, ~200 tier 2, ~100 tier 3.
+- Python is **3.9.6, system `/usr/bin/python3`, and pytest is NOT installed**.
+  Python tests use the stdlib `unittest` module. Do not add third-party
+  Python dependencies; do not `pip install` anything.
 - Every task ends with a commit. Work happens on branch `design/scroll-feed`.
 
 ---
@@ -87,31 +90,39 @@ Build the validator before the data it validates, so every later batch is checke
 Create `tools/test_validate_feed.py`:
 
 ```python
-import json, subprocess, sys, pathlib
+import pathlib, subprocess, sys, unittest
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from validate_feed import validate_feed
 
 FIX = pathlib.Path(__file__).parent / "fixtures"
+ROOT = pathlib.Path(__file__).resolve().parent.parent
 
-def test_valid_feed_has_no_errors():
-    assert validate_feed(FIX / "valid_feed.json") == []
 
-def test_catches_wrong_verse_text():
-    errs = validate_feed(FIX / "invalid_feed.json")
-    assert any("text does not match KJV" in e for e in errs)
+class ValidateFeedTests(unittest.TestCase):
+    def test_valid_feed_has_no_errors(self):
+        self.assertEqual(validate_feed(FIX / "valid_feed.json"), [])
 
-def test_catches_bad_topic():
-    errs = validate_feed(FIX / "invalid_feed.json")
-    assert any("unknown topic" in e for e in errs)
+    def test_catches_wrong_verse_text(self):
+        errs = validate_feed(FIX / "invalid_feed.json")
+        self.assertTrue(any("text does not match KJV" in e for e in errs), errs)
 
-def test_catches_context_too_short():
-    errs = validate_feed(FIX / "invalid_feed.json")
-    assert any("context length" in e for e in errs)
+    def test_catches_bad_topic(self):
+        errs = validate_feed(FIX / "invalid_feed.json")
+        self.assertTrue(any("unknown topic" in e for e in errs), errs)
 
-def test_cli_exits_nonzero_on_invalid():
-    r = subprocess.run([sys.executable, "tools/validate_feed.py",
-                        str(FIX / "invalid_feed.json")], capture_output=True)
-    assert r.returncode == 1
+    def test_catches_context_too_short(self):
+        errs = validate_feed(FIX / "invalid_feed.json")
+        self.assertTrue(any("context length" in e for e in errs), errs)
+
+    def test_cli_exits_nonzero_on_invalid(self):
+        r = subprocess.run([sys.executable, "tools/validate_feed.py",
+                            str(FIX / "invalid_feed.json")],
+                           cwd=ROOT, capture_output=True)
+        self.assertEqual(r.returncode, 1)
+
+
+if __name__ == "__main__":
+    unittest.main()
 ```
 
 Create `tools/fixtures/valid_feed.json`:
@@ -154,8 +165,8 @@ Create `tools/fixtures/invalid_feed.json` — one entry breaking three rules at 
 
 - [ ] **Step 2: Run test to verify it fails**
 
-Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && python3 -m pytest tools/test_validate_feed.py -v`
-Expected: FAIL — `ModuleNotFoundError: No module named 'validate_feed'`
+Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && python3 -m unittest discover -s tools -p 'test_validate_feed.py' -v`
+Expected: ERROR — `ModuleNotFoundError: No module named 'validate_feed'`
 
 - [ ] **Step 3: Write minimal implementation**
 
@@ -247,8 +258,8 @@ if __name__ == "__main__":
 
 - [ ] **Step 4: Run test to verify it passes**
 
-Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && python3 -m pytest tools/test_validate_feed.py -v`
-Expected: PASS, 5 passed
+Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && python3 -m unittest discover -s tools -p 'test_validate_feed.py' -v`
+Expected: `OK`, 5 tests run
 
 - [ ] **Step 5: Commit**
 
@@ -277,29 +288,38 @@ The candidate pool holds 1,189 verses. Roughly 100–150 of them are genealogies
 Create `tools/test_check_selection.py`:
 
 ```python
-import sys, pathlib
+import pathlib, sys, unittest
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from check_selection import check_selection
 
-def test_flags_wrong_count():
-    errs = check_selection({"selected": [{"id": "JHN.3.16", "tier": 1, "topics": ["love"]}]})
-    assert any("expected 400" in e for e in errs)
 
-def test_flags_topic_below_floor():
-    sel = [{"id": f"PSA.{i}.1", "tier": 2, "topics": ["hope"]} for i in range(1, 401)]
-    errs = check_selection({"selected": sel})
-    assert any("topic 'anxiety' has 0" in e for e in errs)
+class CheckSelectionTests(unittest.TestCase):
+    def test_flags_wrong_count(self):
+        errs = check_selection(
+            {"selected": [{"id": "JHN.3.16", "tier": 1, "topics": ["love"]}]})
+        self.assertTrue(any("expected 400" in e for e in errs), errs)
 
-def test_flags_tier_distribution():
-    sel = [{"id": f"PSA.{i}.1", "tier": 1, "topics": ["hope"]} for i in range(1, 401)]
-    errs = check_selection({"selected": sel})
-    assert any("tier 1 count 400" in e for e in errs)
+    def test_flags_topic_below_floor(self):
+        sel = [{"id": "PSA.%d.1" % i, "tier": 2, "topics": ["hope"]}
+               for i in range(1, 401)]
+        errs = check_selection({"selected": sel})
+        self.assertTrue(any("topic 'anxiety' has 0" in e for e in errs), errs)
+
+    def test_flags_tier_distribution(self):
+        sel = [{"id": "PSA.%d.1" % i, "tier": 1, "topics": ["hope"]}
+               for i in range(1, 401)]
+        errs = check_selection({"selected": sel})
+        self.assertTrue(any("tier 1 count 400" in e for e in errs), errs)
+
+
+if __name__ == "__main__":
+    unittest.main()
 ```
 
 - [ ] **Step 2: Run test to verify it fails**
 
-Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && python3 -m pytest tools/test_check_selection.py -v`
-Expected: FAIL — `ModuleNotFoundError: No module named 'check_selection'`
+Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && python3 -m unittest discover -s tools -p 'test_check_selection.py' -v`
+Expected: ERROR — `ModuleNotFoundError: No module named 'check_selection'`
 
 - [ ] **Step 3: Write minimal implementation**
 
@@ -364,8 +384,8 @@ if __name__ == "__main__":
 
 - [ ] **Step 4: Run test to verify it passes**
 
-Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && python3 -m pytest tools/test_check_selection.py -v`
-Expected: PASS, 3 passed
+Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && python3 -m unittest discover -s tools -p 'test_check_selection.py' -v`
+Expected: `OK`, 3 tests run
 
 - [ ] **Step 5: Curate the selection**
 
@@ -1790,7 +1810,7 @@ with the previous choices clearable.
 
 - [ ] **Step 5: Run the full test suite one more time**
 
-Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && swift test --package-path packages/BibleFeedKit && python3 -m pytest tools/ -q && python3 tools/validate_feed.py BibleApp/BibleApp/Resources/feed_verses.json`
+Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && swift test --package-path packages/BibleFeedKit && python3 -m unittest discover -s tools && python3 tools/validate_feed.py BibleApp/BibleApp/Resources/feed_verses.json`
 Expected: 19 Swift tests pass, 8 Python tests pass, `0 error(s)`
 
 - [ ] **Step 6: Commit**
@@ -1805,7 +1825,7 @@ git commit -m "Add saved verse library with topic filter and topic editing"
 ## Done when
 
 - `swift test --package-path packages/BibleFeedKit` passes, 19 tests
-- `python3 -m pytest tools/ -q` passes, 8 tests
+- `python3 -m unittest discover -s tools` passes, 8 tests
 - `python3 tools/validate_feed.py BibleApp/BibleApp/Resources/feed_verses.json` exits 0
 - The app builds for iPhone 17 Pro and, on a clean install, shows the topic
   picker, then a swipeable feed of verses, a working save button, a saved list
