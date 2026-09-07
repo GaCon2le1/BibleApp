@@ -10,17 +10,51 @@ TOPICS = {"anxiety", "hope", "love", "forgiveness", "strength", "guidance",
           "peace", "doubt", "purpose", "gratitude", "grief", "worth"}
 CONTEXT_MIN, CONTEXT_MAX = 60, 220
 
+# bible_books.json uses Arabic-numeral prefixes ("1 Samuel", "2 Kings") and a
+# bare "Revelation"; KJV.json uses Roman-numeral prefixes ("I Samuel",
+# "II Kings") and "Revelation of John". Both name a book title -> a
+# normalized form so the two conventions compare equal without masking a
+# genuine mismatch (e.g. a transposed book pair).
+_ROMAN_PREFIX = {"I": "1", "II": "2", "III": "3"}
+
+
+def _normalize_book_name(name):
+    name = (name or "").strip()
+    parts = name.split(" ", 1)
+    if len(parts) == 2 and parts[0] in _ROMAN_PREFIX:
+        name = f"{_ROMAN_PREFIX[parts[0]]} {parts[1]}"
+    if name.endswith(" of John"):
+        name = name[: -len(" of John")]
+    return name
+
+
+class SourceDataError(Exception):
+    """Raised when KJV.json / bible_books.json fail a structural sanity
+    check (book count, chapter count, or book identity). Callers must catch
+    this and report it as a validation error rather than let it propagate,
+    per the validate_feed(path) -> list[str] contract."""
+
 
 def _kjv_index():
     """Map (bookId, chapter, verse) -> verse text, using canonical book order."""
     kjv = json.loads(SOURCE.read_text())
     meta = json.loads(BOOKS.read_text())
     prot = [b for b in meta["books"] if b["canon"] == "protestant"]
+
+    if len(prot) != len(kjv["books"]):
+        raise SourceDataError(
+            f"book count mismatch: bible_books.json has {len(prot)} "
+            f"protestant books, KJV.json has {len(kjv['books'])} books")
+
     index = {}
     for i, book in enumerate(prot):
         src = kjv["books"][i]
         if len(src["chapters"]) != book["chapters"]:
-            raise SystemExit(f"source/book mismatch at {book['id']}")
+            raise SourceDataError(f"source/book chapter-count mismatch at {book['id']}")
+        if _normalize_book_name(src.get("name")) != _normalize_book_name(book["name"]):
+            raise SourceDataError(
+                f"source/book identity mismatch at position {i} (id {book['id']}): "
+                f"bible_books.json name {book['name']!r} vs KJV.json name {src.get('name')!r}")
         for ch in src["chapters"]:
             for v in ch["verses"]:
                 key = (book["id"], int(ch["chapter"]), int(v["verse"]))
@@ -31,7 +65,19 @@ def _kjv_index():
 def validate_feed(path):
     errors = []
     doc = json.loads(pathlib.Path(path).read_text())
-    index = _kjv_index()
+
+    if not isinstance(doc, dict):
+        errors.append(
+            "feed file must contain a JSON object with a top-level "
+            f"\"verses\" array, got {type(doc).__name__}")
+        return errors
+
+    try:
+        index = _kjv_index()
+    except SourceDataError as e:
+        errors.append(f"source data error: {e}")
+        return errors
+
     seen_ids = set()
 
     for entry in doc.get("verses", []):
