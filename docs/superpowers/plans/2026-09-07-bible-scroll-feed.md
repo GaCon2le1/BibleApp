@@ -1348,6 +1348,7 @@ Replace the body of `BibleApp/BibleApp/ContentView.swift` with a temporary probe
 
 ```swift
 import SwiftUI
+import BibleFeedKit
 
 struct ContentView: View {
     @State private var store = ContentStore()
