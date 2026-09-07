@@ -79,7 +79,7 @@ layer is an addition, not a rewrite.
   For the eight verses where the KJV source stores a psalm superscription or a
   Hebrew acrostic letter inside verse 1 ("A Psalm of David. The Lord is my
   shepherd", "נ NUN. Thy word is a lamp"), it is that prefix removed. It is
-  derived programmatically and validated as an exact suffix of `text`, so no
+  derived programmatically and validated as an exact contiguous substring of `text`, so no
   wording can be invented in the gap between the two fields.
   Source spelling is otherwise preserved as-is, including "The Lord" rather
   than small-capital "LORD".

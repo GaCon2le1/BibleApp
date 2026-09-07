@@ -15,8 +15,9 @@
 - `BibleFeedKit` must import neither SwiftUI nor SwiftData.
 - Verse `text` is KJV verbatim, extracted programmatically from `data/source/KJV.json`. **Never type verse text by hand.**
 - Verse `displayText` is what the UI renders. It is `text` with any leading psalm
-  superscription or Hebrew acrostic letter removed, derived programmatically and
-  validated as an **exact suffix of `text`**. Equal to `text` for most verses.
+  superscription, Hebrew acrostic letter, or trailing colophon removed, derived
+  programmatically and validated as an **exact contiguous substring of `text`**.
+  Equal to `text` for most verses.
   Source spelling is preserved otherwise, including "The Lord" rather than "LORD".
 - `context` is 60–220 characters inclusive, plain modern English, no theological jargon.
 - `topics` is a non-empty subset of exactly these twelve, lowercase:
@@ -475,35 +476,69 @@ Batches cover ids 51–100, 101–150, 151–200, 201–250, 251–300, 301–35
 - [ ] **Step 1: Extend the validator with the displayText rule**
 
 `displayText` is what the card renders; `text` stays KJV verbatim. The rule that
-makes the pair trustworthy is that `displayText` must be an **exact suffix** of
-`text` — so nothing can be invented in the gap between them.
+makes the pair trustworthy is that `displayText` must be an **exact contiguous
+substring** of `text` — so no wording can be invented in the gap between them.
+Substring rather than suffix, because most strips remove a leading superscription
+but `HAB.3.19` removes a trailing colophon instead.
 
 First add these two tests to `tools/test_validate_feed.py`, inside
 `class ValidateFeedTests`:
 
 ```python
-    def test_catches_display_text_not_a_suffix(self):
+    def test_catches_display_text_not_in_text(self):
         errs = validate_feed(FIX / "invalid_feed.json")
-        self.assertTrue(any("displayText is not a suffix" in e for e in errs), errs)
+        self.assertTrue(
+            any("displayText is not part of text" in e for e in errs), errs)
 
-    def test_accepts_stripped_superscription(self):
+    def _feed_with(self, mutate):
         import json, tempfile, os
         doc = json.loads((FIX / "valid_feed.json").read_text())
-        entry = doc["verses"][0]
-        entry["text"] = "A Psalm of David. " + entry["text"]
-        # displayText stays the un-prefixed form, which is a suffix of text.
+        mutate(doc["verses"][0])
         with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
             json.dump(doc, f)
-            path = f.name
+            return f.name
+
+    def test_accepts_stripped_leading_superscription(self):
+        import os
+
+        def mutate(entry):
+            entry["text"] = "A Psalm of David. " + entry["text"]
+
+        path = self._feed_with(mutate)
         try:
             self.assertEqual(validate_feed(path), [])
+        finally:
+            os.unlink(path)
+
+    def test_accepts_stripped_trailing_colophon(self):
+        import os
+
+        def mutate(entry):
+            entry["text"] = entry["text"] + " To the chief singer."
+
+        path = self._feed_with(mutate)
+        try:
+            self.assertEqual(validate_feed(path), [])
+        finally:
+            os.unlink(path)
+
+    def test_catches_missing_display_text(self):
+        import os
+
+        def mutate(entry):
+            del entry["displayText"]
+
+        path = self._feed_with(mutate)
+        try:
+            self.assertTrue(
+                any("displayText is missing" in e for e in validate_feed(path)))
         finally:
             os.unlink(path)
 ```
 
 Add `"displayText"` to both fixtures. In `tools/fixtures/valid_feed.json` give it
 the same value as `text`. In `tools/fixtures/invalid_feed.json` set it to
-`"Something never found in the verse."` so it violates the suffix rule.
+`"Something never found in the verse."` so it violates the substring rule.
 
 Then add this block to `validate_feed()` in `tools/validate_feed.py`, inside the
 per-entry loop, immediately after the existing `text` comparison:
@@ -512,16 +547,18 @@ per-entry loop, immediately after the existing `text` comparison:
         display = entry.get("displayText")
         if display is None:
             errors.append(f"{vid}: displayText is missing")
-        elif not entry.get("text", "").endswith(display):
-            errors.append(f"{vid}: displayText is not a suffix of text")
-        elif not display.strip():
+        elif not isinstance(display, str) or not display.strip():
             errors.append(f"{vid}: displayText is empty")
+        elif display not in entry.get("text", ""):
+            # Substring, not suffix: most strips remove a leading superscription,
+            # but HAB.3.19 removes a trailing colophon.
+            errors.append(f"{vid}: displayText is not part of text")
 ```
 
 - [ ] **Step 2: Run the validator tests**
 
 Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && /usr/bin/python3 -m unittest discover -s tools -p 'test_validate_feed.py' -v`
-Expected: `OK`, 13 tests run
+Expected: `OK`, 15 tests run
 
 - [ ] **Step 3: Write the builder**
 
@@ -551,6 +588,12 @@ SUPERSCRIPTIONS = {
     "PSA.133.1": "A Song of degrees of David. ",
 }
 
+# Some verses carry a trailing colophon rather than a leading heading.
+# Same explicit-table treatment, keyed by verse id.
+TRAILING_COLOPHONS = {
+    "HAB.3.19": ' To the chief singer on my stringed instruments.',
+}
+
 # Any selected verse whose text looks like it carries a heading but is not in
 # SUPERSCRIPTIONS is a build error, not something to strip silently.
 HEADING_HINT = re.compile(
@@ -574,6 +617,12 @@ def display_text_for(vid, text):
         raise SystemExit(
             f"{vid}: text looks like it carries a heading but is not in "
             f"SUPERSCRIPTIONS — add it explicitly or confirm it is verse content")
+    suffix = TRAILING_COLOPHONS.get(vid)
+    if suffix is not None:
+        if not text.endswith(suffix):
+            raise SystemExit(
+                f"{vid}: TRAILING_COLOPHONS suffix does not match source text")
+        return text[:-len(suffix)].strip()
     return text
 
 
