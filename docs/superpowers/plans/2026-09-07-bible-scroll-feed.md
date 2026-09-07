@@ -14,6 +14,10 @@
 - The Xcode project uses `PBXFileSystemSynchronizedRootGroup`. Any file placed under `BibleApp/BibleApp/` joins the app target automatically. **Never hand-edit `project.pbxproj`** except for the one package-link step in Task 9.
 - `BibleFeedKit` must import neither SwiftUI nor SwiftData.
 - Verse `text` is KJV verbatim, extracted programmatically from `data/source/KJV.json`. **Never type verse text by hand.**
+- Verse `displayText` is what the UI renders. It is `text` with any leading psalm
+  superscription or Hebrew acrostic letter removed, derived programmatically and
+  validated as an **exact suffix of `text`**. Equal to `text` for most verses.
+  Source spelling is preserved otherwise, including "The Lord" rather than "LORD".
 - `context` is 60–220 characters inclusive, plain modern English, no theological jargon.
 - `topics` is a non-empty subset of exactly these twelve, lowercase:
   `anxiety hope love forgiveness strength guidance peace doubt purpose gratitude grief worth`

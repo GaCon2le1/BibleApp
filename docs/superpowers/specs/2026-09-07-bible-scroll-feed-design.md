@@ -66,13 +66,23 @@ layer is an addition, not a rewrite.
   "reference": "John 3:16",
   "book": "JHN", "chapter": 3, "verse": 16,
   "text": "For God so loved the world, that he gave his only begotten Son...",
+  "displayText": "For God so loved the world, that he gave his only begotten Son...",
   "context": "Jesus said this at night to a religious leader who came to him in secret, afraid to be seen asking questions.",
   "topics": ["love", "hope"],
   "tier": 1
 }
 ```
 
-- `text` — KJV verbatim, extracted from source, never hand-typed
+- `text` — KJV verbatim, extracted from source, never hand-typed. This field is
+  the provenance guarantee and is never displayed directly.
+- `displayText` — what the card renders. Identical to `text` for most verses.
+  For the eight verses where the KJV source stores a psalm superscription or a
+  Hebrew acrostic letter inside verse 1 ("A Psalm of David. The Lord is my
+  shepherd", "נ NUN. Thy word is a lamp"), it is that prefix removed. It is
+  derived programmatically and validated as an exact suffix of `text`, so no
+  wording can be invented in the gap between the two fields.
+  Source spelling is otherwise preserved as-is, including "The Lord" rather
+  than small-capital "LORD".
 - `context` — one or two sentences of plain modern English: who spoke, to whom,
   in what situation. This field is what makes the app teach rather than decorate.
 - `tier` — 1 to 3, drives feed ranking, assigned by these criteria:
