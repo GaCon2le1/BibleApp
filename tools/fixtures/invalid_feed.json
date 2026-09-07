@@ -7,6 +7,7 @@
       "id": "JHN.3.16", "reference": "John 3:16",
       "book": "JHN", "chapter": 3, "verse": 16,
       "text": "For God so loved the world that he gave his only Son.",
+      "displayText": "Something never found in the verse.",
       "context": "Too short.",
       "topics": ["love", "prosperity"], "tier": 1
     }

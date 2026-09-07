@@ -37,6 +37,56 @@ class ValidateFeedTests(unittest.TestCase):
                            cwd=ROOT, capture_output=True)
         self.assertEqual(r.returncode, 1)
 
+    def test_catches_display_text_not_in_text(self):
+        errs = validate_feed(FIX / "invalid_feed.json")
+        self.assertTrue(
+            any("displayText is not part of text" in e for e in errs), errs)
+
+    def _feed_with(self, mutate):
+        import json, tempfile, os
+        doc = json.loads((FIX / "valid_feed.json").read_text())
+        mutate(doc["verses"][0])
+        with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
+            json.dump(doc, f)
+            return f.name
+
+    def test_accepts_stripped_leading_superscription(self):
+        import os
+
+        def mutate(entry):
+            entry["text"] = "A Psalm of David. " + entry["text"]
+
+        path = self._feed_with(mutate)
+        try:
+            self.assertEqual(validate_feed(path), [])
+        finally:
+            os.unlink(path)
+
+    def test_accepts_stripped_trailing_colophon(self):
+        import os
+
+        def mutate(entry):
+            entry["text"] = entry["text"] + " To the chief singer."
+
+        path = self._feed_with(mutate)
+        try:
+            self.assertEqual(validate_feed(path), [])
+        finally:
+            os.unlink(path)
+
+    def test_catches_missing_display_text(self):
+        import os
+
+        def mutate(entry):
+            del entry["displayText"]
+
+        path = self._feed_with(mutate)
+        try:
+            self.assertTrue(
+                any("displayText is missing" in e for e in validate_feed(path)))
+        finally:
+            os.unlink(path)
+
     # -- Finding 1: positional pairing can't detect a transposition --------
 
     def test_catches_transposed_books_with_equal_chapter_counts(self):

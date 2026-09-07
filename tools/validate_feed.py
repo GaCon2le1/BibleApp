@@ -106,6 +106,16 @@ def validate_feed(path):
         elif entry.get("text") != index[key]:
             errors.append(f"{vid}: text does not match KJV source")
 
+        display = entry.get("displayText")
+        if display is None:
+            errors.append(f"{vid}: displayText is missing")
+        elif not isinstance(display, str) or not display.strip():
+            errors.append(f"{vid}: displayText is empty")
+        elif display not in entry.get("text", ""):
+            # Substring, not suffix: most strips remove a leading superscription,
+            # but HAB.3.19 removes a trailing colophon.
+            errors.append(f"{vid}: displayText is not part of text")
+
         if vid != f"{key[0]}.{key[1]}.{key[2]}":
             errors.append(f"{vid}: id does not match book/chapter/verse fields")
 

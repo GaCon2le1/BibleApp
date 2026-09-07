@@ -7,6 +7,7 @@
       "id": "JHN.3.16", "reference": "John 3:16",
       "book": "JHN", "chapter": 3, "verse": 16,
       "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+      "displayText": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
       "context": "Jesus said this at night to a religious leader who came to him in secret, afraid of being seen asking questions.",
       "topics": ["love", "hope"], "tier": 1
     }
