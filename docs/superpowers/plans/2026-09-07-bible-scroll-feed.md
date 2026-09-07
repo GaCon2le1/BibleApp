@@ -472,7 +472,58 @@ Batches cover ids 51–100, 101–150, 151–200, 201–250, 251–300, 301–35
 - Consumes: `data/source/KJV.json`, `data/curation/selection.json`, `data/curation/contexts.json`
 - Produces: `BibleApp/BibleApp/Resources/feed_verses.json`, the exact shape `tools/fixtures/valid_feed.json` demonstrates. Task 5 decodes it.
 
-- [ ] **Step 1: Write the builder**
+- [ ] **Step 1: Extend the validator with the displayText rule**
+
+`displayText` is what the card renders; `text` stays KJV verbatim. The rule that
+makes the pair trustworthy is that `displayText` must be an **exact suffix** of
+`text` — so nothing can be invented in the gap between them.
+
+First add these two tests to `tools/test_validate_feed.py`, inside
+`class ValidateFeedTests`:
+
+```python
+    def test_catches_display_text_not_a_suffix(self):
+        errs = validate_feed(FIX / "invalid_feed.json")
+        self.assertTrue(any("displayText is not a suffix" in e for e in errs), errs)
+
+    def test_accepts_stripped_superscription(self):
+        import json, tempfile, os
+        doc = json.loads((FIX / "valid_feed.json").read_text())
+        entry = doc["verses"][0]
+        entry["text"] = "A Psalm of David. " + entry["text"]
+        # displayText stays the un-prefixed form, which is a suffix of text.
+        with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
+            json.dump(doc, f)
+            path = f.name
+        try:
+            self.assertEqual(validate_feed(path), [])
+        finally:
+            os.unlink(path)
+```
+
+Add `"displayText"` to both fixtures. In `tools/fixtures/valid_feed.json` give it
+the same value as `text`. In `tools/fixtures/invalid_feed.json` set it to
+`"Something never found in the verse."` so it violates the suffix rule.
+
+Then add this block to `validate_feed()` in `tools/validate_feed.py`, inside the
+per-entry loop, immediately after the existing `text` comparison:
+
+```python
+        display = entry.get("displayText")
+        if display is None:
+            errors.append(f"{vid}: displayText is missing")
+        elif not entry.get("text", "").endswith(display):
+            errors.append(f"{vid}: displayText is not a suffix of text")
+        elif not display.strip():
+            errors.append(f"{vid}: displayText is empty")
+```
+
+- [ ] **Step 2: Run the validator tests**
+
+Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && /usr/bin/python3 -m unittest discover -s tools -p 'test_validate_feed.py' -v`
+Expected: `OK`, 13 tests run
+
+- [ ] **Step 3: Write the builder**
 
 Create `tools/build_feed.py`:
 
@@ -484,6 +535,46 @@ import json, pathlib, re, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "BibleApp" / "BibleApp" / "Resources" / "feed_verses.json"
 CONTENT_VERSION = "2026-09-07.1"
+
+# The KJV source stores psalm superscriptions and Hebrew acrostic letters inside
+# the text of verse 1. These are the exact prefixes to remove for display, keyed
+# by verse id. Listed explicitly rather than matched by pattern, so the builder
+# can never over-strip. Verified against data/source/KJV.json.
+SUPERSCRIPTIONS = {
+    "PSA.19.1": "To the chief Musician, A Psalm of David. ",
+    "PSA.22.1": "To the chief Musician upon Aijeleth Shahar, A Psalm of David. ",
+    "PSA.23.1": "A Psalm of David. ",
+    "PSA.27.1": "A Psalm of David. ",
+    "PSA.46.1": "To the chief Musician for the sons of Korah, A Song upon Alamoth. ",
+    "PSA.119.105": "\u05e0 NUN. ",
+    "PSA.121.1": "A Song of degrees. ",
+    "PSA.133.1": "A Song of degrees of David. ",
+}
+
+# Any selected verse whose text looks like it carries a heading but is not in
+# SUPERSCRIPTIONS is a build error, not something to strip silently.
+HEADING_HINT = re.compile(
+    r"^(?:[^.]{0,120}?(?:Psalm|Song|Maschil|Michtam|Prayer|chief Musician|degrees)"
+    r"[^.]{0,120}?\.\s)|^(?:[^\x00-\x7F][^.]{0,20}\.\s)"
+)
+
+
+def display_text_for(vid, text):
+    """Return the card-facing text: `text` minus any known superscription."""
+    prefix = SUPERSCRIPTIONS.get(vid)
+    if prefix is not None:
+        if not text.startswith(prefix):
+            raise SystemExit(
+                f"{vid}: SUPERSCRIPTIONS prefix does not match source text")
+        stripped = text[len(prefix):].strip()
+        if not stripped:
+            raise SystemExit(f"{vid}: stripping the superscription empties the verse")
+        return stripped
+    if HEADING_HINT.match(text):
+        raise SystemExit(
+            f"{vid}: text looks like it carries a heading but is not in "
+            f"SUPERSCRIPTIONS — add it explicitly or confirm it is verse content")
+    return text
 
 
 def main():
@@ -507,11 +598,13 @@ def main():
         chapter, verse = int(chapter), int(verse)
         if entry["id"] not in contexts:
             raise SystemExit(f"missing context for {entry['id']}")
+        verse_text = text[(book, chapter, verse)]
         verses.append({
             "id": entry["id"],
             "reference": f"{names[book]} {chapter}:{verse}",
             "book": book, "chapter": chapter, "verse": verse,
-            "text": text[(book, chapter, verse)],
+            "text": verse_text,
+            "displayText": display_text_for(entry["id"], verse_text),
             "context": contexts[entry["id"]],
             "topics": entry["topics"],
             "tier": entry["tier"],
@@ -527,21 +620,21 @@ if __name__ == "__main__":
     main()
 ```
 
-- [ ] **Step 2: Build**
+- [ ] **Step 4: Build**
 
 Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && python3 tools/build_feed.py`
 Expected: `wrote 400 verses to BibleApp/BibleApp/Resources/feed_verses.json`
 
-- [ ] **Step 3: Validate the built file**
+- [ ] **Step 5: Validate the built file**
 
 Run: `cd /Users/vietdo/Documents/GitHub/BibleApp && python3 tools/validate_feed.py BibleApp/BibleApp/Resources/feed_verses.json`
 Expected: `0 error(s)`, exit 0
 
-- [ ] **Step 4: Commit**
+- [ ] **Step 6: Commit**
 
 ```bash
-git add tools/build_feed.py BibleApp/BibleApp/Resources/feed_verses.json
-git commit -m "Build validated 400-verse feed file"
+git add tools/ BibleApp/BibleApp/Resources/feed_verses.json
+git commit -m "Build validated 400-verse feed file with displayText"
 ```
 
 ---
@@ -557,7 +650,7 @@ git commit -m "Build validated 400-verse feed file"
 
 **Interfaces:**
 - Consumes: the JSON shape produced by Task 4
-- Produces: `Topic` (RawRepresentable enum, 12 cases), `Verse` (struct with `id: String`, `reference: String`, `book: String`, `chapter: Int`, `verse: Int`, `text: String`, `context: String`, `topics: [Topic]`, `tier: Int`), `FeedContent` (struct with `schemaVersion: Int`, `contentVersion: String`, `translation: String`, `verses: [Verse]`). Tasks 6, 7, 8 and 9 all use these.
+- Produces: `Topic` (RawRepresentable enum, 12 cases), `Verse` (struct with `id: String`, `reference: String`, `book: String`, `chapter: Int`, `verse: Int`, `text: String`, `displayText: String`, `context: String`, `topics: [Topic]`, `tier: Int`), `FeedContent` (struct with `schemaVersion: Int`, `contentVersion: String`, `translation: String`, `verses: [Verse]`). Tasks 6, 7, 8 and 9 all use these.
 
 - [ ] **Step 1: Create the package skeleton**
 
@@ -608,7 +701,8 @@ private let sampleJSON = """
     {
       "id": "JHN.3.16", "reference": "John 3:16",
       "book": "JHN", "chapter": 3, "verse": 16,
-      "text": "For God so loved the world",
+      "text": "A Psalm of David. For God so loved the world",
+      "displayText": "For God so loved the world",
       "context": "Jesus said this at night to a religious leader.",
       "topics": ["love", "hope"], "tier": 1
     }
@@ -623,6 +717,9 @@ private let sampleJSON = """
     #expect(content.verses[0].id == "JHN.3.16")
     #expect(content.verses[0].topics == [.love, .hope])
     #expect(content.verses[0].tier == 1)
+    // displayText is the card-facing form; text keeps the source prefix.
+    #expect(content.verses[0].displayText == "For God so loved the world")
+    #expect(content.verses[0].text.hasSuffix(content.verses[0].displayText))
 }
 
 @Test func topicHasTwelveCases() {
@@ -633,7 +730,7 @@ private let sampleJSON = """
     let bad = """
     {"schemaVersion":1,"contentVersion":"t","translation":"KJV","verses":[
       {"id":"A.1.1","reference":"A 1:1","book":"A","chapter":1,"verse":1,
-       "text":"x","context":"y","topics":["prosperity"],"tier":1}]}
+       "text":"x","displayText":"x","context":"y","topics":["prosperity"],"tier":1}]}
     """.data(using: .utf8)!
     #expect(throws: DecodingError.self) {
         try JSONDecoder().decode(FeedContent.self, from: bad)
@@ -665,12 +762,13 @@ public struct Verse: Codable, Identifiable, Hashable, Sendable {
     public let chapter: Int
     public let verse: Int
     public let text: String
+    public let displayText: String
     public let context: String
     public let topics: [Topic]
     public let tier: Int
 
     public init(id: String, reference: String, book: String, chapter: Int,
-                verse: Int, text: String, context: String,
+                verse: Int, text: String, displayText: String, context: String,
                 topics: [Topic], tier: Int) {
         self.id = id
         self.reference = reference
@@ -678,6 +776,7 @@ public struct Verse: Codable, Identifiable, Hashable, Sendable {
         self.chapter = chapter
         self.verse = verse
         self.text = text
+        self.displayText = displayText
         self.context = context
         self.topics = topics
         self.tier = tier
@@ -729,7 +828,8 @@ import Testing
 
 private func verse(_ id: String, tier: Int, topics: [Topic] = [.hope]) -> Verse {
     Verse(id: id, reference: id, book: "PSA", chapter: 1, verse: 1,
-          text: "text", context: "context", topics: topics, tier: tier)
+          text: "text", displayText: "text", context: "context",
+          topics: topics, tier: tier)
 }
 
 @Test func higherTierComesFirst() {
@@ -1434,7 +1534,7 @@ struct VerseCard: View {
         VStack(alignment: .leading, spacing: 20) {
             Spacer()
 
-            Text(verse.text)
+            Text(verse.displayText)
                 .font(.system(.title2, design: .serif))
                 .lineSpacing(6)
 
@@ -1694,7 +1794,7 @@ struct LibraryView: View {
                         }
                         ForEach(saved) { verse in
                             VStack(alignment: .leading, spacing: 6) {
-                                Text(verse.text)
+                                Text(verse.displayText)
                                     .font(.system(.body, design: .serif))
                                 Text(verse.reference)
                                     .font(.caption.weight(.semibold))
