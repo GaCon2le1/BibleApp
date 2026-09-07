@@ -37,8 +37,14 @@ class SourceDataError(Exception):
 
 def _kjv_index():
     """Map (bookId, chapter, verse) -> verse text, using canonical book order."""
-    kjv = json.loads(SOURCE.read_text())
-    meta = json.loads(BOOKS.read_text())
+    try:
+        kjv = json.loads(SOURCE.read_text())
+    except (OSError, json.JSONDecodeError) as e:
+        raise SourceDataError(f"failed to read or parse {SOURCE}: {e}")
+    try:
+        meta = json.loads(BOOKS.read_text())
+    except (OSError, json.JSONDecodeError) as e:
+        raise SourceDataError(f"failed to read or parse {BOOKS}: {e}")
     prot = [b for b in meta["books"] if b["canon"] == "protestant"]
 
     if len(prot) != len(kjv["books"]):
@@ -64,7 +70,14 @@ def _kjv_index():
 
 def validate_feed(path):
     errors = []
-    doc = json.loads(pathlib.Path(path).read_text())
+    try:
+        doc = json.loads(pathlib.Path(path).read_text())
+    except OSError as e:
+        errors.append(f"failed to read feed file {path}: {e}")
+        return errors
+    except json.JSONDecodeError as e:
+        errors.append(f"feed file {path} contains invalid JSON: {e}")
+        return errors
 
     if not isinstance(doc, dict):
         errors.append(

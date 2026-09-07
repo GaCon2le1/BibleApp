@@ -125,6 +125,25 @@ class ValidateFeedTests(unittest.TestCase):
             errs = validate_feed(feed_path)  # must not raise AttributeError
         self.assertTrue(errs, "expected a reported error, got none")
 
+    # -- Finding 4: missing feed file must not crash -------------------------
+
+    def test_missing_feed_file_reported_not_raised(self):
+        errs = validate_feed("/nonexistent/path/feed.json")
+        self.assertTrue(errs, "expected a reported error, got none")
+        self.assertTrue(any("file" in e.lower() or "nonexistent" in e.lower() or "not found" in e.lower()
+                           for e in errs), f"error should mention file issue: {errs}")
+
+    # -- Finding 5: malformed JSON in feed must not crash -------------------
+
+    def test_malformed_json_reported_not_raised(self):
+        with tempfile.TemporaryDirectory() as td:
+            feed_path = pathlib.Path(td) / "feed.json"
+            feed_path.write_text("{not valid json")
+            errs = validate_feed(feed_path)
+        self.assertTrue(errs, "expected a reported error, got none")
+        self.assertTrue(any("json" in e.lower() or "invalid" in e.lower() or "parse" in e.lower()
+                           for e in errs), f"error should mention JSON/parse issue: {errs}")
+
 
 if __name__ == "__main__":
     unittest.main()
