@@ -37,8 +37,11 @@ def _load_kjv_verse_ids():
 # Real book ids with their real chapter counts, so every fixture id below is a
 # verse that actually exists in the KJV (chapter N verse 1 of a real chapter).
 # Psalms has 150 chapters -- fixtures must never invent PSA.151.1 and beyond.
+# Enough books are listed to cover TOTAL=600 fixture ids with margin.
 REAL_BOOKS = [("GEN", 50), ("EXO", 40), ("PSA", 150), ("PRO", 31),
-              ("ISA", 66), ("MAT", 28), ("JHN", 21), ("ROM", 16)]
+              ("ISA", 66), ("MAT", 28), ("JHN", 21), ("ROM", 16),
+              ("JER", 52), ("EZK", 48), ("ACT", 28), ("LUK", 24),
+              ("1KI", 22), ("2KI", 25), ("1CH", 29), ("2CH", 36)]
 
 SORTED_TOPICS = sorted(TOPICS)
 
@@ -55,11 +58,11 @@ def real_ids(count):
 
 
 def valid_selection():
-    """A well-formed selection: 400 entries, legal tiers, every topic well over
-    the floor of 20."""
+    """A well-formed selection: TOTAL entries, legal tiers, every topic well
+    over the floor of 20."""
     ids = real_ids(TOTAL)
-    # 100 / 200 / 100 sits inside 80-120 / 170-230 / 80-120.
-    tiers = [1] * 100 + [2] * 200 + [3] * 100
+    # 120 / 320 / 160 sits inside the current TIER_BOUNDS and sums to TOTAL.
+    tiers = [1] * 120 + [2] * 320 + [3] * 160
     selected = []
     for index, (vid, tier) in enumerate(zip(ids, tiers)):
         # Two topics per entry, rotating: every topic lands ~66 times.
@@ -101,11 +104,54 @@ class ShippedSelectionIdsResolveTests(unittest.TestCase):
         self.assertEqual(bad, [], "ids not found in data/source/KJV.json: %s" % bad)
 
 
+def _load_kjv_text_by_id():
+    """Map every "BOOK.CHAPTER.VERSE" id to its real, whitespace-normalized
+    KJV text -- the same index tools/validate_feed.py and tools/build_feed.py
+    build, reconstructed here so this test has no import-time dependency on
+    either."""
+    import re as _re
+    books_meta = json.loads(BIBLE_BOOKS.read_text())["books"]
+    protestant = [b for b in books_meta if b["canon"] == "protestant"]
+    kjv_books = json.loads(KJV_SOURCE.read_text())["books"]
+    text_by_id = {}
+    for meta, book in zip(protestant, kjv_books):
+        for chapter in book["chapters"]:
+            for verse in chapter["verses"]:
+                vid = "%s.%d.%d" % (meta["id"], chapter["chapter"], verse["verse"])
+                text_by_id[vid] = _re.sub(r"\s+", " ", verse["text"]).strip()
+    return text_by_id
+
+
+class ShippedSelectionTextsAreUniqueTests(unittest.TestCase):
+    """Two different ids can carry the identical KJV sentence (synoptic
+    parallels, or a psalm quoted verbatim elsewhere) -- id-uniqueness alone
+    does not catch that, and a duplicate reads as a repeated card in the
+    feed. This is the permanent guard: no two selected verses' real KJV text
+    may be identical. (Case is not folded and whitespace is normalized the
+    same way the id-resolution index above does, matching how a user would
+    actually perceive two cards as "the same sentence.")"""
+
+    def test_no_two_selected_verses_share_identical_text(self):
+        text_by_id = _load_kjv_text_by_id()
+        doc = json.loads(SELECTION.read_text())
+        by_text = {}
+        for entry in doc["selected"]:
+            vid = entry.get("id")
+            text = text_by_id.get(vid)
+            if text is None:
+                continue  # already reported by ShippedSelectionIdsResolveTests
+            by_text.setdefault(text, []).append(vid)
+        dupes = {text: ids for text, ids in by_text.items() if len(ids) > 1}
+        self.assertEqual(
+            dupes, {},
+            "duplicate KJV text shared by multiple selected ids: %s" % dupes)
+
+
 class CountAndDistributionTests(unittest.TestCase):
     def test_flags_wrong_count(self):
         errs = check_selection(
             {"selected": [{"id": "JHN.3.16", "tier": 1, "topics": ["love"]}]})
-        self.assertTrue(any("expected 400" in e for e in errs), errs)
+        self.assertTrue(any("expected %d" % TOTAL in e for e in errs), errs)
 
     def test_flags_topic_below_floor(self):
         doc = valid_selection()
@@ -119,7 +165,7 @@ class CountAndDistributionTests(unittest.TestCase):
         for entry in doc["selected"]:
             entry["tier"] = 1
         errs = check_selection(doc)
-        self.assertTrue(any("tier 1 count 400" in e for e in errs), errs)
+        self.assertTrue(any("tier 1 count %d" % TOTAL in e for e in errs), errs)
 
     def test_flags_duplicate_ids(self):
         doc = valid_selection()
