@@ -14,10 +14,17 @@ SUPERSCRIPTIONS = {
     "PSA.19.1": "To the chief Musician, A Psalm of David. ",
     "PSA.22.1": "To the chief Musician upon Aijeleth Shahar, A Psalm of David. ",
     "PSA.23.1": "A Psalm of David. ",
+    "PSA.24.1": "A Psalm of David. ",
     "PSA.27.1": "A Psalm of David. ",
+    "PSA.32.1": "A Psalm of David, Maschil. ",
+    "PSA.42.1": "To the chief Musician, Maschil, for the sons of Korah. ",
     "PSA.46.1": "To the chief Musician for the sons of Korah, A Song upon Alamoth. ",
+    "PSA.89.1": "Maschil of Ethan the Ezrahite. ",
+    "PSA.90.1": "A Prayer of Moses the man of God. ",
     "PSA.119.105": "נ NUN. ",
     "PSA.121.1": "A Song of degrees. ",
+    "PSA.127.1": "A Song of degrees for Solomon. ",
+    "PSA.130.1": "A Song of degrees. ",
     "PSA.133.1": "A Song of degrees of David. ",
 }
 
@@ -25,7 +32,9 @@ SUPERSCRIPTIONS = {
 # leading heading. Same explicit-table treatment, keyed by verse id.
 TRAILING_MARKERS = {
     "HAB.3.19": " To the chief singer on my stringed instruments.",
+    "PSA.62.8": " Selah.",
     "PSA.77.9": " Selah.",
+    "2PE.3.18": " To him be glory both now and for ever. Amen.",
 }
 
 # Any selected verse whose text looks like it carries a heading but is not in
