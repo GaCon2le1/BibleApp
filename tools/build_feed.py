@@ -4,7 +4,7 @@ import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "BibleApp" / "BibleApp" / "Resources" / "feed_verses.json"
-CONTENT_VERSION = "2026-09-07.1"
+CONTENT_VERSION = "2026-09-08.1"
 
 # The KJV source stores psalm superscriptions and Hebrew acrostic letters inside
 # the text of verse 1. These are the exact prefixes to remove for display, keyed
