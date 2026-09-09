@@ -92,7 +92,7 @@ CPDV_SUPERSCRIPTIONS = {
     "PSA.121.1": "A Canticle in steps. ",
     "PSA.127.1": "A Canticle in steps: of Solomon. ",
     "PSA.130.1": "A Canticle in steps. ",
-    "PSA.133.1": "A Canticle in steps. ",
+    "PSA.133.1": "A Canticle in steps: of David. ",
 }
 
 CPDV_TRAILING_MARKERS = {
