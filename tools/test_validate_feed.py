@@ -69,7 +69,11 @@ class ValidateFeedTests(unittest.TestCase):
                 "KJV": {
                     "text": "A Psalm of David. The Lord is my shepherd; I shall not want.",
                     "displayText": "The Lord is my shepherd; I shall not want.",
-                }
+                },
+                "BSB": {
+                    "text": "A Psalm of David. The LORD is my shepherd; I shall not want.",
+                    "displayText": "The LORD is my shepherd; I shall not want.",
+                },
             }
 
         path = self._feed_with(mutate)
@@ -97,7 +101,14 @@ class ValidateFeedTests(unittest.TestCase):
                     "displayText": ("The Lord God is my strength, and he will make my "
                                      "feet like hinds’ feet, and he will make me "
                                      "to walk upon mine high places."),
-                }
+                },
+                "BSB": {
+                    "text": ("GOD the Lord is my strength; He makes my feet like those "
+                             "of a deer; He makes me walk upon the heights! For the "
+                             "choirmaster. With stringed instruments."),
+                    "displayText": ("GOD the Lord is my strength; He makes my feet like "
+                                     "those of a deer; He makes me walk upon the heights!"),
+                },
             }
 
         path = self._feed_with(mutate)

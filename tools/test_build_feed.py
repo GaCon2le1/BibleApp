@@ -1,7 +1,8 @@
 import json, pathlib, re, sys, unittest
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from build_feed import display_text_for, SUPERSCRIPTIONS, TRAILING_MARKERS, HEADING_HINT
+from build_feed import (kjv_display_text_for, KJV_SUPERSCRIPTIONS,
+                         KJV_TRAILING_MARKERS, KJV_HEADING_HINT)
 
 REPO = pathlib.Path(__file__).resolve().parents[1]
 KJV_SOURCE = REPO / "data" / "source" / "KJV.json"
@@ -32,45 +33,45 @@ def _load_kjv_text():
 
 class LeadingSuperscriptionTests(unittest.TestCase):
     def test_strips_known_leading_superscription(self):
-        # PSA.23.1 is a real SUPERSCRIPTIONS entry: "A Psalm of David. The
+        # PSA.23.1 is a real KJV_SUPERSCRIPTIONS entry: "A Psalm of David. The
         # Lord is my shepherd; I shall not want."
-        prefix = SUPERSCRIPTIONS["PSA.23.1"]
+        prefix = KJV_SUPERSCRIPTIONS["PSA.23.1"]
         text = prefix + "The Lord is my shepherd; I shall not want."
         self.assertEqual(
-            display_text_for("PSA.23.1", text),
+            kjv_display_text_for("PSA.23.1", text),
             "The Lord is my shepherd; I shall not want.")
 
     def test_strips_all_known_leading_superscriptions_against_real_text(self):
         kjv_text = _load_kjv_text()
-        for vid, prefix in SUPERSCRIPTIONS.items():
+        for vid, prefix in KJV_SUPERSCRIPTIONS.items():
             real_text = kjv_text[vid]
             self.assertTrue(
                 real_text.startswith(prefix),
                 f"{vid}: real KJV text does not start with recorded prefix "
                 f"{prefix!r}; real text is {real_text!r}")
-            stripped = display_text_for(vid, real_text)
+            stripped = kjv_display_text_for(vid, real_text)
             self.assertEqual(stripped, real_text[len(prefix):].strip())
             self.assertFalse(stripped.startswith(prefix))
 
 
 class TrailingMarkerTests(unittest.TestCase):
     def test_strips_known_trailing_marker(self):
-        # HAB.3.19 is a real TRAILING_MARKERS entry.
-        suffix = TRAILING_MARKERS["HAB.3.19"]
+        # HAB.3.19 is a real KJV_TRAILING_MARKERS entry.
+        suffix = KJV_TRAILING_MARKERS["HAB.3.19"]
         text = "The Lord God is my strength, and he will make my feet like hinds' feet." + suffix
         self.assertEqual(
-            display_text_for("HAB.3.19", text),
+            kjv_display_text_for("HAB.3.19", text),
             "The Lord God is my strength, and he will make my feet like hinds' feet.")
 
     def test_strips_all_known_trailing_markers_against_real_text(self):
         kjv_text = _load_kjv_text()
-        for vid, suffix in TRAILING_MARKERS.items():
+        for vid, suffix in KJV_TRAILING_MARKERS.items():
             real_text = kjv_text[vid]
             self.assertTrue(
                 real_text.endswith(suffix),
                 f"{vid}: real KJV text does not end with recorded suffix "
                 f"{suffix!r}; real text is {real_text!r}")
-            stripped = display_text_for(vid, real_text)
+            stripped = kjv_display_text_for(vid, real_text)
             self.assertEqual(stripped, real_text[: -len(suffix)].strip())
             self.assertFalse(stripped.endswith(suffix.strip()))
 
@@ -79,49 +80,49 @@ class PassThroughTests(unittest.TestCase):
     def test_ordinary_verse_returns_text_unchanged(self):
         # JHN.3.16 carries no superscription or trailing marker.
         text = "For God so loved the world, that he gave his only begotten Son."
-        self.assertEqual(display_text_for("JHN.3.16", text), text)
+        self.assertEqual(kjv_display_text_for("JHN.3.16", text), text)
 
 
 class HeadingHintGuardTests(unittest.TestCase):
     def test_unlisted_heading_like_text_raises(self):
-        # Looks like a psalm superscription (matches HEADING_HINT) but the id
-        # is not in SUPERSCRIPTIONS -- must fail loudly rather than ship the
+        # Looks like a psalm superscription (matches KJV_HEADING_HINT) but the id
+        # is not in KJV_SUPERSCRIPTIONS -- must fail loudly rather than ship the
         # heading onto a card.
         text = "A Psalm of Asaph. Give ear, O my people, to my law."
-        self.assertTrue(HEADING_HINT.match(text))
+        self.assertTrue(KJV_HEADING_HINT.match(text))
         with self.assertRaises(SystemExit):
-            display_text_for("PSA.999.1", text)
+            kjv_display_text_for("PSA.999.1", text)
 
     def test_heading_hint_does_not_false_positive_on_ordinary_text(self):
         text = "For God so loved the world, that he gave his only begotten Son."
-        self.assertIsNone(HEADING_HINT.match(text))
+        self.assertIsNone(KJV_HEADING_HINT.match(text))
 
 
 class TableDriftGuardTests(unittest.TestCase):
     def test_superscription_prefix_mismatch_raises(self):
-        # A SUPERSCRIPTIONS id whose actual text does not start with the
+        # A KJV_SUPERSCRIPTIONS id whose actual text does not start with the
         # table's recorded prefix must fail loudly (the table has drifted out
         # of sync with the source), not silently strip nothing / the wrong
         # thing. Constructed directly, not by editing the real table.
         with self.assertRaises(SystemExit):
-            display_text_for("PSA.23.1", "The Lord is my shepherd; I shall not want.")
+            kjv_display_text_for("PSA.23.1", "The Lord is my shepherd; I shall not want.")
 
     def test_trailing_marker_suffix_mismatch_raises(self):
         with self.assertRaises(SystemExit):
-            display_text_for(
+            kjv_display_text_for(
                 "HAB.3.19",
                 "The Lord God is my strength, and he will make my feet like hinds' feet.")
 
     def test_stripping_superscription_to_empty_raises(self):
-        prefix = SUPERSCRIPTIONS["PSA.23.1"]
+        prefix = KJV_SUPERSCRIPTIONS["PSA.23.1"]
         with self.assertRaises(SystemExit):
-            display_text_for("PSA.23.1", prefix)
+            kjv_display_text_for("PSA.23.1", prefix)
 
     def test_unlisted_trailing_selah_raises(self):
         # "Selah." at the end is a liturgical marker; any id carrying it that
-        # is not explicitly in TRAILING_MARKERS must fail loudly.
+        # is not explicitly in KJV_TRAILING_MARKERS must fail loudly.
         with self.assertRaises(SystemExit):
-            display_text_for("PSA.999.1", "Some verse text. Selah.")
+            kjv_display_text_for("PSA.999.1", "Some verse text. Selah.")
 
 
 if __name__ == "__main__":

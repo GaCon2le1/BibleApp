@@ -11,8 +11,8 @@ SOURCE = ROOT / "data" / "source" / "KJV.json"
 TOPICS = {"anxiety", "hope", "love", "forgiveness", "strength", "guidance",
           "peace", "doubt", "purpose", "gratitude", "grief", "worth"}
 CONTEXT_MIN, CONTEXT_MAX = 60, 220
-# Grows to {"KJV", "BSB", "CPDV"} as Tasks 5 and 11 add those translations.
-TRANSLATIONS = {"KJV"}
+# Grows to {"KJV", "BSB", "CPDV"} as Task 11 adds CPDV.
+TRANSLATIONS = {"KJV", "BSB"}
 
 
 def _kjv_index():
