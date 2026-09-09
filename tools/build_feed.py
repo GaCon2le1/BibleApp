@@ -4,7 +4,7 @@ import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "BibleApp" / "BibleApp" / "Resources" / "feed_verses.json"
-CONTENT_VERSION = "2026-09-10.1"
+CONTENT_VERSION = "2026-09-10.2"
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from bible_source import load_source_by_index, load_source_by_name
