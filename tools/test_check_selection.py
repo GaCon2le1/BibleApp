@@ -6,6 +6,9 @@ from check_selection import check_selection, TOPICS, TOTAL
 REPO = pathlib.Path(__file__).resolve().parents[1]
 SELECTION = REPO / "data" / "curation" / "selection.json"
 KJV_SOURCE = REPO / "data" / "source" / "KJV.json"
+BSB_SOURCE = REPO / "data" / "source" / "BSB.json"
+CPDV_SOURCE = REPO / "data" / "source" / "CPDV.json"
+CPDV_MAP = REPO / "data" / "curation" / "cpdv_verse_map.json"
 BIBLE_BOOKS = REPO / "BibleApp" / "BibleApp" / "Resources" / "bible_books.json"
 
 
@@ -135,14 +138,82 @@ def _load_kjv_text_by_id():
     return text_by_id
 
 
+def _load_bsb_text_by_id():
+    """Map every "BOOK.CHAPTER.VERSE" id to its real, whitespace-normalized
+    BSB text. data/source/BSB.json pairs by array index with the 66
+    protestant-canon books exactly like KJV.json does, so this reuses
+    tools/bible_source.py's load_source_by_index -- the same loader
+    tools/build_feed.py and tools/validate_feed.py use for BSB -- rather
+    than reimplementing that pairing a second time."""
+    from bible_source import load_source_by_index
+    index = load_source_by_index(BSB_SOURCE)
+    return {"%s.%d.%d" % key: text for key, text in index.items()}
+
+
+def _load_cpdv_text_by_id(ids, cpdv_map=None):
+    """Map each of `ids` to its real, whitespace-normalized CPDV text,
+    resolved through data/curation/cpdv_verse_map.json the same way
+    tools/build_feed.py's cpdv_text_for does (a book's own CPDV chapters,
+    looked up by the (chapter, verse) the map records for that id). An id
+    with no map entry, or whose mapped (chapter, verse) does not exist in
+    the CPDV source, is omitted rather than raising -- already reported
+    elsewhere (tools/test_cpdv_verse_map.py). `cpdv_map` defaults to the
+    real shipped map but accepts an override so tests can exercise this
+    resolution against a synthetic map without touching the real file."""
+    import re as _re
+    from bible_source import load_source_by_name
+    if cpdv_map is None:
+        cpdv_map = json.loads(CPDV_MAP.read_text())
+    by_book = load_source_by_name(CPDV_SOURCE)
+    text_by_id = {}
+    for vid in ids:
+        ref = cpdv_map.get(vid)
+        if ref is None:
+            continue
+        book = vid.split(".")[0]
+        chapters = by_book.get(book, {}).get("chapters", [])
+        chapter = next((c for c in chapters if c["chapter"] == ref["chapter"]), None)
+        if chapter is None:
+            continue
+        verse = next((v for v in chapter["verses"] if v["verse"] == ref["verse"]), None)
+        if verse is None:
+            continue
+        text_by_id[vid] = _re.sub(r"\s+", " ", verse["text"]).strip()
+    return text_by_id
+
+
+def _duplicate_groups(ids, text_by_id):
+    """Group `ids` by their mapped text; return only the groups with more
+    than one id. Shared grouping logic for the synthetic-fixture guard
+    demonstrations below (the real shipped-selection checks each inline
+    their own copy of this loop, unchanged, to keep those checks exactly as
+    they were before this class grew BSB/CPDV siblings)."""
+    by_text = {}
+    for vid in ids:
+        text = text_by_id.get(vid)
+        if text is None:
+            continue
+        by_text.setdefault(text, []).append(vid)
+    return {text: v for text, v in by_text.items() if len(v) > 1}
+
+
 class ShippedSelectionTextsAreUniqueTests(unittest.TestCase):
-    """Two different ids can carry the identical KJV sentence (synoptic
-    parallels, or a psalm quoted verbatim elsewhere) -- id-uniqueness alone
-    does not catch that, and a duplicate reads as a repeated card in the
-    feed. This is the permanent guard: no two selected verses' real KJV text
-    may be identical. (Case is not folded and whitespace is normalized the
+    """Two different ids can carry the identical text in one shipped
+    translation (synoptic parallels, or a psalm quoted verbatim elsewhere)
+    -- id-uniqueness alone does not catch that, and a duplicate reads as a
+    repeated card in the feed. This is the permanent guard: no two selected
+    verses' real text may be identical IN ANY ONE of the three shipped
+    translations (KJV, BSB, CPDV) -- a duplicate in even one shipped
+    translation is a real user-visible repeat, so this does not require all
+    three to match. (Case is not folded and whitespace is normalized the
     same way the id-resolution index above does, matching how a user would
-    actually perceive two cards as "the same sentence.")"""
+    actually perceive two cards as "the same sentence.")
+
+    This guard was originally KJV-only, and missed exactly this class of
+    bug: MAT.4.19 and MRK.1.17 (both Jesus calling fishermen to follow him)
+    read differently in KJV but rendered byte-identical BSB text -- see
+    DuplicateTextGuardCatchesCrossTranslationDuplicateTests below, which
+    demonstrates the BSB and CPDV checks actually fire."""
 
     def test_no_two_selected_verses_share_identical_text(self):
         text_by_id = _load_kjv_text_by_id()
@@ -158,6 +229,81 @@ class ShippedSelectionTextsAreUniqueTests(unittest.TestCase):
         self.assertEqual(
             dupes, {},
             "duplicate KJV text shared by multiple selected ids: %s" % dupes)
+
+    def test_no_two_selected_verses_share_identical_bsb_text(self):
+        text_by_id = _load_bsb_text_by_id()
+        doc = json.loads(SELECTION.read_text())
+        by_text = {}
+        for entry in doc["selected"]:
+            vid = entry.get("id")
+            text = text_by_id.get(vid)
+            if text is None:
+                continue  # already reported by ShippedSelectionIdsResolveTests
+            by_text.setdefault(text, []).append(vid)
+        dupes = {text: ids for text, ids in by_text.items() if len(ids) > 1}
+        self.assertEqual(
+            dupes, {},
+            "duplicate BSB text shared by multiple selected ids: %s" % dupes)
+
+    def test_no_two_selected_verses_share_identical_cpdv_text(self):
+        doc = json.loads(SELECTION.read_text())
+        ids = [e["id"] for e in doc["selected"] if isinstance(e.get("id"), str)]
+        text_by_id = _load_cpdv_text_by_id(ids)
+        by_text = {}
+        for vid in ids:
+            text = text_by_id.get(vid)
+            if text is None:
+                continue  # already reported by test_cpdv_verse_map.py
+            by_text.setdefault(text, []).append(vid)
+        dupes = {text: ids2 for text, ids2 in by_text.items() if len(ids2) > 1}
+        self.assertEqual(
+            dupes, {},
+            "duplicate CPDV text shared by multiple selected ids: %s" % dupes)
+
+
+class DuplicateTextGuardCatchesCrossTranslationDuplicateTests(unittest.TestCase):
+    """Proves, with test-local fixtures that never touch the real
+    selection.json, that the guard above actually fires -- for BSB and
+    CPDV, not only KJV.
+
+    The BSB case reuses the exact real bug this class exists to catch:
+    MAT.4.19 and MRK.1.17 are two real, distinct verse ids whose real BSB
+    text is byte-identical ("Come, follow Me," Jesus said, "and I will make
+    you fishers of men.") even though their real KJV text differs -- which
+    is exactly why a KJV-only guard missed it and MAT.4.19 had to be
+    replaced in the real selection.json. The CPDV case cannot reuse that
+    same pair (MAT.4.19 no longer has a cpdv_verse_map.json entry now that
+    it has been removed from the selection), so it instead fabricates a
+    verse-map fixture that deliberately mispoints a second id at the same
+    real CPDV (chapter, verse) as MRK.1.17, to prove the CPDV
+    loading/resolution path used by the real guard flags an
+    identical-CPDV-text pair when one exists."""
+
+    def test_kjv_text_differs_for_the_real_bug_pair(self):
+        text_by_id = _load_kjv_text_by_id()
+        self.assertNotEqual(text_by_id["MAT.4.19"], text_by_id["MRK.1.17"])
+
+    def test_bsb_guard_catches_the_real_bug_pairs_identical_text(self):
+        ids = ["MAT.4.19", "MRK.1.17"]
+        text_by_id = _load_bsb_text_by_id()
+        self.assertEqual(text_by_id["MAT.4.19"], text_by_id["MRK.1.17"])
+        dupes = _duplicate_groups(ids, text_by_id)
+        self.assertEqual(dupes, {text_by_id["MRK.1.17"]: ids})
+
+    def test_cpdv_guard_catches_a_synthetic_duplicate(self):
+        fixture_map = {
+            "MRK.1.17": {"chapter": 1, "verse": 17},
+            # Deliberately mispointed at MRK.1.17's own real (chapter,
+            # verse) rather than its own correct one, purely to prove the
+            # resolution + grouping logic fires on a genuine identical-text
+            # pair -- not a claim that this is MRK.1.18's real CPDV verse.
+            "MRK.1.18": {"chapter": 1, "verse": 17},
+        }
+        ids = list(fixture_map)
+        text_by_id = _load_cpdv_text_by_id(ids, cpdv_map=fixture_map)
+        self.assertEqual(text_by_id["MRK.1.17"], text_by_id["MRK.1.18"])
+        dupes = _duplicate_groups(ids, text_by_id)
+        self.assertEqual(dupes, {text_by_id["MRK.1.17"]: ids})
 
 
 class CountAndDistributionTests(unittest.TestCase):
