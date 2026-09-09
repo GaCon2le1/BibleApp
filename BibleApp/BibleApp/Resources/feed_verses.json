@@ -23566,28 +23566,28 @@
    "tier": 2
   },
   {
-   "id": "MAT.4.19",
-   "reference": "Matthew 4:19",
-   "book": "MAT",
-   "chapter": 4,
-   "verse": 19,
+   "id": "HEB.13.14",
+   "reference": "Hebrews 13:14",
+   "book": "HEB",
+   "chapter": 13,
+   "verse": 14,
    "translations": {
     "KJV": {
-     "text": "And he saith unto them, Follow me, and I will make you fishers of men.",
-     "displayText": "And he saith unto them, Follow me, and I will make you fishers of men."
+     "text": "For here have we no continuing city, but we seek one to come.",
+     "displayText": "For here have we no continuing city, but we seek one to come."
     },
     "BSB": {
-     "text": "“Come, follow Me,” Jesus said, “and I will make you fishers of men.”",
-     "displayText": "“Come, follow Me,” Jesus said, “and I will make you fishers of men.”"
+     "text": "For here we do not have a permanent city, but we are looking for the city that is to come.",
+     "displayText": "For here we do not have a permanent city, but we are looking for the city that is to come."
     },
     "CPDV": {
-     "text": "And he said to them: “Follow me, and I will make you fishers of men.”",
-     "displayText": "And he said to them: “Follow me, and I will make you fishers of men.”"
+     "text": "For in this place, we have no everlasting city; instead, we seek one in the future.",
+     "displayText": "For in this place, we have no everlasting city; instead, we seek one in the future."
     }
    },
-   "context": "Walking along the Sea of Galilee, Jesus calls two fishermen brothers, Simon Peter and Andrew, to leave their nets and follow him in a new kind of work.",
+   "context": "Urging readers to bear Christ's reproach rather than cling to earthly comforts, the writer explains that believers have no lasting city here, but are looking ahead to one still to come.",
    "topics": [
-    "purpose"
+    "hope"
    ],
    "tier": 2
   },
