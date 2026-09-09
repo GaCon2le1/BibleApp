@@ -2091,9 +2091,8 @@ swift test --package-path packages/BibleFeedKit
 /usr/bin/python3 -m unittest discover -s tools -p 'test_*.py' -v
 /usr/bin/python3 tools/validate_feed.py BibleApp/BibleApp/Resources/feed_verses.json
 ```
-Expected: Swift suite passes (24 tests: 20 pre-existing + `translationHasThreeCases`
-+ `unknownTranslationKeyFailsDecoding`, minus 1 old assertion the Task 1
-rewrite dropped, net +4 from the pre-feature baseline of 20). Python suite
+Expected: Swift suite passes (22 tests: 20 pre-existing + `translationHasThreeCases`
++ `unknownTranslationKeyFailsDecoding`, added in Task 1). Python suite
 passes, every file. Validator: `0 error(s)`.
 
 - [ ] **Step 2: Build the app**
