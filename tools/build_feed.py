@@ -72,10 +72,32 @@ BSB_TRAILING_MARKERS = {
     "2PE.3.18": " To Him be the glory both now and to the day of eternity. Amen.",
 }
 
-BSB_HEADING_HINT = re.compile(
-    r"^(?:[^.]{0,140}?(?:Psalm|Maskil|Choirmaster|song of ascents|prayer of)"
-    r"[^.]{0,140}?\.\s)"
-)
+def _heading_hint(keywords, max_leading_sentences=3):
+    """Build a heading-hint regex for one translation: matches (as a
+    zero-width lookahead, so `.match()` keeps behaving as a simple truthy
+    check for callers) if any of `keywords` appears, case-insensitively,
+    within the text's first up to `max_leading_sentences` leading sentences.
+    Scanning multiple sentences (not just the first) matters in principle
+    because BSB and CPDV headings are sometimes two sentences long, e.g.
+    "For the choirmaster. A Psalm of David. " -- the keyword can land in the
+    second sentence. In practice every current BSB/CPDV_SUPERSCRIPTIONS
+    entry's keyword lands in its first sentence once the keyword list below
+    is specific enough (see module history: a bare "psalm"/"prayer"/
+    "understanding"/"alleluia" over-matched ordinary prose elsewhere in the
+    first 1-3 sentences of unrelated verses, which is why those are
+    multi-word phrases below rather than single generic words), so scanning
+    stays capped rather than unconditionally always spanning 3 sentences."""
+    kw = "|".join(re.escape(k) for k in keywords)
+    segment = r"[^.]{0,160}?"
+    skips = max(0, max_leading_sentences - 1)
+    return re.compile(
+        rf"^(?=(?:{segment}\.\s+){{0,{skips}}}{segment}(?:{kw}))",
+        re.IGNORECASE)
+
+
+BSB_HEADING_HINT = _heading_hint(
+    ["psalm", "maskil", "choirmaster", "song of ascents", "prayer of", "of david."],
+    max_leading_sentences=1)
 
 # CPDV keeps a Psalm's heading as its own separate verse for most psalms,
 # but not all -- for these ids the heading is folded into the same verse as
@@ -99,9 +121,10 @@ CPDV_TRAILING_MARKERS = {
     "2PE.3.18": " To him be glory, both now and in the day of eternity. Amen.",
 }
 
-CPDV_HEADING_HINT = re.compile(
-    r"^(?:Unto the end\.|Alleluia\.|A Psalm|A Canticle|A Prayer|The inscription)"
-)
+CPDV_HEADING_HINT = _heading_hint(
+    ["unto the end", "alleluia", "a psalm of", "canticle", "prayer of",
+     "inscription", "the first sabbath", "understanding of", "of david."],
+    max_leading_sentences=1)
 
 
 def display_text_for(vid, text, superscriptions, trailing_markers, heading_hint, table_name):
