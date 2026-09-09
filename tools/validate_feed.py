@@ -1,73 +1,22 @@
 #!/usr/bin/env python3
-"""Validate a built feed_verses.json against the vendored KJV source."""
-import json, pathlib, re, sys
+"""Validate a built feed_verses.json against the vendored translation sources."""
+import json, pathlib, sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from bible_source import SourceDataError, load_source_by_index
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "data" / "source" / "KJV.json"
-BOOKS = ROOT / "BibleApp" / "BibleApp" / "Resources" / "bible_books.json"
 
 TOPICS = {"anxiety", "hope", "love", "forgiveness", "strength", "guidance",
           "peace", "doubt", "purpose", "gratitude", "grief", "worth"}
+CONTEXT_MIN, CONTEXT_MAX = 60, 220
 # Grows to {"KJV", "BSB", "CPDV"} as Tasks 5 and 11 add those translations.
 TRANSLATIONS = {"KJV"}
-CONTEXT_MIN, CONTEXT_MAX = 60, 220
-
-# bible_books.json uses Arabic-numeral prefixes ("1 Samuel", "2 Kings") and a
-# bare "Revelation"; KJV.json uses Roman-numeral prefixes ("I Samuel",
-# "II Kings") and "Revelation of John". Both name a book title -> a
-# normalized form so the two conventions compare equal without masking a
-# genuine mismatch (e.g. a transposed book pair).
-_ROMAN_PREFIX = {"I": "1", "II": "2", "III": "3"}
-
-
-def _normalize_book_name(name):
-    name = (name or "").strip()
-    parts = name.split(" ", 1)
-    if len(parts) == 2 and parts[0] in _ROMAN_PREFIX:
-        name = f"{_ROMAN_PREFIX[parts[0]]} {parts[1]}"
-    if name.endswith(" of John"):
-        name = name[: -len(" of John")]
-    return name
-
-
-class SourceDataError(Exception):
-    """Raised when KJV.json / bible_books.json fail a structural sanity
-    check (book count, chapter count, or book identity). Callers must catch
-    this and report it as a validation error rather than let it propagate,
-    per the validate_feed(path) -> list[str] contract."""
 
 
 def _kjv_index():
-    """Map (bookId, chapter, verse) -> verse text, using canonical book order."""
-    try:
-        kjv = json.loads(SOURCE.read_text())
-    except (OSError, json.JSONDecodeError) as e:
-        raise SourceDataError(f"failed to read or parse {SOURCE}: {e}")
-    try:
-        meta = json.loads(BOOKS.read_text())
-    except (OSError, json.JSONDecodeError) as e:
-        raise SourceDataError(f"failed to read or parse {BOOKS}: {e}")
-    prot = [b for b in meta["books"] if b["canon"] == "protestant"]
-
-    if len(prot) != len(kjv["books"]):
-        raise SourceDataError(
-            f"book count mismatch: bible_books.json has {len(prot)} "
-            f"protestant books, KJV.json has {len(kjv['books'])} books")
-
-    index = {}
-    for i, book in enumerate(prot):
-        src = kjv["books"][i]
-        if len(src["chapters"]) != book["chapters"]:
-            raise SourceDataError(f"source/book chapter-count mismatch at {book['id']}")
-        if _normalize_book_name(src.get("name")) != _normalize_book_name(book["name"]):
-            raise SourceDataError(
-                f"source/book identity mismatch at position {i} (id {book['id']}): "
-                f"bible_books.json name {book['name']!r} vs KJV.json name {src.get('name')!r}")
-        for ch in src["chapters"]:
-            for v in ch["verses"]:
-                key = (book["id"], int(ch["chapter"]), int(v["verse"]))
-                index[key] = re.sub(r"\s+", " ", v["text"]).strip()
-    return index
+    return load_source_by_index(SOURCE)
 
 
 def validate_feed(path):

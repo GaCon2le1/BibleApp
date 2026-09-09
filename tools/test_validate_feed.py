@@ -2,6 +2,7 @@ import json, pathlib, subprocess, sys, tempfile, unittest
 from unittest import mock
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import validate_feed as vf
+import bible_source as bs
 from validate_feed import validate_feed
 
 FIX = pathlib.Path(__file__).parent / "fixtures"
@@ -183,7 +184,7 @@ class ValidateFeedTests(unittest.TestCase):
             books_path.write_text(json.dumps(books_meta))
             source_path.write_text(json.dumps(kjv_source))
             feed_path.write_text(json.dumps({"verses": []}))
-            with mock.patch.object(vf, "BOOKS", books_path), \
+            with mock.patch.object(bs, "BOOKS", books_path), \
                  mock.patch.object(vf, "SOURCE", source_path):
                 errs = validate_feed(feed_path)
         self.assertTrue(errs, "expected a reported error, got none")
@@ -210,7 +211,7 @@ class ValidateFeedTests(unittest.TestCase):
             books_path.write_text(json.dumps(books_meta))
             source_path.write_text(json.dumps(kjv_source))
             feed_path.write_text(json.dumps({"verses": []}))
-            with mock.patch.object(vf, "BOOKS", books_path), \
+            with mock.patch.object(bs, "BOOKS", books_path), \
                  mock.patch.object(vf, "SOURCE", source_path):
                 errs = validate_feed(feed_path)
         self.assertEqual(errs, [])
@@ -234,7 +235,7 @@ class ValidateFeedTests(unittest.TestCase):
             books_path.write_text(json.dumps(books_meta))
             source_path.write_text(json.dumps(kjv_source))
             feed_path.write_text(json.dumps({"verses": []}))
-            with mock.patch.object(vf, "BOOKS", books_path), \
+            with mock.patch.object(bs, "BOOKS", books_path), \
                  mock.patch.object(vf, "SOURCE", source_path):
                 errs = validate_feed(feed_path)  # must not raise IndexError
         self.assertTrue(errs, "expected a reported error, got none")
