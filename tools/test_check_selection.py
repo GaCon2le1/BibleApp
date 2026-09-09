@@ -37,11 +37,24 @@ def _load_kjv_verse_ids():
 # Real book ids with their real chapter counts, so every fixture id below is a
 # verse that actually exists in the KJV (chapter N verse 1 of a real chapter).
 # Psalms has 150 chapters -- fixtures must never invent PSA.151.1 and beyond.
-# Enough books are listed to cover TOTAL=600 fixture ids with margin.
-REAL_BOOKS = [("GEN", 50), ("EXO", 40), ("PSA", 150), ("PRO", 31),
-              ("ISA", 66), ("MAT", 28), ("JHN", 21), ("ROM", 16),
-              ("JER", 52), ("EZK", 48), ("ACT", 28), ("LUK", 24),
-              ("1KI", 22), ("2KI", 25), ("1CH", 29), ("2CH", 36)]
+# All 66 protestant-canon books are listed (1,189 chapters total) to cover
+# TOTAL=1000 fixture ids with comfortable margin.
+REAL_BOOKS = [
+    ("GEN", 50), ("EXO", 40), ("LEV", 27), ("NUM", 36), ("DEU", 34),
+    ("JOS", 24), ("JDG", 21), ("RUT", 4), ("1SA", 31), ("2SA", 24),
+    ("1KI", 22), ("2KI", 25), ("1CH", 29), ("2CH", 36), ("EZR", 10),
+    ("NEH", 13), ("EST", 10), ("JOB", 42), ("PSA", 150), ("PRO", 31),
+    ("ECC", 12), ("SNG", 8), ("ISA", 66), ("JER", 52), ("LAM", 5),
+    ("EZK", 48), ("DAN", 12), ("HOS", 14), ("JOL", 3), ("AMO", 9),
+    ("OBA", 1), ("JON", 4), ("MIC", 7), ("NAM", 3), ("HAB", 3),
+    ("ZEP", 3), ("HAG", 2), ("ZEC", 14), ("MAL", 4), ("MAT", 28),
+    ("MRK", 16), ("LUK", 24), ("JHN", 21), ("ACT", 28), ("ROM", 16),
+    ("1CO", 16), ("2CO", 13), ("GAL", 6), ("EPH", 6), ("PHP", 4),
+    ("COL", 4), ("1TH", 5), ("2TH", 3), ("1TI", 6), ("2TI", 4),
+    ("TIT", 3), ("PHM", 1), ("HEB", 13), ("JAS", 5), ("1PE", 5),
+    ("2PE", 3), ("1JN", 5), ("2JN", 1), ("3JN", 1), ("JUD", 1),
+    ("REV", 22),
+]
 
 SORTED_TOPICS = sorted(TOPICS)
 
@@ -61,8 +74,8 @@ def valid_selection():
     """A well-formed selection: TOTAL entries, legal tiers, every topic well
     over the floor of 20."""
     ids = real_ids(TOTAL)
-    # 120 / 320 / 160 sits inside the current TIER_BOUNDS and sums to TOTAL.
-    tiers = [1] * 120 + [2] * 320 + [3] * 160
+    # 150 / 540 / 310 sits inside the current TIER_BOUNDS and sums to TOTAL.
+    tiers = [1] * 150 + [2] * 540 + [3] * 310
     selected = []
     for index, (vid, tier) in enumerate(zip(ids, tiers)):
         # Two topics per entry, rotating: every topic lands ~66 times.
