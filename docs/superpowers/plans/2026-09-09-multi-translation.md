@@ -1336,10 +1336,16 @@ confirmed counter-examples:
   starts at CPDV 4:9.
 - **Psalm 56**: KJV and CPDV chapter 55 both have 13 verses (delta 0 by
   count — misleadingly suggesting no shift at all). Reading the actual text:
-  KJV verses 2-11 are offset +1 (CPDV 3-12), but KJV verses 12-13 are offset
-  +0 (CPDV 12-13) — the count matches only because a compensating
-  consolidation happens between KJV verse 11 and 12, not because there is no
-  shift.
+  KJV verses 2-10 are offset +1 (CPDV 3-11), KJV verse 11 merges into that
+  same CPDV 11 alongside verse 10 (CPDV 55:11 reads "In God, I will praise
+  the word... In God, I have hoped. I will not fear what man can do to
+  me." — visibly KJV 56:10 and 56:11 run together), and KJV verses 12-13
+  are offset +0 (CPDV 12-13) — the count matches only because a
+  compensating consolidation happens between KJV verses 10 and 11, not
+  between 11 and 12 as an earlier draft of this investigation mistakenly
+  concluded (a task review later caught that a candidate table entry built
+  from that mistaken reading, `11: 12`, does not match the real text: it
+  should be `11: 11`).
 
 - [ ] **Step 1: Write the failing test**
 
@@ -1437,9 +1443,13 @@ class ResolvePsalmVerseTests(unittest.TestCase):
     def test_psalm_56_known_exception(self):
         # A naive count-based delta (0, since both chapters have 13 verses)
         # is wrong here too -- confirmed by reading real text. +1 through
-        # verse 11, then +0 for verses 12-13.
+        # verse 10, then verse 11 merges into the same CPDV verse as verse
+        # 10 (CPDV 55:11 visibly runs "In God, I will praise the word...
+        # In God, I have hoped..." together), then +0 for verses 12-13.
         self.assertEqual(resolve_psalm_verse(56, 3, self.kjv_counts, self.cpdv_counts), (55, 4))
         self.assertEqual(resolve_psalm_verse(56, 8, self.kjv_counts, self.cpdv_counts), (55, 9))
+        self.assertEqual(resolve_psalm_verse(56, 10, self.kjv_counts, self.cpdv_counts), (55, 11))
+        self.assertEqual(resolve_psalm_verse(56, 11, self.kjv_counts, self.cpdv_counts), (55, 11))
         self.assertEqual(resolve_psalm_verse(56, 12, self.kjv_counts, self.cpdv_counts), (55, 12))
 
     def test_out_of_range_chapter_raises(self):
@@ -1487,7 +1497,7 @@ _MERGE_SPLIT_CHAPTERS = {9, 10, 114, 115, 116, 147}
 # kjv_chapter -> {kjv_verse: cpdv_verse} for every verse actually needed.
 _KNOWN_EXCEPTIONS = {
     4: {2: 3, 3: 4, 4: 5, 5: 6, 6: 7, 7: 8, 8: 9},
-    56: {2: 3, 3: 4, 4: 5, 5: 6, 6: 7, 7: 8, 8: 9, 9: 10, 10: 11, 11: 12,
+    56: {2: 3, 3: 4, 4: 5, 5: 6, 6: 7, 7: 8, 8: 9, 9: 10, 10: 11, 11: 11,
          12: 12, 13: 13},
 }
 
