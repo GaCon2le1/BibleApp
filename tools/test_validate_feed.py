@@ -118,6 +118,48 @@ class ValidateFeedTests(unittest.TestCase):
         finally:
             os.unlink(path)
 
+    def test_catches_missing_translations(self):
+        import os
+
+        def mutate(entry):
+            del entry["translations"]
+
+        path = self._feed_with(mutate)
+        try:
+            self.assertTrue(
+                any("translations is missing or empty" in e
+                    for e in validate_feed(path)))
+        finally:
+            os.unlink(path)
+
+    def test_catches_non_dict_translation_value(self):
+        import os
+
+        def mutate(entry):
+            entry["translations"]["KJV"] = "not an object"
+
+        path = self._feed_with(mutate)
+        try:
+            self.assertTrue(
+                any("translation KJV is not an object" in e
+                    for e in validate_feed(path)))
+        finally:
+            os.unlink(path)
+
+    def test_catches_unknown_translation_code(self):
+        import os
+
+        def mutate(entry):
+            entry["translations"]["NIV"] = entry["translations"]["KJV"]
+
+        path = self._feed_with(mutate)
+        try:
+            self.assertTrue(
+                any("unknown translation code" in e
+                    for e in validate_feed(path)))
+        finally:
+            os.unlink(path)
+
     # -- Finding 1: positional pairing can't detect a transposition --------
 
     def test_catches_transposed_books_with_equal_chapter_counts(self):
