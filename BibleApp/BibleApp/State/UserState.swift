@@ -9,11 +9,16 @@ final class UserState {
     var topicsRaw: [String] = []
     var activeDays: [Date] = []
     var hasCompletedOnboarding: Bool = false
+    var preferredTranslationRaw: String = Translation.kjv.rawValue
 
     init() {}
 
     var topics: Set<Topic> {
         Set(topicsRaw.compactMap(Topic.init(rawValue:)))
+    }
+
+    var preferredTranslation: Translation {
+        Translation(rawValue: preferredTranslationRaw) ?? .kjv
     }
 
     var seenSet: Set<String> { Set(seenIDs) }
@@ -26,6 +31,10 @@ final class UserState {
     func setTopics(_ topics: Set<Topic>) {
         topicsRaw = topics.map(\.rawValue).sorted()
         hasCompletedOnboarding = true
+    }
+
+    func setPreferredTranslation(_ translation: Translation) {
+        preferredTranslationRaw = translation.rawValue
     }
 
     /// Marking a card seen is also what counts a day toward the streak.

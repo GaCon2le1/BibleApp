@@ -49,7 +49,7 @@ struct LibraryView: View {
                         }
                         ForEach(saved) { verse in
                             VStack(alignment: .leading, spacing: 6) {
-                                Text(verse.translations[.kjv]?.displayText ?? "")
+                                Text(verse.translations[state.preferredTranslation]?.displayText ?? "")
                                     .font(.system(.body, design: .serif))
                                 Text(verse.reference)
                                     .font(.caption.weight(.semibold))
@@ -69,6 +69,24 @@ struct LibraryView: View {
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Done") { dismiss() }
+                }
+                ToolbarItem(placement: .topBarLeading) {
+                    Menu {
+                        ForEach(Translation.allCases, id: \.self) { translation in
+                            Button {
+                                state.setPreferredTranslation(translation)
+                            } label: {
+                                if translation == state.preferredTranslation {
+                                    Label(translation.displayName, systemImage: "checkmark")
+                                } else {
+                                    Text(translation.displayName)
+                                }
+                            }
+                        }
+                    } label: {
+                        Text(state.preferredTranslation.rawValue)
+                    }
+                    .font(.subheadline)
                 }
                 ToolbarItem(placement: .topBarLeading) {
                     Button("Edit topics") {
