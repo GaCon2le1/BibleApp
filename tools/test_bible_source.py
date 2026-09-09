@@ -1,7 +1,7 @@
 import pathlib, sys, unittest
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from bible_source import normalize_book_name, load_protestant_books, load_source_by_index, SourceDataError
+from bible_source import normalize_book_name, load_protestant_books, load_source_by_index, load_source_by_name, SourceDataError
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -43,6 +43,26 @@ class LoadSourceByIndexTests(unittest.TestCase):
     def test_missing_file_raises_source_data_error(self):
         with self.assertRaises(SourceDataError):
             load_source_by_index(ROOT / "data" / "source" / "NOPE.json")
+
+
+class LoadSourceByNameTests(unittest.TestCase):
+    def test_loads_real_cpdv_paired_by_name_not_index(self):
+        by_book = load_source_by_name(ROOT / "data" / "source" / "CPDV.json")
+        self.assertEqual(len(by_book), 66)
+        # CPDV interleaves the deuterocanon through the Old Testament, so its
+        # array position for Psalms differs from bible_books.json's — proving
+        # this loaded correctly (by name) rather than by coincidence of index.
+        psalms = by_book["PSA"]
+        self.assertEqual(psalms["name"], "Psalms")
+        self.assertEqual(len(psalms["chapters"]), 150)
+
+    def test_esther_pairs_correctly_despite_deuterocanon_between_ezra_and_job(self):
+        # Genesis..Nehemiah then Tobit/Judith (deuterocanon) sit before Esther
+        # in CPDV's own array order; a naive index pairing would land on the
+        # wrong book here. Confirm the real content is Esther's, not Tobit's
+        # or Judith's.
+        by_book = load_source_by_name(ROOT / "data" / "source" / "CPDV.json")
+        self.assertEqual(by_book["EST"]["name"], "Esther")
 
 
 if __name__ == "__main__":
