@@ -7,6 +7,7 @@ from bible_source import SourceDataError, load_source_by_index, load_source_by_n
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "data" / "source" / "KJV.json"
+BSB_SOURCE = ROOT / "data" / "source" / "BSB.json"
 
 TOPICS = {"anxiety", "hope", "love", "forgiveness", "strength", "guidance",
           "peace", "doubt", "purpose", "gratitude", "grief", "worth"}
@@ -37,6 +38,12 @@ def validate_feed(path):
 
     try:
         index = _kjv_index()
+    except SourceDataError as e:
+        errors.append(f"source data error: {e}")
+        return errors
+
+    try:
+        bsb_index = load_source_by_index(BSB_SOURCE)
     except SourceDataError as e:
         errors.append(f"source data error: {e}")
         return errors
@@ -89,6 +96,11 @@ def validate_feed(path):
                     errors.append(f"{vid}: no such verse in KJV source")
                 elif text != index[key]:
                     errors.append(f"{vid}: KJV text does not match KJV source")
+            elif code == "BSB":
+                if key not in bsb_index:
+                    errors.append(f"{vid}: no such verse in BSB source")
+                elif text != bsb_index[key]:
+                    errors.append(f"{vid}: BSB text does not match BSB source")
             elif code == "CPDV":
                 cpdv_ref = cpdv_map.get(vid)
                 if cpdv_ref is None:

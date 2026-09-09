@@ -24,6 +24,27 @@ class ValidateFeedTests(unittest.TestCase):
         errs = validate_feed(FIX / "invalid_feed.json")
         self.assertTrue(any("text does not match KJV" in e for e in errs), errs)
 
+    def test_catches_wrong_bsb_verse_text(self):
+        # Mirrors test_catches_wrong_verse_text (KJV), but for BSB -- guards
+        # the validator's BSB-vs-BSB.json branch, which previously did not
+        # exist at all (BSB text was only checked for non-emptiness and the
+        # displayText-substring relationship, never against the real BSB
+        # source). valid_feed.json already carries real BSB text for
+        # JHN.3.16, so mutating just the "text" field is a genuine
+        # fabricated-mismatch case, not an artifact of the fixture.
+        import os
+
+        def mutate(entry):
+            entry["translations"]["BSB"]["text"] = "Something never found in the BSB verse."
+
+        path = self._feed_with(mutate)
+        try:
+            errs = validate_feed(path)
+            self.assertTrue(
+                any("BSB text does not match BSB source" in e for e in errs), errs)
+        finally:
+            os.unlink(path)
+
     def test_catches_bad_topic(self):
         errs = validate_feed(FIX / "invalid_feed.json")
         self.assertTrue(any("unknown topic" in e for e in errs), errs)
@@ -226,16 +247,27 @@ class ValidateFeedTests(unittest.TestCase):
             {"name": "I Samuel", "chapters": _chapters(2)},
             {"name": "Revelation of John", "chapters": _chapters(2)},
         ]}
+        # Same 2-book shape for BSB -- with bible_books.json mocked down to
+        # 2 protestant books, the real (66-book) BSB.json would otherwise
+        # trip the validator's BSB book-count check and fail this test for
+        # an unrelated reason.
+        bsb_source = {"books": [
+            {"name": "1 Samuel", "chapters": _chapters(2)},
+            {"name": "Revelation", "chapters": _chapters(2)},
+        ]}
         with tempfile.TemporaryDirectory() as td:
             td = pathlib.Path(td)
             books_path = td / "bible_books.json"
             source_path = td / "KJV.json"
+            bsb_path = td / "BSB.json"
             feed_path = td / "feed.json"
             books_path.write_text(json.dumps(books_meta))
             source_path.write_text(json.dumps(kjv_source))
+            bsb_path.write_text(json.dumps(bsb_source))
             feed_path.write_text(json.dumps({"verses": []}))
             with mock.patch.object(bs, "BOOKS", books_path), \
-                 mock.patch.object(vf, "SOURCE", source_path):
+                 mock.patch.object(vf, "SOURCE", source_path), \
+                 mock.patch.object(vf, "BSB_SOURCE", bsb_path):
                 errs = validate_feed(feed_path)
         self.assertEqual(errs, [])
 
