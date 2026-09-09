@@ -11,7 +11,7 @@ struct VerseCard: View {
         VStack(alignment: .leading, spacing: 20) {
             Spacer()
 
-            Text(verse.translations[translation]?.displayText ?? "")
+            Text(verse.translations[translation]?.displayText ?? verse.translations[.kjv]?.displayText ?? "")
                 .font(.system(.title2, design: .serif))
                 .lineSpacing(6)
 
