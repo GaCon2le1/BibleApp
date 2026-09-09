@@ -3,8 +3,8 @@ import Testing
 
 private func verse(_ id: String, tier: Int, topics: [Topic] = [.hope]) -> Verse {
     Verse(id: id, reference: id, book: "PSA", chapter: 1, verse: 1,
-          text: "text", displayText: "text", context: "context",
-          topics: topics, tier: tier)
+          translations: [.kjv: TranslationText(text: "text", displayText: "text")],
+          context: "context", topics: topics, tier: tier)
 }
 
 @Test func higherTierComesFirst() {
