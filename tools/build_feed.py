@@ -7,7 +7,7 @@ OUT = ROOT / "BibleApp" / "BibleApp" / "Resources" / "feed_verses.json"
 CONTENT_VERSION = "2026-09-09.2"
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from bible_source import load_source_by_index
+from bible_source import load_source_by_index, load_source_by_name
 
 # The KJV source stores psalm superscriptions and Hebrew acrostic letters inside
 # the text of verse 1. These are the exact prefixes to remove for display, keyed
@@ -128,31 +128,46 @@ CPDV_HEADING_HINT = _heading_hint(
 
 
 def display_text_for(vid, text, superscriptions, trailing_markers, heading_hint, table_name):
-    """Return the card-facing text: `text` minus any known superscription or
-    trailing marker for one translation's marker tables."""
+    """Return the card-facing text: `text` minus any known superscription
+    and/or trailing marker for one translation's marker tables. A leading
+    superscription strip and a trailing-marker strip on the remaining text
+    can both apply to the same verse -- not currently exercised by any
+    shipped id (no id appears in both a *_SUPERSCRIPTIONS and its matching
+    *_TRAILING_MARKERS table for any translation), but structurally
+    supported rather than short-circuited after the prefix strip alone.
+    The heading-hint/Selah safety-net checks only apply when NEITHER a
+    prefix nor a suffix table entry existed for this id."""
+    remaining = text
+    had_prefix = False
     prefix = superscriptions.get(vid)
     if prefix is not None:
-        if not text.startswith(prefix):
+        if not remaining.startswith(prefix):
             raise SystemExit(f"{vid}: {table_name} prefix does not match source text")
-        stripped = text[len(prefix):].strip()
-        if not stripped:
+        remaining = remaining[len(prefix):].strip()
+        if not remaining:
             raise SystemExit(f"{vid}: stripping the superscription empties {table_name}'s verse")
-        return stripped
+        had_prefix = True
+
+    had_suffix = False
     suffix = trailing_markers.get(vid)
     if suffix is not None:
-        if not text.endswith(suffix):
+        if not remaining.endswith(suffix):
             raise SystemExit(f"{vid}: {table_name} suffix does not match source text")
-        stripped = text[: -len(suffix)].strip()
-        if not stripped:
+        remaining = remaining[: -len(suffix)].strip()
+        if not remaining:
             raise SystemExit(f"{vid}: stripping the trailing marker empties {table_name}'s verse")
-        return stripped
-    if heading_hint.match(text):
+        had_suffix = True
+
+    if had_prefix or had_suffix:
+        return remaining
+
+    if heading_hint.match(remaining):
         raise SystemExit(
             f"{vid}: text looks like it carries a heading but is not in "
             f"{table_name} — add it explicitly or confirm it is verse content")
-    if text.rstrip().endswith(("Selah", "Selah.")):
+    if remaining.rstrip().endswith(("Selah", "Selah.")):
         raise SystemExit(f"{vid}: text ends with 'Selah' but is not in {table_name}")
-    return text
+    return remaining
 
 
 def kjv_display_text_for(vid, text):
@@ -171,31 +186,31 @@ def cpdv_display_text_for(vid, text):
 
 
 def main():
-    kjv = json.loads((ROOT / "data/source/KJV.json").read_text())
     meta = json.loads((ROOT / "BibleApp/BibleApp/Resources/bible_books.json").read_text())
     selection = json.loads((ROOT / "data/curation/selection.json").read_text())["selected"]
     contexts = json.loads((ROOT / "data/curation/contexts.json").read_text())
 
     prot = [b for b in meta["books"] if b["canon"] == "protestant"]
     names = {b["id"]: b["name"] for b in prot}
-    text = {}
-    for i, book in enumerate(prot):
-        for ch in kjv["books"][i]["chapters"]:
-            for v in ch["verses"]:
-                text[(book["id"], int(ch["chapter"]), int(v["verse"]))] = \
-                    re.sub(r"\s+", " ", v["text"]).strip()
+    text = load_source_by_index(ROOT / "data/source/KJV.json")
 
     bsb_text = load_source_by_index(ROOT / "data/source/BSB.json")
 
-    from bible_source import load_source_by_name
     cpdv_by_book = load_source_by_name(ROOT / "data/source/CPDV.json")
     cpdv_map = json.loads((ROOT / "data/curation/cpdv_verse_map.json").read_text())
 
     def cpdv_text_for(vid, book):
-        ref = cpdv_map[vid]
+        ref = cpdv_map.get(vid)
+        if ref is None:
+            raise SystemExit(f"{vid}: no entry in cpdv_verse_map.json")
         chapters = cpdv_by_book[book]["chapters"]
-        chapter = next(c for c in chapters if c["chapter"] == ref["chapter"])
-        verse = next(v for v in chapter["verses"] if v["verse"] == ref["verse"])
+        chapter = next((c for c in chapters if c["chapter"] == ref["chapter"]), None)
+        if chapter is None:
+            raise SystemExit(f"{vid}: no chapter {ref['chapter']} in CPDV {book}")
+        verse = next((v for v in chapter["verses"] if v["verse"] == ref["verse"]), None)
+        if verse is None:
+            raise SystemExit(
+                f"{vid}: no verse {ref['verse']} in CPDV {book} chapter {ref['chapter']}")
         return re.sub(r"\s+", " ", verse["text"]).strip()
 
     verses = []
@@ -230,7 +245,7 @@ def main():
             "tier": entry["tier"],
         })
 
-    doc = {"schemaVersion": 1, "contentVersion": CONTENT_VERSION, "verses": verses}
+    doc = {"schemaVersion": 2, "contentVersion": CONTENT_VERSION, "verses": verses}
     OUT.write_text(json.dumps(doc, indent=1, ensure_ascii=False))
     print(f"wrote {len(verses)} verses to {OUT.relative_to(ROOT)}")
 
