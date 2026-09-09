@@ -6021,11 +6021,11 @@
       ]
     },
     {
-      "id": "JOB.42.12",
-      "tier": 2,
+      "id": "PRO.20.24",
+      "tier": 3,
       "topics": [
-        "gratitude",
-        "hope"
+        "guidance",
+        "doubt"
       ]
     },
     {
@@ -6357,8 +6357,8 @@
       "id": "ROM.9.16",
       "tier": 3,
       "topics": [
-        "forgiveness",
-        "doubt"
+        "doubt",
+        "purpose"
       ]
     },
     {
@@ -7036,10 +7036,10 @@
       ]
     },
     {
-      "id": "EPH.3.12",
-      "tier": 3,
+      "id": "JAS.1.2",
+      "tier": 2,
       "topics": [
-        "doubt",
+        "hope",
         "strength"
       ]
     },
