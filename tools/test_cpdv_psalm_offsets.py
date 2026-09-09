@@ -89,9 +89,13 @@ class ResolvePsalmVerseTests(unittest.TestCase):
     def test_psalm_56_known_exception(self):
         # A naive count-based delta (0, since both chapters have 13 verses)
         # is wrong here too -- confirmed by reading real text. +1 through
-        # verse 11, then +0 for verses 12-13.
+        # verse 10, then verse 11 merges into the same CPDV verse as verse
+        # 10 (CPDV 55:11 visibly runs "In God, I will praise the word...
+        # In God, I have hoped..." together), then +0 for verses 12-13.
         self.assertEqual(resolve_psalm_verse(56, 3, self.kjv_counts, self.cpdv_counts), (55, 4))
         self.assertEqual(resolve_psalm_verse(56, 8, self.kjv_counts, self.cpdv_counts), (55, 9))
+        self.assertEqual(resolve_psalm_verse(56, 10, self.kjv_counts, self.cpdv_counts), (55, 11))
+        self.assertEqual(resolve_psalm_verse(56, 11, self.kjv_counts, self.cpdv_counts), (55, 11))
         self.assertEqual(resolve_psalm_verse(56, 12, self.kjv_counts, self.cpdv_counts), (55, 12))
 
     def test_out_of_range_chapter_raises(self):
