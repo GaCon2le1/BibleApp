@@ -74,6 +74,10 @@ class ValidateFeedTests(unittest.TestCase):
                     "text": "A Psalm of David. The LORD is my shepherd; I shall not want.",
                     "displayText": "The LORD is my shepherd; I shall not want.",
                 },
+                "CPDV": {
+                    "text": "A Psalm of David. The Lord directs me, and nothing will be lacking to me.",
+                    "displayText": "The Lord directs me, and nothing will be lacking to me.",
+                },
             }
 
         path = self._feed_with(mutate)
@@ -108,6 +112,14 @@ class ValidateFeedTests(unittest.TestCase):
                              "choirmaster. With stringed instruments."),
                     "displayText": ("GOD the Lord is my strength; He makes my feet like "
                                      "those of a deer; He makes me walk upon the heights!"),
+                },
+                "CPDV": {
+                    "text": ("The Lord God is my strength. And he will set my feet like "
+                             "those of the stag. And he, the victor, will lead me beyond "
+                             "my high places while singing psalms."),
+                    "displayText": ("The Lord God is my strength. And he will set my feet "
+                                     "like those of the stag. And he, the victor, will lead "
+                                     "me beyond my high places while singing psalms."),
                 },
             }
 

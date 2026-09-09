@@ -4,7 +4,7 @@ import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "BibleApp" / "BibleApp" / "Resources" / "feed_verses.json"
-CONTENT_VERSION = "2026-09-09.1"
+CONTENT_VERSION = "2026-09-09.2"
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from bible_source import load_source_by_index
@@ -77,6 +77,32 @@ BSB_HEADING_HINT = re.compile(
     r"[^.]{0,140}?\.\s)"
 )
 
+# CPDV keeps a Psalm's heading as its own separate verse for most psalms,
+# but not all -- for these ids the heading is folded into the same verse as
+# the content (same as KJV/BSB), so it must be stripped for display just
+# like the KJV/BSB tables above. Verified against data/source/CPDV.json.
+CPDV_SUPERSCRIPTIONS = {
+    "PSA.23.1": "A Psalm of David. ",
+    "PSA.24.1": "For the First Sabbath. A Psalm of David. ",
+    "PSA.27.1": "A Psalm of David, before he was sealed. ",
+    "PSA.32.1": "The understanding of David himself. ",
+    "PSA.90.1": "A prayer of Moses, the man of God. ",
+    "PSA.91.1": "The Praise of a Canticle, of David. ",
+    "PSA.107.1": "Alleluia. ",
+    "PSA.121.1": "A Canticle in steps. ",
+    "PSA.127.1": "A Canticle in steps: of Solomon. ",
+    "PSA.130.1": "A Canticle in steps. ",
+    "PSA.133.1": "A Canticle in steps. ",
+}
+
+CPDV_TRAILING_MARKERS = {
+    "2PE.3.18": " To him be glory, both now and in the day of eternity. Amen.",
+}
+
+CPDV_HEADING_HINT = re.compile(
+    r"^(?:Unto the end\.|Alleluia\.|A Psalm|A Canticle|A Prayer|The inscription)"
+)
+
 
 def display_text_for(vid, text, superscriptions, trailing_markers, heading_hint, table_name):
     """Return the card-facing text: `text` minus any known superscription or
@@ -116,6 +142,11 @@ def bsb_display_text_for(vid, text):
                              BSB_HEADING_HINT, "BSB_SUPERSCRIPTIONS/BSB_TRAILING_MARKERS")
 
 
+def cpdv_display_text_for(vid, text):
+    return display_text_for(vid, text, CPDV_SUPERSCRIPTIONS, CPDV_TRAILING_MARKERS,
+                             CPDV_HEADING_HINT, "CPDV_SUPERSCRIPTIONS/CPDV_TRAILING_MARKERS")
+
+
 def main():
     kjv = json.loads((ROOT / "data/source/KJV.json").read_text())
     meta = json.loads((ROOT / "BibleApp/BibleApp/Resources/bible_books.json").read_text())
@@ -133,6 +164,17 @@ def main():
 
     bsb_text = load_source_by_index(ROOT / "data/source/BSB.json")
 
+    from bible_source import load_source_by_name
+    cpdv_by_book = load_source_by_name(ROOT / "data/source/CPDV.json")
+    cpdv_map = json.loads((ROOT / "data/curation/cpdv_verse_map.json").read_text())
+
+    def cpdv_text_for(vid, book):
+        ref = cpdv_map[vid]
+        chapters = cpdv_by_book[book]["chapters"]
+        chapter = next(c for c in chapters if c["chapter"] == ref["chapter"])
+        verse = next(v for v in chapter["verses"] if v["verse"] == ref["verse"])
+        return re.sub(r"\s+", " ", verse["text"]).strip()
+
     verses = []
     for entry in selection:
         book, chapter, verse = entry["id"].split(".")
@@ -141,6 +183,7 @@ def main():
             raise SystemExit(f"missing context for {entry['id']}")
         verse_text = text[(book, chapter, verse)]
         bsb_verse_text = bsb_text[(book, chapter, verse)]
+        cpdv_verse_text = cpdv_text_for(entry["id"], book)
         verses.append({
             "id": entry["id"],
             "reference": f"{names[book]} {chapter}:{verse}",
@@ -153,6 +196,10 @@ def main():
                 "BSB": {
                     "text": bsb_verse_text,
                     "displayText": bsb_display_text_for(entry["id"], bsb_verse_text),
+                },
+                "CPDV": {
+                    "text": cpdv_verse_text,
+                    "displayText": cpdv_display_text_for(entry["id"], cpdv_verse_text),
                 },
             },
             "context": contexts[entry["id"]],

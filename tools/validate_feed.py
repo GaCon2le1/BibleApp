@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Validate a built feed_verses.json against the vendored translation sources."""
-import json, pathlib, sys
+import json, pathlib, re, sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from bible_source import SourceDataError, load_source_by_index
+from bible_source import SourceDataError, load_source_by_index, load_source_by_name
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "data" / "source" / "KJV.json"
@@ -11,8 +11,7 @@ SOURCE = ROOT / "data" / "source" / "KJV.json"
 TOPICS = {"anxiety", "hope", "love", "forgiveness", "strength", "guidance",
           "peace", "doubt", "purpose", "gratitude", "grief", "worth"}
 CONTEXT_MIN, CONTEXT_MAX = 60, 220
-# Grows to {"KJV", "BSB", "CPDV"} as Task 11 adds CPDV.
-TRANSLATIONS = {"KJV", "BSB"}
+TRANSLATIONS = {"KJV", "BSB", "CPDV"}
 
 
 def _kjv_index():
@@ -41,6 +40,24 @@ def validate_feed(path):
     except SourceDataError as e:
         errors.append(f"source data error: {e}")
         return errors
+
+    try:
+        cpdv_by_book = load_source_by_name(ROOT / "data" / "source" / "CPDV.json")
+    except SourceDataError as e:
+        errors.append(f"source data error: {e}")
+        return errors
+    try:
+        cpdv_map = json.loads((ROOT / "data" / "curation" / "cpdv_verse_map.json").read_text())
+    except (OSError, json.JSONDecodeError) as e:
+        errors.append(f"source data error: failed to read cpdv_verse_map.json: {e}")
+        return errors
+
+    cpdv_index = {}
+    for book_id, book in cpdv_by_book.items():
+        for ch in book["chapters"]:
+            for v in ch["verses"]:
+                cpdv_index[(book_id, int(ch["chapter"]), int(v["verse"]))] = \
+                    re.sub(r"\s+", " ", v["text"]).strip()
 
     seen_ids = set()
 
@@ -72,6 +89,18 @@ def validate_feed(path):
                     errors.append(f"{vid}: no such verse in KJV source")
                 elif text != index[key]:
                     errors.append(f"{vid}: KJV text does not match KJV source")
+            elif code == "CPDV":
+                cpdv_ref = cpdv_map.get(vid)
+                if cpdv_ref is None:
+                    errors.append(f"{vid}: no entry in cpdv_verse_map.json")
+                else:
+                    cpdv_key = (entry.get("book"), cpdv_ref["chapter"], cpdv_ref["verse"])
+                    if cpdv_key not in cpdv_index:
+                        errors.append(f"{vid}: cpdv_verse_map.json points at a "
+                                      f"nonexistent CPDV verse {cpdv_ref}")
+                    elif text != cpdv_index[cpdv_key]:
+                        errors.append(f"{vid}: CPDV text does not match CPDV source "
+                                      f"at the mapped verse {cpdv_ref}")
             if display is None:
                 errors.append(f"{vid}: {code} displayText is missing")
             elif not isinstance(display, str) or not display.strip():
