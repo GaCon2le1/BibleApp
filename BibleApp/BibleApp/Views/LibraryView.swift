@@ -49,7 +49,7 @@ struct LibraryView: View {
                         }
                         ForEach(saved) { verse in
                             VStack(alignment: .leading, spacing: 6) {
-                                Text(verse.displayText)
+                                Text(verse.translations[.kjv]?.displayText ?? "")
                                     .font(.system(.body, design: .serif))
                                 Text(verse.reference)
                                     .font(.caption.weight(.semibold))

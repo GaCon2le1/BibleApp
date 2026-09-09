@@ -19,6 +19,7 @@ struct FeedView: View {
                 }
                 ForEach(queue) { verse in
                     VerseCard(verse: verse,
+                              translation: .kjv,
                               isSaved: state.savedSet.contains(verse.id),
                               onSave: { state.toggleSaved(verse.id) })
                         .containerRelativeFrame(.vertical)

@@ -3,6 +3,7 @@ import BibleFeedKit
 
 struct VerseCard: View {
     let verse: Verse
+    let translation: Translation
     let isSaved: Bool
     let onSave: () -> Void
 
@@ -10,7 +11,7 @@ struct VerseCard: View {
         VStack(alignment: .leading, spacing: 20) {
             Spacer()
 
-            Text(verse.displayText)
+            Text(verse.translations[translation]?.displayText ?? "")
                 .font(.system(.title2, design: .serif))
                 .lineSpacing(6)
 
