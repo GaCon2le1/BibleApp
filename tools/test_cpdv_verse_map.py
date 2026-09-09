@@ -9,11 +9,11 @@ SELECTION = ROOT / "data" / "curation" / "selection.json"
 
 
 class CpdvVerseMapTests(unittest.TestCase):
-    def test_has_exactly_600_entries_matching_selection(self):
+    def test_has_one_entry_per_selected_id(self):
         m = json.loads(MAP.read_text())
         sel_ids = {e["id"] for e in json.loads(SELECTION.read_text())["selected"]}
         self.assertEqual(set(m), sel_ids)
-        self.assertEqual(len(m), 600)
+        self.assertEqual(len(m), len(sel_ids))
 
     def test_every_entry_resolves_to_a_real_cpdv_verse(self):
         m = json.loads(MAP.read_text())

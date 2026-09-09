@@ -4,7 +4,7 @@ import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "BibleApp" / "BibleApp" / "Resources" / "feed_verses.json"
-CONTENT_VERSION = "2026-09-09.2"
+CONTENT_VERSION = "2026-09-10.1"
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from bible_source import load_source_by_index, load_source_by_name
@@ -18,14 +18,21 @@ KJV_SUPERSCRIPTIONS = {
     "PSA.22.1": "To the chief Musician upon Aijeleth Shahar, A Psalm of David. ",
     "PSA.23.1": "A Psalm of David. ",
     "PSA.24.1": "A Psalm of David. ",
+    "PSA.25.1": "A Psalm of David. ",
     "PSA.27.1": "A Psalm of David. ",
     "PSA.32.1": "A Psalm of David, Maschil. ",
+    "PSA.40.1": "To the chief Musician, A Psalm of David. ",
+    "PSA.41.1": "To the chief Musician, A Psalm of David. ",
     "PSA.42.1": "To the chief Musician, Maschil, for the sons of Korah. ",
     "PSA.46.1": "To the chief Musician for the sons of Korah, A Song upon Alamoth. ",
+    "PSA.57.1": "To the chief Musician, Al–taschith, Michtam of David, when he fled from Saul in the cave. ",
+    "PSA.62.1": "To the chief Musician, to Jeduthun, A Psalm of David. ",
+    "PSA.63.1": "A Psalm of David, when he was in the wilderness of Judah. ",
     "PSA.89.1": "Maschil of Ethan the Ezrahite. ",
     "PSA.90.1": "A Prayer of Moses the man of God. ",
     "PSA.119.105": "נ NUN. ",
     "PSA.121.1": "A Song of degrees. ",
+    "PSA.122.1": "A Song of degrees of David. ",
     "PSA.127.1": "A Song of degrees for Solomon. ",
     "PSA.130.1": "A Song of degrees. ",
     "PSA.133.1": "A Song of degrees of David. ",
@@ -35,7 +42,9 @@ KJV_SUPERSCRIPTIONS = {
 # leading heading. Same explicit-table treatment, keyed by verse id.
 KJV_TRAILING_MARKERS = {
     "HAB.3.19": " To the chief singer on my stringed instruments.",
+    "PSA.32.7": " Selah.",
     "PSA.62.8": " Selah.",
+    "PSA.68.19": " Selah.",
     "PSA.77.9": " Selah.",
     "2PE.3.18": " To him be glory both now and for ever. Amen.",
 }
@@ -53,13 +62,20 @@ BSB_SUPERSCRIPTIONS = {
     "PSA.22.1": "For the choirmaster. To the tune of “The Doe of the Dawn.” A Psalm of David. ",
     "PSA.23.1": "A Psalm of David. ",
     "PSA.24.1": "A Psalm of David. ",
+    "PSA.25.1": "Of David. ",
     "PSA.27.1": "Of David. ",
     "PSA.32.1": "Of David. A Maskil. ",
+    "PSA.40.1": "For the choirmaster. A Psalm of David. ",
+    "PSA.41.1": "For the choirmaster. A Psalm of David. ",
     "PSA.42.1": "For the choirmaster. A Maskil of the sons of Korah. ",
     "PSA.46.1": "For the choirmaster. Of the sons of Korah. According to Alamoth. A song. ",
+    "PSA.57.1": "For the choirmaster. To the tune of “Do Not Destroy.” A Miktam of David, when he fled from Saul into the cave. ",
+    "PSA.62.1": "For the choirmaster. According to Jeduthun. A Psalm of David. ",
+    "PSA.63.1": "A Psalm of David, when he was in the Wilderness of Judah. ",
     "PSA.89.1": "A Maskil of Ethan the Ezrahite. ",
     "PSA.90.1": "A prayer of Moses the man of God. ",
     "PSA.121.1": "A song of ascents. ",
+    "PSA.122.1": "A song of ascents. Of David. ",
     "PSA.127.1": "A song of ascents. Of Solomon. ",
     "PSA.130.1": "A song of ascents. ",
     "PSA.133.1": "A song of ascents. Of David. ",
@@ -67,7 +83,9 @@ BSB_SUPERSCRIPTIONS = {
 
 BSB_TRAILING_MARKERS = {
     "HAB.3.19": " For the choirmaster. With stringed instruments.",
+    "PSA.32.7": " Selah",
     "PSA.62.8": " Selah",
+    "PSA.68.19": " Selah",
     "PSA.77.9": " Selah",
     "2PE.3.18": " To Him be the glory both now and to the day of eternity. Amen.",
 }
@@ -106,12 +124,14 @@ BSB_HEADING_HINT = _heading_hint(
 CPDV_SUPERSCRIPTIONS = {
     "PSA.23.1": "A Psalm of David. ",
     "PSA.24.1": "For the First Sabbath. A Psalm of David. ",
+    "PSA.25.1": "Unto the end. A Psalm of David. ",
     "PSA.27.1": "A Psalm of David, before he was sealed. ",
     "PSA.32.1": "The understanding of David himself. ",
     "PSA.90.1": "A prayer of Moses, the man of God. ",
     "PSA.91.1": "The Praise of a Canticle, of David. ",
     "PSA.107.1": "Alleluia. ",
     "PSA.121.1": "A Canticle in steps. ",
+    "PSA.122.1": "A Canticle in steps. ",
     "PSA.127.1": "A Canticle in steps: of Solomon. ",
     "PSA.130.1": "A Canticle in steps. ",
     "PSA.133.1": "A Canticle in steps: of David. ",
@@ -122,8 +142,9 @@ CPDV_TRAILING_MARKERS = {
 }
 
 CPDV_HEADING_HINT = _heading_hint(
-    ["unto the end", "alleluia", "a psalm of", "canticle", "prayer of",
-     "inscription", "the first sabbath", "understanding of", "of david."],
+    ["unto the end", "alleluia", "a psalm of", "canticle in steps",
+     "of a canticle", "prayer of", "inscription", "the first sabbath",
+     "understanding of", "of david."],
     max_leading_sentences=1)
 
 
