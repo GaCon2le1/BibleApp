@@ -40,7 +40,7 @@ class ValidateFeedTests(unittest.TestCase):
     def test_catches_display_text_not_in_text(self):
         errs = validate_feed(FIX / "invalid_feed.json")
         self.assertTrue(
-            any("displayText is not part of text" in e for e in errs), errs)
+            any("displayText is not part of" in e for e in errs), errs)
 
     def _feed_with(self, mutate):
         import json, tempfile, os
@@ -64,8 +64,12 @@ class ValidateFeedTests(unittest.TestCase):
             entry["book"] = "PSA"
             entry["chapter"] = 23
             entry["verse"] = 1
-            entry["text"] = "A Psalm of David. The Lord is my shepherd; I shall not want."
-            entry["displayText"] = "The Lord is my shepherd; I shall not want."
+            entry["translations"] = {
+                "KJV": {
+                    "text": "A Psalm of David. The Lord is my shepherd; I shall not want.",
+                    "displayText": "The Lord is my shepherd; I shall not want.",
+                }
+            }
 
         path = self._feed_with(mutate)
         try:
@@ -84,14 +88,16 @@ class ValidateFeedTests(unittest.TestCase):
             entry["book"] = "HAB"
             entry["chapter"] = 3
             entry["verse"] = 19
-            entry["text"] = (
-                "The Lord God is my strength, and he will make my feet like "
-                "hinds’ feet, and he will make me to walk upon mine high "
-                "places. To the chief singer on my stringed instruments.")
-            entry["displayText"] = (
-                "The Lord God is my strength, and he will make my feet like "
-                "hinds’ feet, and he will make me to walk upon mine high "
-                "places.")
+            entry["translations"] = {
+                "KJV": {
+                    "text": ("The Lord God is my strength, and he will make my feet like "
+                             "hinds’ feet, and he will make me to walk upon mine high "
+                             "places. To the chief singer on my stringed instruments."),
+                    "displayText": ("The Lord God is my strength, and he will make my "
+                                     "feet like hinds’ feet, and he will make me "
+                                     "to walk upon mine high places."),
+                }
+            }
 
         path = self._feed_with(mutate)
         try:
@@ -103,7 +109,7 @@ class ValidateFeedTests(unittest.TestCase):
         import os
 
         def mutate(entry):
-            del entry["displayText"]
+            del entry["translations"]["KJV"]["displayText"]
 
         path = self._feed_with(mutate)
         try:

@@ -4,7 +4,7 @@ import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "BibleApp" / "BibleApp" / "Resources" / "feed_verses.json"
-CONTENT_VERSION = "2026-09-08.1"
+CONTENT_VERSION = "2026-09-09.1"
 
 # The KJV source stores psalm superscriptions and Hebrew acrostic letters inside
 # the text of verse 1. These are the exact prefixes to remove for display, keyed
@@ -100,15 +100,18 @@ def main():
             "id": entry["id"],
             "reference": f"{names[book]} {chapter}:{verse}",
             "book": book, "chapter": chapter, "verse": verse,
-            "text": verse_text,
-            "displayText": display_text_for(entry["id"], verse_text),
+            "translations": {
+                "KJV": {
+                    "text": verse_text,
+                    "displayText": display_text_for(entry["id"], verse_text),
+                },
+            },
             "context": contexts[entry["id"]],
             "topics": entry["topics"],
             "tier": entry["tier"],
         })
 
-    doc = {"schemaVersion": 1, "contentVersion": CONTENT_VERSION,
-           "translation": "KJV", "verses": verses}
+    doc = {"schemaVersion": 1, "contentVersion": CONTENT_VERSION, "verses": verses}
     OUT.write_text(json.dumps(doc, indent=1, ensure_ascii=False))
     print(f"wrote {len(verses)} verses to {OUT.relative_to(ROOT)}")
 

@@ -8,6 +8,8 @@ BOOKS = ROOT / "BibleApp" / "BibleApp" / "Resources" / "bible_books.json"
 
 TOPICS = {"anxiety", "hope", "love", "forgiveness", "strength", "guidance",
           "peace", "doubt", "purpose", "gratitude", "grief", "worth"}
+# Grows to {"KJV", "BSB", "CPDV"} as Tasks 5 and 11 add those translations.
+TRANSLATIONS = {"KJV"}
 CONTEXT_MIN, CONTEXT_MAX = 60, 220
 
 # bible_books.json uses Arabic-numeral prefixes ("1 Samuel", "2 Kings") and a
@@ -101,20 +103,38 @@ def validate_feed(path):
         seen_ids.add(vid)
 
         key = (entry.get("book"), entry.get("chapter"), entry.get("verse"))
-        if key not in index:
-            errors.append(f"{vid}: no such verse in KJV source")
-        elif entry.get("text") != index[key]:
-            errors.append(f"{vid}: text does not match KJV source")
+        translations = entry.get("translations")
+        if not isinstance(translations, dict) or not translations:
+            errors.append(f"{vid}: translations is missing or empty")
+            translations = {}
 
-        display = entry.get("displayText")
-        if display is None:
-            errors.append(f"{vid}: displayText is missing")
-        elif not isinstance(display, str) or not display.strip():
-            errors.append(f"{vid}: displayText is empty")
-        elif display not in entry.get("text", ""):
-            # Substring, not suffix: most strips remove a leading superscription,
-            # but HAB.3.19 removes a trailing colophon.
-            errors.append(f"{vid}: displayText is not part of text")
+        for code in TRANSLATIONS:
+            t = translations.get(code)
+            if t is None:
+                errors.append(f"{vid}: missing translation {code}")
+                continue
+            if not isinstance(t, dict):
+                errors.append(f"{vid}: translation {code} is not an object")
+                continue
+            text = t.get("text")
+            display = t.get("displayText")
+            if code == "KJV":
+                if key not in index:
+                    errors.append(f"{vid}: no such verse in KJV source")
+                elif text != index[key]:
+                    errors.append(f"{vid}: KJV text does not match KJV source")
+            if display is None:
+                errors.append(f"{vid}: {code} displayText is missing")
+            elif not isinstance(display, str) or not display.strip():
+                errors.append(f"{vid}: {code} displayText is empty")
+            elif not isinstance(text, str) or display not in text:
+                # Substring, not suffix: most strips remove a leading superscription,
+                # but some verses remove a trailing colophon instead.
+                errors.append(f"{vid}: {code} displayText is not part of {code} text")
+
+        unknown_codes = set(translations) - TRANSLATIONS
+        if unknown_codes:
+            errors.append(f"{vid}: unknown translation code(s) {sorted(unknown_codes)}")
 
         if vid != f"{key[0]}.{key[1]}.{key[2]}":
             errors.append(f"{vid}: id does not match book/chapter/verse fields")
