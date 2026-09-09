@@ -7,7 +7,7 @@ public enum Topic: String, Codable, CaseIterable, Sendable, Hashable {
 
 /// A translation the feed can render a card in. Raw values are the exact
 /// keys used in `feed_verses.json`'s per-verse `translations` object.
-public enum Translation: String, Codable, CaseIterable, Sendable, Hashable {
+public enum Translation: String, Codable, CaseIterable, Sendable, Hashable, CodingKeyRepresentable {
     case kjv = "KJV"
     case bsb = "BSB"
     case cpdv = "CPDV"
@@ -32,7 +32,7 @@ public struct TranslationText: Codable, Hashable, Sendable {
     }
 }
 
-public struct Verse: Identifiable, Hashable, Sendable {
+public struct Verse: Codable, Identifiable, Hashable, Sendable {
     public let id: String
     public let reference: String
     public let book: String
@@ -55,72 +55,6 @@ public struct Verse: Identifiable, Hashable, Sendable {
         self.context = context
         self.topics = topics
         self.tier = tier
-    }
-}
-
-extension Verse: Codable {
-    enum CodingKeys: String, CodingKey {
-        case id, reference, book, chapter, verse, translations, context, topics, tier
-    }
-
-    public init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        id = try container.decode(String.self, forKey: .id)
-        reference = try container.decode(String.self, forKey: .reference)
-        book = try container.decode(String.self, forKey: .book)
-        chapter = try container.decode(Int.self, forKey: .chapter)
-        verse = try container.decode(Int.self, forKey: .verse)
-        context = try container.decode(String.self, forKey: .context)
-        topics = try container.decode([Topic].self, forKey: .topics)
-        tier = try container.decode(Int.self, forKey: .tier)
-
-        // Decode translations as a dictionary with Translation enum keys
-        let translationsContainer = try container.nestedContainer(keyedBy: TranslationKey.self, forKey: .translations)
-        var translations: [Translation: TranslationText] = [:]
-        for key in translationsContainer.allKeys {
-            guard let translation = Translation(rawValue: key.stringValue) else {
-                let context = DecodingError.Context(
-                    codingPath: decoder.codingPath + [TranslationKey(stringValue: key.stringValue)!],
-                    debugDescription: "Unknown translation key: \(key.stringValue)"
-                )
-                throw DecodingError.dataCorrupted(context)
-            }
-            let translationText = try translationsContainer.decode(TranslationText.self, forKey: key)
-            translations[translation] = translationText
-        }
-        self.translations = translations
-    }
-
-    public func encode(to encoder: Encoder) throws {
-        var container = encoder.container(keyedBy: CodingKeys.self)
-        try container.encode(id, forKey: .id)
-        try container.encode(reference, forKey: .reference)
-        try container.encode(book, forKey: .book)
-        try container.encode(chapter, forKey: .chapter)
-        try container.encode(verse, forKey: .verse)
-        try container.encode(context, forKey: .context)
-        try container.encode(topics, forKey: .topics)
-        try container.encode(tier, forKey: .tier)
-
-        // Encode translations dictionary with string keys
-        var translationsContainer = container.nestedContainer(keyedBy: TranslationKey.self, forKey: .translations)
-        for (translation, text) in translations {
-            let key = TranslationKey(stringValue: translation.rawValue)!
-            try translationsContainer.encode(text, forKey: key)
-        }
-    }
-
-    private struct TranslationKey: CodingKey {
-        var stringValue: String
-        var intValue: Int? { nil }
-
-        init?(stringValue: String) {
-            self.stringValue = stringValue
-        }
-
-        init?(intValue: Int) {
-            nil
-        }
     }
 }
 
