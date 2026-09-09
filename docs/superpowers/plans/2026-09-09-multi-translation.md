@@ -2044,6 +2044,37 @@ git add tools/build_feed.py tools/validate_feed.py BibleApp/BibleApp/Resources/f
 git commit -m "Add CPDV translation to the shipped feed"
 ```
 
+**Addendum (found during execution, not anticipated by this task as
+written):** Task 11's Step 4 rebuild surfaced a gap in the original
+investigation's book/chapter classification, from before this plan was
+written — this task's premise that `CPDV_SUPERSCRIPTIONS` would stay empty
+did not hold (11 Psalms ids fold their heading into verse 1 the same way
+KJV/BSB do), and, more seriously, `data/curation/cpdv_verse_map.json` had
+seven entries wrongly left in Task 10's "direct/unaffected" bucket when
+they actually sit in CPDV's systematically-shifted chapter range (11–113):
+`PSA.91.1`, `PSA.91.2`, `PSA.91.4`, `PSA.91.11` (chapter should be 90, not
+91 — the wrong location was a heading-only verse with no real content,
+which is how the build's own `SystemExit` first surfaced it), plus
+`PSA.133.1` (should be chapter 132, not 133 — a different psalm entirely)
+and `PSA.62.8` (should be chapter 61 verse 9, not chapter 62 verse 8) —
+both of which slipped past the build silently (their wrong locations
+happened to be ordinary prose, not heading-shaped, so `CPDV_HEADING_HINT`
+never caught them) and were only found by a task review that swept every
+selected Psalms id's map value against `resolve_psalm_verse`'s candidate
+and investigated every disagreement against real text. A comprehensive
+re-sweep after both fixes confirmed exactly two remaining disagreements
+between the map and the candidate function — `PSA.126.3` and `PSA.126.5`
+— both the legitimate, already-verified Task 9 chapter-126-split
+exception, not further bugs. This means Tasks 9–10's original "130
+affected / 470 direct" split, as executed, undercounted the affected set
+by these 7 ids; a future re-run of this same investigation on a different
+verse selection should not assume a per-chapter verse-count match is
+sufficient to classify a Psalms id as safe for direct mapping — the
+systematic chapter-number shift for chapters 11–113/117–146 applies
+regardless of whether that one chapter's own verse count happens to match
+KJV's, and the only exhaustive check is the sweep described above, not a
+heading-shape heuristic.
+
 ---
 
 ### Task 12: Full-suite and on-device verification of all three translations
