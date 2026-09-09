@@ -34,17 +34,27 @@ def resolve_psalm_verse(kjv_chapter, kjv_verse, kjv_verse_counts, cpdv_verse_cou
     if not 1 <= kjv_chapter <= 150:
         raise ValueError(f"chapter {kjv_chapter} is out of range for Psalms")
 
+    # Each branch below handles a genuine merge/split chapter (see
+    # _MERGE_SPLIT_CHAPTERS above); the assertion keeps the two from
+    # silently drifting apart if a future edit adds or removes a branch
+    # here without updating that set (or vice versa).
     if kjv_chapter == 9:
+        assert 9 in _MERGE_SPLIT_CHAPTERS
         return (9, kjv_verse + 1)
     if kjv_chapter == 10:
+        assert 10 in _MERGE_SPLIT_CHAPTERS
         return (9, kjv_verse + 21)
     if kjv_chapter == 114:
+        assert 114 in _MERGE_SPLIT_CHAPTERS
         return (113, kjv_verse)
     if kjv_chapter == 115:
+        assert 115 in _MERGE_SPLIT_CHAPTERS
         return (113, kjv_verse + 8)
     if kjv_chapter == 116:
+        assert 116 in _MERGE_SPLIT_CHAPTERS
         return (114, kjv_verse) if kjv_verse <= 9 else (115, kjv_verse - 9)
     if kjv_chapter == 147:
+        assert 147 in _MERGE_SPLIT_CHAPTERS
         return (146, kjv_verse) if kjv_verse <= 11 else (147, kjv_verse - 11)
 
     if 1 <= kjv_chapter <= 8 or 148 <= kjv_chapter <= 150:
