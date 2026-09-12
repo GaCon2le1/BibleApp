@@ -6,7 +6,7 @@ public enum Topic: String, Codable, CaseIterable, Sendable, Hashable {
 }
 
 /// A translation the feed can render a card in. Raw values are the exact
-/// keys used in `feed_verses.json`'s per-verse `translations` object.
+/// keys used in the shipped content files' per-verse `translations` object.
 public enum Translation: String, Codable, CaseIterable, Sendable, Hashable, CodingKeyRepresentable {
     case kjv = "KJV"
     case bsb = "BSB"
@@ -56,10 +56,13 @@ public struct Verse: Codable, Identifiable, Hashable, Sendable {
         self.topics = topics
         self.tier = tier
     }
-}
 
-public struct FeedContent: Codable, Sendable {
-    public let schemaVersion: Int
-    public let contentVersion: String
-    public let verses: [Verse]
+    /// Merges a ranking-time index entry with its on-demand-loaded content
+    /// into the combined shape views render.
+    public init(index: VerseIndexEntry, content: VerseContent) {
+        self.init(id: index.id, reference: index.reference, book: index.book,
+                   chapter: index.chapter, verse: index.verse,
+                   translations: content.translations, context: content.context,
+                   topics: index.topics, tier: index.tier)
+    }
 }
