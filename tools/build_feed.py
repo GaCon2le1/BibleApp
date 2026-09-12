@@ -3,8 +3,10 @@
 import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-OUT = ROOT / "BibleApp" / "BibleApp" / "Resources" / "feed_verses.json"
-CONTENT_VERSION = "2026-09-10.2"
+OUT_DIR = ROOT / "BibleApp" / "BibleApp" / "Resources"
+OUT_INDEX = OUT_DIR / "feed_index.json"
+SHARD_SIZE = 100
+CONTENT_VERSION = "2026-09-12.1"
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from bible_source import load_source_by_index, load_source_by_name
@@ -266,9 +268,33 @@ def main():
             "tier": entry["tier"],
         })
 
-    doc = {"schemaVersion": 2, "contentVersion": CONTENT_VERSION, "verses": verses}
-    OUT.write_text(json.dumps(doc, indent=1, ensure_ascii=False))
-    print(f"wrote {len(verses)} verses to {OUT.relative_to(ROOT)}")
+    for old_shard in OUT_DIR.glob("feed_shard_*.json"):
+        old_shard.unlink()
+
+    index_entries = []
+    for i, v in enumerate(verses):
+        shard = i // SHARD_SIZE
+        index_entries.append({
+            "id": v["id"], "reference": v["reference"], "book": v["book"],
+            "chapter": v["chapter"], "verse": v["verse"],
+            "topics": v["topics"], "tier": v["tier"], "shard": shard,
+        })
+
+    index_doc = {"schemaVersion": 3, "contentVersion": CONTENT_VERSION, "verses": index_entries}
+    OUT_INDEX.write_text(json.dumps(index_doc, indent=1, ensure_ascii=False))
+
+    shard_count = (len(verses) + SHARD_SIZE - 1) // SHARD_SIZE if verses else 0
+    for shard in range(shard_count):
+        chunk = verses[shard * SHARD_SIZE:(shard + 1) * SHARD_SIZE]
+        shard_verses = [{
+            "id": v["id"], "translations": v["translations"], "context": v["context"],
+        } for v in chunk]
+        shard_doc = {"schemaVersion": 3, "contentVersion": CONTENT_VERSION, "verses": shard_verses}
+        shard_path = OUT_DIR / f"feed_shard_{shard:04d}.json"
+        shard_path.write_text(json.dumps(shard_doc, indent=1, ensure_ascii=False))
+
+    print(f"wrote {len(index_entries)} verses to {OUT_INDEX.relative_to(ROOT)} "
+          f"across {shard_count} shard file(s)")
 
 
 if __name__ == "__main__":
