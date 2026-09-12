@@ -75,7 +75,9 @@ private actor LoadCounter {
     }
     async let first = store.content(for: ["a0"], shards: [0])
     async let second = store.content(for: ["a0"], shards: [0])
-    _ = await (first, second)
+    let (firstResult, secondResult) = await (first, second)
+    #expect(firstResult["a0"]?.id == "a0")
+    #expect(secondResult["a0"]?.id == "a0")
     let count = await counter.count(for: 0)
     #expect(count == 1)
 }

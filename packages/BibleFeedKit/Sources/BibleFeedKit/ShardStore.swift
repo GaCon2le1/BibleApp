@@ -46,8 +46,8 @@ public actor ShardStore {
             return
         }
         if let existing = inFlight[shard] {
-            _ = try await existing.value
-            touch(shard)
+            let decoded = try await existing.value
+            store(decoded, for: shard)
             return
         }
         let loader = loadShard
@@ -59,14 +59,18 @@ public actor ShardStore {
         inFlight[shard] = task
         do {
             let decoded = try await task.value
-            cache[shard] = decoded
             inFlight[shard] = nil
-            touch(shard)
-            evictIfNeeded()
+            store(decoded, for: shard)
         } catch {
             inFlight[shard] = nil
             throw error
         }
+    }
+
+    private func store(_ decoded: [String: VerseContent], for shard: Int) {
+        cache[shard] = decoded
+        touch(shard)
+        evictIfNeeded()
     }
 
     private func touch(_ shard: Int) {
