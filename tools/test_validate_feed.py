@@ -324,17 +324,81 @@ class ValidateFeedTests(unittest.TestCase):
                            for e in errs), f"error should mention JSON/parse issue: {errs}")
 
 
-class ShippedFeedTests(unittest.TestCase):
-    """validate_feed.py has no automated coverage of the file the app actually
-    ships. This is the permanent guard for that: run the real validator
-    against the real shipped feed_verses.json, so bad data fails the build
-    instead of only being caught by someone remembering to run the script by
-    hand."""
+class ValidateSplitFeedTests(unittest.TestCase):
+    def _write_split_feed(self, index_entries, shards):
+        """shards: dict of shard_number -> list of content entries.
+        Returns (index_path, shards_dir)."""
+        td = pathlib.Path(tempfile.mkdtemp())
+        index_doc = {"schemaVersion": 3, "contentVersion": "test", "verses": index_entries}
+        index_path = td / "feed_index.json"
+        index_path.write_text(json.dumps(index_doc))
+        shards_dir = td / "shards"
+        shards_dir.mkdir()
+        for shard_number, entries in shards.items():
+            shard_doc = {"schemaVersion": 3, "contentVersion": "test", "verses": entries}
+            (shards_dir / f"feed_shard_{shard_number:04d}.json").write_text(json.dumps(shard_doc))
+        return index_path, shards_dir
 
-    def test_shipped_feed_verses_has_no_errors(self):
-        shipped = ROOT / "BibleApp" / "BibleApp" / "Resources" / "feed_verses.json"
-        self.assertTrue(shipped.is_file(), f"missing shipped feed file: {shipped}")
-        self.assertEqual(validate_feed(shipped), [])
+    def _valid_index_entry(self):
+        return {"id": "JHN.3.16", "reference": "John 3:16", "book": "JHN",
+                "chapter": 3, "verse": 16, "topics": ["love", "hope"],
+                "tier": 1, "shard": 0}
+
+    def _valid_content_entry(self):
+        source = json.loads((FIX / "valid_feed.json").read_text())["verses"][0]
+        return {"id": source["id"], "translations": source["translations"],
+                "context": source["context"]}
+
+    def test_valid_split_feed_has_no_errors(self):
+        index_path, shards_dir = self._write_split_feed(
+            [self._valid_index_entry()], {0: [self._valid_content_entry()]})
+        self.assertEqual(vf.validate_split_feed(index_path, shards_dir), [])
+
+    def test_catches_id_in_index_missing_from_shard(self):
+        index_path, shards_dir = self._write_split_feed(
+            [self._valid_index_entry()], {0: []})
+        errs = vf.validate_split_feed(index_path, shards_dir)
+        self.assertTrue(any("missing from its shard file" in e for e in errs), errs)
+
+    def test_catches_id_in_shard_missing_from_index(self):
+        index_path, shards_dir = self._write_split_feed(
+            [], {0: [self._valid_content_entry()]})
+        errs = vf.validate_split_feed(index_path, shards_dir)
+        self.assertTrue(any("not in the index" in e for e in errs), errs)
+
+    def test_catches_wrong_shard_number_in_index(self):
+        entry = self._valid_index_entry()
+        entry["shard"] = 7  # actually placed in shard 0 below
+        index_path, shards_dir = self._write_split_feed(
+            [entry], {0: [self._valid_content_entry()]})
+        errs = vf.validate_split_feed(index_path, shards_dir)
+        self.assertTrue(
+            any("index says shard 7 but was found in shard 0" in e for e in errs), errs)
+
+    def test_delegates_to_content_validation(self):
+        # A wrong KJV translation text must surface the same error the
+        # single-file validator reports, proving validate_split_feed reuses
+        # the same per-entry checks after merging.
+        content = self._valid_content_entry()
+        content["translations"]["KJV"]["text"] = "Something never found in the KJV verse."
+        index_path, shards_dir = self._write_split_feed(
+            [self._valid_index_entry()], {0: [content]})
+        errs = vf.validate_split_feed(index_path, shards_dir)
+        self.assertTrue(any("text does not match KJV" in e for e in errs), errs)
+
+
+class ShippedFeedTests(unittest.TestCase):
+    """validate_feed.py has no automated coverage of the files the app
+    actually ships. This is the permanent guard for that: run the real
+    validator against the real shipped feed_index.json + feed_shard_*.json
+    files, so bad data fails the build instead of only being caught by
+    someone remembering to run the script by hand."""
+
+    def test_shipped_feed_has_no_errors(self):
+        resources = ROOT / "BibleApp" / "BibleApp" / "Resources"
+        shipped_index = resources / "feed_index.json"
+        self.assertTrue(shipped_index.is_file(), f"missing shipped feed index: {shipped_index}")
+        self.assertEqual(vf.validate_split_feed(shipped_index, resources), [])
 
 
 if __name__ == "__main__":

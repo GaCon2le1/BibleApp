@@ -19,17 +19,8 @@ def _kjv_index():
     return load_source_by_index(SOURCE)
 
 
-def validate_feed(path):
+def _validate_doc(doc):
     errors = []
-    try:
-        doc = json.loads(pathlib.Path(path).read_text())
-    except OSError as e:
-        errors.append(f"failed to read feed file {path}: {e}")
-        return errors
-    except json.JSONDecodeError as e:
-        errors.append(f"feed file {path} contains invalid JSON: {e}")
-        return errors
-
     if not isinstance(doc, dict):
         errors.append(
             "feed file must contain a JSON object with a top-level "
@@ -146,10 +137,91 @@ def validate_feed(path):
     return errors
 
 
+def validate_feed(path):
+    try:
+        doc = json.loads(pathlib.Path(path).read_text())
+    except OSError as e:
+        return [f"failed to read feed file {path}: {e}"]
+    except json.JSONDecodeError as e:
+        return [f"feed file {path} contains invalid JSON: {e}"]
+    return _validate_doc(doc)
+
+
+def merge_split_feed(index_path, shards_dir):
+    """Reassembles an index file + shard files into the combined shape
+    _validate_doc's per-entry checks expect, and returns (doc, errors) where
+    errors covers structural mismatches between the index and the shards (an
+    id missing from its shard, a shard id absent from the index, a duplicate
+    id across shards, or an index `shard` field pointing at the wrong file)
+    that a single-file feed could never exhibit. `doc` is None only when the
+    index file itself could not be read/parsed."""
+    errors = []
+    try:
+        index_doc = json.loads(pathlib.Path(index_path).read_text())
+    except OSError as e:
+        return None, [f"failed to read index file {index_path}: {e}"]
+    except json.JSONDecodeError as e:
+        return None, [f"index file {index_path} contains invalid JSON: {e}"]
+
+    index_entries = index_doc.get("verses", [])
+    content_by_id = {}
+    shard_of_id = {}
+    shards_dir = pathlib.Path(shards_dir)
+    for shard_path in sorted(shards_dir.glob("feed_shard_*.json")):
+        m = re.match(r"feed_shard_(\d+)\.json$", shard_path.name)
+        shard_number = int(m.group(1)) if m else None
+        try:
+            shard_doc = json.loads(shard_path.read_text())
+        except (OSError, json.JSONDecodeError) as e:
+            errors.append(f"failed to read shard file {shard_path}: {e}")
+            continue
+        for entry in shard_doc.get("verses", []):
+            vid = entry.get("id")
+            if vid in content_by_id:
+                errors.append(f"{vid}: duplicate id across shard files")
+            content_by_id[vid] = entry
+            shard_of_id[vid] = shard_number
+
+    index_ids = {e.get("id") for e in index_entries}
+    orphan_shard_ids = set(content_by_id) - index_ids
+    for vid in sorted(orphan_shard_ids):
+        errors.append(f"{vid}: present in a shard file but not in the index")
+
+    merged = []
+    for entry in index_entries:
+        vid = entry.get("id")
+        content = content_by_id.get(vid)
+        if content is None:
+            errors.append(f"{vid}: in the index but missing from its shard file")
+            continue
+        if entry.get("shard") != shard_of_id.get(vid):
+            errors.append(
+                f"{vid}: index says shard {entry.get('shard')} but was found in "
+                f"shard {shard_of_id.get(vid)}")
+        merged.append({**entry, "translations": content.get("translations"),
+                        "context": content.get("context")})
+
+    doc = {"schemaVersion": index_doc.get("schemaVersion"),
+           "contentVersion": index_doc.get("contentVersion"),
+           "verses": merged}
+    return doc, errors
+
+
+def validate_split_feed(index_path, shards_dir):
+    doc, merge_errors = merge_split_feed(index_path, shards_dir)
+    if doc is None:
+        return merge_errors
+    return merge_errors + _validate_doc(doc)
+
+
 def main():
-    if len(sys.argv) != 2:
-        raise SystemExit("usage: validate_feed.py <feed.json>")
-    errors = validate_feed(sys.argv[1])
+    if len(sys.argv) == 2:
+        errors = validate_feed(sys.argv[1])
+    elif len(sys.argv) == 3:
+        errors = validate_split_feed(sys.argv[1], sys.argv[2])
+    else:
+        raise SystemExit(
+            "usage: validate_feed.py <feed.json> | validate_feed.py <feed_index.json> <shards_dir>")
     for e in errors:
         print(e)
     print(f"{len(errors)} error(s)")
