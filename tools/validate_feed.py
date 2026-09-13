@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Validate a built feed_verses.json against the vendored translation sources."""
+"""Validate a built feed (either the combined feed_verses.json format or the
+split feed_index.json + feed_shard_*.json format) against the vendored
+translation sources."""
 import json, pathlib, re, sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -175,6 +177,14 @@ def merge_split_feed(index_path, shards_dir):
         except (OSError, json.JSONDecodeError) as e:
             errors.append(f"failed to read shard file {shard_path}: {e}")
             continue
+        if shard_doc.get("schemaVersion") != index_doc.get("schemaVersion"):
+            errors.append(
+                f"{shard_path.name}: schemaVersion {shard_doc.get('schemaVersion')} "
+                f"does not match index schemaVersion {index_doc.get('schemaVersion')}")
+        if shard_doc.get("contentVersion") != index_doc.get("contentVersion"):
+            errors.append(
+                f"{shard_path.name}: contentVersion {shard_doc.get('contentVersion')} "
+                f"does not match index contentVersion {index_doc.get('contentVersion')}")
         for entry in shard_doc.get("verses", []):
             vid = entry.get("id")
             if vid in content_by_id:

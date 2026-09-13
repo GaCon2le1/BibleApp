@@ -386,6 +386,32 @@ class ValidateSplitFeedTests(unittest.TestCase):
         errs = vf.validate_split_feed(index_path, shards_dir)
         self.assertTrue(any("duplicate id across shard files" in e for e in errs), errs)
 
+    def test_catches_shard_content_version_mismatch(self):
+        # A shard file built from a stale/different content version than the
+        # index -- same ids, but the shard's own contentVersion field
+        # disagrees with the index's. Must be caught even though every
+        # per-entry check would otherwise pass.
+        index_path, shards_dir = self._write_split_feed(
+            [self._valid_index_entry()], {0: [self._valid_content_entry()]})
+        shard_path = shards_dir / "feed_shard_0000.json"
+        shard_doc = json.loads(shard_path.read_text())
+        shard_doc["contentVersion"] = "stale-version"
+        shard_path.write_text(json.dumps(shard_doc))
+        errs = vf.validate_split_feed(index_path, shards_dir)
+        self.assertTrue(
+            any("contentVersion" in e and "stale-version" in e for e in errs), errs)
+
+    def test_catches_shard_schema_version_mismatch(self):
+        index_path, shards_dir = self._write_split_feed(
+            [self._valid_index_entry()], {0: [self._valid_content_entry()]})
+        shard_path = shards_dir / "feed_shard_0000.json"
+        shard_doc = json.loads(shard_path.read_text())
+        shard_doc["schemaVersion"] = 99
+        shard_path.write_text(json.dumps(shard_doc))
+        errs = vf.validate_split_feed(index_path, shards_dir)
+        self.assertTrue(
+            any("schemaVersion" in e and "99" in e for e in errs), errs)
+
     def test_delegates_to_content_validation(self):
         # A wrong KJV translation text must surface the same error the
         # single-file validator reports, proving validate_split_feed reuses

@@ -208,6 +208,45 @@ def cpdv_display_text_for(vid, text):
                              CPDV_HEADING_HINT, "CPDV_SUPERSCRIPTIONS/CPDV_TRAILING_MARKERS")
 
 
+def shard_verses(verses, shard_size, schema_version=3, content_version=CONTENT_VERSION):
+    """Split `verses` (each a dict with at least id/reference/book/chapter/
+    verse/topics/tier/translations/context) into an index doc's "verses"
+    entries and the shard file docs to write.
+
+    Returns (index_entries, shard_files) where index_entries is the list of
+    feed_index.json entries (each carrying a `shard` field computed as
+    `i // shard_size`) and shard_files is a list of (filename, shard_doc)
+    pairs in shard order, ready to be written verbatim under OUT_DIR.
+
+    Pulled out of main() so the sharding arithmetic itself -- shard
+    assignment, chunk boundaries, remainder handling, and file naming -- can
+    be unit tested against a small synthetic verse list without needing the
+    real content pipeline. main()'s behavior is unchanged: it just calls
+    this and writes the results.
+    """
+    index_entries = []
+    for i, v in enumerate(verses):
+        shard = i // shard_size
+        index_entries.append({
+            "id": v["id"], "reference": v["reference"], "book": v["book"],
+            "chapter": v["chapter"], "verse": v["verse"],
+            "topics": v["topics"], "tier": v["tier"], "shard": shard,
+        })
+
+    shard_count = (len(verses) + shard_size - 1) // shard_size if verses else 0
+    shard_files = []
+    for shard in range(shard_count):
+        chunk = verses[shard * shard_size:(shard + 1) * shard_size]
+        shard_content = [{
+            "id": v["id"], "translations": v["translations"], "context": v["context"],
+        } for v in chunk]
+        shard_doc = {"schemaVersion": schema_version, "contentVersion": content_version,
+                     "verses": shard_content}
+        shard_files.append((f"feed_shard_{shard:04d}.json", shard_doc))
+
+    return index_entries, shard_files
+
+
 def main():
     meta = json.loads((ROOT / "BibleApp/BibleApp/Resources/bible_books.json").read_text())
     selection = json.loads((ROOT / "data/curation/selection.json").read_text())["selected"]
@@ -271,30 +310,16 @@ def main():
     for old_shard in OUT_DIR.glob("feed_shard_*.json"):
         old_shard.unlink()
 
-    index_entries = []
-    for i, v in enumerate(verses):
-        shard = i // SHARD_SIZE
-        index_entries.append({
-            "id": v["id"], "reference": v["reference"], "book": v["book"],
-            "chapter": v["chapter"], "verse": v["verse"],
-            "topics": v["topics"], "tier": v["tier"], "shard": shard,
-        })
+    index_entries, shard_files = shard_verses(verses, SHARD_SIZE)
 
     index_doc = {"schemaVersion": 3, "contentVersion": CONTENT_VERSION, "verses": index_entries}
     OUT_INDEX.write_text(json.dumps(index_doc, indent=1, ensure_ascii=False))
 
-    shard_count = (len(verses) + SHARD_SIZE - 1) // SHARD_SIZE if verses else 0
-    for shard in range(shard_count):
-        chunk = verses[shard * SHARD_SIZE:(shard + 1) * SHARD_SIZE]
-        shard_verses = [{
-            "id": v["id"], "translations": v["translations"], "context": v["context"],
-        } for v in chunk]
-        shard_doc = {"schemaVersion": 3, "contentVersion": CONTENT_VERSION, "verses": shard_verses}
-        shard_path = OUT_DIR / f"feed_shard_{shard:04d}.json"
-        shard_path.write_text(json.dumps(shard_doc, indent=1, ensure_ascii=False))
+    for filename, shard_doc in shard_files:
+        (OUT_DIR / filename).write_text(json.dumps(shard_doc, indent=1, ensure_ascii=False))
 
     print(f"wrote {len(index_entries)} verses to {OUT_INDEX.relative_to(ROOT)} "
-          f"across {shard_count} shard file(s)")
+          f"across {len(shard_files)} shard file(s)")
 
 
 if __name__ == "__main__":

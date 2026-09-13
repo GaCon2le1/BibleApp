@@ -4,7 +4,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from build_feed import (kjv_display_text_for, KJV_SUPERSCRIPTIONS,
                          KJV_TRAILING_MARKERS, KJV_HEADING_HINT,
                          bsb_display_text_for, BSB_SUPERSCRIPTIONS, BSB_HEADING_HINT,
-                         cpdv_display_text_for, CPDV_SUPERSCRIPTIONS, CPDV_HEADING_HINT)
+                         cpdv_display_text_for, CPDV_SUPERSCRIPTIONS, CPDV_HEADING_HINT,
+                         shard_verses)
 from bible_source import load_source_by_index, load_source_by_name
 
 REPO = pathlib.Path(__file__).resolve().parents[1]
@@ -222,6 +223,76 @@ class HeadingHintInvariantTests(unittest.TestCase):
                     hint.match(text),
                     f"{name}_HEADING_HINT would not catch {vid} if it were "
                     f"missing from {name}_SUPERSCRIPTIONS (real text: {text[:80]!r})")
+
+
+def _fake_verse(i):
+    """A minimal synthetic verse dict carrying every field shard_verses
+    reads, so sharding arithmetic can be tested without the real content
+    pipeline."""
+    return {
+        "id": f"FAKE.1.{i}", "reference": f"Fake {i}", "book": "FAKE",
+        "chapter": 1, "verse": i, "topics": ["hope"], "tier": 1,
+        "translations": {"KJV": {"text": "t", "displayText": "t"}},
+        "context": "c",
+    }
+
+
+class ShardVersesTests(unittest.TestCase):
+    """Finding 4: build_feed.py's sharding logic (shard = i // SHARD_SIZE,
+    the feed_shard_{shard:04d}.json filename format, and chunk boundaries)
+    previously had no unit coverage. shard_verses() was pulled out of
+    main() specifically so these can be exercised directly."""
+
+    def test_empty_verses_produces_no_entries_or_shards(self):
+        index_entries, shard_files = shard_verses([], shard_size=100)
+        self.assertEqual(index_entries, [])
+        self.assertEqual(shard_files, [])
+
+    def test_exact_multiple_of_shard_size_produces_no_remainder_shard(self):
+        verses = [_fake_verse(i) for i in range(6)]
+        index_entries, shard_files = shard_verses(verses, shard_size=3)
+        self.assertEqual(len(shard_files), 2)
+        self.assertEqual([f[0] for f in shard_files],
+                          ["feed_shard_0000.json", "feed_shard_0001.json"])
+        self.assertEqual([e["shard"] for e in index_entries], [0, 0, 0, 1, 1, 1])
+        self.assertEqual(len(shard_files[0][1]["verses"]), 3)
+        self.assertEqual(len(shard_files[1][1]["verses"]), 3)
+
+    def test_remainder_shard_is_smaller_and_still_emitted(self):
+        verses = [_fake_verse(i) for i in range(7)]
+        index_entries, shard_files = shard_verses(verses, shard_size=3)
+        self.assertEqual(len(shard_files), 3)
+        self.assertEqual([f[0] for f in shard_files],
+                          ["feed_shard_0000.json", "feed_shard_0001.json",
+                           "feed_shard_0002.json"])
+        self.assertEqual([e["shard"] for e in index_entries],
+                          [0, 0, 0, 1, 1, 1, 2])
+        self.assertEqual(len(shard_files[2][1]["verses"]), 1)
+        self.assertEqual(shard_files[2][1]["verses"][0]["id"], "FAKE.1.6")
+
+    def test_shard_field_matches_floor_division_by_shard_size(self):
+        verses = [_fake_verse(i) for i in range(10)]
+        index_entries, _ = shard_verses(verses, shard_size=4)
+        for i, entry in enumerate(index_entries):
+            self.assertEqual(entry["shard"], i // 4)
+
+    def test_index_entries_omit_content_fields(self):
+        verses = [_fake_verse(0)]
+        index_entries, shard_files = shard_verses(verses, shard_size=100)
+        self.assertNotIn("translations", index_entries[0])
+        self.assertNotIn("context", index_entries[0])
+        content = shard_files[0][1]["verses"][0]
+        self.assertEqual(content["id"], "FAKE.1.0")
+        self.assertIn("translations", content)
+        self.assertIn("context", content)
+
+    def test_shard_docs_carry_given_schema_and_content_version(self):
+        verses = [_fake_verse(0)]
+        _, shard_files = shard_verses(
+            verses, shard_size=100, schema_version=3, content_version="v-test")
+        doc = shard_files[0][1]
+        self.assertEqual(doc["schemaVersion"], 3)
+        self.assertEqual(doc["contentVersion"], "v-test")
 
 
 if __name__ == "__main__":
