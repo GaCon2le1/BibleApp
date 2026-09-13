@@ -7,17 +7,18 @@ struct LibraryView: View {
 
     @Environment(\.dismiss) private var dismiss
     @State private var filter: Topic?
+    @State private var loadedContent: [String: VerseContent] = [:]
 
-    private var saved: [Verse] {
+    private var savedEntries: [VerseIndexEntry] {
         let savedSet = state.savedSet
-        return store.verses
+        return store.index
             .filter { savedSet.contains($0.id) }
             .filter { filter == nil || $0.topics.contains(filter!) }
     }
 
     private var availableTopics: [Topic] {
         let savedSet = state.savedSet
-        let topics = store.verses
+        let topics = store.index
             .filter { savedSet.contains($0.id) }
             .flatMap(\.topics)
         return Array(Set(topics)).sorted { $0.rawValue < $1.rawValue }
@@ -47,18 +48,26 @@ struct LibraryView: View {
                                 .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
                             }
                         }
-                        ForEach(saved) { verse in
+                        ForEach(savedEntries) { entry in
                             VStack(alignment: .leading, spacing: 6) {
-                                Text(verse.translations[state.preferredTranslation]?.displayText ?? verse.translations[.kjv]?.displayText ?? "")
-                                    .font(.system(.body, design: .serif))
-                                Text(verse.reference)
+                                if let content = loadedContent[entry.id] {
+                                    Text(content.translations[state.preferredTranslation]?.displayText
+                                         ?? content.translations[.kjv]?.displayText ?? "")
+                                        .font(.system(.body, design: .serif))
+                                } else {
+                                    RoundedRectangle(cornerRadius: 4)
+                                        .fill(Color(.secondarySystemBackground))
+                                        .frame(height: 18)
+                                        .redacted(reason: .placeholder)
+                                }
+                                Text(entry.reference)
                                     .font(.caption.weight(.semibold))
                                     .foregroundStyle(.secondary)
                             }
                             .padding(.vertical, 4)
                             .swipeActions {
                                 Button("Remove", role: .destructive) {
-                                    state.toggleSaved(verse.id)
+                                    state.toggleSaved(entry.id)
                                 }
                             }
                         }
@@ -94,6 +103,14 @@ struct LibraryView: View {
                         dismiss()
                     }
                     .font(.subheadline)
+                }
+            }
+            .task(id: savedEntries.map(\.id)) {
+                let ids = savedEntries.map(\.id).filter { loadedContent[$0] == nil }
+                guard !ids.isEmpty else { return }
+                let content = await store.content(for: ids)
+                for (id, value) in content {
+                    loadedContent[id] = value
                 }
             }
         }
