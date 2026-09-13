@@ -92,3 +92,13 @@ private actor LoadCounter {
     #expect(result["v1"] == nil)
     #expect(result["v2"] != nil)
 }
+
+@Test func requestSpanningMoreShardsThanCapacityReturnsAllIds() async {
+    let store = ShardStore(capacity: 5) { shard in shardData(shard, ids: ["v\(shard)"]) }
+    let ids = (0..<10).map { "v\($0)" }
+    let shards = Set(0..<10)
+    let result = await store.content(for: ids, shards: shards)
+    for id in ids {
+        #expect(result[id]?.id == id, "missing or wrong content for \(id)")
+    }
+}

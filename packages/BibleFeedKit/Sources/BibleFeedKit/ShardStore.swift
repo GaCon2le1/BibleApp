@@ -21,17 +21,19 @@ public actor ShardStore {
     /// the merged id -> content map restricted to `ids`. A shard whose
     /// loader throws is skipped rather than failing the whole request, so
     /// one corrupt file only costs the verses inside it.
+    ///
+    /// Each shard's matching content is collected immediately after it
+    /// loads, before moving to the next shard, so that a later shard's
+    /// load evicting an earlier shard from the LRU cache can't erase data
+    /// already gathered for this result.
     public func content(for ids: [String], shards shardIndices: Set<Int>) async -> [String: VerseContent] {
+        let wanted = Set(ids)
+        var result: [String: VerseContent] = [:]
         for shard in shardIndices {
             try? await ensureLoaded(shard)
-        }
-        var result: [String: VerseContent] = [:]
-        for id in ids {
-            for shard in shardIndices {
-                if let content = cache[shard]?[id] {
-                    result[id] = content
-                    break
-                }
+            guard let decoded = cache[shard] else { continue }
+            for (id, content) in decoded where wanted.contains(id) {
+                result[id] = content
             }
         }
         return result
