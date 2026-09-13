@@ -32,37 +32,3 @@ public struct TranslationText: Codable, Hashable, Sendable {
     }
 }
 
-public struct Verse: Codable, Identifiable, Hashable, Sendable {
-    public let id: String
-    public let reference: String
-    public let book: String
-    public let chapter: Int
-    public let verse: Int
-    public let translations: [Translation: TranslationText]
-    public let context: String
-    public let topics: [Topic]
-    public let tier: Int
-
-    public init(id: String, reference: String, book: String, chapter: Int,
-                verse: Int, translations: [Translation: TranslationText],
-                context: String, topics: [Topic], tier: Int) {
-        self.id = id
-        self.reference = reference
-        self.book = book
-        self.chapter = chapter
-        self.verse = verse
-        self.translations = translations
-        self.context = context
-        self.topics = topics
-        self.tier = tier
-    }
-
-    /// Merges a ranking-time index entry with its on-demand-loaded content
-    /// into the combined shape views render.
-    public init(index: VerseIndexEntry, content: VerseContent) {
-        self.init(id: index.id, reference: index.reference, book: index.book,
-                   chapter: index.chapter, verse: index.verse,
-                   translations: content.translations, context: content.context,
-                   topics: index.topics, tier: index.tier)
-    }
-}
