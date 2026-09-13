@@ -83,7 +83,19 @@ struct FeedView: View {
             for (id, value) in content {
                 loadedContent[id] = value
             }
+            pruneLoadedContent(around: position)
         }
+    }
+
+    /// Keeps `loadedContent` scoped to the current viewing window (the
+    /// position plus a few cards ahead/behind) so memory use stays bounded
+    /// to the visible/prefetched window rather than growing with how far
+    /// the user has scrolled through the whole feed.
+    private func pruneLoadedContent(around position: Int) {
+        let start = max(0, position - 2)
+        let end = min(queue.count, position + 4)
+        let keep = Set(queue[start..<end].map(\.id))
+        loadedContent = loadedContent.filter { keep.contains($0.key) }
     }
 
     /// A card counts as seen only after two seconds on screen, so a flick
