@@ -16,6 +16,14 @@ struct LibraryView: View {
             .filter { filter == nil || $0.topics.contains(filter!) }
     }
 
+    /// All saved verse ids, regardless of the currently-selected topic filter.
+    /// Used to key content loading so switching `filter` never re-triggers a
+    /// fetch for verses that are already cached.
+    private var allSavedIDs: [String] {
+        let savedSet = state.savedSet
+        return store.index.filter { savedSet.contains($0.id) }.map(\.id)
+    }
+
     private var availableTopics: [Topic] {
         let savedSet = state.savedSet
         let topics = store.index
@@ -105,8 +113,8 @@ struct LibraryView: View {
                     .font(.subheadline)
                 }
             }
-            .task(id: savedEntries.map(\.id)) {
-                let ids = savedEntries.map(\.id).filter { loadedContent[$0] == nil }
+            .task(id: allSavedIDs) {
+                let ids = allSavedIDs.filter { loadedContent[$0] == nil }
                 guard !ids.isEmpty else { return }
                 let content = await store.content(for: ids)
                 for (id, value) in content {
