@@ -375,6 +375,17 @@ class ValidateSplitFeedTests(unittest.TestCase):
         self.assertTrue(
             any("index says shard 7 but was found in shard 0" in e for e in errs), errs)
 
+    def test_catches_duplicate_id_across_shard_files(self):
+        # The same verse id appears in the content of two different shard
+        # files. merge_split_feed builds content_by_id/shard_of_id across
+        # all shards, so this must be caught while merging, before the
+        # per-entry checks ever run.
+        index_path, shards_dir = self._write_split_feed(
+            [self._valid_index_entry()],
+            {0: [self._valid_content_entry()], 1: [self._valid_content_entry()]})
+        errs = vf.validate_split_feed(index_path, shards_dir)
+        self.assertTrue(any("duplicate id across shard files" in e for e in errs), errs)
+
     def test_delegates_to_content_validation(self):
         # A wrong KJV translation text must surface the same error the
         # single-file validator reports, proving validate_split_feed reuses
