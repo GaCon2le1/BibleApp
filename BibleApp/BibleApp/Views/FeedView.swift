@@ -9,7 +9,6 @@ struct FeedView: View {
     @State private var loadedContent: [String: VerseContent] = [:]
     @State private var isReplay = false
     @State private var seenTasks: [String: Task<Void, Never>] = [:]
-    @State private var showLibrary = false
 
     var body: some View {
         ScrollView(.vertical) {
@@ -43,19 +42,9 @@ struct FeedView: View {
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(state.streak > 0 ? .orange : .secondary)
                 Spacer()
-                Button {
-                    showLibrary = true
-                } label: {
-                    Image(systemName: "bookmark")
-                        .font(.subheadline.weight(.semibold))
-                }
-                .accessibilityLabel("Saved verses")
             }
             .padding(.horizontal, 24)
             .safeAreaPadding(.top, 8)
-        }
-        .sheet(isPresented: $showLibrary) {
-            LibraryView(store: store, state: state)
         }
         .onAppear(perform: rebuild)
     }
