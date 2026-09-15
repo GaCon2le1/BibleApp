@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "test",
+  "entries": [
+    { "id": "JHN.3.16", "durationMs": 8000 },
+    { "id": "JHN.3.16", "durationMs": 9000 },
+    { "id": "NOPE.1.1", "durationMs": 500000 }
+  ]
+}
