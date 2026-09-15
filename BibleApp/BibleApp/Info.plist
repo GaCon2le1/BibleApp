@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- TODO: replace with the app's real AdMob App ID before release. -->
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<key>GADIsAdManagerApp</key>
+	<false/>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This identifier lets us show you ads that are more relevant to you.</string>
+	<!--
+	  TODO: before release, replace this with the full current list from
+	  https://developers.google.com/admob/ios/choose-networks - only Google's
+	  own network id is included here so the base ad integration builds; the
+	  full list improves fill rate for other networks but isn't required for
+	  AdMob's own demand to serve.
+	-->
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+	</array>
+</dict>
+</plist>

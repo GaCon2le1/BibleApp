@@ -5,7 +5,6 @@ struct LibraryView: View {
     let store: ContentStore
     let state: UserState
 
-    @Environment(\.dismiss) private var dismiss
     @State private var filter: Topic?
     @State private var loadedContent: [String: VerseContent] = [:]
 
@@ -84,9 +83,6 @@ struct LibraryView: View {
             }
             .navigationTitle("Saved")
             .toolbar {
-                ToolbarItem(placement: .confirmationAction) {
-                    Button("Done") { dismiss() }
-                }
                 ToolbarItem(placement: .topBarLeading) {
                     Menu {
                         ForEach(Translation.allCases, id: \.self) { translation in
@@ -108,7 +104,6 @@ struct LibraryView: View {
                 ToolbarItem(placement: .topBarLeading) {
                     Button("Edit topics") {
                         state.reopenTopicPicker()
-                        dismiss()
                     }
                     .font(.subheadline)
                 }

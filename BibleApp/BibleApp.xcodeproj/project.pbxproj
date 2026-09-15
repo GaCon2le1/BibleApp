@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A130C3E3304F1AB000DBEEFA /* BibleFeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = A130C3E2304F1AB000DBEEFA /* BibleFeedKit */; };
+		A130C3F2304F1AB000DBEEF3 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = A130C3F1304F1AB000DBEEF2 /* GoogleMobileAds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A130C3E3304F1AB000DBEEFA /* BibleFeedKit in Frameworks */,
+				A130C3F2304F1AB000DBEEF3 /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			name = BibleApp;
 			packageProductDependencies = (
 				A130C3E2304F1AB000DBEEFA /* BibleFeedKit */,
+				A130C3F1304F1AB000DBEEF2 /* GoogleMobileAds */,
 			);
 			productName = BibleApp;
 			productReference = A130C3CC304E714300DBEEFA /* BibleApp.app */;
@@ -102,6 +105,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				A130C3E1304F1AB000DBEEFA /* XCLocalSwiftPackageReference "../packages/BibleFeedKit" */,
+				A130C3F0304F1AB000DBEEF1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A130C3CD304E714300DBEEFA /* Products */;
@@ -263,6 +267,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BibleApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -308,6 +313,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BibleApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -370,10 +376,26 @@
 		};
 /* End XCLocalSwiftPackageReference section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		A130C3F0304F1AB000DBEEF1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		A130C3E2304F1AB000DBEEFA /* BibleFeedKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = BibleFeedKit;
+		};
+		A130C3F1304F1AB000DBEEF2 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A130C3F0304F1AB000DBEEF1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
