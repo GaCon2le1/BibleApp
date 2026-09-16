@@ -39,6 +39,16 @@ SwiftUI/SwiftData, AVFoundation, MediaPlayer, ActivityKit/WidgetKit.
 - `SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY` is enabled — any Swift
   file directly accessing a `BibleFeedKit` member needs its own
   `import BibleFeedKit`.
+- `BibleApp.xcodeproj` uses Xcode's `PBXFileSystemSynchronizedRootGroup` for
+  the `BibleApp` target (its whole `BibleApp/BibleApp/` folder is one
+  synchronized root). Practically: any new `.swift` file created on disk
+  anywhere under `BibleApp/BibleApp/` (e.g. `Audio/`, `LiveActivity/`) is
+  automatically part of the `BibleApp` target the next time the project is
+  opened — no manual "add to target" step, and Phase 4/Task 6/7/9/11's files
+  need none. This does **not** extend to `BibleAppWidgets/` until Task 4
+  creates that target (Xcode establishes its own synchronized root then) —
+  and `VerseLyricsAttributes.swift` (Task 8) still needs its one manual dual
+  target-membership checkbox, since it must belong to both roots at once.
 - Python is 3.9.6 at `/usr/bin/python3` on the Mac doing the build (also
   available as plain `python3` in a Linux sandbox for Phase 2's own tests,
   since that phase has no macOS dependency). No pytest, no third-party

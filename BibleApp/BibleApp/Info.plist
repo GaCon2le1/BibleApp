@@ -9,6 +9,9 @@
 	<false/>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier lets us show you ads that are more relevant to you.</string>
+	<!-- Required for VerseLiveActivity (Lock Screen + Dynamic Island lyrics). -->
+	<key>NSSupportsLiveActivities</key>
+	<true/>
 	<!--
 	  TODO: before release, replace this with the full current list from
 	  https://developers.google.com/admob/ios/choose-networks - only Google's
