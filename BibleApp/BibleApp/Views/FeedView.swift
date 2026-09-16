@@ -10,6 +10,11 @@ struct FeedView: View {
     @State private var isReplay = false
     @State private var seenTasks: [String: Task<Void, Never>] = [:]
 
+    @State private var audioEngine: AudioPlaybackEngine?
+    @State private var activityController = VerseActivityController()
+    @State private var isListening = false
+    @State private var scrolledID: String?
+
     var body: some View {
         ScrollView(.vertical) {
             LazyVStack(spacing: 0) {
@@ -22,7 +27,10 @@ struct FeedView: View {
                               content: loadedContent[entry.id],
                               translation: state.preferredTranslation,
                               isSaved: state.savedSet.contains(entry.id),
-                              onSave: { state.toggleSaved(entry.id) })
+                              onSave: { state.toggleSaved(entry.id) },
+                              hasAudio: store.hasAudio(for: entry.id),
+                              isNarrating: audioEngine?.currentVerseID == entry.id,
+                              onListen: { listen(from: position) })
                         .containerRelativeFrame(.vertical)
                         .onAppear {
                             startSeenTimer(entry)
@@ -34,6 +42,7 @@ struct FeedView: View {
             .scrollTargetLayout()
         }
         .scrollTargetBehavior(.paging)
+        .scrollPosition(id: $scrolledID)
         .scrollIndicators(.hidden)
         .ignoresSafeArea()
         .overlay(alignment: .top) {
@@ -46,7 +55,10 @@ struct FeedView: View {
             .padding(.horizontal, 24)
             .safeAreaPadding(.top, 8)
         }
-        .onAppear(perform: rebuild)
+        .onAppear {
+            rebuild()
+            setUpAudioEngine()
+        }
     }
 
     private func rebuild() {
@@ -58,6 +70,37 @@ struct FeedView: View {
         queue = result.verses
         isReplay = result.isReplay
         loadContent(around: 0)
+    }
+
+    /// Starts Listen mode at `position` in the current queue, or does
+    /// nothing if it's already narrating there (tapping the same card's
+    /// button again while it's the one playing is a no-op, not a restart).
+    private func listen(from position: Int) {
+        guard queue.indices.contains(position) else { return }
+        audioEngine?.start(queue: queue, at: position)
+    }
+
+    private func setUpAudioEngine() {
+        guard audioEngine == nil else { return }
+        let engine = AudioPlaybackEngine(contentStore: store)
+        engine.onVerseChanged = { entry in
+            Task {
+                let content = await store.content(for: [entry.id])
+                guard let verseContent = content[entry.id], let engine = audioEngine else { return }
+                if isListening {
+                    activityController.update(entry: entry, content: verseContent, engine: engine)
+                } else {
+                    activityController.start(entry: entry, content: verseContent, engine: engine)
+                    isListening = true
+                }
+                withAnimation { scrolledID = entry.id }
+            }
+        }
+        engine.onStopped = {
+            activityController.end()
+            isListening = false
+        }
+        audioEngine = engine
     }
 
     /// Fetches content for the card at `position` plus the next one, since

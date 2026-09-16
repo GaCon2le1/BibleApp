@@ -7,6 +7,9 @@ struct VerseCard: View {
     let translation: Translation
     let isSaved: Bool
     let onSave: () -> Void
+    let hasAudio: Bool
+    let isNarrating: Bool
+    let onListen: () -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
@@ -58,6 +61,13 @@ struct VerseCard: View {
                         .clipShape(Capsule())
                 }
                 Spacer()
+                if hasAudio {
+                    Button(action: onListen) {
+                        Image(systemName: isNarrating ? "waveform" : "play.circle")
+                            .font(.title3)
+                    }
+                    .accessibilityLabel(isNarrating ? "Now narrating" : "Listen (KJV)")
+                }
                 Button(action: onSave) {
                     Image(systemName: isSaved ? "bookmark.fill" : "bookmark")
                         .font(.title3)
