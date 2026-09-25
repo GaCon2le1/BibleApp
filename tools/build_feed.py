@@ -6,7 +6,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "BibleApp" / "BibleApp" / "Resources"
 OUT_INDEX = OUT_DIR / "feed_index.json"
 SHARD_SIZE = 100
-CONTENT_VERSION = "2026-09-12.1"
+CONTENT_VERSION = "2026-09-25.1"
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from bible_source import load_source_by_index, load_source_by_name
@@ -16,6 +16,8 @@ from bible_source import load_source_by_index, load_source_by_name
 # by verse id. Listed explicitly rather than matched by pattern, so the builder
 # can never over-strip. Verified against data/source/KJV.json.
 KJV_SUPERSCRIPTIONS = {
+    "PSA.9.1": "To the chief Musician upon Muth–labben, A Psalm of David. ",
+    "PSA.13.1": "To the chief Musician, A Psalm of David. ",
     "PSA.19.1": "To the chief Musician, A Psalm of David. ",
     "PSA.22.1": "To the chief Musician upon Aijeleth Shahar, A Psalm of David. ",
     "PSA.23.1": "A Psalm of David. ",
@@ -23,28 +25,40 @@ KJV_SUPERSCRIPTIONS = {
     "PSA.25.1": "A Psalm of David. ",
     "PSA.27.1": "A Psalm of David. ",
     "PSA.32.1": "A Psalm of David, Maschil. ",
+    "PSA.34.1": "A Psalm of David, when he changed his behaviour before Abimelech; who drove him away, and he departed. ",
     "PSA.40.1": "To the chief Musician, A Psalm of David. ",
     "PSA.41.1": "To the chief Musician, A Psalm of David. ",
     "PSA.42.1": "To the chief Musician, Maschil, for the sons of Korah. ",
     "PSA.46.1": "To the chief Musician for the sons of Korah, A Song upon Alamoth. ",
+    "PSA.51.1": "To the chief Musician, A Psalm of David, when Nathan the prophet came unto him, after he had gone in to Bath–sheba. ",
     "PSA.57.1": "To the chief Musician, Al–taschith, Michtam of David, when he fled from Saul in the cave. ",
     "PSA.62.1": "To the chief Musician, to Jeduthun, A Psalm of David. ",
     "PSA.63.1": "A Psalm of David, when he was in the wilderness of Judah. ",
     "PSA.89.1": "Maschil of Ethan the Ezrahite. ",
     "PSA.90.1": "A Prayer of Moses the man of God. ",
+    "PSA.103.1": "A Psalm of David. ",
+    "PSA.119.25": "ד DALETH. ",
+    "PSA.119.73": "י JOD. ",
+    "PSA.119.81": "כ CAPH. ",
+    "PSA.119.89": "ל LAMED. ",
     "PSA.119.105": "נ NUN. ",
     "PSA.121.1": "A Song of degrees. ",
     "PSA.122.1": "A Song of degrees of David. ",
     "PSA.127.1": "A Song of degrees for Solomon. ",
     "PSA.130.1": "A Song of degrees. ",
     "PSA.133.1": "A Song of degrees of David. ",
+    "PSA.139.1": "To the chief Musician, A Psalm of David. ",
 }
 
 # Some verses carry a trailing musical or liturgical marker rather than a
 # leading heading. Same explicit-table treatment, keyed by verse id.
 KJV_TRAILING_MARKERS = {
     "HAB.3.19": " To the chief singer on my stringed instruments.",
+    "PSA.32.5": " Selah.",
     "PSA.32.7": " Selah.",
+    "PSA.46.7": " Selah.",
+    "PSA.49.15": " Selah.",
+    "PSA.61.4": " Selah.",
     "PSA.62.8": " Selah.",
     "PSA.68.19": " Selah.",
     "PSA.77.9": " Selah.",
@@ -60,6 +74,8 @@ KJV_HEADING_HINT = re.compile(
 
 
 BSB_SUPERSCRIPTIONS = {
+    "PSA.9.1": "For the choirmaster. To the tune of “The Death of the Son.” A Psalm of David. ",
+    "PSA.13.1": "For the choirmaster. A Psalm of David. ",
     "PSA.19.1": "For the choirmaster. A Psalm of David. ",
     "PSA.22.1": "For the choirmaster. To the tune of “The Doe of the Dawn.” A Psalm of David. ",
     "PSA.23.1": "A Psalm of David. ",
@@ -67,32 +83,40 @@ BSB_SUPERSCRIPTIONS = {
     "PSA.25.1": "Of David. ",
     "PSA.27.1": "Of David. ",
     "PSA.32.1": "Of David. A Maskil. ",
+    "PSA.34.1": "Of David, when he pretended to be insane before Abimelech, so that the king drove him away. ",
     "PSA.40.1": "For the choirmaster. A Psalm of David. ",
     "PSA.41.1": "For the choirmaster. A Psalm of David. ",
     "PSA.42.1": "For the choirmaster. A Maskil of the sons of Korah. ",
     "PSA.46.1": "For the choirmaster. Of the sons of Korah. According to Alamoth. A song. ",
+    "PSA.51.1": "For the choirmaster. A Psalm of David. When Nathan the prophet came to him after his adultery with Bathsheba. ",
     "PSA.57.1": "For the choirmaster. To the tune of “Do Not Destroy.” A Miktam of David, when he fled from Saul into the cave. ",
     "PSA.62.1": "For the choirmaster. According to Jeduthun. A Psalm of David. ",
     "PSA.63.1": "A Psalm of David, when he was in the Wilderness of Judah. ",
     "PSA.89.1": "A Maskil of Ethan the Ezrahite. ",
     "PSA.90.1": "A prayer of Moses the man of God. ",
+    "PSA.103.1": "Of David. ",
     "PSA.121.1": "A song of ascents. ",
     "PSA.122.1": "A song of ascents. Of David. ",
     "PSA.127.1": "A song of ascents. Of Solomon. ",
     "PSA.130.1": "A song of ascents. ",
     "PSA.133.1": "A song of ascents. Of David. ",
+    "PSA.139.1": "For the choirmaster. A Psalm of David. ",
 }
 
 BSB_TRAILING_MARKERS = {
     "HAB.3.19": " For the choirmaster. With stringed instruments.",
+    "PSA.32.5": " Selah",
     "PSA.32.7": " Selah",
+    "PSA.46.7": " Selah",
+    "PSA.49.15": " Selah",
+    "PSA.61.4": " Selah",
     "PSA.62.8": " Selah",
     "PSA.68.19": " Selah",
     "PSA.77.9": " Selah",
     "2PE.3.18": " To Him be the glory both now and to the day of eternity. Amen.",
 }
 
-def _heading_hint(keywords, max_leading_sentences=3):
+def _heading_hint(keywords, max_leading_sentences=3, leading=()):
     """Build a heading-hint regex for one translation: matches (as a
     zero-width lookahead, so `.match()` keeps behaving as a simple truthy
     check for callers) if any of `keywords` appears, case-insensitively,
@@ -106,24 +130,44 @@ def _heading_hint(keywords, max_leading_sentences=3):
     "understanding"/"alleluia" over-matched ordinary prose elsewhere in the
     first 1-3 sentences of unrelated verses, which is why those are
     multi-word phrases below rather than single generic words), so scanning
-    stays capped rather than unconditionally always spanning 3 sentences."""
+    stays capped rather than unconditionally always spanning 3 sentences.
+
+    `leading` holds case-sensitive regex fragments that only count when they
+    open the text. They cover headings whose only telltale is how they start
+    ("Of David, when...", "To David himself.", a bare Hebrew letter name)
+    and whose wording would over-match ordinary prose if allowed anywhere
+    in the first sentence (e.g. "the throne of David,")."""
     kw = "|".join(re.escape(k) for k in keywords)
     segment = r"[^.]{0,160}?"
     skips = max(0, max_leading_sentences - 1)
-    return re.compile(
-        rf"^(?=(?:{segment}\.\s+){{0,{skips}}}{segment}(?:{kw}))",
-        re.IGNORECASE)
+    anywhere = rf"(?:{segment}\.\s+){{0,{skips}}}{segment}(?:{kw})"
+    if leading:
+        anywhere += "|(?-i:" + "|".join(leading) + ")"
+    return re.compile(rf"^(?={anywhere})", re.IGNORECASE)
 
+
+# Hebrew letter names that CPDV prints as a leading "NAME. " marker on each
+# verse of an acrostic (Lamentations 1-4).
+_HEBREW_LETTER_MARKER = (
+    r"(?:ALEPH|BETH|GIMEL|DALETH|HE|VAU|ZAIN|HETH|TETH|JOD|CAPH|LAMED|MEM|"
+    r"NUN|SAMECH|AIN|PHE|SADE|COPH|RES|SIN|TAU)\.\s")
 
 BSB_HEADING_HINT = _heading_hint(
     ["psalm", "maskil", "choirmaster", "song of ascents", "prayer of", "of david."],
-    max_leading_sentences=1)
+    max_leading_sentences=1, leading=[r"Of David,"])
+
+# Ids whose text trips a translation's heading hint but has been read and
+# confirmed to be ordinary verse content (e.g. "prayer offered" containing
+# "prayer of", or "sing psalms" in an epistle). Listed explicitly, per
+# translation, so a real unlisted heading still fails the build.
+BSB_HEADING_HINT_CONFIRMED_CONTENT = {"PSA.102.17", "COL.3.16", "JAS.5.15"}
 
 # CPDV keeps a Psalm's heading as its own separate verse for most psalms,
 # but not all -- for these ids the heading is folded into the same verse as
 # the content (same as KJV/BSB), so it must be stripped for display just
 # like the KJV/BSB tables above. Verified against data/source/CPDV.json.
 CPDV_SUPERSCRIPTIONS = {
+    "PSA.13.1": "Unto the end. A Psalm of David. ",
     "PSA.23.1": "A Psalm of David. ",
     "PSA.24.1": "For the First Sabbath. A Psalm of David. ",
     "PSA.25.1": "Unto the end. A Psalm of David. ",
@@ -131,12 +175,29 @@ CPDV_SUPERSCRIPTIONS = {
     "PSA.32.1": "The understanding of David himself. ",
     "PSA.90.1": "A prayer of Moses, the man of God. ",
     "PSA.91.1": "The Praise of a Canticle, of David. ",
+    "PSA.96.1": "A Canticle of David himself, when the house was built after the captivity. ",
+    "PSA.103.1": "To David himself. ",
     "PSA.107.1": "Alleluia. ",
+    "PSA.116.1": "Alleluia. ",
     "PSA.121.1": "A Canticle in steps. ",
     "PSA.122.1": "A Canticle in steps. ",
     "PSA.127.1": "A Canticle in steps: of Solomon. ",
     "PSA.130.1": "A Canticle in steps. ",
     "PSA.133.1": "A Canticle in steps: of David. ",
+    "PSA.139.1": "Unto the end. A Psalm of David. ",
+    # Lamentations 1-4 are acrostics; CPDV keeps each verse's Hebrew letter
+    # name as a leading marker.
+    "LAM.3.22": "HETH. ",
+    "LAM.3.23": "HETH. ",
+    "LAM.3.24": "HETH. ",
+    "LAM.3.26": "TETH. ",
+    "LAM.3.31": "CAPH. ",
+    "LAM.3.32": "CAPH. ",
+    "LAM.3.33": "CAPH. ",
+    "LAM.3.40": "NUN. ",
+    "LAM.3.55": "COPH. ",
+    "LAM.3.57": "COPH. ",
+    "LAM.3.58": "RES. ",
 }
 
 CPDV_TRAILING_MARKERS = {
@@ -147,10 +208,14 @@ CPDV_HEADING_HINT = _heading_hint(
     ["unto the end", "alleluia", "a psalm of", "canticle in steps",
      "of a canticle", "prayer of", "inscription", "the first sabbath",
      "understanding of", "of david."],
-    max_leading_sentences=1)
+    max_leading_sentences=1,
+    leading=[r"To David himself\.", r"A Canticle of David", _HEBREW_LETTER_MARKER])
+
+CPDV_HEADING_HINT_CONFIRMED_CONTENT = {"PSA.89.46", "PSA.102.17", "JAS.5.15"}
 
 
-def display_text_for(vid, text, superscriptions, trailing_markers, heading_hint, table_name):
+def display_text_for(vid, text, superscriptions, trailing_markers, heading_hint, table_name,
+                     confirmed_content=frozenset()):
     """Return the card-facing text: `text` minus any known superscription
     and/or trailing marker for one translation's marker tables. A leading
     superscription strip and a trailing-marker strip on the remaining text
@@ -159,7 +224,8 @@ def display_text_for(vid, text, superscriptions, trailing_markers, heading_hint,
     *_TRAILING_MARKERS table for any translation), but structurally
     supported rather than short-circuited after the prefix strip alone.
     The heading-hint/Selah safety-net checks only apply when NEITHER a
-    prefix nor a suffix table entry existed for this id."""
+    prefix nor a suffix table entry existed for this id, and the heading
+    hint is skipped for ids listed in `confirmed_content`."""
     remaining = text
     had_prefix = False
     prefix = superscriptions.get(vid)
@@ -184,7 +250,7 @@ def display_text_for(vid, text, superscriptions, trailing_markers, heading_hint,
     if had_prefix or had_suffix:
         return remaining
 
-    if heading_hint.match(remaining):
+    if vid not in confirmed_content and heading_hint.match(remaining):
         raise SystemExit(
             f"{vid}: text looks like it carries a heading but is not in "
             f"{table_name} — add it explicitly or confirm it is verse content")
@@ -200,12 +266,14 @@ def kjv_display_text_for(vid, text):
 
 def bsb_display_text_for(vid, text):
     return display_text_for(vid, text, BSB_SUPERSCRIPTIONS, BSB_TRAILING_MARKERS,
-                             BSB_HEADING_HINT, "BSB_SUPERSCRIPTIONS/BSB_TRAILING_MARKERS")
+                             BSB_HEADING_HINT, "BSB_SUPERSCRIPTIONS/BSB_TRAILING_MARKERS",
+                             BSB_HEADING_HINT_CONFIRMED_CONTENT)
 
 
 def cpdv_display_text_for(vid, text):
     return display_text_for(vid, text, CPDV_SUPERSCRIPTIONS, CPDV_TRAILING_MARKERS,
-                             CPDV_HEADING_HINT, "CPDV_SUPERSCRIPTIONS/CPDV_TRAILING_MARKERS")
+                             CPDV_HEADING_HINT, "CPDV_SUPERSCRIPTIONS/CPDV_TRAILING_MARKERS",
+                             CPDV_HEADING_HINT_CONFIRMED_CONTENT)
 
 
 def shard_verses(verses, shard_size, schema_version=3, content_version=CONTENT_VERSION):

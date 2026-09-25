@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "contentVersion": "2026-09-12.1",
+ "contentVersion": "2026-09-25.1",
  "verses": [
   {
    "id": "ISA.65.24",
@@ -1329,7 +1329,7 @@
     },
     "CPDV": {
      "text": "HETH. “The Lord is my portion,” said my soul. Because of this, I will wait for him.",
-     "displayText": "HETH. “The Lord is my portion,” said my soul. Because of this, I will wait for him."
+     "displayText": "“The Lord is my portion,” said my soul. Because of this, I will wait for him."
     }
    },
    "context": "Writing after Jerusalem's destruction, the same writer still declares that God himself is enough for him, and so he chooses to keep hoping."

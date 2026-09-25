@@ -1,0 +1,1806 @@
+{
+ "schemaVersion": 3,
+ "contentVersion": "2026-09-25.1",
+ "verses": [
+  {
+   "id": "HOS.11.8",
+   "translations": {
+    "KJV": {
+     "text": "How shall I give thee up, Ephraim? how shall I deliver thee, Israel? how shall I make thee as Admah? how shall I set thee as Zeboim? mine heart is turned within me, my repentings are kindled together.",
+     "displayText": "How shall I give thee up, Ephraim? how shall I deliver thee, Israel? how shall I make thee as Admah? how shall I set thee as Zeboim? mine heart is turned within me, my repentings are kindled together."
+    },
+    "BSB": {
+     "text": "How could I give you up, O Ephraim? How could I surrender you, O Israel? How could I make you like Admah? How could I treat you like Zeboiim? My heart is turned within Me; My compassion is stirred!",
+     "displayText": "How could I give you up, O Ephraim? How could I surrender you, O Israel? How could I make you like Admah? How could I treat you like Zeboiim? My heart is turned within Me; My compassion is stirred!"
+    },
+    "CPDV": {
+     "text": "How will I provide for you, Ephraim; how will I protect you, Israel? How will I provide for you as for Adam; will I set you like Zeboiim? My heart has changed within me; together with my regret, it has been stirred up.",
+     "displayText": "How will I provide for you, Ephraim; how will I protect you, Israel? How will I provide for you as for Adam; will I set you like Zeboiim? My heart has changed within me; together with my regret, it has been stirred up."
+    }
+   },
+   "context": "After describing Israel's repeated rebellion, God cries out through Hosea that he cannot bring himself to give them up."
+  },
+  {
+   "id": "JOL.2.12",
+   "translations": {
+    "KJV": {
+     "text": "Therefore also now, saith the Lord, turn ye even to me with all your heart, and with fasting, and with weeping, and with mourning:",
+     "displayText": "Therefore also now, saith the Lord, turn ye even to me with all your heart, and with fasting, and with weeping, and with mourning:"
+    },
+    "BSB": {
+     "text": "“Yet even now,” declares the LORD, “return to Me with all your heart, with fasting, weeping, and mourning.”",
+     "displayText": "“Yet even now,” declares the LORD, “return to Me with all your heart, with fasting, weeping, and mourning.”"
+    },
+    "CPDV": {
+     "text": "Now, therefore, the Lord says: “Be converted to me with your whole heart, in fasting and weeping and mourning.”",
+     "displayText": "Now, therefore, the Lord says: “Be converted to me with your whole heart, in fasting and weeping and mourning.”"
+    }
+   },
+   "context": "After a devastating locust plague, the prophet Joel calls the people to return to God with their whole hearts."
+  },
+  {
+   "id": "JOL.2.26",
+   "translations": {
+    "KJV": {
+     "text": "And ye shall eat in plenty, and be satisfied, and praise the name of the Lord your God, that hath dealt wondrously with you: and my people shall never be ashamed.",
+     "displayText": "And ye shall eat in plenty, and be satisfied, and praise the name of the Lord your God, that hath dealt wondrously with you: and my people shall never be ashamed."
+    },
+    "BSB": {
+     "text": "You will have plenty to eat, until you are satisfied. You will praise the name of the LORD your God, who has worked wonders for you. My people will never again be put to shame.",
+     "displayText": "You will have plenty to eat, until you are satisfied. You will praise the name of the LORD your God, who has worked wonders for you. My people will never again be put to shame."
+    },
+    "CPDV": {
+     "text": "And you will eat with enjoyment, and you will be satisfied, and you will praise the name of the Lord your God, who has worked miracles with you, and my people will not be confounded forever.",
+     "displayText": "And you will eat with enjoyment, and you will be satisfied, and you will praise the name of the Lord your God, who has worked miracles with you, and my people will not be confounded forever."
+    }
+   },
+   "context": "Joel promises that after the devastation of the locusts, the people will eat until full and praise God for his wonders."
+  },
+  {
+   "id": "JON.2.9",
+   "translations": {
+    "KJV": {
+     "text": "But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the Lord.",
+     "displayText": "But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the Lord."
+    },
+    "BSB": {
+     "text": "But I, with the voice of thanksgiving, will sacrifice to You. I will fulfill what I have vowed. Salvation is from the LORD!”",
+     "displayText": "But I, with the voice of thanksgiving, will sacrifice to You. I will fulfill what I have vowed. Salvation is from the LORD!”"
+    },
+    "CPDV": {
+     "text": "But I, with a voice of praise, will sacrifice to you. I will repay whatever I have vowed to the Lord, because of my salvation.”",
+     "displayText": "But I, with a voice of praise, will sacrifice to you. I will repay whatever I have vowed to the Lord, because of my salvation.”"
+    }
+   },
+   "context": "From inside the great fish, Jonah ends his prayer by promising to give thanks and declaring that rescue comes from God."
+  },
+  {
+   "id": "MIC.4.4",
+   "translations": {
+    "KJV": {
+     "text": "But they shall sit every man under his vine and under his fig tree; and none shall make them afraid: for the mouth of the Lord of hosts hath spoken it.",
+     "displayText": "But they shall sit every man under his vine and under his fig tree; and none shall make them afraid: for the mouth of the Lord of hosts hath spoken it."
+    },
+    "BSB": {
+     "text": "And each man will sit under his own vine and under his own fig tree, with no one to frighten him. For the mouth of the LORD of Hosts has spoken.",
+     "displayText": "And each man will sit under his own vine and under his own fig tree, with no one to frighten him. For the mouth of the LORD of Hosts has spoken."
+    },
+    "CPDV": {
+     "text": "And a man will sit under his vine and under his fig tree, and there will be no one to fear, for the mouth of the Lord of hosts has spoken.",
+     "displayText": "And a man will sit under his vine and under his fig tree, and there will be no one to fear, for the mouth of the Lord of hosts has spoken."
+    }
+   },
+   "context": "Micah pictures a future of peace where every person sits under their own vine and fig tree with nothing to fear."
+  },
+  {
+   "id": "MIC.5.4",
+   "translations": {
+    "KJV": {
+     "text": "And he shall stand and feed in the strength of the Lord, in the majesty of the name of the Lord his God; and they shall abide: for now shall he be great unto the ends of the earth.",
+     "displayText": "And he shall stand and feed in the strength of the Lord, in the majesty of the name of the Lord his God; and they shall abide: for now shall he be great unto the ends of the earth."
+    },
+    "BSB": {
+     "text": "He will stand and shepherd His flock in the strength of the LORD, in the majestic name of the LORD His God. And they will dwell securely, for then His greatness will extend to the ends of the earth.",
+     "displayText": "He will stand and shepherd His flock in the strength of the LORD, in the majestic name of the LORD His God. And they will dwell securely, for then His greatness will extend to the ends of the earth."
+    },
+    "CPDV": {
+     "text": "And he will stand firm and feed on the strength of the Lord, according to the sublime name of the Lord his God. And they will be converted, for now he will be magnified, even to the ends of the earth.",
+     "displayText": "And he will stand firm and feed on the strength of the Lord, according to the sublime name of the Lord his God. And they will be converted, for now he will be magnified, even to the ends of the earth."
+    }
+   },
+   "context": "Micah describes a coming ruler from Bethlehem who will shepherd his people in God's strength, so they can live securely."
+  },
+  {
+   "id": "HAB.2.3",
+   "translations": {
+    "KJV": {
+     "text": "For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry.",
+     "displayText": "For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry."
+    },
+    "BSB": {
+     "text": "For the vision awaits an appointed time; it testifies of the end and does not lie. Though it lingers, wait for it, since it will surely come and will not delay.",
+     "displayText": "For the vision awaits an appointed time; it testifies of the end and does not lie. Though it lingers, wait for it, since it will surely come and will not delay."
+    },
+    "CPDV": {
+     "text": "For as yet the vision is far off, and it will appear in the end, and it will not lie. If it expresses any delay, wait for it. For it is arriving and it will arrive, and it will not be hindered.",
+     "displayText": "For as yet the vision is far off, and it will appear in the end, and it will not lie. If it expresses any delay, wait for it. For it is arriving and it will arrive, and it will not be hindered."
+    }
+   },
+   "context": "After Habakkuk complains that God is allowing injustice, God tells him to wait, because the answer will come at the right time."
+  },
+  {
+   "id": "HAB.2.14",
+   "translations": {
+    "KJV": {
+     "text": "For the earth shall be filled with the knowledge of the glory of the Lord, as the waters cover the sea.",
+     "displayText": "For the earth shall be filled with the knowledge of the glory of the Lord, as the waters cover the sea."
+    },
+    "BSB": {
+     "text": "For the earth will be filled with the knowledge of the glory of the LORD as the waters cover the sea.",
+     "displayText": "For the earth will be filled with the knowledge of the glory of the LORD as the waters cover the sea."
+    },
+    "CPDV": {
+     "text": "For the earth shall be filled, that they might know the glory of the Lord, like the waters spreading over the sea.",
+     "displayText": "For the earth shall be filled, that they might know the glory of the Lord, like the waters spreading over the sea."
+    }
+   },
+   "context": "In God's answer to Habakkuk's complaints, he promises that one day the earth will be filled with the knowledge of his glory."
+  },
+  {
+   "id": "ZEP.3.19",
+   "translations": {
+    "KJV": {
+     "text": "Behold, at that time I will undo all that afflict thee: and I will save her that halteth, and gather her that was driven out; and I will get them praise and fame in every land where they have been put to shame.",
+     "displayText": "Behold, at that time I will undo all that afflict thee: and I will save her that halteth, and gather her that was driven out; and I will get them praise and fame in every land where they have been put to shame."
+    },
+    "BSB": {
+     "text": "Behold, at that time, I will deal with all who afflict you. I will save the lame and gather the scattered; and I will appoint praise and fame for the disgraced throughout the earth.",
+     "displayText": "Behold, at that time, I will deal with all who afflict you. I will save the lame and gather the scattered; and I will appoint praise and fame for the disgraced throughout the earth."
+    },
+    "CPDV": {
+     "text": "Behold, I will execute all who have afflicted you in that time, and I will save those who are lame, and I will gather together her who had been cast out. And I will place them in praise and in renown, in all the land where they had been put to shame,",
+     "displayText": "Behold, I will execute all who have afflicted you in that time, and I will save those who are lame, and I will gather together her who had been cast out. And I will place them in praise and in renown, in all the land where they had been put to shame,"
+    }
+   },
+   "context": "The prophet Zephaniah ends his book with God promising to rescue the weak and turn their shame into honor."
+  },
+  {
+   "id": "HAG.2.4",
+   "translations": {
+    "KJV": {
+     "text": "Yet now be strong, O Zerubbabel, saith the Lord; and be strong, O Joshua, son of Josedech, the high priest; and be strong, all ye people of the land, saith the Lord, and work: for I am with you, saith the Lord of hosts:",
+     "displayText": "Yet now be strong, O Zerubbabel, saith the Lord; and be strong, O Joshua, son of Josedech, the high priest; and be strong, all ye people of the land, saith the Lord, and work: for I am with you, saith the Lord of hosts:"
+    },
+    "BSB": {
+     "text": "But now be strong, O Zerubbabel, declares the LORD. Be strong, O Joshua son of Jehozadak, the high priest. And be strong, all you people of the land, declares the LORD. Work! For I am with you, declares the LORD of Hosts.",
+     "displayText": "But now be strong, O Zerubbabel, declares the LORD. Be strong, O Joshua son of Jehozadak, the high priest. And be strong, all you people of the land, declares the LORD. Work! For I am with you, declares the LORD of Hosts."
+    },
+    "CPDV": {
+     "text": "And now be strengthened, Zerubbabel, says the Lord. And be strengthened, Jesus the son of Jehozadak, the high priest. And be strengthened, all people of the land, says the Lord of hosts. For I am with you, says the Lord of hosts.",
+     "displayText": "And now be strengthened, Zerubbabel, says the Lord. And be strengthened, Jesus the son of Jehozadak, the high priest. And be strengthened, all people of the land, says the Lord of hosts. For I am with you, says the Lord of hosts."
+    }
+   },
+   "context": "As discouraged returnees rebuild a temple that looks small compared to the old one, God tells their leaders to be strong and keep working."
+  },
+  {
+   "id": "HAG.2.5",
+   "translations": {
+    "KJV": {
+     "text": "According to the word that I covenanted with you when ye came out of Egypt, so my spirit remaineth among you: fear ye not.",
+     "displayText": "According to the word that I covenanted with you when ye came out of Egypt, so my spirit remaineth among you: fear ye not."
+    },
+    "BSB": {
+     "text": "This is the promise I made to you when you came out of Egypt. And My Spirit remains among you; do not be afraid.”",
+     "displayText": "This is the promise I made to you when you came out of Egypt. And My Spirit remains among you; do not be afraid.”"
+    },
+    "CPDV": {
+     "text": "And act according to the word that I planted with you when you departed from the land of Egypt. And my Spirit will be in your midst. Do not be afraid.",
+     "displayText": "And act according to the word that I planted with you when you departed from the land of Egypt. And my Spirit will be in your midst. Do not be afraid."
+    }
+   },
+   "context": "Encouraging the people rebuilding the temple, God reminds them through Haggai that his Spirit is still with them."
+  },
+  {
+   "id": "ZEC.10.6",
+   "translations": {
+    "KJV": {
+     "text": "And I will strengthen the house of Judah, and I will save the house of Joseph, and I will bring them again to place them; for I have mercy upon them: and they shall be as though I had not cast them off: for I am the Lord their God, and will hear them.",
+     "displayText": "And I will strengthen the house of Judah, and I will save the house of Joseph, and I will bring them again to place them; for I have mercy upon them: and they shall be as though I had not cast them off: for I am the Lord their God, and will hear them."
+    },
+    "BSB": {
+     "text": "I will strengthen the house of Judah and save the house of Joseph. I will restore them because I have compassion on them, and they will be as though I had not rejected them. For I am the LORD their God, and I will answer them.",
+     "displayText": "I will strengthen the house of Judah and save the house of Joseph. I will restore them because I have compassion on them, and they will be as though I had not rejected them. For I am the LORD their God, and I will answer them."
+    },
+    "CPDV": {
+     "text": "And I will strengthen the house of Judah, and I will save the house of Joseph, and I will convert them, because I will have mercy on them. And they will be as they were when I had not cast them away. For I am the Lord their God, and I will hear them.",
+     "displayText": "And I will strengthen the house of Judah, and I will save the house of Joseph, and I will convert them, because I will have mercy on them. And they will be as they were when I had not cast them away. For I am the Lord their God, and I will hear them."
+    }
+   },
+   "context": "Through the prophet Zechariah, God promises to restore his scattered people as if he had never rejected them."
+  },
+  {
+   "id": "ZEC.13.9",
+   "translations": {
+    "KJV": {
+     "text": "And I will bring the third part through the fire, and will refine them as silver is refined, and will try them as gold is tried: they shall call on my name, and I will hear them: I will say, It is my people: and they shall say, The Lord is my God.",
+     "displayText": "And I will bring the third part through the fire, and will refine them as silver is refined, and will try them as gold is tried: they shall call on my name, and I will hear them: I will say, It is my people: and they shall say, The Lord is my God."
+    },
+    "BSB": {
+     "text": "This third I will bring through the fire; I will refine them like silver and test them like gold. They will call on My name, and I will answer them. I will say, ‘They are My people,’ and they will say, ‘The LORD is our God.’”",
+     "displayText": "This third I will bring through the fire; I will refine them like silver and test them like gold. They will call on My name, and I will answer them. I will say, ‘They are My people,’ and they will say, ‘The LORD is our God.’”"
+    },
+    "CPDV": {
+     "text": "And I will lead the third part through fire, and I will burn them just as silver is burned, and I will test them just as gold is tested. They will call on my name, and I will heed them. I will say, “You are my people.” And they will say, “The Lord is my God.”",
+     "displayText": "And I will lead the third part through fire, and I will burn them just as silver is burned, and I will test them just as gold is tested. They will call on my name, and I will heed them. I will say, “You are my people.” And they will say, “The Lord is my God.”"
+    }
+   },
+   "context": "Zechariah describes God refining his people like silver through hardship until they call on him and he answers."
+  },
+  {
+   "id": "MAL.3.16",
+   "translations": {
+    "KJV": {
+     "text": "Then they that feared the Lord spake often one to another: and the Lord hearkened, and heard it, and a book of remembrance was written before him for them that feared the Lord, and that thought upon his name.",
+     "displayText": "Then they that feared the Lord spake often one to another: and the Lord hearkened, and heard it, and a book of remembrance was written before him for them that feared the Lord, and that thought upon his name."
+    },
+    "BSB": {
+     "text": "At that time those who feared the LORD spoke with one another, and the LORD listened and heard them. So a scroll of remembrance was written before Him regarding those who feared the LORD and honored His name.",
+     "displayText": "At that time those who feared the LORD spoke with one another, and the LORD listened and heard them. So a scroll of remembrance was written before Him regarding those who feared the LORD and honored His name."
+    },
+    "CPDV": {
+     "text": "Then those who fear the Lord spoke, each one with his neighbor. And the Lord paid attention and heeded. And a book of remembrance was written in his sight, for those who fear the Lord and for those who consider his name.",
+     "displayText": "Then those who fear the Lord spoke, each one with his neighbor. And the Lord paid attention and heeded. And a book of remembrance was written in his sight, for those who fear the Lord and for those who consider his name."
+    }
+   },
+   "context": "In the last book of the Old Testament, Malachi describes people who honored God talking together, and God listening and remembering them."
+  },
+  {
+   "id": "MAL.3.17",
+   "translations": {
+    "KJV": {
+     "text": "And they shall be mine, saith the Lord of hosts, in that day when I make up my jewels; and I will spare them, as a man spareth his own son that serveth him.",
+     "displayText": "And they shall be mine, saith the Lord of hosts, in that day when I make up my jewels; and I will spare them, as a man spareth his own son that serveth him."
+    },
+    "BSB": {
+     "text": "“They will be Mine,” says the LORD of Hosts, “on the day when I prepare My treasured possession. And I will spare them as a man spares his own son who serves him.",
+     "displayText": "“They will be Mine,” says the LORD of Hosts, “on the day when I prepare My treasured possession. And I will spare them as a man spares his own son who serves him."
+    },
+    "CPDV": {
+     "text": "And they will be my special possession, says the Lord of hosts, on the day that I act. And I will spare them, just as a man spares his son who serves him.",
+     "displayText": "And they will be my special possession, says the Lord of hosts, on the day that I act. And I will spare them, just as a man spares his son who serves him."
+    }
+   },
+   "context": "Malachi records God saying that those who honor him will be his treasured possession."
+  },
+  {
+   "id": "MAT.5.10",
+   "translations": {
+    "KJV": {
+     "text": "Blessed are they which are persecuted for righteousness’ sake: for theirs is the kingdom of heaven.",
+     "displayText": "Blessed are they which are persecuted for righteousness’ sake: for theirs is the kingdom of heaven."
+    },
+    "BSB": {
+     "text": "Blessed are those who are persecuted because of righteousness, for theirs is the kingdom of heaven.",
+     "displayText": "Blessed are those who are persecuted because of righteousness, for theirs is the kingdom of heaven."
+    },
+    "CPDV": {
+     "text": "Blessed are those who endure persecution for the sake of justice, for theirs is the kingdom of heaven.",
+     "displayText": "Blessed are those who endure persecution for the sake of justice, for theirs is the kingdom of heaven."
+    }
+   },
+   "context": "Near the end of the list of blessings in his Sermon on the Mount, Jesus says those persecuted for doing right belong to God's kingdom."
+  },
+  {
+   "id": "MAT.5.44",
+   "translations": {
+    "KJV": {
+     "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;",
+     "displayText": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;"
+    },
+    "BSB": {
+     "text": "But I tell you, love your enemies and pray for those who persecute you,",
+     "displayText": "But I tell you, love your enemies and pray for those who persecute you,"
+    },
+    "CPDV": {
+     "text": "But I say to you: Love your enemies. Do good to those who hate you. And pray for those who persecute and slander you.",
+     "displayText": "But I say to you: Love your enemies. Do good to those who hate you. And pray for those who persecute and slander you."
+    }
+   },
+   "context": "In the Sermon on the Mount, Jesus goes beyond 'love your neighbor' and tells his listeners to love their enemies too."
+  },
+  {
+   "id": "MAT.6.10",
+   "translations": {
+    "KJV": {
+     "text": "Thy kingdom come. Thy will be done in earth, as it is in heaven.",
+     "displayText": "Thy kingdom come. Thy will be done in earth, as it is in heaven."
+    },
+    "BSB": {
+     "text": "Your kingdom come, Your will be done, on earth as it is in heaven.",
+     "displayText": "Your kingdom come, Your will be done, on earth as it is in heaven."
+    },
+    "CPDV": {
+     "text": "May your kingdom come. May your will be done, as in heaven, so also on earth.",
+     "displayText": "May your kingdom come. May your will be done, as in heaven, so also on earth."
+    }
+   },
+   "context": "In the prayer he teaches his disciples, Jesus has them ask for God's kingdom to come and his will to be done on earth."
+  },
+  {
+   "id": "MAT.6.13",
+   "translations": {
+    "KJV": {
+     "text": "And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen.",
+     "displayText": "And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen."
+    },
+    "BSB": {
+     "text": "And lead us not into temptation, but deliver us from the evil one.’",
+     "displayText": "And lead us not into temptation, but deliver us from the evil one.’"
+    },
+    "CPDV": {
+     "text": "And lead us not into temptation. But free us from evil. Amen.",
+     "displayText": "And lead us not into temptation. But free us from evil. Amen."
+    }
+   },
+   "context": "Closing the Lord's Prayer, Jesus teaches his followers to ask God to keep them from temptation and deliver them from evil."
+  },
+  {
+   "id": "MAT.6.28",
+   "translations": {
+    "KJV": {
+     "text": "And why take ye thought for raiment? Consider the lilies of the field, how they grow; they toil not, neither do they spin:",
+     "displayText": "And why take ye thought for raiment? Consider the lilies of the field, how they grow; they toil not, neither do they spin:"
+    },
+    "BSB": {
+     "text": "And why do you worry about clothes? Consider how the lilies of the field grow: They do not labor or spin.",
+     "displayText": "And why do you worry about clothes? Consider how the lilies of the field grow: They do not labor or spin."
+    },
+    "CPDV": {
+     "text": "And as for clothing, why are you anxious? Consider the lilies of the field, how they grow; they neither work nor weave.",
+     "displayText": "And as for clothing, why are you anxious? Consider the lilies of the field, how they grow; they neither work nor weave."
+    }
+   },
+   "context": "Teaching about worry in the Sermon on the Mount, Jesus points to wildflowers that do no work yet are beautifully clothed."
+  },
+  {
+   "id": "MAT.6.32",
+   "translations": {
+    "KJV": {
+     "text": "(For after all these things do the Gentiles seek:) for your heavenly Father knoweth that ye have need of all these things.",
+     "displayText": "(For after all these things do the Gentiles seek:) for your heavenly Father knoweth that ye have need of all these things."
+    },
+    "BSB": {
+     "text": "For the Gentiles strive after all these things, and your heavenly Father knows that you need them.",
+     "displayText": "For the Gentiles strive after all these things, and your heavenly Father knows that you need them."
+    },
+    "CPDV": {
+     "text": "For the Gentiles seek all these things. Yet your Father knows that you need all these things.",
+     "displayText": "For the Gentiles seek all these things. Yet your Father knows that you need all these things."
+    }
+   },
+   "context": "Continuing his teaching on worry, Jesus reminds his listeners that their Father in heaven already knows what they need."
+  },
+  {
+   "id": "MAT.7.11",
+   "translations": {
+    "KJV": {
+     "text": "If ye then, being evil, know how to give good gifts unto your children, how much more shall your Father which is in heaven give good things to them that ask him?",
+     "displayText": "If ye then, being evil, know how to give good gifts unto your children, how much more shall your Father which is in heaven give good things to them that ask him?"
+    },
+    "BSB": {
+     "text": "So if you who are evil know how to give good gifts to your children, how much more will your Father in heaven give good things to those who ask Him!",
+     "displayText": "So if you who are evil know how to give good gifts to your children, how much more will your Father in heaven give good things to those who ask Him!"
+    },
+    "CPDV": {
+     "text": "Therefore, if you, though you are evil, know how to give good gifts to your sons, how much more will your Father, who is in heaven, give good things to those who ask him?",
+     "displayText": "Therefore, if you, though you are evil, know how to give good gifts to your sons, how much more will your Father, who is in heaven, give good things to those who ask him?"
+    }
+   },
+   "context": "Teaching about prayer, Jesus points out that even imperfect parents give good gifts to their kids, so God surely will."
+  },
+  {
+   "id": "MRK.1.41",
+   "translations": {
+    "KJV": {
+     "text": "And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him, I will; be thou clean.",
+     "displayText": "And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him, I will; be thou clean."
+    },
+    "BSB": {
+     "text": "Moved with compassion, Jesus reached out His hand and touched the man. “I am willing,” He said. “Be clean!”",
+     "displayText": "Moved with compassion, Jesus reached out His hand and touched the man. “I am willing,” He said. “Be clean!”"
+    },
+    "CPDV": {
+     "text": "Then Jesus, taking pity on him, reached out his hand. And touching him, he said to him: “I am willing. Be cleansed.”",
+     "displayText": "Then Jesus, taking pity on him, reached out his hand. And touching him, he said to him: “I am willing. Be cleansed.”"
+    }
+   },
+   "context": "Approached by a man with leprosy who begs to be made clean, Jesus is moved with compassion and touches him."
+  },
+  {
+   "id": "MAT.9.2",
+   "translations": {
+    "KJV": {
+     "text": "And, behold, they brought to him a man sick of the palsy, lying on a bed: and Jesus seeing their faith said unto the sick of the palsy; Son, be of good cheer; thy sins be forgiven thee.",
+     "displayText": "And, behold, they brought to him a man sick of the palsy, lying on a bed: and Jesus seeing their faith said unto the sick of the palsy; Son, be of good cheer; thy sins be forgiven thee."
+    },
+    "BSB": {
+     "text": "Just then some men brought to Him a paralytic lying on a mat. When Jesus saw their faith, He said to the paralytic, “Take courage, son; your sins are forgiven.”",
+     "displayText": "Just then some men brought to Him a paralytic lying on a mat. When Jesus saw their faith, He said to the paralytic, “Take courage, son; your sins are forgiven.”"
+    },
+    "CPDV": {
+     "text": "And behold, they brought to him a paralytic, lying on a bed. And Jesus, seeing their faith, said to the paralytic, “Be strengthened in faith, son; your sins are forgiven you.”",
+     "displayText": "And behold, they brought to him a paralytic, lying on a bed. And Jesus, seeing their faith, said to the paralytic, “Be strengthened in faith, son; your sins are forgiven you.”"
+    }
+   },
+   "context": "When friends carry a paralyzed man to Jesus, the first thing Jesus tells him is that his sins are forgiven."
+  },
+  {
+   "id": "LUK.12.6",
+   "translations": {
+    "KJV": {
+     "text": "Are not five sparrows sold for two farthings, and not one of them is forgotten before God?",
+     "displayText": "Are not five sparrows sold for two farthings, and not one of them is forgotten before God?"
+    },
+    "BSB": {
+     "text": "Are not five sparrows sold for two pennies? Yet not one of them is forgotten by God.",
+     "displayText": "Are not five sparrows sold for two pennies? Yet not one of them is forgotten by God."
+    },
+    "CPDV": {
+     "text": "Are not five sparrows sold for two small coins? And yet not one of these is forgotten in the sight of God.",
+     "displayText": "Are not five sparrows sold for two small coins? And yet not one of these is forgotten in the sight of God."
+    }
+   },
+   "context": "Teaching his followers not to fear, Jesus points out that God does not forget even a sparrow sold for pennies."
+  },
+  {
+   "id": "MAT.11.30",
+   "translations": {
+    "KJV": {
+     "text": "For my yoke is easy, and my burden is light.",
+     "displayText": "For my yoke is easy, and my burden is light."
+    },
+    "BSB": {
+     "text": "For My yoke is easy and My burden is light.”",
+     "displayText": "For My yoke is easy and My burden is light.”"
+    },
+    "CPDV": {
+     "text": "For my yoke is sweet and my burden is light.”",
+     "displayText": "For my yoke is sweet and my burden is light.”"
+    }
+   },
+   "context": "Right after inviting tired people to come to him for rest, Jesus says the load he asks them to carry is light."
+  },
+  {
+   "id": "MAT.12.50",
+   "translations": {
+    "KJV": {
+     "text": "For whosoever shall do the will of my Father which is in heaven, the same is my brother, and sister, and mother.",
+     "displayText": "For whosoever shall do the will of my Father which is in heaven, the same is my brother, and sister, and mother."
+    },
+    "BSB": {
+     "text": "For whoever does the will of My Father in heaven is My brother and sister and mother.”",
+     "displayText": "For whoever does the will of My Father in heaven is My brother and sister and mother.”"
+    },
+    "CPDV": {
+     "text": "For anyone who does the will of my Father, who is in heaven, the same is my brother, and sister, and mother.”",
+     "displayText": "For anyone who does the will of my Father, who is in heaven, the same is my brother, and sister, and mother.”"
+    }
+   },
+   "context": "When told his mother and brothers are waiting outside, Jesus says anyone who does God's will is his family."
+  },
+  {
+   "id": "MAT.14.29",
+   "translations": {
+    "KJV": {
+     "text": "And he said, Come. And when Peter was come down out of the ship, he walked on the water, to go to Jesus.",
+     "displayText": "And he said, Come. And when Peter was come down out of the ship, he walked on the water, to go to Jesus."
+    },
+    "BSB": {
+     "text": "“Come,” said Jesus. Then Peter got down out of the boat, walked on the water, and came toward Jesus.",
+     "displayText": "“Come,” said Jesus. Then Peter got down out of the boat, walked on the water, and came toward Jesus."
+    },
+    "CPDV": {
+     "text": "And he said, “Come.” And Peter, descending from the boat, walked over the water, so as to go to Jesus.",
+     "displayText": "And he said, “Come.” And Peter, descending from the boat, walked over the water, so as to go to Jesus."
+    }
+   },
+   "context": "During a storm at night, Jesus walks on the water toward the disciples' boat and invites Peter to step out and come to him."
+  },
+  {
+   "id": "MAT.16.18",
+   "translations": {
+    "KJV": {
+     "text": "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.",
+     "displayText": "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it."
+    },
+    "BSB": {
+     "text": "And I tell you that you are Peter, and on this rock I will build My church, and the gates of Hades will not prevail against it.",
+     "displayText": "And I tell you that you are Peter, and on this rock I will build My church, and the gates of Hades will not prevail against it."
+    },
+    "CPDV": {
+     "text": "And I say to you, that you are Peter, and upon this rock I will build my Church, and the gates of Hell shall not prevail against it.",
+     "displayText": "And I say to you, that you are Peter, and upon this rock I will build my Church, and the gates of Hell shall not prevail against it."
+    }
+   },
+   "context": "After Peter declares that Jesus is the Messiah, Jesus tells him he will build his church on this rock."
+  },
+  {
+   "id": "MAT.18.12",
+   "translations": {
+    "KJV": {
+     "text": "How think ye? if a man have an hundred sheep, and one of them be gone astray, doth he not leave the ninety and nine, and goeth into the mountains, and seeketh that which is gone astray?",
+     "displayText": "How think ye? if a man have an hundred sheep, and one of them be gone astray, doth he not leave the ninety and nine, and goeth into the mountains, and seeketh that which is gone astray?"
+    },
+    "BSB": {
+     "text": "What do you think? If a man has a hundred sheep and one of them goes astray, will he not leave the ninety-nine on the hills and go out to search for the one that is lost?",
+     "displayText": "What do you think? If a man has a hundred sheep and one of them goes astray, will he not leave the ninety-nine on the hills and go out to search for the one that is lost?"
+    },
+    "CPDV": {
+     "text": "How does it seem to you? If someone has one hundred sheep, and if one of them has gone astray, should he not leave behind the ninety-nine in the mountains, and go out to seek what has gone astray?",
+     "displayText": "How does it seem to you? If someone has one hundred sheep, and if one of them has gone astray, should he not leave behind the ninety-nine in the mountains, and go out to seek what has gone astray?"
+    }
+   },
+   "context": "Jesus tells a story about a shepherd who leaves ninety-nine sheep to search for the one that wandered away."
+  },
+  {
+   "id": "MAT.18.14",
+   "translations": {
+    "KJV": {
+     "text": "Even so it is not the will of your Father which is in heaven, that one of these little ones should perish.",
+     "displayText": "Even so it is not the will of your Father which is in heaven, that one of these little ones should perish."
+    },
+    "BSB": {
+     "text": "In the same way, your Father in heaven is not willing that any of these little ones should perish.",
+     "displayText": "In the same way, your Father in heaven is not willing that any of these little ones should perish."
+    },
+    "CPDV": {
+     "text": "Even so, it is not the will before your Father, who is in heaven, that one of these little ones should be lost.",
+     "displayText": "Even so, it is not the will before your Father, who is in heaven, that one of these little ones should be lost."
+    }
+   },
+   "context": "Ending his story of the lost sheep, Jesus says God does not want to lose even one of his little ones."
+  },
+  {
+   "id": "MAT.18.21",
+   "translations": {
+    "KJV": {
+     "text": "Then came Peter to him, and said, Lord, how oft shall my brother sin against me, and I forgive him? till seven times?",
+     "displayText": "Then came Peter to him, and said, Lord, how oft shall my brother sin against me, and I forgive him? till seven times?"
+    },
+    "BSB": {
+     "text": "Then Peter came to Jesus and asked, “Lord, how many times shall I forgive my brother who sins against me? Up to seven times?”",
+     "displayText": "Then Peter came to Jesus and asked, “Lord, how many times shall I forgive my brother who sins against me? Up to seven times?”"
+    },
+    "CPDV": {
+     "text": "Then Peter, drawing near to him, said: “Lord, how many times shall my brother sin against me, and I forgive him? Even seven times?”",
+     "displayText": "Then Peter, drawing near to him, said: “Lord, how many times shall my brother sin against me, and I forgive him? Even seven times?”"
+    }
+   },
+   "context": "Peter asks Jesus how many times he has to forgive someone, suggesting seven times would be generous."
+  },
+  {
+   "id": "MAT.18.22",
+   "translations": {
+    "KJV": {
+     "text": "Jesus saith unto him, I say not unto thee, Until seven times: but, Until seventy times seven.",
+     "displayText": "Jesus saith unto him, I say not unto thee, Until seven times: but, Until seventy times seven."
+    },
+    "BSB": {
+     "text": "Jesus answered, “I tell you, not just seven times, but seventy-seven times!",
+     "displayText": "Jesus answered, “I tell you, not just seven times, but seventy-seven times!"
+    },
+    "CPDV": {
+     "text": "Jesus said to him: “I do not say to you, even seven times, but even seventy times seven times.",
+     "displayText": "Jesus said to him: “I do not say to you, even seven times, but even seventy times seven times."
+    }
+   },
+   "context": "Answering Peter's question about how often to forgive, Jesus multiplies Peter's generous seven far beyond counting."
+  },
+  {
+   "id": "MAT.18.33",
+   "translations": {
+    "KJV": {
+     "text": "Shouldest not thou also have had compassion on thy fellowservant, even as I had pity on thee?",
+     "displayText": "Shouldest not thou also have had compassion on thy fellowservant, even as I had pity on thee?"
+    },
+    "BSB": {
+     "text": "Shouldn’t you have had mercy on your fellow servant, just as I had on you?’",
+     "displayText": "Shouldn’t you have had mercy on your fellow servant, just as I had on you?’"
+    },
+    "CPDV": {
+     "text": "Therefore, should you not also have had compassion on your fellow servant, just as I also had compassion on you?’",
+     "displayText": "Therefore, should you not also have had compassion on your fellow servant, just as I also had compassion on you?’"
+    }
+   },
+   "context": "At the end of a parable about a servant who was forgiven a huge debt but refused to forgive a small one, the master confronts him."
+  },
+  {
+   "id": "MAT.26.28",
+   "translations": {
+    "KJV": {
+     "text": "For this is my blood of the new testament, which is shed for many for the remission of sins.",
+     "displayText": "For this is my blood of the new testament, which is shed for many for the remission of sins."
+    },
+    "BSB": {
+     "text": "This is My blood of the covenant, which is poured out for many for the forgiveness of sins.",
+     "displayText": "This is My blood of the covenant, which is poured out for many for the forgiveness of sins."
+    },
+    "CPDV": {
+     "text": "For this is my blood of the new covenant, which shall be shed for many as a remission of sins.",
+     "displayText": "For this is my blood of the new covenant, which shall be shed for many as a remission of sins."
+    }
+   },
+   "context": "At the Last Supper, Jesus passes the cup to his disciples and explains that his blood will be poured out for forgiveness."
+  },
+  {
+   "id": "MAT.26.38",
+   "translations": {
+    "KJV": {
+     "text": "Then saith he unto them, My soul is exceeding sorrowful, even unto death: tarry ye here, and watch with me.",
+     "displayText": "Then saith he unto them, My soul is exceeding sorrowful, even unto death: tarry ye here, and watch with me."
+    },
+    "BSB": {
+     "text": "Then He said to them, “My soul is consumed with sorrow to the point of death. Stay here and keep watch with Me.”",
+     "displayText": "Then He said to them, “My soul is consumed with sorrow to the point of death. Stay here and keep watch with Me.”"
+    },
+    "CPDV": {
+     "text": "Then he said to them: “My soul is sorrowful, even unto death. Stay here and keep vigil with me.”",
+     "displayText": "Then he said to them: “My soul is sorrowful, even unto death. Stay here and keep vigil with me.”"
+    }
+   },
+   "context": "In the garden of Gethsemane the night before his death, Jesus tells his closest friends that his soul is overwhelmed with sorrow."
+  },
+  {
+   "id": "MAT.28.5",
+   "translations": {
+    "KJV": {
+     "text": "And the angel answered and said unto the women, Fear not ye: for I know that ye seek Jesus, which was crucified.",
+     "displayText": "And the angel answered and said unto the women, Fear not ye: for I know that ye seek Jesus, which was crucified."
+    },
+    "BSB": {
+     "text": "But the angel said to the women, “Do not be afraid, for I know that you are looking for Jesus, who was crucified.",
+     "displayText": "But the angel said to the women, “Do not be afraid, for I know that you are looking for Jesus, who was crucified."
+    },
+    "CPDV": {
+     "text": "Then the Angel responded by saying to the women: “Do not be afraid. For I know that you are seeking Jesus, who was crucified.",
+     "displayText": "Then the Angel responded by saying to the women: “Do not be afraid. For I know that you are seeking Jesus, who was crucified."
+    }
+   },
+   "context": "On Easter morning, an angel meets the women who have come to Jesus' tomb and tells them not to be afraid."
+  },
+  {
+   "id": "MRK.6.34",
+   "translations": {
+    "KJV": {
+     "text": "And Jesus, when he came out, saw much people, and was moved with compassion toward them, because they were as sheep not having a shepherd: and he began to teach them many things.",
+     "displayText": "And Jesus, when he came out, saw much people, and was moved with compassion toward them, because they were as sheep not having a shepherd: and he began to teach them many things."
+    },
+    "BSB": {
+     "text": "When Jesus stepped ashore and saw a large crowd, He had compassion on them, because they were like sheep without a shepherd. And He began to teach them many things.",
+     "displayText": "When Jesus stepped ashore and saw a large crowd, He had compassion on them, because they were like sheep without a shepherd. And He began to teach them many things."
+    },
+    "CPDV": {
+     "text": "And Jesus, going out, saw a great multitude. And he took pity on them, because they were like sheep without a shepherd, and he began to teach them many things.",
+     "displayText": "And Jesus, going out, saw a great multitude. And he took pity on them, because they were like sheep without a shepherd, and he began to teach them many things."
+    }
+   },
+   "context": "When a huge crowd follows him to a place where he had hoped to rest, Jesus feels compassion because they are like sheep without a shepherd."
+  },
+  {
+   "id": "MRK.9.23",
+   "translations": {
+    "KJV": {
+     "text": "Jesus said unto him, If thou canst believe, all things are possible to him that believeth.",
+     "displayText": "Jesus said unto him, If thou canst believe, all things are possible to him that believeth."
+    },
+    "BSB": {
+     "text": "“If You can?” echoed Jesus. “All things are possible to him who believes!”",
+     "displayText": "“If You can?” echoed Jesus. “All things are possible to him who believes!”"
+    },
+    "CPDV": {
+     "text": "But Jesus said to him, “If you are able to believe: all things are possible to one who believes.”",
+     "displayText": "But Jesus said to him, “If you are able to believe: all things are possible to one who believes.”"
+    }
+   },
+   "context": "A desperate father asks Jesus to heal his son 'if you can,' and Jesus repeats his words back to him."
+  },
+  {
+   "id": "MRK.11.25",
+   "translations": {
+    "KJV": {
+     "text": "And when ye stand praying, forgive, if ye have ought against any: that your Father also which is in heaven may forgive you your trespasses.",
+     "displayText": "And when ye stand praying, forgive, if ye have ought against any: that your Father also which is in heaven may forgive you your trespasses."
+    },
+    "BSB": {
+     "text": "And when you stand to pray, if you hold anything against another, forgive it, so that your Father in heaven will forgive your trespasses as well.”",
+     "displayText": "And when you stand to pray, if you hold anything against another, forgive it, so that your Father in heaven will forgive your trespasses as well.”"
+    },
+    "CPDV": {
+     "text": "And when you stand to pray, if you hold anything against anyone, forgive them, so that your Father, who is in heaven, may also forgive you your sins.",
+     "displayText": "And when you stand to pray, if you hold anything against anyone, forgive them, so that your Father, who is in heaven, may also forgive you your sins."
+    }
+   },
+   "context": "Teaching his disciples about prayer, Jesus tells them to forgive anyone they are holding something against."
+  },
+  {
+   "id": "MRK.16.6",
+   "translations": {
+    "KJV": {
+     "text": "And he saith unto them, Be not affrighted: Ye seek Jesus of Nazareth, which was crucified: he is risen; he is not here: behold the place where they laid him.",
+     "displayText": "And he saith unto them, Be not affrighted: Ye seek Jesus of Nazareth, which was crucified: he is risen; he is not here: behold the place where they laid him."
+    },
+    "BSB": {
+     "text": "But he said to them, “Do not be alarmed. You are looking for Jesus the Nazarene, who was crucified. He has risen! He is not here! See the place where they put Him.",
+     "displayText": "But he said to them, “Do not be alarmed. You are looking for Jesus the Nazarene, who was crucified. He has risen! He is not here! See the place where they put Him."
+    },
+    "CPDV": {
+     "text": "And he said to them, “Do not become frightened. You are seeking Jesus of Nazareth, the Crucified One. He has risen. He is not here. Behold, the place where they laid him.",
+     "displayText": "And he said to them, “Do not become frightened. You are seeking Jesus of Nazareth, the Crucified One. He has risen. He is not here. Behold, the place where they laid him."
+    }
+   },
+   "context": "When the women arrive at Jesus' tomb on Sunday morning, a young man in white tells them Jesus has risen."
+  },
+  {
+   "id": "LUK.1.47",
+   "translations": {
+    "KJV": {
+     "text": "And my spirit hath rejoiced in God my Saviour.",
+     "displayText": "And my spirit hath rejoiced in God my Saviour."
+    },
+    "BSB": {
+     "text": "and my spirit rejoices in God my Savior!",
+     "displayText": "and my spirit rejoices in God my Savior!"
+    },
+    "CPDV": {
+     "text": "And my spirit leaps for joy in God my Savior.",
+     "displayText": "And my spirit leaps for joy in God my Savior."
+    }
+   },
+   "context": "Pregnant with Jesus and visiting her relative Elizabeth, Mary breaks into a song of praise to God her Savior."
+  },
+  {
+   "id": "LUK.2.19",
+   "translations": {
+    "KJV": {
+     "text": "But Mary kept all these things, and pondered them in her heart.",
+     "displayText": "But Mary kept all these things, and pondered them in her heart."
+    },
+    "BSB": {
+     "text": "But Mary treasured up all these things and pondered them in her heart.",
+     "displayText": "But Mary treasured up all these things and pondered them in her heart."
+    },
+    "CPDV": {
+     "text": "But Mary kept all these words, pondering them in her heart.",
+     "displayText": "But Mary kept all these words, pondering them in her heart."
+    }
+   },
+   "context": "After shepherds visit the newborn Jesus and share what the angels told them, Mary quietly holds on to everything she has heard."
+  },
+  {
+   "id": "LUK.6.37",
+   "translations": {
+    "KJV": {
+     "text": "Judge not, and ye shall not be judged: condemn not, and ye shall not be condemned: forgive, and ye shall be forgiven:",
+     "displayText": "Judge not, and ye shall not be judged: condemn not, and ye shall not be condemned: forgive, and ye shall be forgiven:"
+    },
+    "BSB": {
+     "text": "Do not judge, and you will not be judged. Do not condemn, and you will not be condemned. Forgive, and you will be forgiven.",
+     "displayText": "Do not judge, and you will not be judged. Do not condemn, and you will not be condemned. Forgive, and you will be forgiven."
+    },
+    "CPDV": {
+     "text": "Do not judge, and you will not be judged. Do not condemn, and you will not be condemned. Forgive, and you will be forgiven.",
+     "displayText": "Do not judge, and you will not be judged. Do not condemn, and you will not be condemned. Forgive, and you will be forgiven."
+    }
+   },
+   "context": "In his Sermon on the Plain, Jesus tells his followers not to judge or condemn others, but to forgive."
+  },
+  {
+   "id": "LUK.7.47",
+   "translations": {
+    "KJV": {
+     "text": "Wherefore I say unto thee, Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little.",
+     "displayText": "Wherefore I say unto thee, Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little."
+    },
+    "BSB": {
+     "text": "Therefore I tell you, because her many sins have been forgiven, she has loved much. But he who has been forgiven little loves little.”",
+     "displayText": "Therefore I tell you, because her many sins have been forgiven, she has loved much. But he who has been forgiven little loves little.”"
+    },
+    "CPDV": {
+     "text": "Because of this, I tell you: many sins are forgiven her, because she has loved much. But he who is forgiven less, loves less.”",
+     "displayText": "Because of this, I tell you: many sins are forgiven her, because she has loved much. But he who is forgiven less, loves less.”"
+    }
+   },
+   "context": "At a dinner, a woman known for her sins washes Jesus' feet with her tears, and Jesus explains that her great love reflects great forgiveness."
+  },
+  {
+   "id": "LUK.7.48",
+   "translations": {
+    "KJV": {
+     "text": "And he said unto her, Thy sins are forgiven.",
+     "displayText": "And he said unto her, Thy sins are forgiven."
+    },
+    "BSB": {
+     "text": "Then Jesus said to her, “Your sins are forgiven.”",
+     "displayText": "Then Jesus said to her, “Your sins are forgiven.”"
+    },
+    "CPDV": {
+     "text": "Then he said to her, “Your sins are forgiven you.”",
+     "displayText": "Then he said to her, “Your sins are forgiven you.”"
+    }
+   },
+   "context": "After defending the woman who anointed his feet, Jesus turns to her and tells her directly that her sins are forgiven."
+  },
+  {
+   "id": "LUK.7.50",
+   "translations": {
+    "KJV": {
+     "text": "And he said to the woman, Thy faith hath saved thee; go in peace.",
+     "displayText": "And he said to the woman, Thy faith hath saved thee; go in peace."
+    },
+    "BSB": {
+     "text": "And Jesus told the woman, “Your faith has saved you; go in peace.”",
+     "displayText": "And Jesus told the woman, “Your faith has saved you; go in peace.”"
+    },
+    "CPDV": {
+     "text": "Then he said to the woman: “Your faith has brought you salvation. Go in peace.”",
+     "displayText": "Then he said to the woman: “Your faith has brought you salvation. Go in peace.”"
+    }
+   },
+   "context": "Jesus sends away the woman who wept at his feet, telling her that her trust has saved her and she can go in peace."
+  },
+  {
+   "id": "LUK.8.50",
+   "translations": {
+    "KJV": {
+     "text": "But when Jesus heard it, he answered him, saying, Fear not: believe only, and she shall be made whole.",
+     "displayText": "But when Jesus heard it, he answered him, saying, Fear not: believe only, and she shall be made whole."
+    },
+    "BSB": {
+     "text": "But Jesus overheard them and said to Jairus, “Do not be afraid; just believe, and she will be healed.”",
+     "displayText": "But Jesus overheard them and said to Jairus, “Do not be afraid; just believe, and she will be healed.”"
+    },
+    "CPDV": {
+     "text": "Then Jesus, upon hearing this word, replied to the father of the girl: “Do not be afraid. Only believe, and she will be saved.”",
+     "displayText": "Then Jesus, upon hearing this word, replied to the father of the girl: “Do not be afraid. Only believe, and she will be saved.”"
+    }
+   },
+   "context": "Just as Jairus hears that his daughter has died, Jesus tells him not to be afraid and to keep believing."
+  },
+  {
+   "id": "LUK.10.41",
+   "translations": {
+    "KJV": {
+     "text": "And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things:",
+     "displayText": "And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things:"
+    },
+    "BSB": {
+     "text": "“Martha, Martha,” the Lord replied, “you are worried and upset about many things.",
+     "displayText": "“Martha, Martha,” the Lord replied, “you are worried and upset about many things."
+    },
+    "CPDV": {
+     "text": "And the Lord responded by saying to her: “Martha, Martha, you are anxious and troubled over many things.",
+     "displayText": "And the Lord responded by saying to her: “Martha, Martha, you are anxious and troubled over many things."
+    }
+   },
+   "context": "When Martha complains that her sister Mary is sitting and listening instead of helping, Jesus gently answers her."
+  },
+  {
+   "id": "LUK.15.21",
+   "translations": {
+    "KJV": {
+     "text": "And the son said unto him, Father, I have sinned against heaven, and in thy sight, and am no more worthy to be called thy son.",
+     "displayText": "And the son said unto him, Father, I have sinned against heaven, and in thy sight, and am no more worthy to be called thy son."
+    },
+    "BSB": {
+     "text": "The son declared, ‘Father, I have sinned against heaven and against you. I am no longer worthy to be called your son.’",
+     "displayText": "The son declared, ‘Father, I have sinned against heaven and against you. I am no longer worthy to be called your son.’"
+    },
+    "CPDV": {
+     "text": "And the son said to him: ‘Father, I have sinned against heaven and before you. Now I am not worthy to be called your son.’",
+     "displayText": "And the son said to him: ‘Father, I have sinned against heaven and before you. Now I am not worthy to be called your son.’"
+    }
+   },
+   "context": "In Jesus' parable of the prodigal son, the son returns home and begins his rehearsed confession to his father."
+  },
+  {
+   "id": "LUK.15.22",
+   "translations": {
+    "KJV": {
+     "text": "But the father said to his servants, Bring forth the best robe, and put it on him; and put a ring on his hand, and shoes on his feet:",
+     "displayText": "But the father said to his servants, Bring forth the best robe, and put it on him; and put a ring on his hand, and shoes on his feet:"
+    },
+    "BSB": {
+     "text": "But the father said to his servants, ‘Quick! Bring the best robe and put it on him. Put a ring on his finger and sandals on his feet.",
+     "displayText": "But the father said to his servants, ‘Quick! Bring the best robe and put it on him. Put a ring on his finger and sandals on his feet."
+    },
+    "CPDV": {
+     "text": "But the father said to his servants: ‘Quickly! Bring out the best robe, and clothe him with it. And put a ring on his hand and shoes on his feet.",
+     "displayText": "But the father said to his servants: ‘Quickly! Bring out the best robe, and clothe him with it. And put a ring on his hand and shoes on his feet."
+    }
+   },
+   "context": "Before his returning son can even finish apologizing, the father in Jesus' parable calls for a robe, a ring and sandals."
+  },
+  {
+   "id": "LUK.15.31",
+   "translations": {
+    "KJV": {
+     "text": "And he said unto him, Son, thou art ever with me, and all that I have is thine.",
+     "displayText": "And he said unto him, Son, thou art ever with me, and all that I have is thine."
+    },
+    "BSB": {
+     "text": "‘Son, you are always with me,’ the father said, ‘and all that is mine is yours.",
+     "displayText": "‘Son, you are always with me,’ the father said, ‘and all that is mine is yours."
+    },
+    "CPDV": {
+     "text": "But he said to him: ‘Son, you are with me always, and all that I have is yours.",
+     "displayText": "But he said to him: ‘Son, you are with me always, and all that I have is yours."
+    }
+   },
+   "context": "In the parable of the prodigal son, the father reassures his resentful older son that he has always been loved."
+  },
+  {
+   "id": "LUK.17.3",
+   "translations": {
+    "KJV": {
+     "text": "Take heed to yourselves: If thy brother trespass against thee, rebuke him; and if he repent, forgive him.",
+     "displayText": "Take heed to yourselves: If thy brother trespass against thee, rebuke him; and if he repent, forgive him."
+    },
+    "BSB": {
+     "text": "Watch yourselves. If your brother sins, rebuke him; and if he repents, forgive him.",
+     "displayText": "Watch yourselves. If your brother sins, rebuke him; and if he repents, forgive him."
+    },
+    "CPDV": {
+     "text": "Be attentive to yourselves. If your brother has sinned against you, correct him. And if he has repented, forgive him.",
+     "displayText": "Be attentive to yourselves. If your brother has sinned against you, correct him. And if he has repented, forgive him."
+    }
+   },
+   "context": "Teaching his disciples about how to treat one another, Jesus tells them to forgive anyone who wrongs them and repents."
+  },
+  {
+   "id": "LUK.17.4",
+   "translations": {
+    "KJV": {
+     "text": "And if he trespass against thee seven times in a day, and seven times in a day turn again to thee, saying, I repent; thou shalt forgive him.",
+     "displayText": "And if he trespass against thee seven times in a day, and seven times in a day turn again to thee, saying, I repent; thou shalt forgive him."
+    },
+    "BSB": {
+     "text": "Even if he sins against you seven times in a day, and seven times returns to say, ‘I repent,’ you must forgive him.”",
+     "displayText": "Even if he sins against you seven times in a day, and seven times returns to say, ‘I repent,’ you must forgive him.”"
+    },
+    "CPDV": {
+     "text": "And if he has sinned against you seven times a day, and seven times a day has turned back to you, saying, ‘I am sorry,’ then forgive him.”",
+     "displayText": "And if he has sinned against you seven times a day, and seven times a day has turned back to you, saying, ‘I am sorry,’ then forgive him.”"
+    }
+   },
+   "context": "Jesus tells his disciples that even if someone wrongs them seven times in one day and repents each time, they must forgive."
+  },
+  {
+   "id": "LUK.17.15",
+   "translations": {
+    "KJV": {
+     "text": "And one of them, when he saw that he was healed, turned back, and with a loud voice glorified God,",
+     "displayText": "And one of them, when he saw that he was healed, turned back, and with a loud voice glorified God,"
+    },
+    "BSB": {
+     "text": "When one of them saw that he was healed, he came back, praising God in a loud voice.",
+     "displayText": "When one of them saw that he was healed, he came back, praising God in a loud voice."
+    },
+    "CPDV": {
+     "text": "And one of them, when he saw that he was cleansed, returned, magnifying God with a loud voice.",
+     "displayText": "And one of them, when he saw that he was cleansed, returned, magnifying God with a loud voice."
+    }
+   },
+   "context": "Jesus heals ten men of leprosy, but only one of them comes back, praising God out loud."
+  },
+  {
+   "id": "LUK.17.16",
+   "translations": {
+    "KJV": {
+     "text": "And fell down on his face at his feet, giving him thanks: and he was a Samaritan.",
+     "displayText": "And fell down on his face at his feet, giving him thanks: and he was a Samaritan."
+    },
+    "BSB": {
+     "text": "He fell facedown at Jesus’ feet in thanksgiving to Him—and he was a Samaritan.",
+     "displayText": "He fell facedown at Jesus’ feet in thanksgiving to Him—and he was a Samaritan."
+    },
+    "CPDV": {
+     "text": "And he fell face down before his feet, giving thanks. And this one was a Samaritan.",
+     "displayText": "And he fell face down before his feet, giving thanks. And this one was a Samaritan."
+    }
+   },
+   "context": "The one healed leper who returns throws himself at Jesus' feet to thank him, and he turns out to be a Samaritan outsider."
+  },
+  {
+   "id": "LUK.19.5",
+   "translations": {
+    "KJV": {
+     "text": "And when Jesus came to the place, he looked up, and saw him, and said unto him, Zaccheus, make haste, and come down; for to day I must abide at thy house.",
+     "displayText": "And when Jesus came to the place, he looked up, and saw him, and said unto him, Zaccheus, make haste, and come down; for to day I must abide at thy house."
+    },
+    "BSB": {
+     "text": "When Jesus came to that place, He looked up and said, “Zacchaeus, hurry down, for I must stay at your house today.”",
+     "displayText": "When Jesus came to that place, He looked up and said, “Zacchaeus, hurry down, for I must stay at your house today.”"
+    },
+    "CPDV": {
+     "text": "And when he had arrived at the place, Jesus looked up and saw him, and he said to him: “Zacchaeus, hurry down. For today, I should lodge in your house.”",
+     "displayText": "And when he had arrived at the place, Jesus looked up and saw him, and he said to him: “Zacchaeus, hurry down. For today, I should lodge in your house.”"
+    }
+   },
+   "context": "Zacchaeus, a tax collector despised by his town, climbs a tree to see Jesus, and Jesus calls him by name."
+  },
+  {
+   "id": "LUK.24.5",
+   "translations": {
+    "KJV": {
+     "text": "And as they were afraid, and bowed down their faces to the earth, they said unto them, Why seek ye the living among the dead?",
+     "displayText": "And as they were afraid, and bowed down their faces to the earth, they said unto them, Why seek ye the living among the dead?"
+    },
+    "BSB": {
+     "text": "As the women bowed their faces to the ground in terror, the two men asked them, “Why do you look for the living among the dead?",
+     "displayText": "As the women bowed their faces to the ground in terror, the two men asked them, “Why do you look for the living among the dead?"
+    },
+    "CPDV": {
+     "text": "Then, since they were afraid and were turning their faces toward the ground, these two said to them: “Why do you seek the living with the dead?",
+     "displayText": "Then, since they were afraid and were turning their faces toward the ground, these two said to them: “Why do you seek the living with the dead?"
+    }
+   },
+   "context": "When the women arrive at Jesus' empty tomb, two men in shining clothes ask why they are looking for the living among the dead."
+  },
+  {
+   "id": "LUK.24.36",
+   "translations": {
+    "KJV": {
+     "text": "And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you.",
+     "displayText": "And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you."
+    },
+    "BSB": {
+     "text": "While they were describing these events, Jesus Himself stood among them and said, “Peace be with you.”",
+     "displayText": "While they were describing these events, Jesus Himself stood among them and said, “Peace be with you.”"
+    },
+    "CPDV": {
+     "text": "Then, while they were talking about these things, Jesus stood in their midst, And he said to them: “Peace be with you. It is I. Do not be afraid.”",
+     "displayText": "Then, while they were talking about these things, Jesus stood in their midst, And he said to them: “Peace be with you. It is I. Do not be afraid.”"
+    }
+   },
+   "context": "As the disciples are still discussing reports that Jesus is alive, he suddenly appears among them."
+  },
+  {
+   "id": "LUK.24.38",
+   "translations": {
+    "KJV": {
+     "text": "And he said unto them, Why are ye troubled? and why do thoughts arise in your hearts?",
+     "displayText": "And he said unto them, Why are ye troubled? and why do thoughts arise in your hearts?"
+    },
+    "BSB": {
+     "text": "“Why are you troubled,” Jesus asked, “and why do doubts arise in your hearts?",
+     "displayText": "“Why are you troubled,” Jesus asked, “and why do doubts arise in your hearts?"
+    },
+    "CPDV": {
+     "text": "And he said to them: “Why are you disturbed, and why do these thoughts rise up in your hearts?",
+     "displayText": "And he said to them: “Why are you disturbed, and why do these thoughts rise up in your hearts?"
+    }
+   },
+   "context": "When the risen Jesus appears and the disciples think they're seeing a ghost, he asks why doubts are rising in their hearts."
+  },
+  {
+   "id": "JHN.1.3",
+   "translations": {
+    "KJV": {
+     "text": "All things were made by him; and without him was not any thing made that was made.",
+     "displayText": "All things were made by him; and without him was not any thing made that was made."
+    },
+    "BSB": {
+     "text": "Through Him all things were made, and without Him nothing was made that has been made.",
+     "displayText": "Through Him all things were made, and without Him nothing was made that has been made."
+    },
+    "CPDV": {
+     "text": "All things were made through Him, and nothing that was made was made without Him.",
+     "displayText": "All things were made through Him, and nothing that was made was made without Him."
+    }
+   },
+   "context": "Opening his Gospel, John describes Jesus as the Word through whom everything was created."
+  },
+  {
+   "id": "JHN.1.9",
+   "translations": {
+    "KJV": {
+     "text": "That was the true Light, which lighteth every man that cometh into the world.",
+     "displayText": "That was the true Light, which lighteth every man that cometh into the world."
+    },
+    "BSB": {
+     "text": "The true Light who gives light to every man was coming into the world.",
+     "displayText": "The true Light who gives light to every man was coming into the world."
+    },
+    "CPDV": {
+     "text": "The true Light, which illuminates every man, was coming into this world.",
+     "displayText": "The true Light, which illuminates every man, was coming into this world."
+    }
+   },
+   "context": "In the opening of his Gospel, John describes Jesus as the true light coming into the world for everyone."
+  },
+  {
+   "id": "JHN.3.30",
+   "translations": {
+    "KJV": {
+     "text": "He must increase, but I must decrease.",
+     "displayText": "He must increase, but I must decrease."
+    },
+    "BSB": {
+     "text": "He must increase; I must decrease.",
+     "displayText": "He must increase; I must decrease."
+    },
+    "CPDV": {
+     "text": "He must increase, while I must decrease.",
+     "displayText": "He must increase, while I must decrease."
+    }
+   },
+   "context": "When his followers worry that people are leaving him for Jesus, John the Baptist says Jesus must become greater while he becomes less."
+  },
+  {
+   "id": "JHN.6.40",
+   "translations": {
+    "KJV": {
+     "text": "And this is the will of him that sent me, that every one which seeth the Son, and believeth on him, may have everlasting life: and I will raise him up at the last day.",
+     "displayText": "And this is the will of him that sent me, that every one which seeth the Son, and believeth on him, may have everlasting life: and I will raise him up at the last day."
+    },
+    "BSB": {
+     "text": "For it is My Father’s will that everyone who looks to the Son and believes in Him shall have eternal life, and I will raise him up at the last day.”",
+     "displayText": "For it is My Father’s will that everyone who looks to the Son and believes in Him shall have eternal life, and I will raise him up at the last day.”"
+    },
+    "CPDV": {
+     "text": "So then, this is the will of my Father who sent me: that everyone who sees the Son and believes in him may have eternal life, and I will raise him up on the last day.”",
+     "displayText": "So then, this is the will of my Father who sent me: that everyone who sees the Son and believes in him may have eternal life, and I will raise him up on the last day.”"
+    }
+   },
+   "context": "After feeding a crowd of thousands, Jesus explains that God's will is for everyone who believes in him to have eternal life."
+  },
+  {
+   "id": "JHN.8.10",
+   "translations": {
+    "KJV": {
+     "text": "When Jesus had lifted up himself, and saw none but the woman, he said unto her, Woman, where are those thine accusers? hath no man condemned thee?",
+     "displayText": "When Jesus had lifted up himself, and saw none but the woman, he said unto her, Woman, where are those thine accusers? hath no man condemned thee?"
+    },
+    "BSB": {
+     "text": "Then Jesus straightened up and asked her, “Woman, where are your accusers? Has no one condemned you?”",
+     "displayText": "Then Jesus straightened up and asked her, “Woman, where are your accusers? Has no one condemned you?”"
+    },
+    "CPDV": {
+     "text": "Then Jesus, raising himself up, said to her: “Woman, where are those who accused you? Has no one condemned you?”",
+     "displayText": "Then Jesus, raising himself up, said to her: “Woman, where are those who accused you? Has no one condemned you?”"
+    }
+   },
+   "context": "After the men who wanted to stone a woman caught in adultery all walk away, Jesus asks her where her accusers went."
+  },
+  {
+   "id": "JHN.10.3",
+   "translations": {
+    "KJV": {
+     "text": "To him the porter openeth; and the sheep hear his voice: and he calleth his own sheep by name, and leadeth them out.",
+     "displayText": "To him the porter openeth; and the sheep hear his voice: and he calleth his own sheep by name, and leadeth them out."
+    },
+    "BSB": {
+     "text": "The gatekeeper opens the gate for him, and the sheep listen for his voice. He calls his own sheep by name and leads them out.",
+     "displayText": "The gatekeeper opens the gate for him, and the sheep listen for his voice. He calls his own sheep by name and leads them out."
+    },
+    "CPDV": {
+     "text": "To him the doorkeeper opens, and the sheep hear his voice, and he calls his own sheep by name, and he leads them out.",
+     "displayText": "To him the doorkeeper opens, and the sheep hear his voice, and he calls his own sheep by name, and he leads them out."
+    }
+   },
+   "context": "Describing himself as a shepherd, Jesus says he calls each of his sheep by name and leads them out."
+  },
+  {
+   "id": "JHN.10.14",
+   "translations": {
+    "KJV": {
+     "text": "I am the good shepherd, and know my sheep, and am known of mine.",
+     "displayText": "I am the good shepherd, and know my sheep, and am known of mine."
+    },
+    "BSB": {
+     "text": "I am the good shepherd. I know My sheep and My sheep know Me,",
+     "displayText": "I am the good shepherd. I know My sheep and My sheep know Me,"
+    },
+    "CPDV": {
+     "text": "I am the good Shepherd, and I know my own, and my own know me,",
+     "displayText": "I am the good Shepherd, and I know my own, and my own know me,"
+    }
+   },
+   "context": "Jesus calls himself the good shepherd, one who knows his sheep personally and is known by them."
+  },
+  {
+   "id": "JHN.10.27",
+   "translations": {
+    "KJV": {
+     "text": "My sheep hear my voice, and I know them, and they follow me:",
+     "displayText": "My sheep hear my voice, and I know them, and they follow me:"
+    },
+    "BSB": {
+     "text": "My sheep listen to My voice; I know them, and they follow Me.",
+     "displayText": "My sheep listen to My voice; I know them, and they follow Me."
+    },
+    "CPDV": {
+     "text": "My sheep hear my voice. And I know them, and they follow me.",
+     "displayText": "My sheep hear my voice. And I know them, and they follow me."
+    }
+   },
+   "context": "Challenged to say plainly who he is, Jesus says his sheep recognize his voice and follow him."
+  },
+  {
+   "id": "JHN.10.29",
+   "translations": {
+    "KJV": {
+     "text": "My Father, which gave them me, is greater than all; and no man is able to pluck them out of my Father’s hand.",
+     "displayText": "My Father, which gave them me, is greater than all; and no man is able to pluck them out of my Father’s hand."
+    },
+    "BSB": {
+     "text": "My Father who has given them to Me is greater than all. No one can snatch them out of My Father’s hand.",
+     "displayText": "My Father who has given them to Me is greater than all. No one can snatch them out of My Father’s hand."
+    },
+    "CPDV": {
+     "text": "What my Father gave to me is greater than all, and no one is able to seize from the hand of my Father.",
+     "displayText": "What my Father gave to me is greater than all, and no one is able to seize from the hand of my Father."
+    }
+   },
+   "context": "Jesus tells his challengers that his Father is greater than all, and no one can snatch his sheep from his Father's hand."
+  },
+  {
+   "id": "JHN.11.26",
+   "translations": {
+    "KJV": {
+     "text": "And whosoever liveth and believeth in me shall never die. Believest thou this?",
+     "displayText": "And whosoever liveth and believeth in me shall never die. Believest thou this?"
+    },
+    "BSB": {
+     "text": "And everyone who lives and believes in Me will never die. Do you believe this?”",
+     "displayText": "And everyone who lives and believes in Me will never die. Do you believe this?”"
+    },
+    "CPDV": {
+     "text": "And everyone who lives and believes in me shall not die for eternity. Do you believe this?”",
+     "displayText": "And everyone who lives and believes in me shall not die for eternity. Do you believe this?”"
+    }
+   },
+   "context": "Talking with Martha outside her brother's tomb, Jesus says whoever believes in him will never die, and asks if she believes it."
+  },
+  {
+   "id": "JHN.11.33",
+   "translations": {
+    "KJV": {
+     "text": "When Jesus therefore saw her weeping, and the Jews also weeping which came with her, he groaned in the spirit, and was troubled,",
+     "displayText": "When Jesus therefore saw her weeping, and the Jews also weeping which came with her, he groaned in the spirit, and was troubled,"
+    },
+    "BSB": {
+     "text": "When Jesus saw her weeping, and the Jews who had come with her also weeping, He was deeply moved in spirit and troubled.",
+     "displayText": "When Jesus saw her weeping, and the Jews who had come with her also weeping, He was deeply moved in spirit and troubled."
+    },
+    "CPDV": {
+     "text": "And then, when Jesus saw her weeping, and the Jews who had arrived with her weeping, he groaned in spirit and became troubled.",
+     "displayText": "And then, when Jesus saw her weeping, and the Jews who had arrived with her weeping, he groaned in spirit and became troubled."
+    }
+   },
+   "context": "When Jesus sees Mary and the other mourners weeping over Lazarus, he is deeply moved and troubled."
+  },
+  {
+   "id": "JHN.12.46",
+   "translations": {
+    "KJV": {
+     "text": "I am come a light into the world, that whosoever believeth on me should not abide in darkness.",
+     "displayText": "I am come a light into the world, that whosoever believeth on me should not abide in darkness."
+    },
+    "BSB": {
+     "text": "I have come into the world as a light, so that no one who believes in Me should remain in darkness.",
+     "displayText": "I have come into the world as a light, so that no one who believes in Me should remain in darkness."
+    },
+    "CPDV": {
+     "text": "I have arrived as a light to the world, so that all who believe in me might not remain in darkness.",
+     "displayText": "I have arrived as a light to the world, so that all who believe in me might not remain in darkness."
+    }
+   },
+   "context": "Near the end of his public ministry, Jesus says he came as a light so no one who believes in him would stay in darkness."
+  },
+  {
+   "id": "JHN.13.1",
+   "translations": {
+    "KJV": {
+     "text": "Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, having loved his own which were in the world, he loved them unto the end.",
+     "displayText": "Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, having loved his own which were in the world, he loved them unto the end."
+    },
+    "BSB": {
+     "text": "It was now just before the Passover Feast, and Jesus knew that His hour had come to leave this world and return to the Father. Having loved His own who were in the world, He loved them to the very end.",
+     "displayText": "It was now just before the Passover Feast, and Jesus knew that His hour had come to leave this world and return to the Father. Having loved His own who were in the world, He loved them to the very end."
+    },
+    "CPDV": {
+     "text": "Before the feast day of the Passover, Jesus knew that the hour was approaching when he would pass from this world to the Father. And since he had always loved his own who were in the world, he loved them unto the end.",
+     "displayText": "Before the feast day of the Passover, Jesus knew that the hour was approaching when he would pass from this world to the Father. And since he had always loved his own who were in the world, he loved them unto the end."
+    }
+   },
+   "context": "John begins his account of the Last Supper by saying Jesus loved his followers to the very end."
+  },
+  {
+   "id": "JHN.13.14",
+   "translations": {
+    "KJV": {
+     "text": "If I then, your Lord and Master, have washed your feet; ye also ought to wash one another’s feet.",
+     "displayText": "If I then, your Lord and Master, have washed your feet; ye also ought to wash one another’s feet."
+    },
+    "BSB": {
+     "text": "So if I, your Lord and Teacher, have washed your feet, you also should wash one another’s feet.",
+     "displayText": "So if I, your Lord and Teacher, have washed your feet, you also should wash one another’s feet."
+    },
+    "CPDV": {
+     "text": "Therefore, if I, your Lord and Teacher, have washed your feet, you also ought to wash the feet of one another.",
+     "displayText": "Therefore, if I, your Lord and Teacher, have washed your feet, you also ought to wash the feet of one another."
+    }
+   },
+   "context": "After washing his disciples' feet like a servant, Jesus tells them they should do the same for one another."
+  },
+  {
+   "id": "JHN.14.3",
+   "translations": {
+    "KJV": {
+     "text": "And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.",
+     "displayText": "And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also."
+    },
+    "BSB": {
+     "text": "And if I go and prepare a place for you, I will come back and welcome you into My presence, so that you also may be where I am.",
+     "displayText": "And if I go and prepare a place for you, I will come back and welcome you into My presence, so that you also may be where I am."
+    },
+    "CPDV": {
+     "text": "And if I go and prepare a place for you, I will return again, and then I will take you to myself, so that where I am, you also may be.",
+     "displayText": "And if I go and prepare a place for you, I will return again, and then I will take you to myself, so that where I am, you also may be."
+    }
+   },
+   "context": "At the Last Supper, Jesus tells his worried disciples he is going to prepare a place for them and will come back for them."
+  },
+  {
+   "id": "JHN.14.26",
+   "translations": {
+    "KJV": {
+     "text": "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.",
+     "displayText": "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you."
+    },
+    "BSB": {
+     "text": "But the Advocate, the Holy Spirit, whom the Father will send in My name, will teach you all things and will remind you of everything I have told you.",
+     "displayText": "But the Advocate, the Holy Spirit, whom the Father will send in My name, will teach you all things and will remind you of everything I have told you."
+    },
+    "CPDV": {
+     "text": "But the Advocate, the Holy Spirit, whom the Father will send in my name, will teach you all things and will suggest to you everything whatsoever that I have said to you.",
+     "displayText": "But the Advocate, the Holy Spirit, whom the Father will send in my name, will teach you all things and will suggest to you everything whatsoever that I have said to you."
+    }
+   },
+   "context": "Preparing his disciples for his departure, Jesus promises that the Holy Spirit will teach them and remind them of his words."
+  },
+  {
+   "id": "JHN.16.20",
+   "translations": {
+    "KJV": {
+     "text": "Verily, verily, I say unto you, That ye shall weep and lament, but the world shall rejoice: and ye shall be sorrowful, but your sorrow shall be turned into joy.",
+     "displayText": "Verily, verily, I say unto you, That ye shall weep and lament, but the world shall rejoice: and ye shall be sorrowful, but your sorrow shall be turned into joy."
+    },
+    "BSB": {
+     "text": "Truly, truly, I tell you, you will weep and wail while the world rejoices. You will grieve, but your grief will turn to joy.",
+     "displayText": "Truly, truly, I tell you, you will weep and wail while the world rejoices. You will grieve, but your grief will turn to joy."
+    },
+    "CPDV": {
+     "text": "Amen, amen, I say to you, that you shall mourn and weep, but the world will rejoice. And you shall be greatly saddened, yet your sorrow shall be turned into joy.",
+     "displayText": "Amen, amen, I say to you, that you shall mourn and weep, but the world will rejoice. And you shall be greatly saddened, yet your sorrow shall be turned into joy."
+    }
+   },
+   "context": "On the night before his death, Jesus warns his disciples they will grieve, but promises their grief will turn to joy."
+  },
+  {
+   "id": "JHN.17.23",
+   "translations": {
+    "KJV": {
+     "text": "I in them, and thou in me, that they may be made perfect in one; and that the world may know that thou hast sent me, and hast loved them, as thou hast loved me.",
+     "displayText": "I in them, and thou in me, that they may be made perfect in one; and that the world may know that thou hast sent me, and hast loved them, as thou hast loved me."
+    },
+    "BSB": {
+     "text": "I in them and You in Me—that they may be perfectly united, so that the world may know that You sent Me and have loved them just as You have loved Me.",
+     "displayText": "I in them and You in Me—that they may be perfectly united, so that the world may know that You sent Me and have loved them just as You have loved Me."
+    },
+    "CPDV": {
+     "text": "I am in them, and you are in me. So may they be perfected as one. And may the world know that you have sent me and that you have loved them, just as you have also loved me.",
+     "displayText": "I am in them, and you are in me. So may they be perfected as one. And may the world know that you have sent me and that you have loved them, just as you have also loved me."
+    }
+   },
+   "context": "Praying for all his future followers, Jesus asks that they would be united so the world would know God loves them."
+  },
+  {
+   "id": "JHN.20.16",
+   "translations": {
+    "KJV": {
+     "text": "Jesus saith unto her, Mary. She turned herself, and saith unto him, Rabboni; which is to say, Master.",
+     "displayText": "Jesus saith unto her, Mary. She turned herself, and saith unto him, Rabboni; which is to say, Master."
+    },
+    "BSB": {
+     "text": "Jesus said to her, “Mary.” She turned and said to Him in Hebrew, “Rabboni!” (which means “Teacher”).",
+     "displayText": "Jesus said to her, “Mary.” She turned and said to Him in Hebrew, “Rabboni!” (which means “Teacher”)."
+    },
+    "CPDV": {
+     "text": "Jesus said to her, “Mary!” And turning, she said to him, “Rabboni!” (which means, Teacher).",
+     "displayText": "Jesus said to her, “Mary!” And turning, she said to him, “Rabboni!” (which means, Teacher)."
+    }
+   },
+   "context": "Weeping outside the empty tomb, Mary Magdalene doesn't recognize the risen Jesus until he says her name."
+  },
+  {
+   "id": "JHN.20.21",
+   "translations": {
+    "KJV": {
+     "text": "Then said Jesus to them again, Peace be unto you: as my Father hath sent me, even so send I you.",
+     "displayText": "Then said Jesus to them again, Peace be unto you: as my Father hath sent me, even so send I you."
+    },
+    "BSB": {
+     "text": "Again Jesus said to them, “Peace be with you. As the Father has sent Me, so also I am sending you.”",
+     "displayText": "Again Jesus said to them, “Peace be with you. As the Father has sent Me, so also I am sending you.”"
+    },
+    "CPDV": {
+     "text": "Therefore, he said to them again: “Peace to you. As the Father has sent me, so I send you.”",
+     "displayText": "Therefore, he said to them again: “Peace to you. As the Father has sent me, so I send you.”"
+    }
+   },
+   "context": "Appearing to his frightened disciples after his resurrection, Jesus wishes them peace and sends them out."
+  },
+  {
+   "id": "JHN.21.15",
+   "translations": {
+    "KJV": {
+     "text": "So when they had dined, Jesus saith to Simon Peter, Simon, son of Jonas, lovest thou me more than these? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my lambs.",
+     "displayText": "So when they had dined, Jesus saith to Simon Peter, Simon, son of Jonas, lovest thou me more than these? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my lambs."
+    },
+    "BSB": {
+     "text": "When they had finished eating, Jesus asked Simon Peter, “Simon son of John, do you love Me more than these?” “Yes, Lord,” he answered, “You know I love You.” Jesus replied, “Feed My lambs.”",
+     "displayText": "When they had finished eating, Jesus asked Simon Peter, “Simon son of John, do you love Me more than these?” “Yes, Lord,” he answered, “You know I love You.” Jesus replied, “Feed My lambs.”"
+    },
+    "CPDV": {
+     "text": "Then, when they had dined, Jesus said to Simon Peter, “Simon, son of John, do you love me more than these?” He said to him, “Yes, Lord, you know that I love you.” He said to him, “Feed my lambs.”",
+     "displayText": "Then, when they had dined, Jesus said to Simon Peter, “Simon, son of John, do you love me more than these?” He said to him, “Yes, Lord, you know that I love you.” He said to him, “Feed my lambs.”"
+    }
+   },
+   "context": "After Peter had denied knowing him three times, the risen Jesus asks him over breakfast whether he loves him."
+  },
+  {
+   "id": "JHN.21.17",
+   "translations": {
+    "KJV": {
+     "text": "He saith unto him the third time, Simon, son of Jonas, lovest thou me? Peter was grieved because he said unto him the third time, Lovest thou me? And he said unto him, Lord, thou knowest all things; thou knowest that I love thee. Jesus saith unto him, Feed my sheep.",
+     "displayText": "He saith unto him the third time, Simon, son of Jonas, lovest thou me? Peter was grieved because he said unto him the third time, Lovest thou me? And he said unto him, Lord, thou knowest all things; thou knowest that I love thee. Jesus saith unto him, Feed my sheep."
+    },
+    "BSB": {
+     "text": "Jesus asked a third time, “Simon son of John, do you love Me?” Peter was deeply hurt that Jesus had asked him a third time, “Do you love Me?” “Lord, You know all things,” he replied. “You know I love You.” Jesus said to him, “Feed My sheep.",
+     "displayText": "Jesus asked a third time, “Simon son of John, do you love Me?” Peter was deeply hurt that Jesus had asked him a third time, “Do you love Me?” “Lord, You know all things,” he replied. “You know I love You.” Jesus said to him, “Feed My sheep."
+    },
+    "CPDV": {
+     "text": "He said to him a third time, “Simon, son of John, do you love me?” Peter was very grieved that he had asked him a third time, “Do you love me?” And so he said to him: “Lord, you know all things. You know that I love you.” He said to him, “Feed my sheep.",
+     "displayText": "He said to him a third time, “Simon, son of John, do you love me?” Peter was very grieved that he had asked him a third time, “Do you love me?” And so he said to him: “Lord, you know all things. You know that I love you.” He said to him, “Feed my sheep."
+    }
+   },
+   "context": "Jesus asks Peter a third time if he loves him, and Peter, hurt, answers that Jesus knows everything."
+  },
+  {
+   "id": "ACT.2.28",
+   "translations": {
+    "KJV": {
+     "text": "Thou hast made known to me the ways of life; thou shalt make me full of joy with thy countenance.",
+     "displayText": "Thou hast made known to me the ways of life; thou shalt make me full of joy with thy countenance."
+    },
+    "BSB": {
+     "text": "You have made known to me the paths of life; You will fill me with joy in Your presence.’",
+     "displayText": "You have made known to me the paths of life; You will fill me with joy in Your presence.’"
+    },
+    "CPDV": {
+     "text": "You have made known to me the ways of life. You will completely fill me with happiness by your presence.’",
+     "displayText": "You have made known to me the ways of life. You will completely fill me with happiness by your presence.’"
+    }
+   },
+   "context": "Preaching on the day of Pentecost, Peter quotes a psalm of David about the joy of being in God's presence."
+  },
+  {
+   "id": "ACT.5.41",
+   "translations": {
+    "KJV": {
+     "text": "And they departed from the presence of the council, rejoicing that they were counted worthy to suffer shame for his name.",
+     "displayText": "And they departed from the presence of the council, rejoicing that they were counted worthy to suffer shame for his name."
+    },
+    "BSB": {
+     "text": "The apostles left the Sanhedrin, rejoicing that they had been counted worthy of suffering disgrace for the Name.",
+     "displayText": "The apostles left the Sanhedrin, rejoicing that they had been counted worthy of suffering disgrace for the Name."
+    },
+    "CPDV": {
+     "text": "And indeed, they went forth from the presence of the council, rejoicing that they were considered worthy to suffer insult on behalf of the name of Jesus.",
+     "displayText": "And indeed, they went forth from the presence of the council, rejoicing that they were considered worthy to suffer insult on behalf of the name of Jesus."
+    }
+   },
+   "context": "After being flogged and ordered to stop speaking about Jesus, the apostles leave rejoicing that they were counted worthy."
+  },
+  {
+   "id": "ACT.7.60",
+   "translations": {
+    "KJV": {
+     "text": "And he kneeled down, and cried with a loud voice, Lord, lay not this sin to their charge. And when he had said this, he fell asleep.",
+     "displayText": "And he kneeled down, and cried with a loud voice, Lord, lay not this sin to their charge. And when he had said this, he fell asleep."
+    },
+    "BSB": {
+     "text": "Falling on his knees, he cried out in a loud voice, “Lord, do not hold this sin against them.” And when he had said this, he fell asleep.",
+     "displayText": "Falling on his knees, he cried out in a loud voice, “Lord, do not hold this sin against them.” And when he had said this, he fell asleep."
+    },
+    "CPDV": {
+     "text": "Then, having been brought to his knees, he cried out with a loud voice, saying, “Lord, do not hold this sin against them.” And when he had said this, he fell asleep in the Lord. And Saul was consenting to his murder.",
+     "displayText": "Then, having been brought to his knees, he cried out with a loud voice, saying, “Lord, do not hold this sin against them.” And when he had said this, he fell asleep in the Lord. And Saul was consenting to his murder."
+    }
+   },
+   "context": "As he is being stoned to death for his faith, Stephen kneels and asks God not to hold it against his killers."
+  },
+  {
+   "id": "ACT.13.38",
+   "translations": {
+    "KJV": {
+     "text": "Be it known unto you therefore, men and brethren, that through this man is preached unto you the forgiveness of sins:",
+     "displayText": "Be it known unto you therefore, men and brethren, that through this man is preached unto you the forgiveness of sins:"
+    },
+    "BSB": {
+     "text": "Therefore let it be known to you, brothers, that through Jesus the forgiveness of sins is proclaimed to you.",
+     "displayText": "Therefore let it be known to you, brothers, that through Jesus the forgiveness of sins is proclaimed to you."
+    },
+    "CPDV": {
+     "text": "Therefore, let it be known to you, noble brothers, that through him is announced to you remission from sins and from everything by which you were not able to be justified in the law of Moses.",
+     "displayText": "Therefore, let it be known to you, noble brothers, that through him is announced to you remission from sins and from everything by which you were not able to be justified in the law of Moses."
+    }
+   },
+   "context": "Preaching in a synagogue in Antioch of Pisidia, Paul announces that forgiveness of sins is offered through Jesus."
+  },
+  {
+   "id": "ACT.18.9",
+   "translations": {
+    "KJV": {
+     "text": "Then spake the Lord to Paul in the night by a vision, Be not afraid, but speak, and hold not thy peace:",
+     "displayText": "Then spake the Lord to Paul in the night by a vision, Be not afraid, but speak, and hold not thy peace:"
+    },
+    "BSB": {
+     "text": "One night the Lord spoke to Paul in a vision: “Do not be afraid; keep on speaking; do not be silent.",
+     "displayText": "One night the Lord spoke to Paul in a vision: “Do not be afraid; keep on speaking; do not be silent."
+    },
+    "CPDV": {
+     "text": "Then the Lord said to Paul, through a vision in the night: “Do not be afraid. Instead, speak out and do not be silent.",
+     "displayText": "Then the Lord said to Paul, through a vision in the night: “Do not be afraid. Instead, speak out and do not be silent."
+    }
+   },
+   "context": "While facing opposition in Corinth, Paul has a vision at night in which the Lord tells him not to be afraid."
+  },
+  {
+   "id": "ACT.18.10",
+   "translations": {
+    "KJV": {
+     "text": "For I am with thee, and no man shall set on thee to hurt thee: for I have much people in this city.",
+     "displayText": "For I am with thee, and no man shall set on thee to hurt thee: for I have much people in this city."
+    },
+    "BSB": {
+     "text": "For I am with you and no one will lay a hand on you, because I have many people in this city.”",
+     "displayText": "For I am with you and no one will lay a hand on you, because I have many people in this city.”"
+    },
+    "CPDV": {
+     "text": "For I am with you. And no one will take hold of you, so as to do you harm. For many of the people in this city are with me.”",
+     "displayText": "For I am with you. And no one will take hold of you, so as to do you harm. For many of the people in this city are with me.”"
+    }
+   },
+   "context": "Continuing Paul's night vision in Corinth, the Lord promises to be with him and says many people in the city belong to him."
+  },
+  {
+   "id": "ACT.27.22",
+   "translations": {
+    "KJV": {
+     "text": "And now I exhort you to be of good cheer: for there shall be no loss of any man’s life among you, but of the ship.",
+     "displayText": "And now I exhort you to be of good cheer: for there shall be no loss of any man’s life among you, but of the ship."
+    },
+    "BSB": {
+     "text": "But now I urge you to keep up your courage, because you will not experience any loss of life, but only of the ship.",
+     "displayText": "But now I urge you to keep up your courage, because you will not experience any loss of life, but only of the ship."
+    },
+    "CPDV": {
+     "text": "And now, let me persuade you to be courageous in soul. For there shall be no loss of life among you, but only of the ship.",
+     "displayText": "And now, let me persuade you to be courageous in soul. For there shall be no loss of life among you, but only of the ship."
+    }
+   },
+   "context": "Caught in a violent storm at sea for days, Paul stands up among the terrified sailors and urges them to take courage."
+  },
+  {
+   "id": "ROM.5.6",
+   "translations": {
+    "KJV": {
+     "text": "For when we were yet without strength, in due time Christ died for the ungodly.",
+     "displayText": "For when we were yet without strength, in due time Christ died for the ungodly."
+    },
+    "BSB": {
+     "text": "For at just the right time, while we were still powerless, Christ died for the ungodly.",
+     "displayText": "For at just the right time, while we were still powerless, Christ died for the ungodly."
+    },
+    "CPDV": {
+     "text": "Yet why did Christ, while we were still infirm, at the proper time, suffer death for the impious?",
+     "displayText": "Yet why did Christ, while we were still infirm, at the proper time, suffer death for the impious?"
+    }
+   },
+   "context": "Writing to the church in Rome, Paul explains that Christ died for people at the very moment they were powerless to help themselves."
+  },
+  {
+   "id": "ROM.5.10",
+   "translations": {
+    "KJV": {
+     "text": "For if, when we were enemies, we were reconciled to God by the death of his Son, much more, being reconciled, we shall be saved by his life.",
+     "displayText": "For if, when we were enemies, we were reconciled to God by the death of his Son, much more, being reconciled, we shall be saved by his life."
+    },
+    "BSB": {
+     "text": "For if, when we were enemies of God, we were reconciled to Him through the death of His Son, how much more, having been reconciled, shall we be saved through His life!",
+     "displayText": "For if, when we were enemies of God, we were reconciled to Him through the death of His Son, how much more, having been reconciled, shall we be saved through His life!"
+    },
+    "CPDV": {
+     "text": "For if we were reconciled to God through the death of his Son, while we were still enemies, all the more so, having been reconciled, shall we be saved by his life.",
+     "displayText": "For if we were reconciled to God through the death of his Son, while we were still enemies, all the more so, having been reconciled, shall we be saved by his life."
+    }
+   },
+   "context": "Paul reasons that if God made peace with people while they were still his enemies, he will surely keep saving them now."
+  },
+  {
+   "id": "ROM.8.15",
+   "translations": {
+    "KJV": {
+     "text": "For ye have not received the spirit of bondage again to fear; but ye have received the Spirit of adoption, whereby we cry, Abba, Father.",
+     "displayText": "For ye have not received the spirit of bondage again to fear; but ye have received the Spirit of adoption, whereby we cry, Abba, Father."
+    },
+    "BSB": {
+     "text": "For you did not receive a spirit of slavery that returns you to fear, but you received the Spirit of sonship, by whom we cry, “Abba! Father!”",
+     "displayText": "For you did not receive a spirit of slavery that returns you to fear, but you received the Spirit of sonship, by whom we cry, “Abba! Father!”"
+    },
+    "CPDV": {
+     "text": "And you have not received, again, a spirit of servitude in fear, but you have received the Spirit of the adoption of sons, in whom we cry out: “Abba, Father!”",
+     "displayText": "And you have not received, again, a spirit of servitude in fear, but you have received the Spirit of the adoption of sons, in whom we cry out: “Abba, Father!”"
+    }
+   },
+   "context": "Paul tells the Roman believers they have not been given a spirit that makes them afraid, but one that lets them call God 'Father.'"
+  },
+  {
+   "id": "ROM.8.17",
+   "translations": {
+    "KJV": {
+     "text": "And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.",
+     "displayText": "And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together."
+    },
+    "BSB": {
+     "text": "And if we are children, then we are heirs: heirs of God and co-heirs with Christ—if indeed we suffer with Him, so that we may also be glorified with Him.",
+     "displayText": "And if we are children, then we are heirs: heirs of God and co-heirs with Christ—if indeed we suffer with Him, so that we may also be glorified with Him."
+    },
+    "CPDV": {
+     "text": "But if we are sons, then we are also heirs: certainly heirs of God, but also co-heirs with Christ, yet in such a way that, if we suffer with him, we shall also be glorified with him.",
+     "displayText": "But if we are sons, then we are also heirs: certainly heirs of God, but also co-heirs with Christ, yet in such a way that, if we suffer with him, we shall also be glorified with him."
+    }
+   },
+   "context": "Paul explains that as God's children, believers are also heirs who will share in Christ's glory after sharing in his suffering."
+  },
+  {
+   "id": "ROM.8.34",
+   "translations": {
+    "KJV": {
+     "text": "Who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us.",
+     "displayText": "Who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us."
+    },
+    "BSB": {
+     "text": "Who is there to condemn us? For Christ Jesus, who died, and more than that was raised to life, is at the right hand of God—and He is interceding for us.",
+     "displayText": "Who is there to condemn us? For Christ Jesus, who died, and more than that was raised to life, is at the right hand of God—and He is interceding for us."
+    },
+    "CPDV": {
+     "text": "who is the one who condemns? Christ Jesus who has died, and who has indeed also risen again, is at the right hand of God, and even now he intercedes for us.",
+     "displayText": "who is the one who condemns? Christ Jesus who has died, and who has indeed also risen again, is at the right hand of God, and even now he intercedes for us."
+    }
+   },
+   "context": "Near the climax of his letter's most hopeful chapter, Paul asks who could possibly condemn those Christ himself is praying for."
+  },
+  {
+   "id": "ROM.12.10",
+   "translations": {
+    "KJV": {
+     "text": "Be kindly affectioned one to another with brotherly love; in honour preferring one another;",
+     "displayText": "Be kindly affectioned one to another with brotherly love; in honour preferring one another;"
+    },
+    "BSB": {
+     "text": "Be devoted to one another in brotherly love. Outdo yourselves in honoring one another.",
+     "displayText": "Be devoted to one another in brotherly love. Outdo yourselves in honoring one another."
+    },
+    "CPDV": {
+     "text": "loving one another with fraternal charity, surpassing one another in honor:",
+     "displayText": "loving one another with fraternal charity, surpassing one another in honor:"
+    }
+   },
+   "context": "In a list of practical instructions for Christian community, Paul urges the Romans to love each other like family."
+  },
+  {
+   "id": "ROM.12.12",
+   "translations": {
+    "KJV": {
+     "text": "Rejoicing in hope; patient in tribulation; continuing instant in prayer;",
+     "displayText": "Rejoicing in hope; patient in tribulation; continuing instant in prayer;"
+    },
+    "BSB": {
+     "text": "Be joyful in hope, patient in affliction, persistent in prayer.",
+     "displayText": "Be joyful in hope, patient in affliction, persistent in prayer."
+    },
+    "CPDV": {
+     "text": "in hope, rejoicing; in tribulation, enduring; in prayer, ever-willing;",
+     "displayText": "in hope, rejoicing; in tribulation, enduring; in prayer, ever-willing;"
+    }
+   },
+   "context": "Paul gives the Roman church a short three-part instruction for enduring hard times."
+  },
+  {
+   "id": "ROM.12.13",
+   "translations": {
+    "KJV": {
+     "text": "Distributing to the necessity of saints; given to hospitality.",
+     "displayText": "Distributing to the necessity of saints; given to hospitality."
+    },
+    "BSB": {
+     "text": "Share with the saints who are in need. Practice hospitality.",
+     "displayText": "Share with the saints who are in need. Practice hospitality."
+    },
+    "CPDV": {
+     "text": "in the difficulties of the saints, sharing; in hospitality, attentive.",
+     "displayText": "in the difficulties of the saints, sharing; in hospitality, attentive."
+    }
+   },
+   "context": "Continuing his practical instructions, Paul urges believers to share with those in need and welcome strangers into their homes."
+  },
+  {
+   "id": "ROM.12.16",
+   "translations": {
+    "KJV": {
+     "text": "Be of the same mind one toward another. Mind not high things, but condescend to men of low estate. Be not wise in your own conceits.",
+     "displayText": "Be of the same mind one toward another. Mind not high things, but condescend to men of low estate. Be not wise in your own conceits."
+    },
+    "BSB": {
+     "text": "Live in harmony with one another. Do not be proud, but enjoy the company of the lowly. Do not be conceited.",
+     "displayText": "Live in harmony with one another. Do not be proud, but enjoy the company of the lowly. Do not be conceited."
+    },
+    "CPDV": {
+     "text": "Be of the same mind toward one another: not savoring what is exalted, but consenting in humility. Do not choose to seem wise to yourself.",
+     "displayText": "Be of the same mind toward one another: not savoring what is exalted, but consenting in humility. Do not choose to seem wise to yourself."
+    }
+   },
+   "context": "Paul encourages the Roman church to live in harmony and to be willing to spend time with people of low position."
+  },
+  {
+   "id": "ROM.12.17",
+   "translations": {
+    "KJV": {
+     "text": "Recompense to no man evil for evil. Provide things honest in the sight of all men.",
+     "displayText": "Recompense to no man evil for evil. Provide things honest in the sight of all men."
+    },
+    "BSB": {
+     "text": "Do not repay anyone evil for evil. Carefully consider what is right in the eyes of everybody.",
+     "displayText": "Do not repay anyone evil for evil. Carefully consider what is right in the eyes of everybody."
+    },
+    "CPDV": {
+     "text": "Render to no one harm for harm. Provide good things, not only in the sight of God, but also in the sight of all men.",
+     "displayText": "Render to no one harm for harm. Provide good things, not only in the sight of God, but also in the sight of all men."
+    }
+   },
+   "context": "Teaching how to respond to mistreatment, Paul tells the Romans not to pay anyone back with evil."
+  },
+  {
+   "id": "ROM.12.19",
+   "translations": {
+    "KJV": {
+     "text": "Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.",
+     "displayText": "Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord."
+    },
+    "BSB": {
+     "text": "Do not avenge yourselves, beloved, but leave room for God’s wrath. For it is written: “Vengeance is Mine; I will repay, says the Lord.”",
+     "displayText": "Do not avenge yourselves, beloved, but leave room for God’s wrath. For it is written: “Vengeance is Mine; I will repay, says the Lord.”"
+    },
+    "CPDV": {
+     "text": "Do not defend yourselves, dearest ones. Instead, step aside from wrath. For it is written: “Vengeance is mine. I shall give retribution, says the Lord.”",
+     "displayText": "Do not defend yourselves, dearest ones. Instead, step aside from wrath. For it is written: “Vengeance is mine. I shall give retribution, says the Lord.”"
+    }
+   },
+   "context": "Paul tells believers not to take revenge themselves, but to leave judgment in God's hands."
+  }
+ ]
+}

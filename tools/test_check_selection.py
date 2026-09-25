@@ -40,8 +40,9 @@ def _load_kjv_verse_ids():
 # Real book ids with their real chapter counts, so every fixture id below is a
 # verse that actually exists in the KJV (chapter N verse 1 of a real chapter).
 # Psalms has 150 chapters -- fixtures must never invent PSA.151.1 and beyond.
-# All 66 protestant-canon books are listed (1,189 chapters total) to cover
-# TOTAL=1000 fixture ids with comfortable margin.
+# All 66 protestant-canon books are listed (1,189 chapters total). Every
+# real chapter has at least 2 verses, so verses 1 and 2 of each chapter give
+# 2,378 fixture ids -- enough to cover TOTAL=1500 with margin.
 REAL_BOOKS = [
     ("GEN", 50), ("EXO", 40), ("LEV", 27), ("NUM", 36), ("DEU", 34),
     ("JOS", 24), ("JDG", 21), ("RUT", 4), ("1SA", 31), ("2SA", 24),
@@ -65,11 +66,12 @@ SORTED_TOPICS = sorted(TOPICS)
 def real_ids(count):
     """Return `count` distinct ids that resolve against the real KJV."""
     out = []
-    for book, chapters in REAL_BOOKS:
-        for chapter in range(1, chapters + 1):
-            out.append("%s.%d.1" % (book, chapter))
-            if len(out) == count:
-                return out
+    for verse in (1, 2):
+        for book, chapters in REAL_BOOKS:
+            for chapter in range(1, chapters + 1):
+                out.append("%s.%d.%d" % (book, chapter, verse))
+                if len(out) == count:
+                    return out
     raise AssertionError("not enough real ids for %d entries" % count)
 
 
@@ -77,11 +79,11 @@ def valid_selection():
     """A well-formed selection: TOTAL entries, legal tiers, every topic well
     over the floor of 20."""
     ids = real_ids(TOTAL)
-    # 150 / 540 / 310 sits inside the current TIER_BOUNDS and sums to TOTAL.
-    tiers = [1] * 150 + [2] * 540 + [3] * 310
+    # 150 / 900 / 450 sits inside the current TIER_BOUNDS and sums to TOTAL.
+    tiers = [1] * 150 + [2] * 900 + [3] * 450
     selected = []
     for index, (vid, tier) in enumerate(zip(ids, tiers)):
-        # Two topics per entry, rotating: every topic lands ~66 times.
+        # Two topics per entry, rotating: every topic lands ~250 times.
         a = SORTED_TOPICS[index % len(SORTED_TOPICS)]
         b = SORTED_TOPICS[(index + 5) % len(SORTED_TOPICS)]
         selected.append({"id": vid, "tier": tier, "topics": [a, b]})

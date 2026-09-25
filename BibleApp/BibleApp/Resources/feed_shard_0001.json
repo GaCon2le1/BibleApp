@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "contentVersion": "2026-09-12.1",
+ "contentVersion": "2026-09-25.1",
  "verses": [
   {
    "id": "PSA.121.1",
@@ -698,8 +698,8 @@
      "displayText": "Mighty waters cannot quench love; rivers cannot sweep it away. If a man were to give all the wealth of his house for love, his offer would be utterly scorned."
     },
     "CPDV": {
-     "text": "Set me like a seal upon your heart, like a seal upon your arm. For love is strong, like death, and envy is enduring, like hell: their lamps are made of fire and flames.",
-     "displayText": "Set me like a seal upon your heart, like a seal upon your arm. For love is strong, like death, and envy is enduring, like hell: their lamps are made of fire and flames."
+     "text": "A multitude of waters cannot extinguish love, nor can a river overwhelm it. If a man were to give all the substance of his house in exchange for love, he would despise it as nothing.",
+     "displayText": "A multitude of waters cannot extinguish love, nor can a river overwhelm it. If a man were to give all the substance of his house in exchange for love, he would despise it as nothing."
     }
    },
    "context": "Near the end of the same love poem, the woman describes love as something no flood or fortune could buy or destroy."
@@ -1365,7 +1365,7 @@
     },
     "CPDV": {
      "text": "HETH. By the mercies of the Lord, we are not consumed. For his compassion has not passed away.",
-     "displayText": "HETH. By the mercies of the Lord, we are not consumed. For his compassion has not passed away."
+     "displayText": "By the mercies of the Lord, we are not consumed. For his compassion has not passed away."
     }
    },
    "context": "Mourning the destruction of Jerusalem, the writer of Lamentations pauses to say that God's mercy is the reason anything remains."
@@ -1383,7 +1383,7 @@
     },
     "CPDV": {
      "text": "HETH. I know it at first light; great is your faithfulness.",
-     "displayText": "HETH. I know it at first light; great is your faithfulness."
+     "displayText": "I know it at first light; great is your faithfulness."
     }
    },
    "context": "Right after that admission, the same writer describes God's faithfulness as something renewed every single morning."
@@ -1401,7 +1401,7 @@
     },
     "CPDV": {
      "text": "TETH. It is good to stand ready in silence for the salvation of God.",
-     "displayText": "TETH. It is good to stand ready in silence for the salvation of God."
+     "displayText": "It is good to stand ready in silence for the salvation of God."
     }
    },
    "context": "Still grieving the city's fall, the writer of Lamentations concludes that waiting quietly for God's rescue is the better path."

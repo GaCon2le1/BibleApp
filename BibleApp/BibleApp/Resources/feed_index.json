@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "contentVersion": "2026-09-12.1",
+ "contentVersion": "2026-09-25.1",
  "verses": [
   {
    "id": "GEN.1.1",
@@ -12821,6 +12821,6327 @@
    ],
    "tier": 3,
    "shard": 9
+  },
+  {
+   "id": "GEN.21.17",
+   "reference": "Genesis 21:17",
+   "book": "GEN",
+   "chapter": 21,
+   "verse": 17,
+   "topics": [
+    "anxiety",
+    "grief"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "GEN.22.14",
+   "reference": "Genesis 22:14",
+   "book": "GEN",
+   "chapter": 22,
+   "verse": 14,
+   "topics": [
+    "anxiety",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "GEN.32.26",
+   "reference": "Genesis 32:26",
+   "book": "GEN",
+   "chapter": 32,
+   "verse": 26,
+   "topics": [
+    "strength",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "GEN.33.4",
+   "reference": "Genesis 33:4",
+   "book": "GEN",
+   "chapter": 33,
+   "verse": 4,
+   "topics": [
+    "forgiveness",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "GEN.39.21",
+   "reference": "Genesis 39:21",
+   "book": "GEN",
+   "chapter": 39,
+   "verse": 21,
+   "topics": [
+    "hope",
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "GEN.45.15",
+   "reference": "Genesis 45:15",
+   "book": "GEN",
+   "chapter": 45,
+   "verse": 15,
+   "topics": [
+    "forgiveness",
+    "love"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "GEN.50.21",
+   "reference": "Genesis 50:21",
+   "book": "GEN",
+   "chapter": 50,
+   "verse": 21,
+   "topics": [
+    "forgiveness",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "GEN.2.7",
+   "reference": "Genesis 2:7",
+   "book": "GEN",
+   "chapter": 2,
+   "verse": 7,
+   "topics": [
+    "worth",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "EXO.23.20",
+   "reference": "Exodus 23:20",
+   "book": "EXO",
+   "chapter": 23,
+   "verse": 20,
+   "topics": [
+    "guidance",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "EXO.33.19",
+   "reference": "Exodus 33:19",
+   "book": "EXO",
+   "chapter": 33,
+   "verse": 19,
+   "topics": [
+    "forgiveness",
+    "love"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "EXO.14.13",
+   "reference": "Exodus 14:13",
+   "book": "EXO",
+   "chapter": 14,
+   "verse": 13,
+   "topics": [
+    "anxiety",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "LEV.19.32",
+   "reference": "Leviticus 19:32",
+   "book": "LEV",
+   "chapter": 19,
+   "verse": 32,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "DEU.4.31",
+   "reference": "Deuteronomy 4:31",
+   "book": "DEU",
+   "chapter": 4,
+   "verse": 31,
+   "topics": [
+    "doubt",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "DEU.8.3",
+   "reference": "Deuteronomy 8:3",
+   "book": "DEU",
+   "chapter": 8,
+   "verse": 3,
+   "topics": [
+    "purpose",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "DEU.31.8",
+   "reference": "Deuteronomy 31:8",
+   "book": "DEU",
+   "chapter": 31,
+   "verse": 8,
+   "topics": [
+    "anxiety",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "DEU.33.12",
+   "reference": "Deuteronomy 33:12",
+   "book": "DEU",
+   "chapter": 33,
+   "verse": 12,
+   "topics": [
+    "peace",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "DEU.33.25",
+   "reference": "Deuteronomy 33:25",
+   "book": "DEU",
+   "chapter": 33,
+   "verse": 25,
+   "topics": [
+    "strength"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "JOS.1.5",
+   "reference": "Joshua 1:5",
+   "book": "JOS",
+   "chapter": 1,
+   "verse": 5,
+   "topics": [
+    "strength",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "JOS.23.14",
+   "reference": "Joshua 23:14",
+   "book": "JOS",
+   "chapter": 23,
+   "verse": 14,
+   "topics": [
+    "gratitude",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "JDG.6.23",
+   "reference": "Judges 6:23",
+   "book": "JDG",
+   "chapter": 6,
+   "verse": 23,
+   "topics": [
+    "peace",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "JDG.6.24",
+   "reference": "Judges 6:24",
+   "book": "JDG",
+   "chapter": 6,
+   "verse": 24,
+   "topics": [
+    "peace"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "RUT.4.14",
+   "reference": "Ruth 4:14",
+   "book": "RUT",
+   "chapter": 4,
+   "verse": 14,
+   "topics": [
+    "gratitude",
+    "grief"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "1SA.2.8",
+   "reference": "1 Samuel 2:8",
+   "book": "1SA",
+   "chapter": 2,
+   "verse": 8,
+   "topics": [
+    "worth",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "1SA.17.47",
+   "reference": "1 Samuel 17:47",
+   "book": "1SA",
+   "chapter": 17,
+   "verse": 47,
+   "topics": [
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "1SA.12.22",
+   "reference": "1 Samuel 12:22",
+   "book": "1SA",
+   "chapter": 12,
+   "verse": 22,
+   "topics": [
+    "worth",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "2SA.7.18",
+   "reference": "2 Samuel 7:18",
+   "book": "2SA",
+   "chapter": 7,
+   "verse": 18,
+   "topics": [
+    "worth",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "2SA.9.7",
+   "reference": "2 Samuel 9:7",
+   "book": "2SA",
+   "chapter": 9,
+   "verse": 7,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "2SA.12.23",
+   "reference": "2 Samuel 12:23",
+   "book": "2SA",
+   "chapter": 12,
+   "verse": 23,
+   "topics": [
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "2SA.18.33",
+   "reference": "2 Samuel 18:33",
+   "book": "2SA",
+   "chapter": 18,
+   "verse": 33,
+   "topics": [
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "1KI.8.56",
+   "reference": "1 Kings 8:56",
+   "book": "1KI",
+   "chapter": 8,
+   "verse": 56,
+   "topics": [
+    "peace",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "1KI.19.7",
+   "reference": "1 Kings 19:7",
+   "book": "1KI",
+   "chapter": 19,
+   "verse": 7,
+   "topics": [
+    "strength",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "1CH.16.8",
+   "reference": "1 Chronicles 16:8",
+   "book": "1CH",
+   "chapter": 16,
+   "verse": 8,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "1CH.29.14",
+   "reference": "1 Chronicles 29:14",
+   "book": "1CH",
+   "chapter": 29,
+   "verse": 14,
+   "topics": [
+    "gratitude",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "2CH.20.12",
+   "reference": "2 Chronicles 20:12",
+   "book": "2CH",
+   "chapter": 20,
+   "verse": 12,
+   "topics": [
+    "anxiety",
+    "guidance",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "2CH.32.7",
+   "reference": "2 Chronicles 32:7",
+   "book": "2CH",
+   "chapter": 32,
+   "verse": 7,
+   "topics": [
+    "strength",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "EZR.3.11",
+   "reference": "Ezra 3:11",
+   "book": "EZR",
+   "chapter": 3,
+   "verse": 11,
+   "topics": [
+    "gratitude",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "NEH.9.17",
+   "reference": "Nehemiah 9:17",
+   "book": "NEH",
+   "chapter": 9,
+   "verse": 17,
+   "topics": [
+    "forgiveness",
+    "love"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "JOB.5.18",
+   "reference": "Job 5:18",
+   "book": "JOB",
+   "chapter": 5,
+   "verse": 18,
+   "topics": [
+    "grief",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "JOB.8.21",
+   "reference": "Job 8:21",
+   "book": "JOB",
+   "chapter": 8,
+   "verse": 21,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "JOB.12.10",
+   "reference": "Job 12:10",
+   "book": "JOB",
+   "chapter": 12,
+   "verse": 10,
+   "topics": [
+    "worth",
+    "purpose"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "JOB.36.15",
+   "reference": "Job 36:15",
+   "book": "JOB",
+   "chapter": 36,
+   "verse": 15,
+   "topics": [
+    "grief",
+    "purpose"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "JOB.14.7",
+   "reference": "Job 14:7",
+   "book": "JOB",
+   "chapter": 14,
+   "verse": 7,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.3.5",
+   "reference": "Psalms 3:5",
+   "book": "PSA",
+   "chapter": 3,
+   "verse": 5,
+   "topics": [
+    "peace",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.4.7",
+   "reference": "Psalms 4:7",
+   "book": "PSA",
+   "chapter": 4,
+   "verse": 7,
+   "topics": [
+    "gratitude",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.5.11",
+   "reference": "Psalms 5:11",
+   "book": "PSA",
+   "chapter": 5,
+   "verse": 11,
+   "topics": [
+    "peace",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.5.12",
+   "reference": "Psalms 5:12",
+   "book": "PSA",
+   "chapter": 5,
+   "verse": 12,
+   "topics": [
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "PSA.6.2",
+   "reference": "Psalms 6:2",
+   "book": "PSA",
+   "chapter": 6,
+   "verse": 2,
+   "topics": [
+    "grief",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.6.6",
+   "reference": "Psalms 6:6",
+   "book": "PSA",
+   "chapter": 6,
+   "verse": 6,
+   "topics": [
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.6.9",
+   "reference": "Psalms 6:9",
+   "book": "PSA",
+   "chapter": 6,
+   "verse": 9,
+   "topics": [
+    "grief",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.8.5",
+   "reference": "Psalms 8:5",
+   "book": "PSA",
+   "chapter": 8,
+   "verse": 5,
+   "topics": [
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.9.1",
+   "reference": "Psalms 9:1",
+   "book": "PSA",
+   "chapter": 9,
+   "verse": 1,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.9.18",
+   "reference": "Psalms 9:18",
+   "book": "PSA",
+   "chapter": 9,
+   "verse": 18,
+   "topics": [
+    "hope",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.10.14",
+   "reference": "Psalms 10:14",
+   "book": "PSA",
+   "chapter": 10,
+   "verse": 14,
+   "topics": [
+    "grief"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "PSA.12.6",
+   "reference": "Psalms 12:6",
+   "book": "PSA",
+   "chapter": 12,
+   "verse": 6,
+   "topics": [
+    "doubt",
+    "guidance"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "PSA.13.1",
+   "reference": "Psalms 13:1",
+   "book": "PSA",
+   "chapter": 13,
+   "verse": 1,
+   "topics": [
+    "doubt",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.16.2",
+   "reference": "Psalms 16:2",
+   "book": "PSA",
+   "chapter": 16,
+   "verse": 2,
+   "topics": [
+    "gratitude",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.16.5",
+   "reference": "Psalms 16:5",
+   "book": "PSA",
+   "chapter": 16,
+   "verse": 5,
+   "topics": [
+    "peace",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.16.6",
+   "reference": "Psalms 16:6",
+   "book": "PSA",
+   "chapter": 16,
+   "verse": 6,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.17.8",
+   "reference": "Psalms 17:8",
+   "book": "PSA",
+   "chapter": 17,
+   "verse": 8,
+   "topics": [
+    "worth",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.18.6",
+   "reference": "Psalms 18:6",
+   "book": "PSA",
+   "chapter": 18,
+   "verse": 6,
+   "topics": [
+    "anxiety",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.18.16",
+   "reference": "Psalms 18:16",
+   "book": "PSA",
+   "chapter": 18,
+   "verse": 16,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.18.19",
+   "reference": "Psalms 18:19",
+   "book": "PSA",
+   "chapter": 18,
+   "verse": 19,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.18.28",
+   "reference": "Psalms 18:28",
+   "book": "PSA",
+   "chapter": 18,
+   "verse": 28,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.18.30",
+   "reference": "Psalms 18:30",
+   "book": "PSA",
+   "chapter": 18,
+   "verse": 30,
+   "topics": [
+    "doubt",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.18.35",
+   "reference": "Psalms 18:35",
+   "book": "PSA",
+   "chapter": 18,
+   "verse": 35,
+   "topics": [
+    "strength",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.19.8",
+   "reference": "Psalms 19:8",
+   "book": "PSA",
+   "chapter": 19,
+   "verse": 8,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.19.10",
+   "reference": "Psalms 19:10",
+   "book": "PSA",
+   "chapter": 19,
+   "verse": 10,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "PSA.19.12",
+   "reference": "Psalms 19:12",
+   "book": "PSA",
+   "chapter": 19,
+   "verse": 12,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.22.4",
+   "reference": "Psalms 22:4",
+   "book": "PSA",
+   "chapter": 22,
+   "verse": 4,
+   "topics": [
+    "doubt",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.22.5",
+   "reference": "Psalms 22:5",
+   "book": "PSA",
+   "chapter": 22,
+   "verse": 5,
+   "topics": [
+    "doubt",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.22.11",
+   "reference": "Psalms 22:11",
+   "book": "PSA",
+   "chapter": 22,
+   "verse": 11,
+   "topics": [
+    "anxiety",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.22.19",
+   "reference": "Psalms 22:19",
+   "book": "PSA",
+   "chapter": 22,
+   "verse": 19,
+   "topics": [
+    "strength",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.25.5",
+   "reference": "Psalms 25:5",
+   "book": "PSA",
+   "chapter": 25,
+   "verse": 5,
+   "topics": [
+    "guidance",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.25.6",
+   "reference": "Psalms 25:6",
+   "book": "PSA",
+   "chapter": 25,
+   "verse": 6,
+   "topics": [
+    "love",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.25.9",
+   "reference": "Psalms 25:9",
+   "book": "PSA",
+   "chapter": 25,
+   "verse": 9,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.25.10",
+   "reference": "Psalms 25:10",
+   "book": "PSA",
+   "chapter": 25,
+   "verse": 10,
+   "topics": [
+    "love",
+    "guidance"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "PSA.25.11",
+   "reference": "Psalms 25:11",
+   "book": "PSA",
+   "chapter": 25,
+   "verse": 11,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.25.16",
+   "reference": "Psalms 25:16",
+   "book": "PSA",
+   "chapter": 25,
+   "verse": 16,
+   "topics": [
+    "grief",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.25.17",
+   "reference": "Psalms 25:17",
+   "book": "PSA",
+   "chapter": 25,
+   "verse": 17,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.25.18",
+   "reference": "Psalms 25:18",
+   "book": "PSA",
+   "chapter": 25,
+   "verse": 18,
+   "topics": [
+    "forgiveness",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.26.2",
+   "reference": "Psalms 26:2",
+   "book": "PSA",
+   "chapter": 26,
+   "verse": 2,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "PSA.27.4",
+   "reference": "Psalms 27:4",
+   "book": "PSA",
+   "chapter": 27,
+   "verse": 4,
+   "topics": [
+    "purpose",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.27.5",
+   "reference": "Psalms 27:5",
+   "book": "PSA",
+   "chapter": 27,
+   "verse": 5,
+   "topics": [
+    "anxiety",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.27.8",
+   "reference": "Psalms 27:8",
+   "book": "PSA",
+   "chapter": 27,
+   "verse": 8,
+   "topics": [
+    "purpose",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.28.8",
+   "reference": "Psalms 28:8",
+   "book": "PSA",
+   "chapter": 28,
+   "verse": 8,
+   "topics": [
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.30.2",
+   "reference": "Psalms 30:2",
+   "book": "PSA",
+   "chapter": 30,
+   "verse": 2,
+   "topics": [
+    "gratitude",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.31.3",
+   "reference": "Psalms 31:3",
+   "book": "PSA",
+   "chapter": 31,
+   "verse": 3,
+   "topics": [
+    "guidance",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.31.5",
+   "reference": "Psalms 31:5",
+   "book": "PSA",
+   "chapter": 31,
+   "verse": 5,
+   "topics": [
+    "peace",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.31.7",
+   "reference": "Psalms 31:7",
+   "book": "PSA",
+   "chapter": 31,
+   "verse": 7,
+   "topics": [
+    "grief",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.31.9",
+   "reference": "Psalms 31:9",
+   "book": "PSA",
+   "chapter": 31,
+   "verse": 9,
+   "topics": [
+    "grief",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.31.14",
+   "reference": "Psalms 31:14",
+   "book": "PSA",
+   "chapter": 31,
+   "verse": 14,
+   "topics": [
+    "doubt",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.31.19",
+   "reference": "Psalms 31:19",
+   "book": "PSA",
+   "chapter": 31,
+   "verse": 19,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.32.5",
+   "reference": "Psalms 32:5",
+   "book": "PSA",
+   "chapter": 32,
+   "verse": 5,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.32.10",
+   "reference": "Psalms 32:10",
+   "book": "PSA",
+   "chapter": 32,
+   "verse": 10,
+   "topics": [
+    "love"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "PSA.33.4",
+   "reference": "Psalms 33:4",
+   "book": "PSA",
+   "chapter": 33,
+   "verse": 4,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 3,
+   "shard": 10
+  },
+  {
+   "id": "PSA.33.22",
+   "reference": "Psalms 33:22",
+   "book": "PSA",
+   "chapter": 33,
+   "verse": 22,
+   "topics": [
+    "hope",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.34.1",
+   "reference": "Psalms 34:1",
+   "book": "PSA",
+   "chapter": 34,
+   "verse": 1,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.34.5",
+   "reference": "Psalms 34:5",
+   "book": "PSA",
+   "chapter": 34,
+   "verse": 5,
+   "topics": [
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.34.10",
+   "reference": "Psalms 34:10",
+   "book": "PSA",
+   "chapter": 34,
+   "verse": 10,
+   "topics": [
+    "anxiety",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.34.22",
+   "reference": "Psalms 34:22",
+   "book": "PSA",
+   "chapter": 34,
+   "verse": 22,
+   "topics": [
+    "forgiveness",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 10
+  },
+  {
+   "id": "PSA.36.9",
+   "reference": "Psalms 36:9",
+   "book": "PSA",
+   "chapter": 36,
+   "verse": 9,
+   "topics": [
+    "hope",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.37.24",
+   "reference": "Psalms 37:24",
+   "book": "PSA",
+   "chapter": 37,
+   "verse": 24,
+   "topics": [
+    "strength",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.37.25",
+   "reference": "Psalms 37:25",
+   "book": "PSA",
+   "chapter": 37,
+   "verse": 25,
+   "topics": [
+    "hope",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.37.37",
+   "reference": "Psalms 37:37",
+   "book": "PSA",
+   "chapter": 37,
+   "verse": 37,
+   "topics": [
+    "peace"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.37.39",
+   "reference": "Psalms 37:39",
+   "book": "PSA",
+   "chapter": 37,
+   "verse": 39,
+   "topics": [
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.38.9",
+   "reference": "Psalms 38:9",
+   "book": "PSA",
+   "chapter": 38,
+   "verse": 9,
+   "topics": [
+    "grief",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.38.15",
+   "reference": "Psalms 38:15",
+   "book": "PSA",
+   "chapter": 38,
+   "verse": 15,
+   "topics": [
+    "hope",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.38.21",
+   "reference": "Psalms 38:21",
+   "book": "PSA",
+   "chapter": 38,
+   "verse": 21,
+   "topics": [
+    "anxiety",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.39.4",
+   "reference": "Psalms 39:4",
+   "book": "PSA",
+   "chapter": 39,
+   "verse": 4,
+   "topics": [
+    "purpose",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.39.12",
+   "reference": "Psalms 39:12",
+   "book": "PSA",
+   "chapter": 39,
+   "verse": 12,
+   "topics": [
+    "grief"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.40.3",
+   "reference": "Psalms 40:3",
+   "book": "PSA",
+   "chapter": 40,
+   "verse": 3,
+   "topics": [
+    "gratitude",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.40.5",
+   "reference": "Psalms 40:5",
+   "book": "PSA",
+   "chapter": 40,
+   "verse": 5,
+   "topics": [
+    "gratitude",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.40.17",
+   "reference": "Psalms 40:17",
+   "book": "PSA",
+   "chapter": 40,
+   "verse": 17,
+   "topics": [
+    "worth",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.42.8",
+   "reference": "Psalms 42:8",
+   "book": "PSA",
+   "chapter": 42,
+   "verse": 8,
+   "topics": [
+    "peace",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.43.3",
+   "reference": "Psalms 43:3",
+   "book": "PSA",
+   "chapter": 43,
+   "verse": 3,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.43.4",
+   "reference": "Psalms 43:4",
+   "book": "PSA",
+   "chapter": 43,
+   "verse": 4,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.46.7",
+   "reference": "Psalms 46:7",
+   "book": "PSA",
+   "chapter": 46,
+   "verse": 7,
+   "topics": [
+    "strength",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.48.14",
+   "reference": "Psalms 48:14",
+   "book": "PSA",
+   "chapter": 48,
+   "verse": 14,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.49.15",
+   "reference": "Psalms 49:15",
+   "book": "PSA",
+   "chapter": 49,
+   "verse": 15,
+   "topics": [
+    "grief",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.51.1",
+   "reference": "Psalms 51:1",
+   "book": "PSA",
+   "chapter": 51,
+   "verse": 1,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 1,
+   "shard": 11
+  },
+  {
+   "id": "PSA.51.2",
+   "reference": "Psalms 51:2",
+   "book": "PSA",
+   "chapter": 51,
+   "verse": 2,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.51.7",
+   "reference": "Psalms 51:7",
+   "book": "PSA",
+   "chapter": 51,
+   "verse": 7,
+   "topics": [
+    "forgiveness",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.51.17",
+   "reference": "Psalms 51:17",
+   "book": "PSA",
+   "chapter": 51,
+   "verse": 17,
+   "topics": [
+    "forgiveness",
+    "worth"
+   ],
+   "tier": 1,
+   "shard": 11
+  },
+  {
+   "id": "PSA.52.8",
+   "reference": "Psalms 52:8",
+   "book": "PSA",
+   "chapter": 52,
+   "verse": 8,
+   "topics": [
+    "love",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.55.16",
+   "reference": "Psalms 55:16",
+   "book": "PSA",
+   "chapter": 55,
+   "verse": 16,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.56.9",
+   "reference": "Psalms 56:9",
+   "book": "PSA",
+   "chapter": 56,
+   "verse": 9,
+   "topics": [
+    "doubt",
+    "strength"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.57.2",
+   "reference": "Psalms 57:2",
+   "book": "PSA",
+   "chapter": 57,
+   "verse": 2,
+   "topics": [
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.57.10",
+   "reference": "Psalms 57:10",
+   "book": "PSA",
+   "chapter": 57,
+   "verse": 10,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.59.16",
+   "reference": "Psalms 59:16",
+   "book": "PSA",
+   "chapter": 59,
+   "verse": 16,
+   "topics": [
+    "gratitude",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.61.3",
+   "reference": "Psalms 61:3",
+   "book": "PSA",
+   "chapter": 61,
+   "verse": 3,
+   "topics": [
+    "strength",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.61.4",
+   "reference": "Psalms 61:4",
+   "book": "PSA",
+   "chapter": 61,
+   "verse": 4,
+   "topics": [
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.62.5",
+   "reference": "Psalms 62:5",
+   "book": "PSA",
+   "chapter": 62,
+   "verse": 5,
+   "topics": [
+    "peace",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.63.3",
+   "reference": "Psalms 63:3",
+   "book": "PSA",
+   "chapter": 63,
+   "verse": 3,
+   "topics": [
+    "love",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.63.6",
+   "reference": "Psalms 63:6",
+   "book": "PSA",
+   "chapter": 63,
+   "verse": 6,
+   "topics": [
+    "peace",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.63.7",
+   "reference": "Psalms 63:7",
+   "book": "PSA",
+   "chapter": 63,
+   "verse": 7,
+   "topics": [
+    "gratitude",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.63.8",
+   "reference": "Psalms 63:8",
+   "book": "PSA",
+   "chapter": 63,
+   "verse": 8,
+   "topics": [
+    "strength",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.65.3",
+   "reference": "Psalms 65:3",
+   "book": "PSA",
+   "chapter": 65,
+   "verse": 3,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.65.11",
+   "reference": "Psalms 65:11",
+   "book": "PSA",
+   "chapter": 65,
+   "verse": 11,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.66.16",
+   "reference": "Psalms 66:16",
+   "book": "PSA",
+   "chapter": 66,
+   "verse": 16,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.69.16",
+   "reference": "Psalms 69:16",
+   "book": "PSA",
+   "chapter": 69,
+   "verse": 16,
+   "topics": [
+    "love",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.71.5",
+   "reference": "Psalms 71:5",
+   "book": "PSA",
+   "chapter": 71,
+   "verse": 5,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.71.20",
+   "reference": "Psalms 71:20",
+   "book": "PSA",
+   "chapter": 71,
+   "verse": 20,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.72.12",
+   "reference": "Psalms 72:12",
+   "book": "PSA",
+   "chapter": 72,
+   "verse": 12,
+   "topics": [
+    "worth",
+    "hope"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.73.23",
+   "reference": "Psalms 73:23",
+   "book": "PSA",
+   "chapter": 73,
+   "verse": 23,
+   "topics": [
+    "peace",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.73.25",
+   "reference": "Psalms 73:25",
+   "book": "PSA",
+   "chapter": 73,
+   "verse": 25,
+   "topics": [
+    "purpose",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.77.11",
+   "reference": "Psalms 77:11",
+   "book": "PSA",
+   "chapter": 77,
+   "verse": 11,
+   "topics": [
+    "gratitude",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.78.4",
+   "reference": "Psalms 78:4",
+   "book": "PSA",
+   "chapter": 78,
+   "verse": 4,
+   "topics": [
+    "purpose"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.79.9",
+   "reference": "Psalms 79:9",
+   "book": "PSA",
+   "chapter": 79,
+   "verse": 9,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.80.3",
+   "reference": "Psalms 80:3",
+   "book": "PSA",
+   "chapter": 80,
+   "verse": 3,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.84.2",
+   "reference": "Psalms 84:2",
+   "book": "PSA",
+   "chapter": 84,
+   "verse": 2,
+   "topics": [
+    "purpose",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.84.5",
+   "reference": "Psalms 84:5",
+   "book": "PSA",
+   "chapter": 84,
+   "verse": 5,
+   "topics": [
+    "strength",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.85.8",
+   "reference": "Psalms 85:8",
+   "book": "PSA",
+   "chapter": 85,
+   "verse": 8,
+   "topics": [
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.86.7",
+   "reference": "Psalms 86:7",
+   "book": "PSA",
+   "chapter": 86,
+   "verse": 7,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.86.12",
+   "reference": "Psalms 86:12",
+   "book": "PSA",
+   "chapter": 86,
+   "verse": 12,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.86.13",
+   "reference": "Psalms 86:13",
+   "book": "PSA",
+   "chapter": 86,
+   "verse": 13,
+   "topics": [
+    "love",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.89.2",
+   "reference": "Psalms 89:2",
+   "book": "PSA",
+   "chapter": 89,
+   "verse": 2,
+   "topics": [
+    "love"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.89.15",
+   "reference": "Psalms 89:15",
+   "book": "PSA",
+   "chapter": 89,
+   "verse": 15,
+   "topics": [
+    "gratitude",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.90.2",
+   "reference": "Psalms 90:2",
+   "book": "PSA",
+   "chapter": 90,
+   "verse": 2,
+   "topics": [
+    "doubt",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.90.14",
+   "reference": "Psalms 90:14",
+   "book": "PSA",
+   "chapter": 90,
+   "verse": 14,
+   "topics": [
+    "gratitude",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.91.14",
+   "reference": "Psalms 91:14",
+   "book": "PSA",
+   "chapter": 91,
+   "verse": 14,
+   "topics": [
+    "love",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.91.15",
+   "reference": "Psalms 91:15",
+   "book": "PSA",
+   "chapter": 91,
+   "verse": 15,
+   "topics": [
+    "anxiety",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.92.4",
+   "reference": "Psalms 92:4",
+   "book": "PSA",
+   "chapter": 92,
+   "verse": 4,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.92.12",
+   "reference": "Psalms 92:12",
+   "book": "PSA",
+   "chapter": 92,
+   "verse": 12,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.94.14",
+   "reference": "Psalms 94:14",
+   "book": "PSA",
+   "chapter": 94,
+   "verse": 14,
+   "topics": [
+    "doubt",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.94.22",
+   "reference": "Psalms 94:22",
+   "book": "PSA",
+   "chapter": 94,
+   "verse": 22,
+   "topics": [
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.96.1",
+   "reference": "Psalms 96:1",
+   "book": "PSA",
+   "chapter": 96,
+   "verse": 1,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.97.11",
+   "reference": "Psalms 97:11",
+   "book": "PSA",
+   "chapter": 97,
+   "verse": 11,
+   "topics": [
+    "hope",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.100.5",
+   "reference": "Psalms 100:5",
+   "book": "PSA",
+   "chapter": 100,
+   "verse": 5,
+   "topics": [
+    "gratitude",
+    "love"
+   ],
+   "tier": 1,
+   "shard": 11
+  },
+  {
+   "id": "PSA.102.17",
+   "reference": "Psalms 102:17",
+   "book": "PSA",
+   "chapter": 102,
+   "verse": 17,
+   "topics": [
+    "worth",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.103.1",
+   "reference": "Psalms 103:1",
+   "book": "PSA",
+   "chapter": 103,
+   "verse": 1,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 1,
+   "shard": 11
+  },
+  {
+   "id": "PSA.103.10",
+   "reference": "Psalms 103:10",
+   "book": "PSA",
+   "chapter": 103,
+   "verse": 10,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.103.11",
+   "reference": "Psalms 103:11",
+   "book": "PSA",
+   "chapter": 103,
+   "verse": 11,
+   "topics": [
+    "love",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.104.33",
+   "reference": "Psalms 104:33",
+   "book": "PSA",
+   "chapter": 104,
+   "verse": 33,
+   "topics": [
+    "gratitude",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.107.6",
+   "reference": "Psalms 107:6",
+   "book": "PSA",
+   "chapter": 107,
+   "verse": 6,
+   "topics": [
+    "anxiety",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.107.14",
+   "reference": "Psalms 107:14",
+   "book": "PSA",
+   "chapter": 107,
+   "verse": 14,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.107.20",
+   "reference": "Psalms 107:20",
+   "book": "PSA",
+   "chapter": 107,
+   "verse": 20,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.109.26",
+   "reference": "Psalms 109:26",
+   "book": "PSA",
+   "chapter": 109,
+   "verse": 26,
+   "topics": [
+    "love",
+    "anxiety"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.111.4",
+   "reference": "Psalms 111:4",
+   "book": "PSA",
+   "chapter": 111,
+   "verse": 4,
+   "topics": [
+    "love"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.112.4",
+   "reference": "Psalms 112:4",
+   "book": "PSA",
+   "chapter": 112,
+   "verse": 4,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.115.1",
+   "reference": "Psalms 115:1",
+   "book": "PSA",
+   "chapter": 115,
+   "verse": 1,
+   "topics": [
+    "purpose",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.116.1",
+   "reference": "Psalms 116:1",
+   "book": "PSA",
+   "chapter": 116,
+   "verse": 1,
+   "topics": [
+    "love",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.116.2",
+   "reference": "Psalms 116:2",
+   "book": "PSA",
+   "chapter": 116,
+   "verse": 2,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.116.8",
+   "reference": "Psalms 116:8",
+   "book": "PSA",
+   "chapter": 116,
+   "verse": 8,
+   "topics": [
+    "grief",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.118.5",
+   "reference": "Psalms 118:5",
+   "book": "PSA",
+   "chapter": 118,
+   "verse": 5,
+   "topics": [
+    "anxiety",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.118.17",
+   "reference": "Psalms 118:17",
+   "book": "PSA",
+   "chapter": 118,
+   "verse": 17,
+   "topics": [
+    "purpose",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.118.28",
+   "reference": "Psalms 118:28",
+   "book": "PSA",
+   "chapter": 118,
+   "verse": 28,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.18",
+   "reference": "Psalms 119:18",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 18,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.25",
+   "reference": "Psalms 119:25",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 25,
+   "topics": [
+    "grief",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.30",
+   "reference": "Psalms 119:30",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 30,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.37",
+   "reference": "Psalms 119:37",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 37,
+   "topics": [
+    "purpose",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.64",
+   "reference": "Psalms 119:64",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 64,
+   "topics": [
+    "love",
+    "guidance"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.68",
+   "reference": "Psalms 119:68",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 68,
+   "topics": [
+    "guidance",
+    "gratitude"
+   ],
+   "tier": 3,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.73",
+   "reference": "Psalms 119:73",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 73,
+   "topics": [
+    "worth",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.81",
+   "reference": "Psalms 119:81",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 81,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.89",
+   "reference": "Psalms 119:89",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 89,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.92",
+   "reference": "Psalms 119:92",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 92,
+   "topics": [
+    "grief",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.130",
+   "reference": "Psalms 119:130",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 130,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.143",
+   "reference": "Psalms 119:143",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 143,
+   "topics": [
+    "anxiety",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.119.176",
+   "reference": "Psalms 119:176",
+   "book": "PSA",
+   "chapter": 119,
+   "verse": 176,
+   "topics": [
+    "forgiveness",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 11
+  },
+  {
+   "id": "PSA.121.2",
+   "reference": "Psalms 121:2",
+   "book": "PSA",
+   "chapter": 121,
+   "verse": 2,
+   "topics": [
+    "strength",
+    "hope"
+   ],
+   "tier": 1,
+   "shard": 11
+  },
+  {
+   "id": "PSA.121.5",
+   "reference": "Psalms 121:5",
+   "book": "PSA",
+   "chapter": 121,
+   "verse": 5,
+   "topics": [
+    "peace",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.121.7",
+   "reference": "Psalms 121:7",
+   "book": "PSA",
+   "chapter": 121,
+   "verse": 7,
+   "topics": [
+    "anxiety",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.125.2",
+   "reference": "Psalms 125:2",
+   "book": "PSA",
+   "chapter": 125,
+   "verse": 2,
+   "topics": [
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.126.2",
+   "reference": "Psalms 126:2",
+   "book": "PSA",
+   "chapter": 126,
+   "verse": 2,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.127.2",
+   "reference": "Psalms 127:2",
+   "book": "PSA",
+   "chapter": 127,
+   "verse": 2,
+   "topics": [
+    "anxiety",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.127.3",
+   "reference": "Psalms 127:3",
+   "book": "PSA",
+   "chapter": 127,
+   "verse": 3,
+   "topics": [
+    "worth",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.130.3",
+   "reference": "Psalms 130:3",
+   "book": "PSA",
+   "chapter": 130,
+   "verse": 3,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "PSA.130.4",
+   "reference": "Psalms 130:4",
+   "book": "PSA",
+   "chapter": 130,
+   "verse": 4,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.130.7",
+   "reference": "Psalms 130:7",
+   "book": "PSA",
+   "chapter": 130,
+   "verse": 7,
+   "topics": [
+    "hope",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.136.23",
+   "reference": "Psalms 136:23",
+   "book": "PSA",
+   "chapter": 136,
+   "verse": 23,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "PSA.138.7",
+   "reference": "Psalms 138:7",
+   "book": "PSA",
+   "chapter": 138,
+   "verse": 7,
+   "topics": [
+    "anxiety",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.139.1",
+   "reference": "Psalms 139:1",
+   "book": "PSA",
+   "chapter": 139,
+   "verse": 1,
+   "topics": [
+    "worth"
+   ],
+   "tier": 1,
+   "shard": 12
+  },
+  {
+   "id": "PSA.139.2",
+   "reference": "Psalms 139:2",
+   "book": "PSA",
+   "chapter": 139,
+   "verse": 2,
+   "topics": [
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.139.5",
+   "reference": "Psalms 139:5",
+   "book": "PSA",
+   "chapter": 139,
+   "verse": 5,
+   "topics": [
+    "worth",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.139.13",
+   "reference": "Psalms 139:13",
+   "book": "PSA",
+   "chapter": 139,
+   "verse": 13,
+   "topics": [
+    "worth",
+    "purpose"
+   ],
+   "tier": 1,
+   "shard": 12
+  },
+  {
+   "id": "PSA.139.16",
+   "reference": "Psalms 139:16",
+   "book": "PSA",
+   "chapter": 139,
+   "verse": 16,
+   "topics": [
+    "purpose",
+    "worth"
+   ],
+   "tier": 1,
+   "shard": 12
+  },
+  {
+   "id": "PSA.139.18",
+   "reference": "Psalms 139:18",
+   "book": "PSA",
+   "chapter": 139,
+   "verse": 18,
+   "topics": [
+    "love",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.139.24",
+   "reference": "Psalms 139:24",
+   "book": "PSA",
+   "chapter": 139,
+   "verse": 24,
+   "topics": [
+    "guidance",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.140.7",
+   "reference": "Psalms 140:7",
+   "book": "PSA",
+   "chapter": 140,
+   "verse": 7,
+   "topics": [
+    "strength"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "PSA.142.3",
+   "reference": "Psalms 142:3",
+   "book": "PSA",
+   "chapter": 142,
+   "verse": 3,
+   "topics": [
+    "anxiety",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.145.3",
+   "reference": "Psalms 145:3",
+   "book": "PSA",
+   "chapter": 145,
+   "verse": 3,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.145.13",
+   "reference": "Psalms 145:13",
+   "book": "PSA",
+   "chapter": 145,
+   "verse": 13,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "PSA.145.19",
+   "reference": "Psalms 145:19",
+   "book": "PSA",
+   "chapter": 145,
+   "verse": 19,
+   "topics": [
+    "hope",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.146.8",
+   "reference": "Psalms 146:8",
+   "book": "PSA",
+   "chapter": 146,
+   "verse": 8,
+   "topics": [
+    "worth",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PSA.149.4",
+   "reference": "Psalms 149:4",
+   "book": "PSA",
+   "chapter": 149,
+   "verse": 4,
+   "topics": [
+    "worth",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.3.12",
+   "reference": "Proverbs 3:12",
+   "book": "PRO",
+   "chapter": 3,
+   "verse": 12,
+   "topics": [
+    "love",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.3.26",
+   "reference": "Proverbs 3:26",
+   "book": "PRO",
+   "chapter": 3,
+   "verse": 26,
+   "topics": [
+    "anxiety",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.10.9",
+   "reference": "Proverbs 10:9",
+   "book": "PRO",
+   "chapter": 10,
+   "verse": 9,
+   "topics": [
+    "guidance",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.11.2",
+   "reference": "Proverbs 11:2",
+   "book": "PRO",
+   "chapter": 11,
+   "verse": 2,
+   "topics": [
+    "worth",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.11.17",
+   "reference": "Proverbs 11:17",
+   "book": "PRO",
+   "chapter": 11,
+   "verse": 17,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.14.21",
+   "reference": "Proverbs 14:21",
+   "book": "PRO",
+   "chapter": 14,
+   "verse": 21,
+   "topics": [
+    "love"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "PRO.14.31",
+   "reference": "Proverbs 14:31",
+   "book": "PRO",
+   "chapter": 14,
+   "verse": 31,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "PRO.15.23",
+   "reference": "Proverbs 15:23",
+   "book": "PRO",
+   "chapter": 15,
+   "verse": 23,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.15.30",
+   "reference": "Proverbs 15:30",
+   "book": "PRO",
+   "chapter": 15,
+   "verse": 30,
+   "topics": [
+    "hope",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.21.2",
+   "reference": "Proverbs 21:2",
+   "book": "PRO",
+   "chapter": 21,
+   "verse": 2,
+   "topics": [
+    "guidance",
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "PRO.16.16",
+   "reference": "Proverbs 16:16",
+   "book": "PRO",
+   "chapter": 16,
+   "verse": 16,
+   "topics": [
+    "guidance",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.19.20",
+   "reference": "Proverbs 19:20",
+   "book": "PRO",
+   "chapter": 19,
+   "verse": 20,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.22.9",
+   "reference": "Proverbs 22:9",
+   "book": "PRO",
+   "chapter": 22,
+   "verse": 9,
+   "topics": [
+    "gratitude",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.25.15",
+   "reference": "Proverbs 25:15",
+   "book": "PRO",
+   "chapter": 25,
+   "verse": 15,
+   "topics": [
+    "peace"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "PRO.25.25",
+   "reference": "Proverbs 25:25",
+   "book": "PRO",
+   "chapter": 25,
+   "verse": 25,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.27.2",
+   "reference": "Proverbs 27:2",
+   "book": "PRO",
+   "chapter": 27,
+   "verse": 2,
+   "topics": [
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.28.26",
+   "reference": "Proverbs 28:26",
+   "book": "PRO",
+   "chapter": 28,
+   "verse": 26,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.29.11",
+   "reference": "Proverbs 29:11",
+   "book": "PRO",
+   "chapter": 29,
+   "verse": 11,
+   "topics": [
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "PRO.31.26",
+   "reference": "Proverbs 31:26",
+   "book": "PRO",
+   "chapter": 31,
+   "verse": 26,
+   "topics": [
+    "worth",
+    "guidance"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "ECC.3.14",
+   "reference": "Ecclesiastes 3:14",
+   "book": "ECC",
+   "chapter": 3,
+   "verse": 14,
+   "topics": [
+    "doubt",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ECC.7.9",
+   "reference": "Ecclesiastes 7:9",
+   "book": "ECC",
+   "chapter": 7,
+   "verse": 9,
+   "topics": [
+    "peace",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ECC.8.15",
+   "reference": "Ecclesiastes 8:15",
+   "book": "ECC",
+   "chapter": 8,
+   "verse": 15,
+   "topics": [
+    "gratitude",
+    "purpose"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "ECC.11.6",
+   "reference": "Ecclesiastes 11:6",
+   "book": "ECC",
+   "chapter": 11,
+   "verse": 6,
+   "topics": [
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "SNG.2.4",
+   "reference": "Song of Solomon 2:4",
+   "book": "SNG",
+   "chapter": 2,
+   "verse": 4,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "SNG.8.6",
+   "reference": "Song of Solomon 8:6",
+   "book": "SNG",
+   "chapter": 8,
+   "verse": 6,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.25.8",
+   "reference": "Isaiah 25:8",
+   "book": "ISA",
+   "chapter": 25,
+   "verse": 8,
+   "topics": [
+    "grief",
+    "hope"
+   ],
+   "tier": 1,
+   "shard": 12
+  },
+  {
+   "id": "ISA.26.12",
+   "reference": "Isaiah 26:12",
+   "book": "ISA",
+   "chapter": 26,
+   "verse": 12,
+   "topics": [
+    "peace",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.28.16",
+   "reference": "Isaiah 28:16",
+   "book": "ISA",
+   "chapter": 28,
+   "verse": 16,
+   "topics": [
+    "strength",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.38.17",
+   "reference": "Isaiah 38:17",
+   "book": "ISA",
+   "chapter": 38,
+   "verse": 17,
+   "topics": [
+    "forgiveness",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.40.26",
+   "reference": "Isaiah 40:26",
+   "book": "ISA",
+   "chapter": 40,
+   "verse": 26,
+   "topics": [
+    "worth",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.41.9",
+   "reference": "Isaiah 41:9",
+   "book": "ISA",
+   "chapter": 41,
+   "verse": 9,
+   "topics": [
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.43.18",
+   "reference": "Isaiah 43:18",
+   "book": "ISA",
+   "chapter": 43,
+   "verse": 18,
+   "topics": [
+    "hope",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.44.2",
+   "reference": "Isaiah 44:2",
+   "book": "ISA",
+   "chapter": 44,
+   "verse": 2,
+   "topics": [
+    "anxiety",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.46.10",
+   "reference": "Isaiah 46:10",
+   "book": "ISA",
+   "chapter": 46,
+   "verse": 10,
+   "topics": [
+    "purpose",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.48.10",
+   "reference": "Isaiah 48:10",
+   "book": "ISA",
+   "chapter": 48,
+   "verse": 10,
+   "topics": [
+    "grief",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.51.3",
+   "reference": "Isaiah 51:3",
+   "book": "ISA",
+   "chapter": 51,
+   "verse": 3,
+   "topics": [
+    "grief",
+    "hope"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "ISA.51.12",
+   "reference": "Isaiah 51:12",
+   "book": "ISA",
+   "chapter": 51,
+   "verse": 12,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.52.7",
+   "reference": "Isaiah 52:7",
+   "book": "ISA",
+   "chapter": 52,
+   "verse": 7,
+   "topics": [
+    "peace",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.53.7",
+   "reference": "Isaiah 53:7",
+   "book": "ISA",
+   "chapter": 53,
+   "verse": 7,
+   "topics": [
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.54.4",
+   "reference": "Isaiah 54:4",
+   "book": "ISA",
+   "chapter": 54,
+   "verse": 4,
+   "topics": [
+    "worth",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.54.5",
+   "reference": "Isaiah 54:5",
+   "book": "ISA",
+   "chapter": 54,
+   "verse": 5,
+   "topics": [
+    "love",
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "ISA.54.7",
+   "reference": "Isaiah 54:7",
+   "book": "ISA",
+   "chapter": 54,
+   "verse": 7,
+   "topics": [
+    "love",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.54.8",
+   "reference": "Isaiah 54:8",
+   "book": "ISA",
+   "chapter": 54,
+   "verse": 8,
+   "topics": [
+    "love",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.55.9",
+   "reference": "Isaiah 55:9",
+   "book": "ISA",
+   "chapter": 55,
+   "verse": 9,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.55.12",
+   "reference": "Isaiah 55:12",
+   "book": "ISA",
+   "chapter": 55,
+   "verse": 12,
+   "topics": [
+    "peace",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.62.3",
+   "reference": "Isaiah 62:3",
+   "book": "ISA",
+   "chapter": 62,
+   "verse": 3,
+   "topics": [
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.62.4",
+   "reference": "Isaiah 62:4",
+   "book": "ISA",
+   "chapter": 62,
+   "verse": 4,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.63.7",
+   "reference": "Isaiah 63:7",
+   "book": "ISA",
+   "chapter": 63,
+   "verse": 7,
+   "topics": [
+    "gratitude",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "ISA.65.19",
+   "reference": "Isaiah 65:19",
+   "book": "ISA",
+   "chapter": 65,
+   "verse": 19,
+   "topics": [
+    "grief",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "JER.8.22",
+   "reference": "Jeremiah 8:22",
+   "book": "JER",
+   "chapter": 8,
+   "verse": 22,
+   "topics": [
+    "grief",
+    "doubt"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "JER.14.7",
+   "reference": "Jeremiah 14:7",
+   "book": "JER",
+   "chapter": 14,
+   "verse": 7,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "JER.17.8",
+   "reference": "Jeremiah 17:8",
+   "book": "JER",
+   "chapter": 17,
+   "verse": 8,
+   "topics": [
+    "anxiety",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "JER.18.6",
+   "reference": "Jeremiah 18:6",
+   "book": "JER",
+   "chapter": 18,
+   "verse": 6,
+   "topics": [
+    "purpose",
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "JER.24.7",
+   "reference": "Jeremiah 24:7",
+   "book": "JER",
+   "chapter": 24,
+   "verse": 7,
+   "topics": [
+    "love",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "JER.29.12",
+   "reference": "Jeremiah 29:12",
+   "book": "JER",
+   "chapter": 29,
+   "verse": 12,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "JER.30.17",
+   "reference": "Jeremiah 30:17",
+   "book": "JER",
+   "chapter": 30,
+   "verse": 17,
+   "topics": [
+    "grief",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "JER.31.12",
+   "reference": "Jeremiah 31:12",
+   "book": "JER",
+   "chapter": 31,
+   "verse": 12,
+   "topics": [
+    "gratitude",
+    "hope"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "JER.32.27",
+   "reference": "Jeremiah 32:27",
+   "book": "JER",
+   "chapter": 32,
+   "verse": 27,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "JER.33.6",
+   "reference": "Jeremiah 33:6",
+   "book": "JER",
+   "chapter": 33,
+   "verse": 6,
+   "topics": [
+    "peace",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "JER.33.8",
+   "reference": "Jeremiah 33:8",
+   "book": "JER",
+   "chapter": 33,
+   "verse": 8,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "JER.42.11",
+   "reference": "Jeremiah 42:11",
+   "book": "JER",
+   "chapter": 42,
+   "verse": 11,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "LAM.3.31",
+   "reference": "Lamentations 3:31",
+   "book": "LAM",
+   "chapter": 3,
+   "verse": 31,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "LAM.3.32",
+   "reference": "Lamentations 3:32",
+   "book": "LAM",
+   "chapter": 3,
+   "verse": 32,
+   "topics": [
+    "grief",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "LAM.3.33",
+   "reference": "Lamentations 3:33",
+   "book": "LAM",
+   "chapter": 3,
+   "verse": 33,
+   "topics": [
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "LAM.3.40",
+   "reference": "Lamentations 3:40",
+   "book": "LAM",
+   "chapter": 3,
+   "verse": 40,
+   "topics": [
+    "forgiveness",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "LAM.3.55",
+   "reference": "Lamentations 3:55",
+   "book": "LAM",
+   "chapter": 3,
+   "verse": 55,
+   "topics": [
+    "grief"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "LAM.3.57",
+   "reference": "Lamentations 3:57",
+   "book": "LAM",
+   "chapter": 3,
+   "verse": 57,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "LAM.3.58",
+   "reference": "Lamentations 3:58",
+   "book": "LAM",
+   "chapter": 3,
+   "verse": 58,
+   "topics": [
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "EZK.34.11",
+   "reference": "Ezekiel 34:11",
+   "book": "EZK",
+   "chapter": 34,
+   "verse": 11,
+   "topics": [
+    "love",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "EZK.34.26",
+   "reference": "Ezekiel 34:26",
+   "book": "EZK",
+   "chapter": 34,
+   "verse": 26,
+   "topics": [
+    "gratitude",
+    "hope"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "EZK.36.25",
+   "reference": "Ezekiel 36:25",
+   "book": "EZK",
+   "chapter": 36,
+   "verse": 25,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "DAN.9.9",
+   "reference": "Daniel 9:9",
+   "book": "DAN",
+   "chapter": 9,
+   "verse": 9,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "DAN.9.18",
+   "reference": "Daniel 9:18",
+   "book": "DAN",
+   "chapter": 9,
+   "verse": 18,
+   "topics": [
+    "forgiveness",
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 12
+  },
+  {
+   "id": "DAN.10.12",
+   "reference": "Daniel 10:12",
+   "book": "DAN",
+   "chapter": 10,
+   "verse": 12,
+   "topics": [
+    "anxiety",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "HOS.2.14",
+   "reference": "Hosea 2:14",
+   "book": "HOS",
+   "chapter": 2,
+   "verse": 14,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 12
+  },
+  {
+   "id": "HOS.11.8",
+   "reference": "Hosea 11:8",
+   "book": "HOS",
+   "chapter": 11,
+   "verse": 8,
+   "topics": [
+    "love",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JOL.2.12",
+   "reference": "Joel 2:12",
+   "book": "JOL",
+   "chapter": 2,
+   "verse": 12,
+   "topics": [
+    "forgiveness",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JOL.2.26",
+   "reference": "Joel 2:26",
+   "book": "JOL",
+   "chapter": 2,
+   "verse": 26,
+   "topics": [
+    "gratitude",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JON.2.9",
+   "reference": "Jonah 2:9",
+   "book": "JON",
+   "chapter": 2,
+   "verse": 9,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MIC.4.4",
+   "reference": "Micah 4:4",
+   "book": "MIC",
+   "chapter": 4,
+   "verse": 4,
+   "topics": [
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MIC.5.4",
+   "reference": "Micah 5:4",
+   "book": "MIC",
+   "chapter": 5,
+   "verse": 4,
+   "topics": [
+    "peace",
+    "strength"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "HAB.2.3",
+   "reference": "Habakkuk 2:3",
+   "book": "HAB",
+   "chapter": 2,
+   "verse": 3,
+   "topics": [
+    "hope",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "HAB.2.14",
+   "reference": "Habakkuk 2:14",
+   "book": "HAB",
+   "chapter": 2,
+   "verse": 14,
+   "topics": [
+    "hope",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ZEP.3.19",
+   "reference": "Zephaniah 3:19",
+   "book": "ZEP",
+   "chapter": 3,
+   "verse": 19,
+   "topics": [
+    "worth",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "HAG.2.4",
+   "reference": "Haggai 2:4",
+   "book": "HAG",
+   "chapter": 2,
+   "verse": 4,
+   "topics": [
+    "strength",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "HAG.2.5",
+   "reference": "Haggai 2:5",
+   "book": "HAG",
+   "chapter": 2,
+   "verse": 5,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "ZEC.10.6",
+   "reference": "Zechariah 10:6",
+   "book": "ZEC",
+   "chapter": 10,
+   "verse": 6,
+   "topics": [
+    "forgiveness",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ZEC.13.9",
+   "reference": "Zechariah 13:9",
+   "book": "ZEC",
+   "chapter": 13,
+   "verse": 9,
+   "topics": [
+    "purpose",
+    "grief"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "MAL.3.16",
+   "reference": "Malachi 3:16",
+   "book": "MAL",
+   "chapter": 3,
+   "verse": 16,
+   "topics": [
+    "worth",
+    "gratitude"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "MAL.3.17",
+   "reference": "Malachi 3:17",
+   "book": "MAL",
+   "chapter": 3,
+   "verse": 17,
+   "topics": [
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "MAT.5.10",
+   "reference": "Matthew 5:10",
+   "book": "MAT",
+   "chapter": 5,
+   "verse": 10,
+   "topics": [
+    "strength",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.5.44",
+   "reference": "Matthew 5:44",
+   "book": "MAT",
+   "chapter": 5,
+   "verse": 44,
+   "topics": [
+    "love",
+    "forgiveness"
+   ],
+   "tier": 1,
+   "shard": 13
+  },
+  {
+   "id": "MAT.6.10",
+   "reference": "Matthew 6:10",
+   "book": "MAT",
+   "chapter": 6,
+   "verse": 10,
+   "topics": [
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.6.13",
+   "reference": "Matthew 6:13",
+   "book": "MAT",
+   "chapter": 6,
+   "verse": 13,
+   "topics": [
+    "strength",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.6.28",
+   "reference": "Matthew 6:28",
+   "book": "MAT",
+   "chapter": 6,
+   "verse": 28,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.6.32",
+   "reference": "Matthew 6:32",
+   "book": "MAT",
+   "chapter": 6,
+   "verse": 32,
+   "topics": [
+    "anxiety",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.7.11",
+   "reference": "Matthew 7:11",
+   "book": "MAT",
+   "chapter": 7,
+   "verse": 11,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MRK.1.41",
+   "reference": "Mark 1:41",
+   "book": "MRK",
+   "chapter": 1,
+   "verse": 41,
+   "topics": [
+    "love",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.9.2",
+   "reference": "Matthew 9:2",
+   "book": "MAT",
+   "chapter": 9,
+   "verse": 2,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.12.6",
+   "reference": "Luke 12:6",
+   "book": "LUK",
+   "chapter": 12,
+   "verse": 6,
+   "topics": [
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.11.30",
+   "reference": "Matthew 11:30",
+   "book": "MAT",
+   "chapter": 11,
+   "verse": 30,
+   "topics": [
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.12.50",
+   "reference": "Matthew 12:50",
+   "book": "MAT",
+   "chapter": 12,
+   "verse": 50,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "MAT.14.29",
+   "reference": "Matthew 14:29",
+   "book": "MAT",
+   "chapter": 14,
+   "verse": 29,
+   "topics": [
+    "doubt",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.16.18",
+   "reference": "Matthew 16:18",
+   "book": "MAT",
+   "chapter": 16,
+   "verse": 18,
+   "topics": [
+    "strength",
+    "purpose"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "MAT.18.12",
+   "reference": "Matthew 18:12",
+   "book": "MAT",
+   "chapter": 18,
+   "verse": 12,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.18.14",
+   "reference": "Matthew 18:14",
+   "book": "MAT",
+   "chapter": 18,
+   "verse": 14,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.18.21",
+   "reference": "Matthew 18:21",
+   "book": "MAT",
+   "chapter": 18,
+   "verse": 21,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.18.22",
+   "reference": "Matthew 18:22",
+   "book": "MAT",
+   "chapter": 18,
+   "verse": 22,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 1,
+   "shard": 13
+  },
+  {
+   "id": "MAT.18.33",
+   "reference": "Matthew 18:33",
+   "book": "MAT",
+   "chapter": 18,
+   "verse": 33,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.26.28",
+   "reference": "Matthew 26:28",
+   "book": "MAT",
+   "chapter": 26,
+   "verse": 28,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.26.38",
+   "reference": "Matthew 26:38",
+   "book": "MAT",
+   "chapter": 26,
+   "verse": 38,
+   "topics": [
+    "grief",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MAT.28.5",
+   "reference": "Matthew 28:5",
+   "book": "MAT",
+   "chapter": 28,
+   "verse": 5,
+   "topics": [
+    "anxiety",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MRK.6.34",
+   "reference": "Mark 6:34",
+   "book": "MRK",
+   "chapter": 6,
+   "verse": 34,
+   "topics": [
+    "love",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MRK.9.23",
+   "reference": "Mark 9:23",
+   "book": "MRK",
+   "chapter": 9,
+   "verse": 23,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MRK.11.25",
+   "reference": "Mark 11:25",
+   "book": "MRK",
+   "chapter": 11,
+   "verse": 25,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "MRK.16.6",
+   "reference": "Mark 16:6",
+   "book": "MRK",
+   "chapter": 16,
+   "verse": 6,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.1.47",
+   "reference": "Luke 1:47",
+   "book": "LUK",
+   "chapter": 1,
+   "verse": 47,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.2.19",
+   "reference": "Luke 2:19",
+   "book": "LUK",
+   "chapter": 2,
+   "verse": 19,
+   "topics": [
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.6.37",
+   "reference": "Luke 6:37",
+   "book": "LUK",
+   "chapter": 6,
+   "verse": 37,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 1,
+   "shard": 13
+  },
+  {
+   "id": "LUK.7.47",
+   "reference": "Luke 7:47",
+   "book": "LUK",
+   "chapter": 7,
+   "verse": 47,
+   "topics": [
+    "forgiveness",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.7.48",
+   "reference": "Luke 7:48",
+   "book": "LUK",
+   "chapter": 7,
+   "verse": 48,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.7.50",
+   "reference": "Luke 7:50",
+   "book": "LUK",
+   "chapter": 7,
+   "verse": 50,
+   "topics": [
+    "peace",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.8.50",
+   "reference": "Luke 8:50",
+   "book": "LUK",
+   "chapter": 8,
+   "verse": 50,
+   "topics": [
+    "anxiety",
+    "doubt",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.10.41",
+   "reference": "Luke 10:41",
+   "book": "LUK",
+   "chapter": 10,
+   "verse": 41,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.15.21",
+   "reference": "Luke 15:21",
+   "book": "LUK",
+   "chapter": 15,
+   "verse": 21,
+   "topics": [
+    "forgiveness",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.15.22",
+   "reference": "Luke 15:22",
+   "book": "LUK",
+   "chapter": 15,
+   "verse": 22,
+   "topics": [
+    "forgiveness",
+    "worth",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.15.31",
+   "reference": "Luke 15:31",
+   "book": "LUK",
+   "chapter": 15,
+   "verse": 31,
+   "topics": [
+    "love",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.17.3",
+   "reference": "Luke 17:3",
+   "book": "LUK",
+   "chapter": 17,
+   "verse": 3,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.17.4",
+   "reference": "Luke 17:4",
+   "book": "LUK",
+   "chapter": 17,
+   "verse": 4,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.17.15",
+   "reference": "Luke 17:15",
+   "book": "LUK",
+   "chapter": 17,
+   "verse": 15,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.17.16",
+   "reference": "Luke 17:16",
+   "book": "LUK",
+   "chapter": 17,
+   "verse": 16,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.19.5",
+   "reference": "Luke 19:5",
+   "book": "LUK",
+   "chapter": 19,
+   "verse": 5,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.24.5",
+   "reference": "Luke 24:5",
+   "book": "LUK",
+   "chapter": 24,
+   "verse": 5,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.24.36",
+   "reference": "Luke 24:36",
+   "book": "LUK",
+   "chapter": 24,
+   "verse": 36,
+   "topics": [
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "LUK.24.38",
+   "reference": "Luke 24:38",
+   "book": "LUK",
+   "chapter": 24,
+   "verse": 38,
+   "topics": [
+    "doubt",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.1.3",
+   "reference": "John 1:3",
+   "book": "JHN",
+   "chapter": 1,
+   "verse": 3,
+   "topics": [
+    "purpose"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "JHN.1.9",
+   "reference": "John 1:9",
+   "book": "JHN",
+   "chapter": 1,
+   "verse": 9,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "JHN.3.30",
+   "reference": "John 3:30",
+   "book": "JHN",
+   "chapter": 3,
+   "verse": 30,
+   "topics": [
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.6.40",
+   "reference": "John 6:40",
+   "book": "JHN",
+   "chapter": 6,
+   "verse": 40,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.8.10",
+   "reference": "John 8:10",
+   "book": "JHN",
+   "chapter": 8,
+   "verse": 10,
+   "topics": [
+    "forgiveness",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.10.3",
+   "reference": "John 10:3",
+   "book": "JHN",
+   "chapter": 10,
+   "verse": 3,
+   "topics": [
+    "worth",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.10.14",
+   "reference": "John 10:14",
+   "book": "JHN",
+   "chapter": 10,
+   "verse": 14,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.10.27",
+   "reference": "John 10:27",
+   "book": "JHN",
+   "chapter": 10,
+   "verse": 27,
+   "topics": [
+    "guidance",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.10.29",
+   "reference": "John 10:29",
+   "book": "JHN",
+   "chapter": 10,
+   "verse": 29,
+   "topics": [
+    "anxiety",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.11.26",
+   "reference": "John 11:26",
+   "book": "JHN",
+   "chapter": 11,
+   "verse": 26,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.11.33",
+   "reference": "John 11:33",
+   "book": "JHN",
+   "chapter": 11,
+   "verse": 33,
+   "topics": [
+    "grief",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.12.46",
+   "reference": "John 12:46",
+   "book": "JHN",
+   "chapter": 12,
+   "verse": 46,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.13.1",
+   "reference": "John 13:1",
+   "book": "JHN",
+   "chapter": 13,
+   "verse": 1,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.13.14",
+   "reference": "John 13:14",
+   "book": "JHN",
+   "chapter": 13,
+   "verse": 14,
+   "topics": [
+    "love",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.14.3",
+   "reference": "John 14:3",
+   "book": "JHN",
+   "chapter": 14,
+   "verse": 3,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.14.26",
+   "reference": "John 14:26",
+   "book": "JHN",
+   "chapter": 14,
+   "verse": 26,
+   "topics": [
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.16.20",
+   "reference": "John 16:20",
+   "book": "JHN",
+   "chapter": 16,
+   "verse": 20,
+   "topics": [
+    "grief",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.17.23",
+   "reference": "John 17:23",
+   "book": "JHN",
+   "chapter": 17,
+   "verse": 23,
+   "topics": [
+    "love",
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "JHN.20.16",
+   "reference": "John 20:16",
+   "book": "JHN",
+   "chapter": 20,
+   "verse": 16,
+   "topics": [
+    "grief",
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "JHN.20.21",
+   "reference": "John 20:21",
+   "book": "JHN",
+   "chapter": 20,
+   "verse": 21,
+   "topics": [
+    "peace",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.21.15",
+   "reference": "John 21:15",
+   "book": "JHN",
+   "chapter": 21,
+   "verse": 15,
+   "topics": [
+    "love",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "JHN.21.17",
+   "reference": "John 21:17",
+   "book": "JHN",
+   "chapter": 21,
+   "verse": 17,
+   "topics": [
+    "forgiveness",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ACT.2.28",
+   "reference": "Acts 2:28",
+   "book": "ACT",
+   "chapter": 2,
+   "verse": 28,
+   "topics": [
+    "guidance",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ACT.5.41",
+   "reference": "Acts 5:41",
+   "book": "ACT",
+   "chapter": 5,
+   "verse": 41,
+   "topics": [
+    "strength",
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "ACT.7.60",
+   "reference": "Acts 7:60",
+   "book": "ACT",
+   "chapter": 7,
+   "verse": 60,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ACT.13.38",
+   "reference": "Acts 13:38",
+   "book": "ACT",
+   "chapter": 13,
+   "verse": 38,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ACT.18.9",
+   "reference": "Acts 18:9",
+   "book": "ACT",
+   "chapter": 18,
+   "verse": 9,
+   "topics": [
+    "anxiety",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ACT.18.10",
+   "reference": "Acts 18:10",
+   "book": "ACT",
+   "chapter": 18,
+   "verse": 10,
+   "topics": [
+    "anxiety",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ACT.27.22",
+   "reference": "Acts 27:22",
+   "book": "ACT",
+   "chapter": 27,
+   "verse": 22,
+   "topics": [
+    "strength",
+    "anxiety"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "ROM.5.6",
+   "reference": "Romans 5:6",
+   "book": "ROM",
+   "chapter": 5,
+   "verse": 6,
+   "topics": [
+    "worth",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ROM.5.10",
+   "reference": "Romans 5:10",
+   "book": "ROM",
+   "chapter": 5,
+   "verse": 10,
+   "topics": [
+    "forgiveness",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ROM.8.15",
+   "reference": "Romans 8:15",
+   "book": "ROM",
+   "chapter": 8,
+   "verse": 15,
+   "topics": [
+    "worth",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ROM.8.17",
+   "reference": "Romans 8:17",
+   "book": "ROM",
+   "chapter": 8,
+   "verse": 17,
+   "topics": [
+    "worth",
+    "hope"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "ROM.8.34",
+   "reference": "Romans 8:34",
+   "book": "ROM",
+   "chapter": 8,
+   "verse": 34,
+   "topics": [
+    "forgiveness",
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ROM.12.10",
+   "reference": "Romans 12:10",
+   "book": "ROM",
+   "chapter": 12,
+   "verse": 10,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ROM.12.12",
+   "reference": "Romans 12:12",
+   "book": "ROM",
+   "chapter": 12,
+   "verse": 12,
+   "topics": [
+    "hope",
+    "strength"
+   ],
+   "tier": 1,
+   "shard": 13
+  },
+  {
+   "id": "ROM.12.13",
+   "reference": "Romans 12:13",
+   "book": "ROM",
+   "chapter": 12,
+   "verse": 13,
+   "topics": [
+    "love"
+   ],
+   "tier": 3,
+   "shard": 13
+  },
+  {
+   "id": "ROM.12.16",
+   "reference": "Romans 12:16",
+   "book": "ROM",
+   "chapter": 12,
+   "verse": 16,
+   "topics": [
+    "peace",
+    "love"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ROM.12.17",
+   "reference": "Romans 12:17",
+   "book": "ROM",
+   "chapter": 12,
+   "verse": 17,
+   "topics": [
+    "forgiveness",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ROM.12.19",
+   "reference": "Romans 12:19",
+   "book": "ROM",
+   "chapter": 12,
+   "verse": 19,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 13
+  },
+  {
+   "id": "ROM.14.19",
+   "reference": "Romans 14:19",
+   "book": "ROM",
+   "chapter": 14,
+   "verse": 19,
+   "topics": [
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1CO.1.27",
+   "reference": "1 Corinthians 1:27",
+   "book": "1CO",
+   "chapter": 1,
+   "verse": 27,
+   "topics": [
+    "worth",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1CO.6.20",
+   "reference": "1 Corinthians 6:20",
+   "book": "1CO",
+   "chapter": 6,
+   "verse": 20,
+   "topics": [
+    "worth",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1CO.15.54",
+   "reference": "1 Corinthians 15:54",
+   "book": "1CO",
+   "chapter": 15,
+   "verse": 54,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1CO.15.26",
+   "reference": "1 Corinthians 15:26",
+   "book": "1CO",
+   "chapter": 15,
+   "verse": 26,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2CO.1.20",
+   "reference": "2 Corinthians 1:20",
+   "book": "2CO",
+   "chapter": 1,
+   "verse": 20,
+   "topics": [
+    "doubt",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2CO.4.7",
+   "reference": "2 Corinthians 4:7",
+   "book": "2CO",
+   "chapter": 4,
+   "verse": 7,
+   "topics": [
+    "worth",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2CO.5.1",
+   "reference": "2 Corinthians 5:1",
+   "book": "2CO",
+   "chapter": 5,
+   "verse": 1,
+   "topics": [
+    "hope",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2CO.5.21",
+   "reference": "2 Corinthians 5:21",
+   "book": "2CO",
+   "chapter": 5,
+   "verse": 21,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2CO.9.15",
+   "reference": "2 Corinthians 9:15",
+   "book": "2CO",
+   "chapter": 9,
+   "verse": 15,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 1,
+   "shard": 14
+  },
+  {
+   "id": "GAL.1.10",
+   "reference": "Galatians 1:10",
+   "book": "GAL",
+   "chapter": 1,
+   "verse": 10,
+   "topics": [
+    "worth",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "GAL.6.10",
+   "reference": "Galatians 6:10",
+   "book": "GAL",
+   "chapter": 6,
+   "verse": 10,
+   "topics": [
+    "love",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "EPH.2.13",
+   "reference": "Ephesians 2:13",
+   "book": "EPH",
+   "chapter": 2,
+   "verse": 13,
+   "topics": [
+    "worth",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "EPH.3.12",
+   "reference": "Ephesians 3:12",
+   "book": "EPH",
+   "chapter": 3,
+   "verse": 12,
+   "topics": [
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "EPH.5.2",
+   "reference": "Ephesians 5:2",
+   "book": "EPH",
+   "chapter": 5,
+   "verse": 2,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "EPH.5.20",
+   "reference": "Ephesians 5:20",
+   "book": "EPH",
+   "chapter": 5,
+   "verse": 20,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "PHP.1.3",
+   "reference": "Philippians 1:3",
+   "book": "PHP",
+   "chapter": 1,
+   "verse": 3,
+   "topics": [
+    "gratitude",
+    "love"
+   ],
+   "tier": 1,
+   "shard": 14
+  },
+  {
+   "id": "PHP.2.4",
+   "reference": "Philippians 2:4",
+   "book": "PHP",
+   "chapter": 2,
+   "verse": 4,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "PHP.4.12",
+   "reference": "Philippians 4:12",
+   "book": "PHP",
+   "chapter": 4,
+   "verse": 12,
+   "topics": [
+    "peace",
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "COL.1.16",
+   "reference": "Colossians 1:16",
+   "book": "COL",
+   "chapter": 1,
+   "verse": 16,
+   "topics": [
+    "purpose",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "COL.3.12",
+   "reference": "Colossians 3:12",
+   "book": "COL",
+   "chapter": 3,
+   "verse": 12,
+   "topics": [
+    "love",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "COL.3.16",
+   "reference": "Colossians 3:16",
+   "book": "COL",
+   "chapter": 3,
+   "verse": 16,
+   "topics": [
+    "gratitude",
+    "guidance"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "1TH.5.14",
+   "reference": "1 Thessalonians 5:14",
+   "book": "1TH",
+   "chapter": 5,
+   "verse": 14,
+   "topics": [
+    "love",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1TH.5.23",
+   "reference": "1 Thessalonians 5:23",
+   "book": "1TH",
+   "chapter": 5,
+   "verse": 23,
+   "topics": [
+    "peace",
+    "purpose"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "1TI.1.16",
+   "reference": "1 Timothy 1:16",
+   "book": "1TI",
+   "chapter": 1,
+   "verse": 16,
+   "topics": [
+    "forgiveness",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1TI.6.17",
+   "reference": "1 Timothy 6:17",
+   "book": "1TI",
+   "chapter": 6,
+   "verse": 17,
+   "topics": [
+    "gratitude",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2TI.1.9",
+   "reference": "2 Timothy 1:9",
+   "book": "2TI",
+   "chapter": 1,
+   "verse": 9,
+   "topics": [
+    "purpose",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2TI.2.13",
+   "reference": "2 Timothy 2:13",
+   "book": "2TI",
+   "chapter": 2,
+   "verse": 13,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2TI.4.18",
+   "reference": "2 Timothy 4:18",
+   "book": "2TI",
+   "chapter": 4,
+   "verse": 18,
+   "topics": [
+    "hope",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "TIT.2.11",
+   "reference": "Titus 2:11",
+   "book": "TIT",
+   "chapter": 2,
+   "verse": 11,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "HEB.2.18",
+   "reference": "Hebrews 2:18",
+   "book": "HEB",
+   "chapter": 2,
+   "verse": 18,
+   "topics": [
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "HEB.7.25",
+   "reference": "Hebrews 7:25",
+   "book": "HEB",
+   "chapter": 7,
+   "verse": 25,
+   "topics": [
+    "hope",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "HEB.8.12",
+   "reference": "Hebrews 8:12",
+   "book": "HEB",
+   "chapter": 8,
+   "verse": 12,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 1,
+   "shard": 14
+  },
+  {
+   "id": "HEB.10.22",
+   "reference": "Hebrews 10:22",
+   "book": "HEB",
+   "chapter": 10,
+   "verse": 22,
+   "topics": [
+    "forgiveness",
+    "peace"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "HEB.12.3",
+   "reference": "Hebrews 12:3",
+   "book": "HEB",
+   "chapter": 12,
+   "verse": 3,
+   "topics": [
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "HEB.12.12",
+   "reference": "Hebrews 12:12",
+   "book": "HEB",
+   "chapter": 12,
+   "verse": 12,
+   "topics": [
+    "strength"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "HEB.12.28",
+   "reference": "Hebrews 12:28",
+   "book": "HEB",
+   "chapter": 12,
+   "verse": 28,
+   "topics": [
+    "gratitude"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "JAS.1.3",
+   "reference": "James 1:3",
+   "book": "JAS",
+   "chapter": 1,
+   "verse": 3,
+   "topics": [
+    "strength",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "JAS.1.4",
+   "reference": "James 1:4",
+   "book": "JAS",
+   "chapter": 1,
+   "verse": 4,
+   "topics": [
+    "strength",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "JAS.1.22",
+   "reference": "James 1:22",
+   "book": "JAS",
+   "chapter": 1,
+   "verse": 22,
+   "topics": [
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "JAS.2.13",
+   "reference": "James 2:13",
+   "book": "JAS",
+   "chapter": 2,
+   "verse": 13,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "JAS.4.14",
+   "reference": "James 4:14",
+   "book": "JAS",
+   "chapter": 4,
+   "verse": 14,
+   "topics": [
+    "purpose",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "JAS.5.15",
+   "reference": "James 5:15",
+   "book": "JAS",
+   "chapter": 5,
+   "verse": 15,
+   "topics": [
+    "hope",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1PE.2.10",
+   "reference": "1 Peter 2:10",
+   "book": "1PE",
+   "chapter": 2,
+   "verse": 10,
+   "topics": [
+    "worth",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1PE.3.8",
+   "reference": "1 Peter 3:8",
+   "book": "1PE",
+   "chapter": 3,
+   "verse": 8,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1PE.3.9",
+   "reference": "1 Peter 3:9",
+   "book": "1PE",
+   "chapter": 3,
+   "verse": 9,
+   "topics": [
+    "forgiveness",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1PE.4.13",
+   "reference": "1 Peter 4:13",
+   "book": "1PE",
+   "chapter": 4,
+   "verse": 13,
+   "topics": [
+    "grief",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2PE.1.3",
+   "reference": "2 Peter 1:3",
+   "book": "2PE",
+   "chapter": 1,
+   "verse": 3,
+   "topics": [
+    "strength",
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2PE.3.13",
+   "reference": "2 Peter 3:13",
+   "book": "2PE",
+   "chapter": 3,
+   "verse": 13,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1JN.2.1",
+   "reference": "1 John 2:1",
+   "book": "1JN",
+   "chapter": 2,
+   "verse": 1,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1JN.2.12",
+   "reference": "1 John 2:12",
+   "book": "1JN",
+   "chapter": 2,
+   "verse": 12,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1JN.3.16",
+   "reference": "1 John 3:16",
+   "book": "1JN",
+   "chapter": 3,
+   "verse": 16,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1JN.4.7",
+   "reference": "1 John 4:7",
+   "book": "1JN",
+   "chapter": 4,
+   "verse": 7,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1JN.4.9",
+   "reference": "1 John 4:9",
+   "book": "1JN",
+   "chapter": 4,
+   "verse": 9,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1JN.4.10",
+   "reference": "1 John 4:10",
+   "book": "1JN",
+   "chapter": 4,
+   "verse": 10,
+   "topics": [
+    "love",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1JN.4.12",
+   "reference": "1 John 4:12",
+   "book": "1JN",
+   "chapter": 4,
+   "verse": 12,
+   "topics": [
+    "love"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1JN.4.16",
+   "reference": "1 John 4:16",
+   "book": "1JN",
+   "chapter": 4,
+   "verse": 16,
+   "topics": [
+    "love"
+   ],
+   "tier": 1,
+   "shard": 14
+  },
+  {
+   "id": "1JN.5.13",
+   "reference": "1 John 5:13",
+   "book": "1JN",
+   "chapter": 5,
+   "verse": 13,
+   "topics": [
+    "doubt",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "REV.3.19",
+   "reference": "Revelation 3:19",
+   "book": "REV",
+   "chapter": 3,
+   "verse": 19,
+   "topics": [
+    "love",
+    "forgiveness"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "REV.5.9",
+   "reference": "Revelation 5:9",
+   "book": "REV",
+   "chapter": 5,
+   "verse": 9,
+   "topics": [
+    "worth"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "REV.7.17",
+   "reference": "Revelation 7:17",
+   "book": "REV",
+   "chapter": 7,
+   "verse": 17,
+   "topics": [
+    "grief",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "REV.22.4",
+   "reference": "Revelation 22:4",
+   "book": "REV",
+   "chapter": 22,
+   "verse": 4,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "REV.22.20",
+   "reference": "Revelation 22:20",
+   "book": "REV",
+   "chapter": 22,
+   "verse": 20,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "REV.21.3",
+   "reference": "Revelation 21:3",
+   "book": "REV",
+   "chapter": 21,
+   "verse": 3,
+   "topics": [
+    "hope",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "REV.21.6",
+   "reference": "Revelation 21:6",
+   "book": "REV",
+   "chapter": 21,
+   "verse": 6,
+   "topics": [
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "ISA.40.27",
+   "reference": "Isaiah 40:27",
+   "book": "ISA",
+   "chapter": 40,
+   "verse": 27,
+   "topics": [
+    "doubt",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "ISA.49.14",
+   "reference": "Isaiah 49:14",
+   "book": "ISA",
+   "chapter": 49,
+   "verse": 14,
+   "topics": [
+    "doubt",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "JOB.23.3",
+   "reference": "Job 23:3",
+   "book": "JOB",
+   "chapter": 23,
+   "verse": 3,
+   "topics": [
+    "doubt",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "PSA.44.23",
+   "reference": "Psalms 44:23",
+   "book": "PSA",
+   "chapter": 44,
+   "verse": 23,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "JHN.20.28",
+   "reference": "John 20:28",
+   "book": "JHN",
+   "chapter": 20,
+   "verse": 28,
+   "topics": [
+    "doubt",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "MAT.28.17",
+   "reference": "Matthew 28:17",
+   "book": "MAT",
+   "chapter": 28,
+   "verse": 17,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "GEN.15.8",
+   "reference": "Genesis 15:8",
+   "book": "GEN",
+   "chapter": 15,
+   "verse": 8,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "EXO.4.10",
+   "reference": "Exodus 4:10",
+   "book": "EXO",
+   "chapter": 4,
+   "verse": 10,
+   "topics": [
+    "doubt",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "PSA.77.7",
+   "reference": "Psalms 77:7",
+   "book": "PSA",
+   "chapter": 77,
+   "verse": 7,
+   "topics": [
+    "doubt",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "PSA.77.8",
+   "reference": "Psalms 77:8",
+   "book": "PSA",
+   "chapter": 77,
+   "verse": 8,
+   "topics": [
+    "doubt",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "ECC.8.17",
+   "reference": "Ecclesiastes 8:17",
+   "book": "ECC",
+   "chapter": 8,
+   "verse": 17,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "JHN.20.25",
+   "reference": "John 20:25",
+   "book": "JHN",
+   "chapter": 20,
+   "verse": 25,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "MAT.6.25",
+   "reference": "Matthew 6:25",
+   "book": "MAT",
+   "chapter": 6,
+   "verse": 25,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 1,
+   "shard": 14
+  },
+  {
+   "id": "MAT.10.19",
+   "reference": "Matthew 10:19",
+   "book": "MAT",
+   "chapter": 10,
+   "verse": 19,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1SA.22.23",
+   "reference": "1 Samuel 22:23",
+   "book": "1SA",
+   "chapter": 22,
+   "verse": 23,
+   "topics": [
+    "anxiety",
+    "peace"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "PSA.27.3",
+   "reference": "Psalms 27:3",
+   "book": "PSA",
+   "chapter": 27,
+   "verse": 3,
+   "topics": [
+    "anxiety",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "ISA.41.14",
+   "reference": "Isaiah 41:14",
+   "book": "ISA",
+   "chapter": 41,
+   "verse": 14,
+   "topics": [
+    "anxiety",
+    "worth"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "GEN.50.17",
+   "reference": "Genesis 50:17",
+   "book": "GEN",
+   "chapter": 50,
+   "verse": 17,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "JHN.11.27",
+   "reference": "John 11:27",
+   "book": "JHN",
+   "chapter": 11,
+   "verse": 27,
+   "topics": [
+    "doubt",
+    "hope"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "MRK.4.38",
+   "reference": "Mark 4:38",
+   "book": "MRK",
+   "chapter": 4,
+   "verse": 38,
+   "topics": [
+    "anxiety",
+    "doubt"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "PSA.89.46",
+   "reference": "Psalms 89:46",
+   "book": "PSA",
+   "chapter": 89,
+   "verse": 46,
+   "topics": [
+    "doubt",
+    "grief"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "JOB.3.26",
+   "reference": "Job 3:26",
+   "book": "JOB",
+   "chapter": 3,
+   "verse": 26,
+   "topics": [
+    "anxiety"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "JHN.14.5",
+   "reference": "John 14:5",
+   "book": "JHN",
+   "chapter": 14,
+   "verse": 5,
+   "topics": [
+    "doubt",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "LUK.1.18",
+   "reference": "Luke 1:18",
+   "book": "LUK",
+   "chapter": 1,
+   "verse": 18,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "LUK.1.38",
+   "reference": "Luke 1:38",
+   "book": "LUK",
+   "chapter": 1,
+   "verse": 38,
+   "topics": [
+    "purpose"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "MAT.26.75",
+   "reference": "Matthew 26:75",
+   "book": "MAT",
+   "chapter": 26,
+   "verse": 75,
+   "topics": [
+    "grief",
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2CO.2.7",
+   "reference": "2 Corinthians 2:7",
+   "book": "2CO",
+   "chapter": 2,
+   "verse": 7,
+   "topics": [
+    "forgiveness",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2CO.2.8",
+   "reference": "2 Corinthians 2:8",
+   "book": "2CO",
+   "chapter": 2,
+   "verse": 8,
+   "topics": [
+    "love",
+    "forgiveness"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "PSA.32.2",
+   "reference": "Psalms 32:2",
+   "book": "PSA",
+   "chapter": 32,
+   "verse": 2,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "PSA.103.9",
+   "reference": "Psalms 103:9",
+   "book": "PSA",
+   "chapter": 103,
+   "verse": 9,
+   "topics": [
+    "forgiveness"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "PSA.73.2",
+   "reference": "Psalms 73:2",
+   "book": "PSA",
+   "chapter": 73,
+   "verse": 2,
+   "topics": [
+    "doubt"
+   ],
+   "tier": 3,
+   "shard": 14
+  },
+  {
+   "id": "PSA.55.4",
+   "reference": "Psalms 55:4",
+   "book": "PSA",
+   "chapter": 55,
+   "verse": 4,
+   "topics": [
+    "anxiety",
+    "grief"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "PSA.37.8",
+   "reference": "Psalms 37:8",
+   "book": "PSA",
+   "chapter": 37,
+   "verse": 8,
+   "topics": [
+    "anxiety",
+    "peace"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "2TH.3.5",
+   "reference": "2 Thessalonians 3:5",
+   "book": "2TH",
+   "chapter": 3,
+   "verse": 5,
+   "topics": [
+    "love",
+    "guidance"
+   ],
+   "tier": 2,
+   "shard": 14
+  },
+  {
+   "id": "1PE.3.14",
+   "reference": "1 Peter 3:14",
+   "book": "1PE",
+   "chapter": 3,
+   "verse": 14,
+   "topics": [
+    "anxiety",
+    "strength"
+   ],
+   "tier": 2,
+   "shard": 14
   }
  ]
 }
