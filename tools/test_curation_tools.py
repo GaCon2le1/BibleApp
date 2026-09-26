@@ -5,7 +5,15 @@ from curation_tools import (Sources, lookup, marker_problems, merge_expansion,
                             near_duplicate_pairs, overlap, propose_cpdv_ref, read_staging,
                             selected_ids)
 
-SOURCES = Sources()
+SOURCES = None
+
+
+def setUpModule():
+    # Sources() loads all three vendored Bibles; building it once here
+    # (rather than at import time) means every test discovery run that
+    # imports this module but never runs its tests skips that cost.
+    global SOURCES
+    SOURCES = Sources()
 
 
 class OverlapTests(unittest.TestCase):
@@ -141,6 +149,10 @@ class ShippedSelectionNearDuplicateTests(unittest.TestCase):
             texts[vid] = SOURCES.kjv[(book, int(chapter), int(verse))]
         found = {(a, b) for _, a, b in near_duplicate_pairs(texts, threshold=0.7)}
         self.assertEqual(found - KNOWN_NEAR_DUPLICATES, set())
+        # Catch the reverse drift too: an allowlist entry left over after its
+        # pair was removed from the selection (or otherwise stopped being a
+        # near-duplicate) should fail loudly rather than sit there unused.
+        self.assertLessEqual(KNOWN_NEAR_DUPLICATES, found)
 
     def test_guard_catches_a_real_near_duplicate(self):
         texts = {vid: SOURCES.kjv[key] for vid, key in

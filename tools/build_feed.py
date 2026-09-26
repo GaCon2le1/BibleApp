@@ -81,13 +81,16 @@ KJV_TRAILING_MARKERS = {
 # Any selected verse whose text looks like it carries a heading but is not in
 # KJV_SUPERSCRIPTIONS is a build error, not something to strip silently.
 KJV_HEADING_HINT = re.compile(
-    r"^(?:[^.]{0,120}?(?:Psalm|Song|Maschil|Michtam|Prayer|chief Musician|degrees)"
+    r"^(?:[^.]{0,120}?(?:Psalm|Song|Maschil|Michtam|Prayer|chief Musician|degrees|Shiggaion)"
     r"[^.]{0,120}?\.\s)|^(?:[^\x00-\x7F][^.]{0,20}\.\s)"
     # PSA.18.1's heading runs straight from "To the chief Musician" through
     # "And he said, " with no period anywhere in between, so the general
     # keyword-then-period alternative above never fires for it -- this
     # leading-only alternative catches it by its distinctive opening words.
-    r"|^To the chief Musician,\s"
+    # Matched on the bare phrase (not just the ",\s" comma form) so headings
+    # like "To the chief Musician on Neginoth..." and "...upon
+    # Shushan-eduth..." are caught too, not only the plain comma form.
+    r"|^To the chief Musician\b"
 )
 
 
@@ -171,10 +174,12 @@ def _heading_hint(keywords, max_leading_sentences=3, leading=()):
 
 
 # Hebrew letter names that CPDV prints as a leading "NAME. " marker on each
-# verse of an acrostic (Lamentations 1-4).
+# verse of an acrostic (Lamentations 1-4). The vendored CPDV spells the
+# third and last letters GHIMEL and THAU (not GIMEL/TAU); both spellings
+# are kept here since the source is inconsistent across editions.
 _HEBREW_LETTER_MARKER = (
-    r"(?:ALEPH|BETH|GIMEL|DALETH|HE|VAU|ZAIN|HETH|TETH|JOD|CAPH|LAMED|MEM|"
-    r"NUN|SAMECH|AIN|PHE|SADE|COPH|RES|SIN|TAU)\.\s")
+    r"(?:ALEPH|BETH|GIMEL|GHIMEL|DALETH|HE|VAU|ZAIN|HETH|TETH|JOD|CAPH|LAMED|MEM|"
+    r"NUN|SAMECH|AIN|PHE|SADE|COPH|RES|SIN|TAU|THAU)\.\s")
 
 BSB_HEADING_HINT = _heading_hint(
     ["psalm", "maskil", "choirmaster", "song of ascents", "prayer of", "of david."],
@@ -224,6 +229,7 @@ CPDV_SUPERSCRIPTIONS = {
     # name as a leading marker.
     "LAM.1.12": "LAMED. ",
     "LAM.2.19": "COPH. ",
+    "LAM.3.8": "GHIMEL. ",
     "LAM.3.17": "VAU. ",
     "LAM.3.18": "VAU. ",
     "LAM.3.22": "HETH. ",

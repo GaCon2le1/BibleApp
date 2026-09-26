@@ -295,5 +295,34 @@ class ShardVersesTests(unittest.TestCase):
         self.assertEqual(doc["contentVersion"], "v-test")
 
 
+class CPDVLamentationsAcrosticHeadingHintTests(unittest.TestCase):
+    """LAM.3.8 shipped with its CPDV acrostic marker ("GHIMEL. ") still on
+    the card because CPDV_HEADING_HINT's Hebrew-letter-name alternative only
+    listed GIMEL and TAU, not the CPDV spellings GHIMEL and THAU -- so the
+    heading-hint safety net never fired for any GHIMEL/THAU verse. This
+    guards every CPDV Lamentations verse whose real text carries a leading
+    all-caps acrostic marker, so a missing spelling variant is caught
+    immediately rather than shipping silently onto a card."""
+
+    def test_every_capitalized_leading_marker_in_cpdv_lamentations_matches_heading_hint(self):
+        cpdv_by_book, _ = _load_cpdv_source()
+        chapters = cpdv_by_book["LAM"]["chapters"]
+        leading_marker = re.compile(r"^[A-Z]{2,}\.\s")
+        texts = []
+        for chapter in chapters:
+            for verse in chapter["verses"]:
+                text = re.sub(r"\s+", " ", verse["text"]).strip()
+                if leading_marker.match(text):
+                    texts.append(("LAM.%d.%d" % (chapter["chapter"], verse["verse"]), text))
+        # Sanity check: Lamentations 1-4 are Hebrew acrostics, so this should
+        # never come back empty (which would make the test below vacuous).
+        self.assertTrue(texts)
+        for vid, text in texts:
+            self.assertTrue(
+                CPDV_HEADING_HINT.match(text),
+                f"{vid}: CPDV_HEADING_HINT would not catch this acrostic "
+                f"marker: {text[:40]!r}")
+
+
 if __name__ == "__main__":
     unittest.main()
