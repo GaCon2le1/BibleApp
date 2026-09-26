@@ -15,9 +15,22 @@
 		A130C3CC304E714300DBEEFA /* BibleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A1EEEEEE304E714300DBEEFA /* Exceptions for "BibleApp" folder in "BibleApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A130C3CB304E714300DBEEFA /* BibleApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A130C3CE304E714300DBEEFA /* BibleApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A1EEEEEE304E714300DBEEFA /* Exceptions for "BibleApp" folder in "BibleApp" target */,
+			);
 			path = BibleApp;
 			sourceTree = "<group>";
 		};
