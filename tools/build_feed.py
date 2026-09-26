@@ -6,7 +6,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "BibleApp" / "BibleApp" / "Resources"
 OUT_INDEX = OUT_DIR / "feed_index.json"
 SHARD_SIZE = 100
-CONTENT_VERSION = "2026-09-25.1"
+CONTENT_VERSION = "2026-09-26.1"
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from bible_source import load_source_by_index, load_source_by_name
@@ -18,6 +18,10 @@ from bible_source import load_source_by_index, load_source_by_name
 KJV_SUPERSCRIPTIONS = {
     "PSA.9.1": "To the chief Musician upon Muth–labben, A Psalm of David. ",
     "PSA.13.1": "To the chief Musician, A Psalm of David. ",
+    # The heading runs on with no period at all -- straight into "And he
+    # said, " -- so KJV_HEADING_HINT needs its own leading alternative for
+    # "To the chief Musician," to catch this one (see below).
+    "PSA.18.1": "To the chief Musician, A Psalm of David, the servant of the Lord, who spake unto the Lord the words of this song in the day that the Lord delivered him from the hand of all his enemies, and from the hand of Saul: And he said, ",
     "PSA.19.1": "To the chief Musician, A Psalm of David. ",
     "PSA.22.1": "To the chief Musician upon Aijeleth Shahar, A Psalm of David. ",
     "PSA.23.1": "A Psalm of David. ",
@@ -34,6 +38,7 @@ KJV_SUPERSCRIPTIONS = {
     "PSA.57.1": "To the chief Musician, Al–taschith, Michtam of David, when he fled from Saul in the cave. ",
     "PSA.62.1": "To the chief Musician, to Jeduthun, A Psalm of David. ",
     "PSA.63.1": "A Psalm of David, when he was in the wilderness of Judah. ",
+    "PSA.69.1": "To the chief Musician upon Shoshannim, A Psalm of David. ",
     "PSA.89.1": "Maschil of Ethan the Ezrahite. ",
     "PSA.90.1": "A Prayer of Moses the man of God. ",
     "PSA.103.1": "A Psalm of David. ",
@@ -41,12 +46,16 @@ KJV_SUPERSCRIPTIONS = {
     "PSA.119.73": "י JOD. ",
     "PSA.119.81": "כ CAPH. ",
     "PSA.119.89": "ל LAMED. ",
+    "PSA.119.97": "מ MEM. ",
     "PSA.119.105": "נ NUN. ",
+    "PSA.120.1": "A Song of degrees. ",
     "PSA.121.1": "A Song of degrees. ",
     "PSA.122.1": "A Song of degrees of David. ",
     "PSA.127.1": "A Song of degrees for Solomon. ",
     "PSA.130.1": "A Song of degrees. ",
+    "PSA.131.1": "A Song of degrees of David. ",
     "PSA.133.1": "A Song of degrees of David. ",
+    "PSA.138.1": "A Psalm of David. ",
     "PSA.139.1": "To the chief Musician, A Psalm of David. ",
 }
 
@@ -62,6 +71,10 @@ KJV_TRAILING_MARKERS = {
     "PSA.62.8": " Selah.",
     "PSA.68.19": " Selah.",
     "PSA.77.9": " Selah.",
+    "PSA.85.2": " Selah.",
+    # The closing benediction is followed by a scribal subscription noting
+    # where and by whom the epistle was written -- not part of the verse.
+    "2CO.13.14": " The second epistle to the Corinthians was written from Philippi, a city of Macedonia, by Titus and Lucas.",
     "2PE.3.18": " To him be glory both now and for ever. Amen.",
 }
 
@@ -70,12 +83,18 @@ KJV_TRAILING_MARKERS = {
 KJV_HEADING_HINT = re.compile(
     r"^(?:[^.]{0,120}?(?:Psalm|Song|Maschil|Michtam|Prayer|chief Musician|degrees)"
     r"[^.]{0,120}?\.\s)|^(?:[^\x00-\x7F][^.]{0,20}\.\s)"
+    # PSA.18.1's heading runs straight from "To the chief Musician" through
+    # "And he said, " with no period anywhere in between, so the general
+    # keyword-then-period alternative above never fires for it -- this
+    # leading-only alternative catches it by its distinctive opening words.
+    r"|^To the chief Musician,\s"
 )
 
 
 BSB_SUPERSCRIPTIONS = {
     "PSA.9.1": "For the choirmaster. To the tune of “The Death of the Son.” A Psalm of David. ",
     "PSA.13.1": "For the choirmaster. A Psalm of David. ",
+    "PSA.18.1": "For the choirmaster. Of David the servant of the LORD, who sang this song to the LORD on the day the LORD had delivered him from the hand of all his enemies and from the hand of Saul. He said: ",
     "PSA.19.1": "For the choirmaster. A Psalm of David. ",
     "PSA.22.1": "For the choirmaster. To the tune of “The Doe of the Dawn.” A Psalm of David. ",
     "PSA.23.1": "A Psalm of David. ",
@@ -92,14 +111,18 @@ BSB_SUPERSCRIPTIONS = {
     "PSA.57.1": "For the choirmaster. To the tune of “Do Not Destroy.” A Miktam of David, when he fled from Saul into the cave. ",
     "PSA.62.1": "For the choirmaster. According to Jeduthun. A Psalm of David. ",
     "PSA.63.1": "A Psalm of David, when he was in the Wilderness of Judah. ",
+    "PSA.69.1": "For the choirmaster. To the tune of “Lilies.” Of David. ",
     "PSA.89.1": "A Maskil of Ethan the Ezrahite. ",
     "PSA.90.1": "A prayer of Moses the man of God. ",
     "PSA.103.1": "Of David. ",
+    "PSA.120.1": "A song of ascents. ",
     "PSA.121.1": "A song of ascents. ",
     "PSA.122.1": "A song of ascents. Of David. ",
     "PSA.127.1": "A song of ascents. Of Solomon. ",
     "PSA.130.1": "A song of ascents. ",
+    "PSA.131.1": "A song of ascents. Of David. ",
     "PSA.133.1": "A song of ascents. Of David. ",
+    "PSA.138.1": "Of David. ",
     "PSA.139.1": "For the choirmaster. A Psalm of David. ",
 }
 
@@ -113,6 +136,7 @@ BSB_TRAILING_MARKERS = {
     "PSA.62.8": " Selah",
     "PSA.68.19": " Selah",
     "PSA.77.9": " Selah",
+    "PSA.85.2": " Selah",
     "2PE.3.18": " To Him be the glory both now and to the day of eternity. Amen.",
 }
 
@@ -179,14 +203,29 @@ CPDV_SUPERSCRIPTIONS = {
     "PSA.103.1": "To David himself. ",
     "PSA.107.1": "Alleluia. ",
     "PSA.116.1": "Alleluia. ",
+    "PSA.120.1": "A Canticle in steps. ",
     "PSA.121.1": "A Canticle in steps. ",
     "PSA.122.1": "A Canticle in steps. ",
     "PSA.127.1": "A Canticle in steps: of Solomon. ",
     "PSA.130.1": "A Canticle in steps. ",
+    "PSA.131.1": "A Canticle in steps: of David. ",
     "PSA.133.1": "A Canticle in steps: of David. ",
+    "PSA.137.1": "A Psalm of David: to Jeremiah. ",
+    # "Of David himself." reads like ordinary prose (no "of david." keyword
+    # match -- "David" is followed by "himself.", not directly by a period)
+    # and starts differently from the existing "To David himself." leading
+    # case, so CPDV_HEADING_HINT needs its own leading alternative for it
+    # too (see below) -- it slipped past every hint until a manual reading
+    # pass over every psalm's verse-1/2 CPDV text caught it.
+    "PSA.138.1": "Of David himself. ",
     "PSA.139.1": "Unto the end. A Psalm of David. ",
+    "PSA.147.1": "Alleluia. ",
     # Lamentations 1-4 are acrostics; CPDV keeps each verse's Hebrew letter
     # name as a leading marker.
+    "LAM.1.12": "LAMED. ",
+    "LAM.2.19": "COPH. ",
+    "LAM.3.17": "VAU. ",
+    "LAM.3.18": "VAU. ",
     "LAM.3.22": "HETH. ",
     "LAM.3.23": "HETH. ",
     "LAM.3.24": "HETH. ",
@@ -209,9 +248,17 @@ CPDV_HEADING_HINT = _heading_hint(
      "of a canticle", "prayer of", "inscription", "the first sabbath",
      "understanding of", "of david."],
     max_leading_sentences=1,
-    leading=[r"To David himself\.", r"A Canticle of David", _HEBREW_LETTER_MARKER])
+    leading=[r"To David himself\.", r"Of David himself\.",
+             r"A Canticle of David", _HEBREW_LETTER_MARKER])
 
-CPDV_HEADING_HINT_CONFIRMED_CONTENT = {"PSA.89.46", "PSA.102.17", "JAS.5.15"}
+# Ids whose text trips CPDV_HEADING_HINT but has been read and confirmed to
+# be ordinary verse content, per the same rule as
+# BSB_HEADING_HINT_CONFIRMED_CONTENT above: NEH.1.11 contains "the prayer of
+# your servant" (matches the "prayer of" keyword) and REV.19.6 contains
+# "Alleluia!" spoken mid-verse by a heavenly multitude (matches the
+# "alleluia" keyword) -- neither is a heading.
+CPDV_HEADING_HINT_CONFIRMED_CONTENT = {
+    "PSA.89.46", "PSA.102.17", "JAS.5.15", "NEH.1.11", "REV.19.6"}
 
 
 def display_text_for(vid, text, superscriptions, trailing_markers, heading_hint, table_name,

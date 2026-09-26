@@ -1,0 +1,1806 @@
+{
+ "schemaVersion": 3,
+ "contentVersion": "2026-09-26.1",
+ "verses": [
+  {
+   "id": "HAB.2.20",
+   "translations": {
+    "KJV": {
+     "text": "But the Lord is in his holy temple: let all the earth keep silence before him.",
+     "displayText": "But the Lord is in his holy temple: let all the earth keep silence before him."
+    },
+    "BSB": {
+     "text": "But the LORD is in His holy temple; let all the earth be silent before Him.",
+     "displayText": "But the LORD is in His holy temple; let all the earth be silent before Him."
+    },
+    "CPDV": {
+     "text": "But the Lord is in his holy temple. May all the earth be silent before his face.",
+     "displayText": "But the Lord is in his holy temple. May all the earth be silent before his face."
+    }
+   },
+   "context": "After God's warnings against those who trust in lifeless idols, Habakkuk hears him declare that the Lord is in his holy temple and the whole earth should fall silent."
+  },
+  {
+   "id": "HAB.3.2",
+   "translations": {
+    "KJV": {
+     "text": "O Lord, I have heard thy speech, and was afraid: O Lord, revive thy work in the midst of the years, in the midst of the years make known; in wrath remember mercy.",
+     "displayText": "O Lord, I have heard thy speech, and was afraid: O Lord, revive thy work in the midst of the years, in the midst of the years make known; in wrath remember mercy."
+    },
+    "BSB": {
+     "text": "O LORD, I have heard the report of You; I stand in awe, O LORD, of Your deeds. Revive them in these years; make them known in these years. In Your wrath, remember mercy!",
+     "displayText": "O LORD, I have heard the report of You; I stand in awe, O LORD, of Your deeds. Revive them in these years; make them known in these years. In Your wrath, remember mercy!"
+    },
+    "CPDV": {
+     "text": "Lord, I heard what has been said about you, and I was afraid. Lord, your work, in the midst of years, revive it. In the midst of years, you will make it known. When you have become angry, you will remember mercy.",
+     "displayText": "Lord, I heard what has been said about you, and I was afraid. Lord, your work, in the midst of years, revive it. In the midst of years, you will make it known. When you have become angry, you will remember mercy."
+    }
+   },
+   "context": "Opening his closing prayer, Habakkuk tells God he has heard of his mighty deeds and asks him to act again in their own day, and to remember mercy."
+  },
+  {
+   "id": "ZEP.3.15",
+   "translations": {
+    "KJV": {
+     "text": "The Lord hath taken away thy judgments, he hath cast out thine enemy: the king of Israel, even the Lord, is in the midst of thee: thou shalt not see evil any more.",
+     "displayText": "The Lord hath taken away thy judgments, he hath cast out thine enemy: the king of Israel, even the Lord, is in the midst of thee: thou shalt not see evil any more."
+    },
+    "BSB": {
+     "text": "The LORD has taken away your punishment; He has turned back your enemy. Israel’s King, the LORD, is among you; no longer will you fear any harm.",
+     "displayText": "The LORD has taken away your punishment; He has turned back your enemy. Israel’s King, the LORD, is among you; no longer will you fear any harm."
+    },
+    "CPDV": {
+     "text": "The Lord has taken away your judgment; he has turned aside your foes. The king of Israel, the Lord, is in your midst; you shall no longer fear evil.",
+     "displayText": "The Lord has taken away your judgment; he has turned aside your foes. The king of Israel, the Lord, is in your midst; you shall no longer fear evil."
+    }
+   },
+   "context": "Calling Jerusalem to sing after the judgment is past, Zephaniah announces that God has removed their punishment and now lives among them as their King."
+  },
+  {
+   "id": "ZEP.3.16",
+   "translations": {
+    "KJV": {
+     "text": "In that day it shall be said to Jerusalem, Fear thou not: and to Zion, Let not thine hands be slack.",
+     "displayText": "In that day it shall be said to Jerusalem, Fear thou not: and to Zion, Let not thine hands be slack."
+    },
+    "BSB": {
+     "text": "On that day they will say to Jerusalem: “Do not fear, O Zion; do not let your hands fall limp.",
+     "displayText": "On that day they will say to Jerusalem: “Do not fear, O Zion; do not let your hands fall limp."
+    },
+    "CPDV": {
+     "text": "In that day, it will be said to Jerusalem, “Do not be afraid,” and to Zion, “Do not let your hands be weakened.”",
+     "displayText": "In that day, it will be said to Jerusalem, “Do not be afraid,” and to Zion, “Do not let your hands be weakened.”"
+    }
+   },
+   "context": "Looking ahead to Jerusalem's restoration, Zephaniah says the city will be told not to fear and not to let its hands hang limp."
+  },
+  {
+   "id": "ZEP.3.18",
+   "translations": {
+    "KJV": {
+     "text": "I will gather them that are sorrowful for the solemn assembly, who are of thee, to whom the reproach of it was a burden.",
+     "displayText": "I will gather them that are sorrowful for the solemn assembly, who are of thee, to whom the reproach of it was a burden."
+    },
+    "BSB": {
+     "text": "“I will gather those among you who grieve over the appointed feasts, so that you will no longer suffer reproach.",
+     "displayText": "“I will gather those among you who grieve over the appointed feasts, so that you will no longer suffer reproach."
+    },
+    "CPDV": {
+     "text": "The triflers who withdrew from the law, I will gather together, because they were from you, so that you may no longer suffer disgrace over them.",
+     "displayText": "The triflers who withdrew from the law, I will gather together, because they were from you, so that you may no longer suffer disgrace over them."
+    }
+   },
+   "context": "In Zephaniah's closing promises for Jerusalem, God says he will gather those who grieve over the appointed feasts and take away their shame."
+  },
+  {
+   "id": "ZEP.3.13",
+   "translations": {
+    "KJV": {
+     "text": "The remnant of Israel shall not do iniquity, nor speak lies; neither shall a deceitful tongue be found in their mouth: for they shall feed and lie down, and none shall make them afraid.",
+     "displayText": "The remnant of Israel shall not do iniquity, nor speak lies; neither shall a deceitful tongue be found in their mouth: for they shall feed and lie down, and none shall make them afraid."
+    },
+    "BSB": {
+     "text": "The remnant of Israel will no longer do wrong or speak lies, nor will a deceitful tongue be found in their mouths. But they will feed and lie down, with no one to make them tremble.”",
+     "displayText": "The remnant of Israel will no longer do wrong or speak lies, nor will a deceitful tongue be found in their mouths. But they will feed and lie down, with no one to make them tremble.”"
+    },
+    "CPDV": {
+     "text": "The remnant of Israel will not do iniquity, nor speak lies, and a deceitful tongue will not be found in their mouth. For they will pasture and will recline, and there will be no one to strike them with terror.",
+     "displayText": "The remnant of Israel will not do iniquity, nor speak lies, and a deceitful tongue will not be found in their mouth. For they will pasture and will recline, and there will be no one to strike them with terror."
+    }
+   },
+   "context": "After warning of judgment, Zephaniah describes the humble remnant God will leave in Jerusalem, who will live honestly and rest with no one to frighten them."
+  },
+  {
+   "id": "HAG.1.5",
+   "translations": {
+    "KJV": {
+     "text": "Now therefore thus saith the Lord of hosts; Consider your ways.",
+     "displayText": "Now therefore thus saith the Lord of hosts; Consider your ways."
+    },
+    "BSB": {
+     "text": "Now this is what the LORD of Hosts says: “Consider carefully your ways.",
+     "displayText": "Now this is what the LORD of Hosts says: “Consider carefully your ways."
+    },
+    "CPDV": {
+     "text": "And now, thus says the Lord of hosts: Set your hearts upon your ways.",
+     "displayText": "And now, thus says the Lord of hosts: Set your hearts upon your ways."
+    }
+   },
+   "context": "Speaking to people living in paneled houses while the temple still lay in ruins, Haggai tells them God wants them to think carefully about their ways."
+  },
+  {
+   "id": "HAG.1.13",
+   "translations": {
+    "KJV": {
+     "text": "Then spake Haggai the Lord’s messenger in the Lord’s message unto the people, saying, I am with you, saith the Lord.",
+     "displayText": "Then spake Haggai the Lord’s messenger in the Lord’s message unto the people, saying, I am with you, saith the Lord."
+    },
+    "BSB": {
+     "text": "Haggai, the messenger of the LORD, delivered the message of the LORD to the people: “I am with you,” declares the LORD.",
+     "displayText": "Haggai, the messenger of the LORD, delivered the message of the LORD to the people: “I am with you,” declares the LORD."
+    },
+    "CPDV": {
+     "text": "And Haggai, a messenger of the Lord among messengers of the Lord, spoke to the people, saying: the Lord says, “I am with you.”",
+     "displayText": "And Haggai, a messenger of the Lord among messengers of the Lord, spoke to the people, saying: the Lord says, “I am with you.”"
+    }
+   },
+   "context": "Once Zerubbabel, the high priest Joshua and the people obey God's call to rebuild the temple, the prophet Haggai brings them this short promise from God."
+  },
+  {
+   "id": "ZEC.3.4",
+   "translations": {
+    "KJV": {
+     "text": "And he answered and spake unto those that stood before him, saying, Take away the filthy garments from him. And unto him he said, Behold, I have caused thine iniquity to pass from thee, and I will clothe thee with change of raiment.",
+     "displayText": "And he answered and spake unto those that stood before him, saying, Take away the filthy garments from him. And unto him he said, Behold, I have caused thine iniquity to pass from thee, and I will clothe thee with change of raiment."
+    },
+    "BSB": {
+     "text": "So the angel said to those standing before him, “Take off his filthy clothes!” Then he said to Joshua, “See, I have removed your iniquity, and I will clothe you with splendid robes.”",
+     "displayText": "So the angel said to those standing before him, “Take off his filthy clothes!” Then he said to Joshua, “See, I have removed your iniquity, and I will clothe you with splendid robes.”"
+    },
+    "CPDV": {
+     "text": "He answered and spoke to those who stood before him, saying, “Take away the filthy garments from him.” And he said to him, “Behold, I have taken away from you your iniquity, and I have clothed you with a change of clothing.”",
+     "displayText": "He answered and spoke to those who stood before him, saying, “Take away the filthy garments from him.” And he said to him, “Behold, I have taken away from you your iniquity, and I have clothed you with a change of clothing.”"
+    }
+   },
+   "context": "In Zechariah's vision of the high priest Joshua standing in filthy clothes, the angel of the Lord orders them removed and promises him clean, splendid robes."
+  },
+  {
+   "id": "ZEC.8.13",
+   "translations": {
+    "KJV": {
+     "text": "And it shall come to pass, that as ye were a curse among the heathen, O house of Judah, and house of Israel; so will I save you, and ye shall be a blessing: fear not, but let your hands be strong.",
+     "displayText": "And it shall come to pass, that as ye were a curse among the heathen, O house of Judah, and house of Israel; so will I save you, and ye shall be a blessing: fear not, but let your hands be strong."
+    },
+    "BSB": {
+     "text": "As you have been a curse among the nations, O house of Judah and house of Israel, so I will save you, and you will be a blessing. Do not be afraid; let your hands be strong.”",
+     "displayText": "As you have been a curse among the nations, O house of Judah and house of Israel, so I will save you, and you will be a blessing. Do not be afraid; let your hands be strong.”"
+    },
+    "CPDV": {
+     "text": "And this shall be: just as you were a curse among the Gentiles, O house of Judah and house of Israel, so will I save you, and you will be a blessing. Do not be afraid. Let your hands be strengthened.",
+     "displayText": "And this shall be: just as you were a curse among the Gentiles, O house of Judah and house of Israel, so will I save you, and you will be a blessing. Do not be afraid. Let your hands be strengthened."
+    }
+   },
+   "context": "Encouraging the returned exiles as they rebuild, Zechariah tells Judah and Israel that God will turn them from a curse among the nations into a blessing."
+  },
+  {
+   "id": "ZEC.9.12",
+   "translations": {
+    "KJV": {
+     "text": "Turn you to the strong hold, ye prisoners of hope: even to day do I declare that I will render double unto thee;",
+     "displayText": "Turn you to the strong hold, ye prisoners of hope: even to day do I declare that I will render double unto thee;"
+    },
+    "BSB": {
+     "text": "Return to your stronghold, O prisoners of hope; even today I declare that I will restore to you double.",
+     "displayText": "Return to your stronghold, O prisoners of hope; even today I declare that I will restore to you double."
+    },
+    "CPDV": {
+     "text": "Turn back to the fortress, prisoners of hope. Today, I also announce that I will repay you double,",
+     "displayText": "Turn back to the fortress, prisoners of hope. Today, I also announce that I will repay you double,"
+    }
+   },
+   "context": "Right after announcing a humble king coming to Jerusalem, Zechariah calls those still held captive 'prisoners of hope' and promises them a double restoration."
+  },
+  {
+   "id": "ZEC.13.1",
+   "translations": {
+    "KJV": {
+     "text": "In that day there shall be a fountain opened to the house of David and to the inhabitants of Jerusalem for sin and for uncleanness.",
+     "displayText": "In that day there shall be a fountain opened to the house of David and to the inhabitants of Jerusalem for sin and for uncleanness."
+    },
+    "BSB": {
+     "text": "“On that day a fountain will be opened to the house of David and the people of Jerusalem, to cleanse them from sin and impurity.",
+     "displayText": "“On that day a fountain will be opened to the house of David and the people of Jerusalem, to cleanse them from sin and impurity."
+    },
+    "CPDV": {
+     "text": "In that day, there will be a fountain open to the house of David and to the inhabitants of Jerusalem, for the washing of the transgressor and of the defiled woman.",
+     "displayText": "In that day, there will be a fountain open to the house of David and to the inhabitants of Jerusalem, for the washing of the transgressor and of the defiled woman."
+    }
+   },
+   "context": "Speaking of a coming day, Zechariah announces that a fountain will be opened for David's royal house and the people of Jerusalem to wash away sin."
+  },
+  {
+   "id": "ZEC.7.9",
+   "translations": {
+    "KJV": {
+     "text": "Thus speaketh the Lord of hosts, saying, Execute true judgment, and shew mercy and compassions every man to his brother:",
+     "displayText": "Thus speaketh the Lord of hosts, saying, Execute true judgment, and shew mercy and compassions every man to his brother:"
+    },
+    "BSB": {
+     "text": "“This is what the LORD of Hosts says: ‘Administer true justice. Show loving devotion and compassion to one another.",
+     "displayText": "“This is what the LORD of Hosts says: ‘Administer true justice. Show loving devotion and compassion to one another."
+    },
+    "CPDV": {
+     "text": "Thus says the Lord of hosts, saying: Judge with true judgment, and act with mercy and compassion, each and every one with his brother.",
+     "displayText": "Thus says the Lord of hosts, saying: Judge with true judgment, and act with mercy and compassion, each and every one with his brother."
+    }
+   },
+   "context": "When people ask whether they should keep up their mourning fasts, Zechariah reminds them of what God had told the earlier prophets about justice and mercy."
+  },
+  {
+   "id": "ZEC.2.5",
+   "translations": {
+    "KJV": {
+     "text": "For I, saith the Lord, will be unto her a wall of fire round about, and will be the glory in the midst of her.",
+     "displayText": "For I, saith the Lord, will be unto her a wall of fire round about, and will be the glory in the midst of her."
+    },
+    "BSB": {
+     "text": "For I will be a wall of fire around it, declares the LORD, and I will be the glory within it.’”",
+     "displayText": "For I will be a wall of fire around it, declares the LORD, and I will be the glory within it.’”"
+    },
+    "CPDV": {
+     "text": "And I will be to it, says the Lord, a wall of fire all around. And in glory, I will be in its midst.",
+     "displayText": "And I will be to it, says the Lord, a wall of fire all around. And in glory, I will be in its midst."
+    }
+   },
+   "context": "In Zechariah's vision of a man going to measure Jerusalem, an angel passes on God's promise to be a wall of fire around the unwalled city and its glory within."
+  },
+  {
+   "id": "ZEC.8.19",
+   "translations": {
+    "KJV": {
+     "text": "Thus saith the Lord of hosts; The fast of the fourth month, and the fast of the fifth, and the fast of the seventh, and the fast of the tenth, shall be to the house of Judah joy and gladness, and cheerful feasts; therefore love the truth and peace.",
+     "displayText": "Thus saith the Lord of hosts; The fast of the fourth month, and the fast of the fifth, and the fast of the seventh, and the fast of the tenth, shall be to the house of Judah joy and gladness, and cheerful feasts; therefore love the truth and peace."
+    },
+    "BSB": {
+     "text": "“This is what the LORD of Hosts says: The fasts of the fourth, the fifth, the seventh, and the tenth months will become times of joy and gladness, cheerful feasts for the house of Judah. Therefore you are to love both truth and peace.”",
+     "displayText": "“This is what the LORD of Hosts says: The fasts of the fourth, the fifth, the seventh, and the tenth months will become times of joy and gladness, cheerful feasts for the house of Judah. Therefore you are to love both truth and peace.”"
+    },
+    "CPDV": {
+     "text": "Thus says the Lord of hosts: The fast of the fourth, and the fast of the fifth, and the fast of the seventh, and the fast of the tenth will be for the house of Judah in joy and gladness and with bright solemnities. So then, love truth and peace.",
+     "displayText": "Thus says the Lord of hosts: The fast of the fourth, and the fast of the fifth, and the fast of the seventh, and the fast of the tenth will be for the house of Judah in joy and gladness and with bright solemnities. So then, love truth and peace."
+    }
+   },
+   "context": "Answering a question about the mourning fasts kept through the years of exile, God tells Zechariah those sad fasts will one day become joyful feasts for Judah."
+  },
+  {
+   "id": "MAL.2.10",
+   "translations": {
+    "KJV": {
+     "text": "Have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?",
+     "displayText": "Have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?"
+    },
+    "BSB": {
+     "text": "Do we not all have one Father? Did not one God create us? Why then do we break faith with one another so as to profane the covenant of our fathers?",
+     "displayText": "Do we not all have one Father? Did not one God create us? Why then do we break faith with one another so as to profane the covenant of our fathers?"
+    },
+    "CPDV": {
+     "text": "Is there not one Father of us all? Did not one God create us? Why, then, does each one of us despise his brother, violating the covenant of our fathers?",
+     "displayText": "Is there not one Father of us all? Did not one God create us? Why, then, does each one of us despise his brother, violating the covenant of our fathers?"
+    }
+   },
+   "context": "Confronting the people of Judah for breaking faith with one another, Malachi asks whether they do not all share one Father and one Creator."
+  },
+  {
+   "id": "MAL.3.3",
+   "translations": {
+    "KJV": {
+     "text": "And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the Lord an offering in righteousness.",
+     "displayText": "And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the Lord an offering in righteousness."
+    },
+    "BSB": {
+     "text": "And He will sit as a refiner and purifier of silver; He will purify the sons of Levi and refine them like gold and silver. Then they will present offerings to the LORD in righteousness.",
+     "displayText": "And He will sit as a refiner and purifier of silver; He will purify the sons of Levi and refine them like gold and silver. Then they will present offerings to the LORD in righteousness."
+    },
+    "CPDV": {
+     "text": "And he will sit refining and cleansing the silver, and he will purge the sons of Levi, and he will gather them like gold and like silver, and they will offer sacrifices to the Lord in justice.",
+     "displayText": "And he will sit refining and cleansing the silver, and he will purge the sons of Levi, and he will gather them like gold and like silver, and they will offer sacrifices to the Lord in justice."
+    }
+   },
+   "context": "Malachi describes the Lord who will suddenly come to his temple, sitting like a refiner of silver to purify the priests, the sons of Levi."
+  },
+  {
+   "id": "MRK.1.35",
+   "translations": {
+    "KJV": {
+     "text": "And in the morning, rising up a great while before day, he went out, and departed into a solitary place, and there prayed.",
+     "displayText": "And in the morning, rising up a great while before day, he went out, and departed into a solitary place, and there prayed."
+    },
+    "BSB": {
+     "text": "Early in the morning, while it was still dark, Jesus got up and slipped out to a solitary place to pray.",
+     "displayText": "Early in the morning, while it was still dark, Jesus got up and slipped out to a solitary place to pray."
+    },
+    "CPDV": {
+     "text": "And rising up very early, departing, he went out to a deserted place, and there he prayed.",
+     "displayText": "And rising up very early, departing, he went out to a deserted place, and there he prayed."
+    }
+   },
+   "context": "After a long evening of healing crowds in Capernaum, Jesus gets up before dawn and goes off alone to pray."
+  },
+  {
+   "id": "MRK.1.11",
+   "translations": {
+    "KJV": {
+     "text": "And there came a voice from heaven, saying, Thou art my beloved Son, in whom I am well pleased.",
+     "displayText": "And there came a voice from heaven, saying, Thou art my beloved Son, in whom I am well pleased."
+    },
+    "BSB": {
+     "text": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”",
+     "displayText": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”"
+    },
+    "CPDV": {
+     "text": "And there was a voice from heaven: “You are my beloved Son; in you I am well pleased.”",
+     "displayText": "And there was a voice from heaven: “You are my beloved Son; in you I am well pleased.”"
+    }
+   },
+   "context": "As Jesus comes up out of the Jordan River after John baptizes him, a voice from heaven speaks over him."
+  },
+  {
+   "id": "MRK.1.40",
+   "translations": {
+    "KJV": {
+     "text": "And there came a leper to him, beseeching him, and kneeling down to him, and saying unto him, If thou wilt, thou canst make me clean.",
+     "displayText": "And there came a leper to him, beseeching him, and kneeling down to him, and saying unto him, If thou wilt, thou canst make me clean."
+    },
+    "BSB": {
+     "text": "Then a leper came to Jesus, begging on his knees: “If You are willing, You can make me clean.”",
+     "displayText": "Then a leper came to Jesus, begging on his knees: “If You are willing, You can make me clean.”"
+    },
+    "CPDV": {
+     "text": "And a leper came to him, begging him. And kneeling down, he said to him, “If you are willing, you are able to cleanse me.”",
+     "displayText": "And a leper came to him, begging him. And kneeling down, he said to him, “If you are willing, you are able to cleanse me.”"
+    }
+   },
+   "context": "A man with leprosy comes to Jesus in Galilee, kneels, and begs to be healed, saying Jesus can do it if he is willing."
+  },
+  {
+   "id": "MRK.2.14",
+   "translations": {
+    "KJV": {
+     "text": "And as he passed by, he saw Levi the son of Alpheus sitting at the receipt of custom, and said unto him, Follow me. And he arose and followed him.",
+     "displayText": "And as he passed by, he saw Levi the son of Alpheus sitting at the receipt of custom, and said unto him, Follow me. And he arose and followed him."
+    },
+    "BSB": {
+     "text": "As He was walking along, He saw Levi son of Alphaeus sitting at the tax booth. “Follow Me,” He told him, and Levi got up and followed Him.",
+     "displayText": "As He was walking along, He saw Levi son of Alphaeus sitting at the tax booth. “Follow Me,” He told him, and Levi got up and followed Him."
+    },
+    "CPDV": {
+     "text": "And as he was passing by, he saw Levi of Alphaeus, sitting at the customs office. And he said to him, “Follow me.” And rising up, he followed him.",
+     "displayText": "And as he was passing by, he saw Levi of Alphaeus, sitting at the customs office. And he said to him, “Follow me.” And rising up, he followed him."
+    }
+   },
+   "context": "Walking by the Sea of Galilee, Jesus sees the tax collector Levi at his booth and calls him to follow, and Levi gets up and goes."
+  },
+  {
+   "id": "MRK.2.27",
+   "translations": {
+    "KJV": {
+     "text": "And he said unto them, The sabbath was made for man, and not man for the sabbath:",
+     "displayText": "And he said unto them, The sabbath was made for man, and not man for the sabbath:"
+    },
+    "BSB": {
+     "text": "Then Jesus declared, “The Sabbath was made for man, not man for the Sabbath.",
+     "displayText": "Then Jesus declared, “The Sabbath was made for man, not man for the Sabbath."
+    },
+    "CPDV": {
+     "text": "And he said to them: “The Sabbath was made for man, and not man for the Sabbath.",
+     "displayText": "And he said to them: “The Sabbath was made for man, and not man for the Sabbath."
+    }
+   },
+   "context": "When the Pharisees object to his disciples picking grain on the Sabbath, Jesus answers them that the Sabbath was made for people."
+  },
+  {
+   "id": "MRK.5.19",
+   "translations": {
+    "KJV": {
+     "text": "Howbeit Jesus suffered him not, but saith unto him, Go home to thy friends, and tell them how great things the Lord hath done for thee, and hath had compassion on thee.",
+     "displayText": "Howbeit Jesus suffered him not, but saith unto him, Go home to thy friends, and tell them how great things the Lord hath done for thee, and hath had compassion on thee."
+    },
+    "BSB": {
+     "text": "But Jesus would not allow him. “Go home to your own people,” He said, “and tell them how much the Lord has done for you, and what mercy He has shown you.”",
+     "displayText": "But Jesus would not allow him. “Go home to your own people,” He said, “and tell them how much the Lord has done for you, and what mercy He has shown you.”"
+    },
+    "CPDV": {
+     "text": "And he did not permit him, but he said to him, “Go to your own people, in your own house, and announce to them how great are the things that the Lord has done for you, and how he has taken pity on you.”",
+     "displayText": "And he did not permit him, but he said to him, “Go to your own people, in your own house, and announce to them how great are the things that the Lord has done for you, and how he has taken pity on you.”"
+    }
+   },
+   "context": "After Jesus frees a man from many demons near the Sea of Galilee, the man begs to come along, but Jesus sends him home to tell his own people instead."
+  },
+  {
+   "id": "MRK.5.28",
+   "translations": {
+    "KJV": {
+     "text": "For she said, If I may touch but his clothes, I shall be whole.",
+     "displayText": "For she said, If I may touch but his clothes, I shall be whole."
+    },
+    "BSB": {
+     "text": "For she kept saying, “If only I touch His garments, I will be healed.”",
+     "displayText": "For she kept saying, “If only I touch His garments, I will be healed.”"
+    },
+    "CPDV": {
+     "text": "For she said: “Because if I touch even his garment, I will be saved.”",
+     "displayText": "For she said: “Because if I touch even his garment, I will be saved.”"
+    }
+   },
+   "context": "A woman who had been bleeding for twelve years presses through the crowd around Jesus, telling herself that just touching his clothes will heal her."
+  },
+  {
+   "id": "MRK.5.33",
+   "translations": {
+    "KJV": {
+     "text": "But the woman fearing and trembling, knowing what was done in her, came and fell down before him, and told him all the truth.",
+     "displayText": "But the woman fearing and trembling, knowing what was done in her, came and fell down before him, and told him all the truth."
+    },
+    "BSB": {
+     "text": "Then the woman, knowing what had happened to her, came and fell down before Him trembling in fear, and she told Him the whole truth.",
+     "displayText": "Then the woman, knowing what had happened to her, came and fell down before Him trembling in fear, and she told Him the whole truth."
+    },
+    "CPDV": {
+     "text": "Yet truly, the woman, in fear and trembling, knowing what had happened within her, went and fell prostrate before him, and she told him the whole truth.",
+     "displayText": "Yet truly, the woman, in fear and trembling, knowing what had happened within her, went and fell prostrate before him, and she told him the whole truth."
+    }
+   },
+   "context": "When Jesus stops and asks who touched his clothes, the woman who has just been healed of her bleeding comes forward, trembling, and tells him everything."
+  },
+  {
+   "id": "MRK.5.41",
+   "translations": {
+    "KJV": {
+     "text": "And he took the damsel by the hand, and said unto her, Talitha cumi; which is, being interpreted, Damsel, I say unto thee, arise.",
+     "displayText": "And he took the damsel by the hand, and said unto her, Talitha cumi; which is, being interpreted, Damsel, I say unto thee, arise."
+    },
+    "BSB": {
+     "text": "Taking her by the hand, Jesus said, “Talitha koum!” which means, “Little girl, I say to you, get up!”",
+     "displayText": "Taking her by the hand, Jesus said, “Talitha koum!” which means, “Little girl, I say to you, get up!”"
+    },
+    "CPDV": {
+     "text": "And taking the girl by the hand, he said to her, “Talitha koumi,” which means, “Little girl, (I say to you) arise.”",
+     "displayText": "And taking the girl by the hand, he said to her, “Talitha koumi,” which means, “Little girl, (I say to you) arise.”"
+    }
+   },
+   "context": "At the house of Jairus, a synagogue leader whose twelve-year-old daughter has died, Jesus takes the girl by the hand and tells her to get up."
+  },
+  {
+   "id": "MRK.6.7",
+   "translations": {
+    "KJV": {
+     "text": "And he called unto him the twelve, and began to send them forth by two and two; and gave them power over unclean spirits;",
+     "displayText": "And he called unto him the twelve, and began to send them forth by two and two; and gave them power over unclean spirits;"
+    },
+    "BSB": {
+     "text": "Then Jesus called the Twelve to Him and began to send them out two by two, giving them authority over unclean spirits.",
+     "displayText": "Then Jesus called the Twelve to Him and began to send them out two by two, giving them authority over unclean spirits."
+    },
+    "CPDV": {
+     "text": "And he called the twelve. And he began to send them out in twos, and he gave them authority over unclean spirits.",
+     "displayText": "And he called the twelve. And he began to send them out in twos, and he gave them authority over unclean spirits."
+    }
+   },
+   "context": "After being rejected in his hometown of Nazareth, Jesus calls his twelve disciples together and sends them out in pairs for the first time."
+  },
+  {
+   "id": "MRK.7.37",
+   "translations": {
+    "KJV": {
+     "text": "And were beyond measure astonished, saying, He hath done all things well: he maketh both the deaf to hear, and the dumb to speak.",
+     "displayText": "And were beyond measure astonished, saying, He hath done all things well: he maketh both the deaf to hear, and the dumb to speak."
+    },
+    "BSB": {
+     "text": "The people were utterly astonished and said, “He has done all things well! He makes even the deaf hear and the mute speak!”",
+     "displayText": "The people were utterly astonished and said, “He has done all things well! He makes even the deaf hear and the mute speak!”"
+    },
+    "CPDV": {
+     "text": "And so much more did they wonder, saying: “He has done all things well. He has caused both the deaf to hear and the mute to speak.”",
+     "displayText": "And so much more did they wonder, saying: “He has done all things well. He has caused both the deaf to hear and the mute to speak.”"
+    }
+   },
+   "context": "After Jesus heals a deaf man who could hardly speak, the crowds in the Decapolis region are overwhelmed with amazement at what he has done."
+  },
+  {
+   "id": "MRK.8.6",
+   "translations": {
+    "KJV": {
+     "text": "And he commanded the people to sit down on the ground: and he took the seven loaves, and gave thanks, and brake, and gave to his disciples to set before them; and they did set them before the people.",
+     "displayText": "And he commanded the people to sit down on the ground: and he took the seven loaves, and gave thanks, and brake, and gave to his disciples to set before them; and they did set them before the people."
+    },
+    "BSB": {
+     "text": "And He instructed the crowd to sit down on the ground. Then He took the seven loaves, gave thanks and broke them, and gave them to His disciples to set before the people. And they distributed them to the crowd.",
+     "displayText": "And He instructed the crowd to sit down on the ground. Then He took the seven loaves, gave thanks and broke them, and gave them to His disciples to set before the people. And they distributed them to the crowd."
+    },
+    "CPDV": {
+     "text": "And he instructed the crowd to sit down to eat on the ground. And taking the seven loaves, giving thanks, he broke and gave it to his disciples in order to place before them. And they placed these before the crowd.",
+     "displayText": "And he instructed the crowd to sit down to eat on the ground. And taking the seven loaves, giving thanks, he broke and gave it to his disciples in order to place before them. And they placed these before the crowd."
+    }
+   },
+   "context": "With a crowd of about four thousand hungry after three days with him, Jesus takes the seven loaves they have, gives thanks, and has them handed out."
+  },
+  {
+   "id": "MRK.9.37",
+   "translations": {
+    "KJV": {
+     "text": "Whosoever shall receive one of such children in my name, receiveth me: and whosoever shall receive me, receiveth not me, but him that sent me.",
+     "displayText": "Whosoever shall receive one of such children in my name, receiveth me: and whosoever shall receive me, receiveth not me, but him that sent me."
+    },
+    "BSB": {
+     "text": "“Whoever welcomes one of these little children in My name welcomes Me, and whoever welcomes Me welcomes not only Me, but the One who sent Me.”",
+     "displayText": "“Whoever welcomes one of these little children in My name welcomes Me, and whoever welcomes Me welcomes not only Me, but the One who sent Me.”"
+    },
+    "CPDV": {
+     "text": "“Whoever receives one such child in my name, receives me. And whoever receives me, receives not me, but him who sent me.”",
+     "displayText": "“Whoever receives one such child in my name, receives me. And whoever receives me, receives not me, but him who sent me.”"
+    }
+   },
+   "context": "After his disciples argue about who is the greatest, Jesus takes a little child in his arms and tells them how to welcome one."
+  },
+  {
+   "id": "MRK.9.41",
+   "translations": {
+    "KJV": {
+     "text": "For whosoever shall give you a cup of water to drink in my name, because ye belong to Christ, verily I say unto you, he shall not lose his reward.",
+     "displayText": "For whosoever shall give you a cup of water to drink in my name, because ye belong to Christ, verily I say unto you, he shall not lose his reward."
+    },
+    "BSB": {
+     "text": "Indeed, if anyone gives you even a cup of water because you bear the name of Christ, truly I tell you, he will never lose his reward.",
+     "displayText": "Indeed, if anyone gives you even a cup of water because you bear the name of Christ, truly I tell you, he will never lose his reward."
+    },
+    "CPDV": {
+     "text": "For whoever, in my name, will give you a cup of water to drink, because you belong to Christ: Amen I say to you, he shall not lose his reward.",
+     "displayText": "For whoever, in my name, will give you a cup of water to drink, because you belong to Christ: Amen I say to you, he shall not lose his reward."
+    }
+   },
+   "context": "After John tells him they stopped a man casting out demons in his name, Jesus tells his disciples that even a cup of water given to them will be rewarded."
+  },
+  {
+   "id": "MRK.10.16",
+   "translations": {
+    "KJV": {
+     "text": "And he took them up in his arms, put his hands upon them, and blessed them.",
+     "displayText": "And he took them up in his arms, put his hands upon them, and blessed them."
+    },
+    "BSB": {
+     "text": "And He took the children in His arms, placed His hands on them, and blessed them.",
+     "displayText": "And He took the children in His arms, placed His hands on them, and blessed them."
+    },
+    "CPDV": {
+     "text": "And embracing them, and laying his hands upon them, he blessed them.",
+     "displayText": "And embracing them, and laying his hands upon them, he blessed them."
+    }
+   },
+   "context": "When his disciples try to turn away people bringing children to him, Jesus is indignant and instead takes the children in his arms and blesses them."
+  },
+  {
+   "id": "MRK.10.21",
+   "translations": {
+    "KJV": {
+     "text": "Then Jesus beholding him loved him, and said unto him, One thing thou lackest: go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me.",
+     "displayText": "Then Jesus beholding him loved him, and said unto him, One thing thou lackest: go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me."
+    },
+    "BSB": {
+     "text": "Jesus looked at him, loved him, and said to him, “There is one thing you lack: Go, sell everything you own and give to the poor, and you will have treasure in heaven. Then come, follow Me.”",
+     "displayText": "Jesus looked at him, loved him, and said to him, “There is one thing you lack: Go, sell everything you own and give to the poor, and you will have treasure in heaven. Then come, follow Me.”"
+    },
+    "CPDV": {
+     "text": "Then Jesus, gazing at him, loved him, and he said to him: “One thing is lacking to you. Go, sell whatever you have, and give to the poor, and then you will have treasure in heaven. And come, follow me.”",
+     "displayText": "Then Jesus, gazing at him, loved him, and he said to him: “One thing is lacking to you. Go, sell whatever you have, and give to the poor, and then you will have treasure in heaven. And come, follow me.”"
+    }
+   },
+   "context": "A wealthy man runs up and asks Jesus how to inherit eternal life, and Jesus looks at him with love and tells him the one thing he still lacks."
+  },
+  {
+   "id": "MRK.10.49",
+   "translations": {
+    "KJV": {
+     "text": "And Jesus stood still, and commanded him to be called. And they call the blind man, saying unto him, Be of good comfort, rise; he calleth thee.",
+     "displayText": "And Jesus stood still, and commanded him to be called. And they call the blind man, saying unto him, Be of good comfort, rise; he calleth thee."
+    },
+    "BSB": {
+     "text": "Jesus stopped and said, “Call him.” So they called the blind man. “Take courage!” they said. “Get up! He is calling for you.”",
+     "displayText": "Jesus stopped and said, “Call him.” So they called the blind man. “Take courage!” they said. “Get up! He is calling for you.”"
+    },
+    "CPDV": {
+     "text": "And Jesus, standing still, instructed him to be called. And they called the blind man, saying to him: “Be at peace. Arise. He is calling you.”",
+     "displayText": "And Jesus, standing still, instructed him to be called. And they called the blind man, saying to him: “Be at peace. Arise. He is calling you.”"
+    }
+   },
+   "context": "Leaving Jericho, Jesus hears a blind beggar named Bartimaeus shouting for mercy over the crowd's attempts to silence him, and he stops and calls for him."
+  },
+  {
+   "id": "MRK.11.22",
+   "translations": {
+    "KJV": {
+     "text": "And Jesus answering saith unto them, Have faith in God.",
+     "displayText": "And Jesus answering saith unto them, Have faith in God."
+    },
+    "BSB": {
+     "text": "“Have faith in God,” Jesus said to them.",
+     "displayText": "“Have faith in God,” Jesus said to them."
+    },
+    "CPDV": {
+     "text": "And in response, Jesus said to them: “Have the faith of God.",
+     "displayText": "And in response, Jesus said to them: “Have the faith of God."
+    }
+   },
+   "context": "When Peter points out that the fig tree Jesus cursed the day before has withered, Jesus answers his disciples by telling them to have faith in God."
+  },
+  {
+   "id": "MRK.12.43",
+   "translations": {
+    "KJV": {
+     "text": "And he called unto him his disciples, and saith unto them, Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury:",
+     "displayText": "And he called unto him his disciples, and saith unto them, Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury:"
+    },
+    "BSB": {
+     "text": "Jesus called His disciples to Him and said, “Truly I tell you, this poor widow has put more than all the others into the treasury.",
+     "displayText": "Jesus called His disciples to Him and said, “Truly I tell you, this poor widow has put more than all the others into the treasury."
+    },
+    "CPDV": {
+     "text": "And calling together his disciples, he said to them: “Amen I say to you, that this poor widow has put in more than all those who contributed to the offertory.",
+     "displayText": "And calling together his disciples, he said to them: “Amen I say to you, that this poor widow has put in more than all those who contributed to the offertory."
+    }
+   },
+   "context": "Watching people give at the temple treasury, Jesus sees a poor widow drop in two small coins and calls his disciples over to point her out."
+  },
+  {
+   "id": "MRK.14.6",
+   "translations": {
+    "KJV": {
+     "text": "And Jesus said, Let her alone; why trouble ye her? she hath wrought a good work on me.",
+     "displayText": "And Jesus said, Let her alone; why trouble ye her? she hath wrought a good work on me."
+    },
+    "BSB": {
+     "text": "But Jesus said, “Leave her alone; why are you bothering her? She has done a beautiful deed to Me.",
+     "displayText": "But Jesus said, “Leave her alone; why are you bothering her? She has done a beautiful deed to Me."
+    },
+    "CPDV": {
+     "text": "But Jesus said: “Permit her. What is the reason that you trouble her? She has done a good deed for me.",
+     "displayText": "But Jesus said: “Permit her. What is the reason that you trouble her? She has done a good deed for me."
+    }
+   },
+   "context": "In Bethany, when some guests scold a woman for pouring expensive perfume on his head, Jesus tells them to leave her alone."
+  },
+  {
+   "id": "MRK.14.8",
+   "translations": {
+    "KJV": {
+     "text": "She hath done what she could: she is come aforehand to anoint my body to the burying.",
+     "displayText": "She hath done what she could: she is come aforehand to anoint my body to the burying."
+    },
+    "BSB": {
+     "text": "She has done what she could to anoint My body in advance of My burial.",
+     "displayText": "She has done what she could to anoint My body in advance of My burial."
+    },
+    "CPDV": {
+     "text": "But she has done what she could. She has arrived in advance to anoint my body for burial.",
+     "displayText": "But she has done what she could. She has arrived in advance to anoint my body for burial."
+    }
+   },
+   "context": "Defending the woman who poured costly perfume on him in Bethany, Jesus tells the complaining guests that she has anointed his body for burial ahead of time."
+  },
+  {
+   "id": "MRK.16.7",
+   "translations": {
+    "KJV": {
+     "text": "But go your way, tell his disciples and Peter that he goeth before you into Galilee: there shall ye see him, as he said unto you.",
+     "displayText": "But go your way, tell his disciples and Peter that he goeth before you into Galilee: there shall ye see him, as he said unto you."
+    },
+    "BSB": {
+     "text": "But go, tell His disciples and Peter, ‘He is going ahead of you into Galilee. There you will see Him, just as He told you.’”",
+     "displayText": "But go, tell His disciples and Peter, ‘He is going ahead of you into Galilee. There you will see Him, just as He told you.’”"
+    },
+    "CPDV": {
+     "text": "But go, tell his disciples and Peter that he is going before you into Galilee. There you shall see him, just as he told you.”",
+     "displayText": "But go, tell his disciples and Peter that he is going before you into Galilee. There you shall see him, just as he told you.”"
+    }
+   },
+   "context": "At the empty tomb on Sunday morning, a young man in white tells the frightened women to go and give this message to the disciples and to Peter."
+  },
+  {
+   "id": "ACT.1.14",
+   "translations": {
+    "KJV": {
+     "text": "These all continued with one accord in prayer and supplication, with the women, and Mary the mother of Jesus, and with his brethren.",
+     "displayText": "These all continued with one accord in prayer and supplication, with the women, and Mary the mother of Jesus, and with his brethren."
+    },
+    "BSB": {
+     "text": "With one accord they all continued in prayer, along with the women and Mary the mother of Jesus, and with His brothers.",
+     "displayText": "With one accord they all continued in prayer, along with the women and Mary the mother of Jesus, and with His brothers."
+    },
+    "CPDV": {
+     "text": "All these were persevering with one accord in prayer with the women, and with Mary, the mother of Jesus, and with his brothers.",
+     "displayText": "All these were persevering with one accord in prayer with the women, and with Mary, the mother of Jesus, and with his brothers."
+    }
+   },
+   "context": "After Jesus is taken up into heaven, the eleven apostles gather in an upstairs room in Jerusalem to wait and pray together with his family and other followers."
+  },
+  {
+   "id": "ACT.2.39",
+   "translations": {
+    "KJV": {
+     "text": "For the promise is unto you, and to your children, and to all that are afar off, even as many as the Lord our God shall call.",
+     "displayText": "For the promise is unto you, and to your children, and to all that are afar off, even as many as the Lord our God shall call."
+    },
+    "BSB": {
+     "text": "This promise belongs to you and your children and to all who are far off—to all whom the Lord our God will call to Himself.”",
+     "displayText": "This promise belongs to you and your children and to all who are far off—to all whom the Lord our God will call to Himself.”"
+    },
+    "CPDV": {
+     "text": "For the Promise is for you and for your sons, and for all who are far away: for whomever the Lord our God will have called.”",
+     "displayText": "For the Promise is for you and for your sons, and for all who are far away: for whomever the Lord our God will have called.”"
+    }
+   },
+   "context": "On the day of Pentecost, Peter tells the crowd who asked what they should do that God's promise is for them, their children, and those far away."
+  },
+  {
+   "id": "ACT.3.8",
+   "translations": {
+    "KJV": {
+     "text": "And he leaping up stood, and walked, and entered with them into the temple, walking, and leaping, and praising God.",
+     "displayText": "And he leaping up stood, and walked, and entered with them into the temple, walking, and leaping, and praising God."
+    },
+    "BSB": {
+     "text": "He sprang to his feet and began to walk. Then he went with them into the temple courts, walking and leaping and praising God.",
+     "displayText": "He sprang to his feet and began to walk. Then he went with them into the temple courts, walking and leaping and praising God."
+    },
+    "CPDV": {
+     "text": "And leaping up, he stood and walked around. And he entered with them into the temple, walking and leaping and praising God.",
+     "displayText": "And leaping up, he stood and walked around. And he entered with them into the temple, walking and leaping and praising God."
+    }
+   },
+   "context": "At the temple gate, a man unable to walk since birth is healed when Peter takes his hand, and he goes into the temple courts with Peter and John."
+  },
+  {
+   "id": "ACT.4.13",
+   "translations": {
+    "KJV": {
+     "text": "Now when they saw the boldness of Peter and John, and perceived that they were unlearned and ignorant men, they marvelled; and they took knowledge of them, that they had been with Jesus.",
+     "displayText": "Now when they saw the boldness of Peter and John, and perceived that they were unlearned and ignorant men, they marvelled; and they took knowledge of them, that they had been with Jesus."
+    },
+    "BSB": {
+     "text": "When they saw the boldness of Peter and John and realized that they were unschooled, ordinary men, they marveled and took note that these men had been with Jesus.",
+     "displayText": "When they saw the boldness of Peter and John and realized that they were unschooled, ordinary men, they marveled and took note that these men had been with Jesus."
+    },
+    "CPDV": {
+     "text": "Then, seeing the constancy of Peter and John, having verified that they were men without letters or learning, they wondered. And they recognized that they had been with Jesus.",
+     "displayText": "Then, seeing the constancy of Peter and John, having verified that they were men without letters or learning, they wondered. And they recognized that they had been with Jesus."
+    }
+   },
+   "context": "When Peter and John are put on trial before the Jewish council for healing a lame man, the leaders are amazed at how boldly these ordinary men speak."
+  },
+  {
+   "id": "ACT.4.31",
+   "translations": {
+    "KJV": {
+     "text": "And when they had prayed, the place was shaken where they were assembled together; and they were all filled with the Holy Ghost, and they spake the word of God with boldness.",
+     "displayText": "And when they had prayed, the place was shaken where they were assembled together; and they were all filled with the Holy Ghost, and they spake the word of God with boldness."
+    },
+    "BSB": {
+     "text": "After they had prayed, their meeting place was shaken, and they were all filled with the Holy Spirit and spoke the word of God boldly.",
+     "displayText": "After they had prayed, their meeting place was shaken, and they were all filled with the Holy Spirit and spoke the word of God boldly."
+    },
+    "CPDV": {
+     "text": "And when they had prayed, the place in which they were gathered was moved. And they were all filled with the Holy Spirit. And they were speaking the Word of God with confidence.",
+     "displayText": "And when they had prayed, the place in which they were gathered was moved. And they were all filled with the Holy Spirit. And they were speaking the Word of God with confidence."
+    }
+   },
+   "context": "After Peter and John are released by the council with orders to stop preaching, the believers pray together for boldness, and the place shakes."
+  },
+  {
+   "id": "ACT.5.31",
+   "translations": {
+    "KJV": {
+     "text": "Him hath God exalted with his right hand to be a Prince and a Saviour, for to give repentance to Israel, and forgiveness of sins.",
+     "displayText": "Him hath God exalted with his right hand to be a Prince and a Saviour, for to give repentance to Israel, and forgiveness of sins."
+    },
+    "BSB": {
+     "text": "God exalted Him to His right hand as Prince and Savior, in order to grant repentance and forgiveness of sins to Israel.",
+     "displayText": "God exalted Him to His right hand as Prince and Savior, in order to grant repentance and forgiveness of sins to Israel."
+    },
+    "CPDV": {
+     "text": "It is he whom God has exalted at his right hand as Ruler and Savior, so as to offer repentance and the remission of sins to Israel.",
+     "displayText": "It is he whom God has exalted at his right hand as Ruler and Savior, so as to offer repentance and the remission of sins to Israel."
+    }
+   },
+   "context": "Arrested again and standing before the Jewish council, Peter and the apostles tell the leaders that God raised Jesus up as Prince and Savior."
+  },
+  {
+   "id": "ACT.7.55",
+   "translations": {
+    "KJV": {
+     "text": "But he, being full of the Holy Ghost, looked up stedfastly into heaven, and saw the glory of God, and Jesus standing on the right hand of God,",
+     "displayText": "But he, being full of the Holy Ghost, looked up stedfastly into heaven, and saw the glory of God, and Jesus standing on the right hand of God,"
+    },
+    "BSB": {
+     "text": "But Stephen, full of the Holy Spirit, looked intently into heaven and saw the glory of God and Jesus standing at the right hand of God.",
+     "displayText": "But Stephen, full of the Holy Spirit, looked intently into heaven and saw the glory of God and Jesus standing at the right hand of God."
+    },
+    "CPDV": {
+     "text": "But he, being filled with the Holy Spirit, and gazing intently toward heaven, saw the glory of God and Jesus standing at the right hand of God. And he said, “Behold, I see the heavens opened, and the Son of man standing at the right hand of God.”",
+     "displayText": "But he, being filled with the Holy Spirit, and gazing intently toward heaven, saw the glory of God and Jesus standing at the right hand of God. And he said, “Behold, I see the heavens opened, and the Son of man standing at the right hand of God.”"
+    }
+   },
+   "context": "As the council turns on him in fury after his long speech, Stephen looks up and sees the glory of God and Jesus standing at God's right hand."
+  },
+  {
+   "id": "ACT.7.59",
+   "translations": {
+    "KJV": {
+     "text": "And they stoned Stephen, calling upon God, and saying, Lord Jesus, receive my spirit.",
+     "displayText": "And they stoned Stephen, calling upon God, and saying, Lord Jesus, receive my spirit."
+    },
+    "BSB": {
+     "text": "While they were stoning him, Stephen appealed, “Lord Jesus, receive my spirit.”",
+     "displayText": "While they were stoning him, Stephen appealed, “Lord Jesus, receive my spirit.”"
+    },
+    "CPDV": {
+     "text": "And as they were stoning Stephen, he called out and said, “Lord Jesus, receive my spirit.”",
+     "displayText": "And as they were stoning Stephen, he called out and said, “Lord Jesus, receive my spirit.”"
+    }
+   },
+   "context": "Dragged out of Jerusalem and stoned by an angry crowd, Stephen calls out to Jesus to receive his spirit."
+  },
+  {
+   "id": "ACT.9.17",
+   "translations": {
+    "KJV": {
+     "text": "And Ananias went his way, and entered into the house; and putting his hands on him said, Brother Saul, the Lord, even Jesus, that appeared unto thee in the way as thou camest, hath sent me, that thou mightest receive thy sight, and be filled with the Holy Ghost.",
+     "displayText": "And Ananias went his way, and entered into the house; and putting his hands on him said, Brother Saul, the Lord, even Jesus, that appeared unto thee in the way as thou camest, hath sent me, that thou mightest receive thy sight, and be filled with the Holy Ghost."
+    },
+    "BSB": {
+     "text": "So Ananias went to the house, and when he arrived, he placed his hands on Saul. “Brother Saul,” he said, “the Lord Jesus, who appeared to you on the road as you were coming here, has sent me so that you may see again and be filled with the Holy Spirit.”",
+     "displayText": "So Ananias went to the house, and when he arrived, he placed his hands on Saul. “Brother Saul,” he said, “the Lord Jesus, who appeared to you on the road as you were coming here, has sent me so that you may see again and be filled with the Holy Spirit.”"
+    },
+    "CPDV": {
+     "text": "And Ananias departed. And he entered the house. And laying his hands upon him, he said: “Brother Saul, the Lord Jesus, he who appeared to you on the way by which you arrived, sent me so that you would receive your sight and be filled with the Holy Spirit.”",
+     "displayText": "And Ananias departed. And he entered the house. And laying his hands upon him, he said: “Brother Saul, the Lord Jesus, he who appeared to you on the way by which you arrived, sent me so that you would receive your sight and be filled with the Holy Spirit.”"
+    }
+   },
+   "context": "Sent by the Lord to the blinded Saul in Damascus, a disciple named Ananias goes to the house, lays his hands on him, and calls him brother."
+  },
+  {
+   "id": "ACT.9.31",
+   "translations": {
+    "KJV": {
+     "text": "Then had the churches rest throughout all Judea and Galilee and Samaria, and were edified; and walking in the fear of the Lord, and in the comfort of the Holy Ghost, were multiplied.",
+     "displayText": "Then had the churches rest throughout all Judea and Galilee and Samaria, and were edified; and walking in the fear of the Lord, and in the comfort of the Holy Ghost, were multiplied."
+    },
+    "BSB": {
+     "text": "Then the church throughout Judea, Galilee, and Samaria experienced a time of peace. It grew in strength and numbers, living in the fear of the Lord and the encouragement of the Holy Spirit.",
+     "displayText": "Then the church throughout Judea, Galilee, and Samaria experienced a time of peace. It grew in strength and numbers, living in the fear of the Lord and the encouragement of the Holy Spirit."
+    },
+    "CPDV": {
+     "text": "Certainly, the Church had peace throughout all of Judea and Galilee and Samaria, and it was being built up, while walking in the fear of the Lord, and it was being filled with the consolation of the Holy Spirit.",
+     "displayText": "Certainly, the Church had peace throughout all of Judea and Galilee and Samaria, and it was being built up, while walking in the fear of the Lord, and it was being filled with the consolation of the Holy Spirit."
+    }
+   },
+   "context": "After Saul, the former persecutor, is sent away safely to Tarsus, Luke notes that the church across Judea, Galilee and Samaria enjoys a time of peace."
+  },
+  {
+   "id": "ACT.10.28",
+   "translations": {
+    "KJV": {
+     "text": "And he said unto them, Ye know how that it is an unlawful thing for a man that is a Jew to keep company, or come unto one of another nation; but God hath shewed me that I should not call any man common or unclean.",
+     "displayText": "And he said unto them, Ye know how that it is an unlawful thing for a man that is a Jew to keep company, or come unto one of another nation; but God hath shewed me that I should not call any man common or unclean."
+    },
+    "BSB": {
+     "text": "He said to them, “You know how unlawful it is for a Jew to associate with a foreigner or visit him. But God has shown me that I should not call any man impure or unclean.",
+     "displayText": "He said to them, “You know how unlawful it is for a Jew to associate with a foreigner or visit him. But God has shown me that I should not call any man impure or unclean."
+    },
+    "CPDV": {
+     "text": "And he said to them: “You know how abominable it would be for a Jewish man to be joined with, or to be added to, a foreign people. But God has revealed to me to call no man common or unclean.",
+     "displayText": "And he said to them: “You know how abominable it would be for a Jewish man to be joined with, or to be added to, a foreign people. But God has revealed to me to call no man common or unclean."
+    }
+   },
+   "context": "Arriving at the home of the Roman centurion Cornelius in Caesarea, Peter tells the gathered Gentiles what God showed him in a vision."
+  },
+  {
+   "id": "ACT.10.36",
+   "translations": {
+    "KJV": {
+     "text": "The word which God sent unto the children of Israel, preaching peace by Jesus Christ: (he is Lord of all:)",
+     "displayText": "The word which God sent unto the children of Israel, preaching peace by Jesus Christ: (he is Lord of all:)"
+    },
+    "BSB": {
+     "text": "He has sent this message to the people of Israel, proclaiming the gospel of peace through Jesus Christ, who is Lord of all.",
+     "displayText": "He has sent this message to the people of Israel, proclaiming the gospel of peace through Jesus Christ, who is Lord of all."
+    },
+    "CPDV": {
+     "text": "God sent the Word to the sons of Israel, announcing the peace through Jesus Christ, for he is the Lord of all.",
+     "displayText": "God sent the Word to the sons of Israel, announcing the peace through Jesus Christ, for he is the Lord of all."
+    }
+   },
+   "context": "Preaching in the home of the Roman centurion Cornelius, Peter tells his Gentile listeners about the good news of peace through Jesus, Lord of all."
+  },
+  {
+   "id": "ACT.11.18",
+   "translations": {
+    "KJV": {
+     "text": "When they heard these things, they held their peace, and glorified God, saying, Then hath God also to the Gentiles granted repentance unto life.",
+     "displayText": "When they heard these things, they held their peace, and glorified God, saying, Then hath God also to the Gentiles granted repentance unto life."
+    },
+    "BSB": {
+     "text": "When they heard this, their objections were put to rest, and they glorified God, saying, “So then, God has granted even the Gentiles repentance unto life.”",
+     "displayText": "When they heard this, their objections were put to rest, and they glorified God, saying, “So then, God has granted even the Gentiles repentance unto life.”"
+    },
+    "CPDV": {
+     "text": "Having heard these things, they were silent. And they glorified God, saying: “So has God also given to the Gentiles repentance unto life.”",
+     "displayText": "Having heard these things, they were silent. And they glorified God, saying: “So has God also given to the Gentiles repentance unto life.”"
+    }
+   },
+   "context": "After Peter explains to critical believers in Jerusalem how the Spirit came on Cornelius's Gentile household, their objections fall silent."
+  },
+  {
+   "id": "ACT.12.5",
+   "translations": {
+    "KJV": {
+     "text": "Peter therefore was kept in prison: but prayer was made without ceasing of the church unto God for him.",
+     "displayText": "Peter therefore was kept in prison: but prayer was made without ceasing of the church unto God for him."
+    },
+    "BSB": {
+     "text": "So Peter was kept in prison, but the church was fervently praying to God for him.",
+     "displayText": "So Peter was kept in prison, but the church was fervently praying to God for him."
+    },
+    "CPDV": {
+     "text": "And so Peter was detained in prison. But prayers were being made without ceasing, by the Church, to God on his behalf.",
+     "displayText": "And so Peter was detained in prison. But prayers were being made without ceasing, by the Church, to God on his behalf."
+    }
+   },
+   "context": "After King Herod has the apostle James killed and throws Peter in prison as well, the church prays earnestly to God for Peter."
+  },
+  {
+   "id": "ACT.12.6",
+   "translations": {
+    "KJV": {
+     "text": "And when Herod would have brought him forth, the same night Peter was sleeping between two soldiers, bound with two chains: and the keepers before the door kept the prison.",
+     "displayText": "And when Herod would have brought him forth, the same night Peter was sleeping between two soldiers, bound with two chains: and the keepers before the door kept the prison."
+    },
+    "BSB": {
+     "text": "On the night before Herod was to bring him to trial, Peter was sleeping between two soldiers, bound with two chains, with sentries standing guard at the entrance to the prison.",
+     "displayText": "On the night before Herod was to bring him to trial, Peter was sleeping between two soldiers, bound with two chains, with sentries standing guard at the entrance to the prison."
+    },
+    "CPDV": {
+     "text": "And when Herod was ready to produce him, in that same night, Peter was sleeping between two soldiers, and was bound with two chains. And there were guards in front of the door, guarding the prison.",
+     "displayText": "And when Herod was ready to produce him, in that same night, Peter was sleeping between two soldiers, and was bound with two chains. And there were guards in front of the door, guarding the prison."
+    }
+   },
+   "context": "On the night before King Herod plans to put him on trial, Peter sleeps chained between two soldiers in prison, with guards at the door."
+  },
+  {
+   "id": "ACT.13.2",
+   "translations": {
+    "KJV": {
+     "text": "As they ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them.",
+     "displayText": "As they ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them."
+    },
+    "BSB": {
+     "text": "While they were worshiping the Lord and fasting, the Holy Spirit said, “Set apart for Me Barnabas and Saul for the work to which I have called them.”",
+     "displayText": "While they were worshiping the Lord and fasting, the Holy Spirit said, “Set apart for Me Barnabas and Saul for the work to which I have called them.”"
+    },
+    "CPDV": {
+     "text": "Now as they were ministering for the Lord and fasting, the Holy Spirit said to them: “Separate Saul and Barnabas for me, for the work for which I have selected them.”",
+     "displayText": "Now as they were ministering for the Lord and fasting, the Holy Spirit said to them: “Separate Saul and Barnabas for me, for the work for which I have selected them.”"
+    }
+   },
+   "context": "While the prophets and teachers of the church in Antioch are worshiping and fasting, the Holy Spirit tells them to set apart Barnabas and Saul."
+  },
+  {
+   "id": "ACT.13.52",
+   "translations": {
+    "KJV": {
+     "text": "And the disciples were filled with joy, and with the Holy Ghost.",
+     "displayText": "And the disciples were filled with joy, and with the Holy Ghost."
+    },
+    "BSB": {
+     "text": "And the disciples were filled with joy and with the Holy Spirit.",
+     "displayText": "And the disciples were filled with joy and with the Holy Spirit."
+    },
+    "CPDV": {
+     "text": "The disciples were likewise filled with gladness and with the Holy Spirit.",
+     "displayText": "The disciples were likewise filled with gladness and with the Holy Spirit."
+    }
+   },
+   "context": "After Paul and Barnabas are driven out of Pisidian Antioch by opposition, the new believers they leave behind are still filled with joy and the Spirit."
+  },
+  {
+   "id": "ACT.16.7",
+   "translations": {
+    "KJV": {
+     "text": "After they were come to Mysia, they assayed to go into Bithynia: but the Spirit suffered them not.",
+     "displayText": "After they were come to Mysia, they assayed to go into Bithynia: but the Spirit suffered them not."
+    },
+    "BSB": {
+     "text": "And when they came to the border of Mysia, they tried to enter Bithynia, but the Spirit of Jesus would not permit them.",
+     "displayText": "And when they came to the border of Mysia, they tried to enter Bithynia, but the Spirit of Jesus would not permit them."
+    },
+    "CPDV": {
+     "text": "But when they had arrived in Mysia, they attempted to go into Bithynia, but the Spirit of Jesus would not permit them.",
+     "displayText": "But when they had arrived in Mysia, they attempted to go into Bithynia, but the Spirit of Jesus would not permit them."
+    }
+   },
+   "context": "Traveling with Silas and Timothy through Asia Minor, Paul tries to head into the province of Bithynia, but the Spirit of Jesus stops them."
+  },
+  {
+   "id": "ACT.16.10",
+   "translations": {
+    "KJV": {
+     "text": "And after he had seen the vision, immediately we endeavoured to go into Macedonia, assuredly gathering that the Lord had called us for to preach the gospel unto them.",
+     "displayText": "And after he had seen the vision, immediately we endeavoured to go into Macedonia, assuredly gathering that the Lord had called us for to preach the gospel unto them."
+    },
+    "BSB": {
+     "text": "As soon as Paul had seen the vision, we got ready to leave for Macedonia, concluding that God had called us to preach the gospel to them.",
+     "displayText": "As soon as Paul had seen the vision, we got ready to leave for Macedonia, concluding that God had called us to preach the gospel to them."
+    },
+    "CPDV": {
+     "text": "Then, after he saw the vision, immediately we sought to set out for Macedonia, having been assured that God had called us to evangelize to them.",
+     "displayText": "Then, after he saw the vision, immediately we sought to set out for Macedonia, having been assured that God had called us to evangelize to them."
+    }
+   },
+   "context": "After Paul sees a night vision in Troas of a man begging him to come to Macedonia, he and his companions, including the writer Luke, set out at once."
+  },
+  {
+   "id": "ACT.16.14",
+   "translations": {
+    "KJV": {
+     "text": "And a certain woman named Lydia, a seller of purple, of the city of Thyatira, which worshipped God, heard us: whose heart the Lord opened, that she attended unto the things which were spoken of Paul.",
+     "displayText": "And a certain woman named Lydia, a seller of purple, of the city of Thyatira, which worshipped God, heard us: whose heart the Lord opened, that she attended unto the things which were spoken of Paul."
+    },
+    "BSB": {
+     "text": "Among those listening was a woman named Lydia, a dealer in purple cloth from the city of Thyatira, who was a worshiper of God. The Lord opened her heart to respond to Paul’s message.",
+     "displayText": "Among those listening was a woman named Lydia, a dealer in purple cloth from the city of Thyatira, who was a worshiper of God. The Lord opened her heart to respond to Paul’s message."
+    },
+    "CPDV": {
+     "text": "And a certain woman, named Lydia, a seller of purple in the city of Thyatira, a worshiper of God, listened. And the Lord opened her heart to be receptive to what Paul was saying.",
+     "displayText": "And a certain woman, named Lydia, a seller of purple in the city of Thyatira, a worshiper of God, listened. And the Lord opened her heart to be receptive to what Paul was saying."
+    }
+   },
+   "context": "At a riverside place of prayer outside Philippi, a businesswoman named Lydia, a seller of purple cloth, listens as Paul speaks, and she believes."
+  },
+  {
+   "id": "ACT.16.28",
+   "translations": {
+    "KJV": {
+     "text": "But Paul cried with a loud voice, saying, Do thyself no harm: for we are all here.",
+     "displayText": "But Paul cried with a loud voice, saying, Do thyself no harm: for we are all here."
+    },
+    "BSB": {
+     "text": "But Paul called out in a loud voice, “Do not harm yourself! We are all here!”",
+     "displayText": "But Paul called out in a loud voice, “Do not harm yourself! We are all here!”"
+    },
+    "CPDV": {
+     "text": "But Paul cried out with a loud voice, saying: “Do no harm to yourself, for we are all here!”",
+     "displayText": "But Paul cried out with a loud voice, saying: “Do no harm to yourself, for we are all here!”"
+    }
+   },
+   "context": "After an earthquake throws open the Philippian prison, the jailer draws his sword to kill himself, and Paul shouts to stop him."
+  },
+  {
+   "id": "ACT.17.25",
+   "translations": {
+    "KJV": {
+     "text": "Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things;",
+     "displayText": "Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things;"
+    },
+    "BSB": {
+     "text": "Nor is He served by human hands, as if He needed anything, because He Himself gives everyone life and breath and everything else.",
+     "displayText": "Nor is He served by human hands, as if He needed anything, because He Himself gives everyone life and breath and everything else."
+    },
+    "CPDV": {
+     "text": "Neither is he served by the hands of men, as if in need of anything, since it is he who gives to all things life and breath and all else.",
+     "displayText": "Neither is he served by the hands of men, as if in need of anything, since it is he who gives to all things life and breath and all else."
+    }
+   },
+   "context": "Speaking to the philosophers of Athens at the Areopagus, Paul tells them that God needs nothing from human hands but gives everyone life and breath."
+  },
+  {
+   "id": "ACT.17.27",
+   "translations": {
+    "KJV": {
+     "text": "That they should seek the Lord, if haply they might feel after him, and find him, though he be not far from every one of us:",
+     "displayText": "That they should seek the Lord, if haply they might feel after him, and find him, though he be not far from every one of us:"
+    },
+    "BSB": {
+     "text": "God intended that they would seek Him and perhaps reach out for Him and find Him, though He is not far from each one of us.",
+     "displayText": "God intended that they would seek Him and perhaps reach out for Him and find Him, though He is not far from each one of us."
+    },
+    "CPDV": {
+     "text": "so as to seek God, if perhaps they may consider him or find him, though he is not far from each one of us.",
+     "displayText": "so as to seek God, if perhaps they may consider him or find him, though he is not far from each one of us."
+    }
+   },
+   "context": "Addressing the council of the Areopagus in Athens, Paul says God set up the world so that people would seek him, though he is never far away."
+  },
+  {
+   "id": "ACT.20.37",
+   "translations": {
+    "KJV": {
+     "text": "And they all wept sore, and fell on Paul’s neck, and kissed him,",
+     "displayText": "And they all wept sore, and fell on Paul’s neck, and kissed him,"
+    },
+    "BSB": {
+     "text": "They all wept openly as they embraced Paul and kissed him.",
+     "displayText": "They all wept openly as they embraced Paul and kissed him."
+    },
+    "CPDV": {
+     "text": "Then a great weeping occurred among them all. And, falling upon the neck of Paul, they kissed him,",
+     "displayText": "Then a great weeping occurred among them all. And, falling upon the neck of Paul, they kissed him,"
+    }
+   },
+   "context": "After Paul tells the elders of Ephesus at Miletus they will not see him again, he kneels to pray with them, and they all weep and embrace him."
+  },
+  {
+   "id": "ACT.21.13",
+   "translations": {
+    "KJV": {
+     "text": "Then Paul answered, What mean ye to weep and to break mine heart? for I am ready not to be bound only, but also to die at Jerusalem for the name of the Lord Jesus.",
+     "displayText": "Then Paul answered, What mean ye to weep and to break mine heart? for I am ready not to be bound only, but also to die at Jerusalem for the name of the Lord Jesus."
+    },
+    "BSB": {
+     "text": "Then Paul answered, “Why are you weeping and breaking my heart? I am ready not only to be bound, but also to die in Jerusalem for the name of the Lord Jesus.”",
+     "displayText": "Then Paul answered, “Why are you weeping and breaking my heart? I am ready not only to be bound, but also to die in Jerusalem for the name of the Lord Jesus.”"
+    },
+    "CPDV": {
+     "text": "Then Paul responded by saying: “What do you accomplish by weeping and afflicting my heart? For I am prepared, not only to be bound, but also to die in Jerusalem, for the name of the Lord Jesus.”",
+     "displayText": "Then Paul responded by saying: “What do you accomplish by weeping and afflicting my heart? For I am prepared, not only to be bound, but also to die in Jerusalem, for the name of the Lord Jesus.”"
+    }
+   },
+   "context": "When a prophet warns that Paul will be bound in Jerusalem and his friends at Caesarea beg him not to go, Paul answers that he is ready even to die."
+  },
+  {
+   "id": "ACT.21.14",
+   "translations": {
+    "KJV": {
+     "text": "And when he would not be persuaded, we ceased, saying, The will of the Lord be done.",
+     "displayText": "And when he would not be persuaded, we ceased, saying, The will of the Lord be done."
+    },
+    "BSB": {
+     "text": "When he would not be dissuaded, we fell silent and said, “The Lord’s will be done.”",
+     "displayText": "When he would not be dissuaded, we fell silent and said, “The Lord’s will be done.”"
+    },
+    "CPDV": {
+     "text": "And since we were not able to persuade him, we quieted, saying: “May the will of the Lord be done.”",
+     "displayText": "And since we were not able to persuade him, we quieted, saying: “May the will of the Lord be done.”"
+    }
+   },
+   "context": "Unable to talk Paul out of going to Jerusalem despite a prophet's warning, his traveling companions and the believers in Caesarea give up and say the Lord's will be done."
+  },
+  {
+   "id": "ACT.23.11",
+   "translations": {
+    "KJV": {
+     "text": "And the night following the Lord stood by him, and said, Be of good cheer, Paul: for as thou hast testified of me in Jerusalem, so must thou bear witness also at Rome.",
+     "displayText": "And the night following the Lord stood by him, and said, Be of good cheer, Paul: for as thou hast testified of me in Jerusalem, so must thou bear witness also at Rome."
+    },
+    "BSB": {
+     "text": "The following night the Lord stood near Paul and said, “Take courage! As you have testified about Me in Jerusalem, so also you must testify in Rome.”",
+     "displayText": "The following night the Lord stood near Paul and said, “Take courage! As you have testified about Me in Jerusalem, so also you must testify in Rome.”"
+    },
+    "CPDV": {
+     "text": "Then, on the following night, the Lord stood near him and said: “Be constant. For just as you have testified about me in Jerusalem, so also it is necessary for you to testify at Rome.”",
+     "displayText": "Then, on the following night, the Lord stood near him and said: “Be constant. For just as you have testified about me in Jerusalem, so also it is necessary for you to testify at Rome.”"
+    }
+   },
+   "context": "The night after a stormy hearing before the Jewish council in Jerusalem, Paul is held in the Roman barracks when the Lord stands beside him."
+  },
+  {
+   "id": "ACT.27.35",
+   "translations": {
+    "KJV": {
+     "text": "And when he had thus spoken, he took bread, and gave thanks to God in presence of them all: and when he had broken it, he began to eat.",
+     "displayText": "And when he had thus spoken, he took bread, and gave thanks to God in presence of them all: and when he had broken it, he began to eat."
+    },
+    "BSB": {
+     "text": "After he had said this, Paul took bread and gave thanks to God in front of them all. Then he broke it and began to eat.",
+     "displayText": "After he had said this, Paul took bread and gave thanks to God in front of them all. Then he broke it and began to eat."
+    },
+    "CPDV": {
+     "text": "And when he had said these things, taking bread, he gave thanks to God in the sight of them all. And when he had broken it, he began to eat.",
+     "displayText": "And when he had said these things, taking bread, he gave thanks to God in the sight of them all. And when he had broken it, he began to eat."
+    }
+   },
+   "context": "After fourteen days adrift in a storm, Paul urges the 276 people on board the ship to eat, and he takes bread and gives thanks in front of them."
+  },
+  {
+   "id": "ACT.28.15",
+   "translations": {
+    "KJV": {
+     "text": "And from thence, when the brethren heard of us, they came to meet us as far as Appii forum, and The three taverns: whom when Paul saw, he thanked God, and took courage.",
+     "displayText": "And from thence, when the brethren heard of us, they came to meet us as far as Appii forum, and The three taverns: whom when Paul saw, he thanked God, and took courage."
+    },
+    "BSB": {
+     "text": "The brothers there had heard about us and traveled as far as the Forum of Appius and the Three Taverns to meet us. When Paul saw them, he was encouraged and gave thanks to God.",
+     "displayText": "The brothers there had heard about us and traveled as far as the Forum of Appius and the Three Taverns to meet us. When Paul saw them, he was encouraged and gave thanks to God."
+    },
+    "CPDV": {
+     "text": "And there, when the brothers had heard of us, they went to meet us as far as the Forum of Appius and the Three Taverns. And when Paul had seen them, giving thanks to God, he took courage.",
+     "displayText": "And there, when the brothers had heard of us, they went to meet us as far as the Forum of Appius and the Three Taverns. And when Paul had seen them, giving thanks to God, he took courage."
+    }
+   },
+   "context": "Arriving in Italy as a prisoner bound for Rome, Paul is met by believers who travel out to meet him, and he takes courage at the sight of them."
+  },
+  {
+   "id": "ACT.22.16",
+   "translations": {
+    "KJV": {
+     "text": "And now why tarriest thou? arise, and be baptized, and wash away thy sins, calling on the name of the Lord.",
+     "displayText": "And now why tarriest thou? arise, and be baptized, and wash away thy sins, calling on the name of the Lord."
+    },
+    "BSB": {
+     "text": "And now what are you waiting for? Get up, be baptized, and wash your sins away, calling on His name.’",
+     "displayText": "And now what are you waiting for? Get up, be baptized, and wash your sins away, calling on His name.’"
+    },
+    "CPDV": {
+     "text": "And now, why do you delay? Rise up, and be baptized, and wash away your sins, by invoking his name.’",
+     "displayText": "And now, why do you delay? Rise up, and be baptized, and wash away your sins, by invoking his name.’"
+    }
+   },
+   "context": "Telling a Jerusalem crowd the story of his conversion, Paul repeats what Ananias said to him in Damascus after his sight was restored."
+  },
+  {
+   "id": "LUK.1.25",
+   "translations": {
+    "KJV": {
+     "text": "Thus hath the Lord dealt with me in the days wherein he looked on me, to take away my reproach among men.",
+     "displayText": "Thus hath the Lord dealt with me in the days wherein he looked on me, to take away my reproach among men."
+    },
+    "BSB": {
+     "text": "“The Lord has done this for me. In these days He has shown me favor and taken away my disgrace among the people.”",
+     "displayText": "“The Lord has done this for me. In these days He has shown me favor and taken away my disgrace among the people.”"
+    },
+    "CPDV": {
+     "text": "“For the Lord did this for me, at the time when he decided to take away my reproach among men.”",
+     "displayText": "“For the Lord did this for me, at the time when he decided to take away my reproach among men.”"
+    }
+   },
+   "context": "After years of childlessness, Elizabeth, the wife of the priest Zechariah, finds herself pregnant in her old age and thanks God for removing her disgrace."
+  },
+  {
+   "id": "LUK.1.30",
+   "translations": {
+    "KJV": {
+     "text": "And the angel said unto her, Fear not, Mary: for thou hast found favour with God.",
+     "displayText": "And the angel said unto her, Fear not, Mary: for thou hast found favour with God."
+    },
+    "BSB": {
+     "text": "So the angel told her, “Do not be afraid, Mary, for you have found favor with God.",
+     "displayText": "So the angel told her, “Do not be afraid, Mary, for you have found favor with God."
+    },
+    "CPDV": {
+     "text": "And the Angel said to her: “Do not be afraid, Mary, for you have found grace with God.",
+     "displayText": "And the Angel said to her: “Do not be afraid, Mary, for you have found grace with God."
+    }
+   },
+   "context": "The angel Gabriel appears to Mary, a young woman in Nazareth, and tells her not to be afraid before announcing she will bear a son."
+  },
+  {
+   "id": "LUK.1.48",
+   "translations": {
+    "KJV": {
+     "text": "For he hath regarded the low estate of his handmaiden: for, behold, from henceforth all generations shall call me blessed.",
+     "displayText": "For he hath regarded the low estate of his handmaiden: for, behold, from henceforth all generations shall call me blessed."
+    },
+    "BSB": {
+     "text": "For He has looked with favor on the humble state of His servant. From now on all generations will call me blessed.",
+     "displayText": "For He has looked with favor on the humble state of His servant. From now on all generations will call me blessed."
+    },
+    "CPDV": {
+     "text": "For he has looked with favor on the humility of his handmaid. For behold, from this time, all generations shall call me blessed.",
+     "displayText": "For he has looked with favor on the humility of his handmaid. For behold, from this time, all generations shall call me blessed."
+    }
+   },
+   "context": "Visiting her relative Elizabeth, the newly pregnant Mary bursts into a song of praise, marveling that God has noticed a humble servant like her."
+  },
+  {
+   "id": "LUK.2.20",
+   "translations": {
+    "KJV": {
+     "text": "And the shepherds returned, glorifying and praising God for all the things that they had heard and seen, as it was told unto them.",
+     "displayText": "And the shepherds returned, glorifying and praising God for all the things that they had heard and seen, as it was told unto them."
+    },
+    "BSB": {
+     "text": "The shepherds returned, glorifying and praising God for all they had heard and seen, which was just as the angel had told them.",
+     "displayText": "The shepherds returned, glorifying and praising God for all they had heard and seen, which was just as the angel had told them."
+    },
+    "CPDV": {
+     "text": "And the shepherds returned, glorifying and praising God for all the things that they had heard and seen, just as it was told to them.",
+     "displayText": "And the shepherds returned, glorifying and praising God for all the things that they had heard and seen, just as it was told to them."
+    }
+   },
+   "context": "After finding the newborn Jesus lying in a manger in Bethlehem, just as the angel told them, the shepherds head back, praising God for all they saw."
+  },
+  {
+   "id": "LUK.2.29",
+   "translations": {
+    "KJV": {
+     "text": "Lord, now lettest thou thy servant depart in peace, according to thy word:",
+     "displayText": "Lord, now lettest thou thy servant depart in peace, according to thy word:"
+    },
+    "BSB": {
+     "text": "“Sovereign Lord, as You have promised, You now dismiss Your servant in peace.",
+     "displayText": "“Sovereign Lord, as You have promised, You now dismiss Your servant in peace."
+    },
+    "CPDV": {
+     "text": "“Now you may dismiss your servant in peace, O Lord, according to your word.",
+     "displayText": "“Now you may dismiss your servant in peace, O Lord, according to your word."
+    }
+   },
+   "context": "In the temple in Jerusalem, an old man named Simeon, promised he would see the Messiah before he died, takes the infant Jesus in his arms and prays."
+  },
+  {
+   "id": "LUK.5.5",
+   "translations": {
+    "KJV": {
+     "text": "And Simon answering said unto him, Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net.",
+     "displayText": "And Simon answering said unto him, Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net."
+    },
+    "BSB": {
+     "text": "“Master,” Simon replied, “we have worked hard all night without catching anything. But because You say so, I will let down the nets.”",
+     "displayText": "“Master,” Simon replied, “we have worked hard all night without catching anything. But because You say so, I will let down the nets.”"
+    },
+    "CPDV": {
+     "text": "And in response, Simon said to him: “Teacher, working throughout the night, we caught nothing. But on your word, I will release the net.”",
+     "displayText": "And in response, Simon said to him: “Teacher, working throughout the night, we caught nothing. But on your word, I will release the net.”"
+    }
+   },
+   "context": "After teaching the crowd from Simon's boat on the Lake of Gennesaret, Jesus tells Simon to cast his nets again, though Simon has caught nothing all night."
+  },
+  {
+   "id": "LUK.5.8",
+   "translations": {
+    "KJV": {
+     "text": "When Simon Peter saw it, he fell down at Jesus’ knees, saying, Depart from me; for I am a sinful man, O Lord.",
+     "displayText": "When Simon Peter saw it, he fell down at Jesus’ knees, saying, Depart from me; for I am a sinful man, O Lord."
+    },
+    "BSB": {
+     "text": "When Simon Peter saw this, he fell at Jesus’ knees. “Go away from me, Lord,” he said, “for I am a sinful man.”",
+     "displayText": "When Simon Peter saw this, he fell at Jesus’ knees. “Go away from me, Lord,” he said, “for I am a sinful man.”"
+    },
+    "CPDV": {
+     "text": "But when Simon Peter had seen this, he fell down at the knees of Jesus, saying, “Depart from me, Lord, for I am a sinful man.”",
+     "displayText": "But when Simon Peter had seen this, he fell down at the knees of Jesus, saying, “Depart from me, Lord, for I am a sinful man.”"
+    }
+   },
+   "context": "Seeing his nets so full of fish they begin to tear after a fruitless night, Simon Peter falls at Jesus' knees, overwhelmed by his own unworthiness."
+  },
+  {
+   "id": "LUK.5.16",
+   "translations": {
+    "KJV": {
+     "text": "And he withdrew himself into the wilderness, and prayed.",
+     "displayText": "And he withdrew himself into the wilderness, and prayed."
+    },
+    "BSB": {
+     "text": "Yet He frequently withdrew to the wilderness to pray.",
+     "displayText": "Yet He frequently withdrew to the wilderness to pray."
+    },
+    "CPDV": {
+     "text": "And he withdrew into the desert and prayed.",
+     "displayText": "And he withdrew into the desert and prayed."
+    }
+   },
+   "context": "As news of his healings spreads and ever larger crowds come to him, Luke notes that Jesus often slips away to lonely places to pray."
+  },
+  {
+   "id": "LUK.7.7",
+   "translations": {
+    "KJV": {
+     "text": "Wherefore neither thought I myself worthy to come unto thee: but say in a word, and my servant shall be healed.",
+     "displayText": "Wherefore neither thought I myself worthy to come unto thee: but say in a word, and my servant shall be healed."
+    },
+    "BSB": {
+     "text": "That is why I did not consider myself worthy to come to You. But just say the word, and my servant will be healed.",
+     "displayText": "That is why I did not consider myself worthy to come to You. But just say the word, and my servant will be healed."
+    },
+    "CPDV": {
+     "text": "Because of this, I also did not consider myself worthy to come to you. But say the word, and my servant shall be healed.",
+     "displayText": "Because of this, I also did not consider myself worthy to come to you. But say the word, and my servant shall be healed."
+    }
+   },
+   "context": "A Roman centurion in Capernaum sends friends to Jesus with this message about his dying servant, saying he did not feel worthy to come himself."
+  },
+  {
+   "id": "LUK.7.15",
+   "translations": {
+    "KJV": {
+     "text": "And he that was dead sat up, and began to speak. And he delivered him to his mother.",
+     "displayText": "And he that was dead sat up, and began to speak. And he delivered him to his mother."
+    },
+    "BSB": {
+     "text": "And the dead man sat up and began to speak! Then Jesus gave him back to his mother.",
+     "displayText": "And the dead man sat up and began to speak! Then Jesus gave him back to his mother."
+    },
+    "CPDV": {
+     "text": "And the dead youth sat up and began to speak. And he gave him to his mother.",
+     "displayText": "And the dead youth sat up and began to speak. And he gave him to his mother."
+    }
+   },
+   "context": "Meeting a funeral procession at the gate of Nain, Jesus raises a widow's only son, and the young man sits up and speaks."
+  },
+  {
+   "id": "LUK.7.19",
+   "translations": {
+    "KJV": {
+     "text": "And John calling unto him two of his disciples sent them to Jesus, saying, Art thou he that should come? or look we for another?",
+     "displayText": "And John calling unto him two of his disciples sent them to Jesus, saying, Art thou he that should come? or look we for another?"
+    },
+    "BSB": {
+     "text": "So John called two of his disciples and sent them to ask the Lord, “Are You the One who was to come, or should we look for someone else?”",
+     "displayText": "So John called two of his disciples and sent them to ask the Lord, “Are You the One who was to come, or should we look for someone else?”"
+    },
+    "CPDV": {
+     "text": "And John called two of his disciples, and he sent them to Jesus, saying, “Are you he who is to come, or should we wait for another?”",
+     "displayText": "And John called two of his disciples, and he sent them to Jesus, saying, “Are you he who is to come, or should we wait for another?”"
+    }
+   },
+   "context": "Hearing reports of what Jesus is doing, John the Baptist sends two of his disciples to ask Jesus directly whether he is the one they have been waiting for."
+  },
+  {
+   "id": "LUK.10.5",
+   "translations": {
+    "KJV": {
+     "text": "And into whatsoever house ye enter, first say, Peace be to this house.",
+     "displayText": "And into whatsoever house ye enter, first say, Peace be to this house."
+    },
+    "BSB": {
+     "text": "Whatever house you enter, begin by saying, ‘Peace to this house.’",
+     "displayText": "Whatever house you enter, begin by saying, ‘Peace to this house.’"
+    },
+    "CPDV": {
+     "text": "Into whatever house you will have entered, first say, ‘Peace to this house.’",
+     "displayText": "Into whatever house you will have entered, first say, ‘Peace to this house.’"
+    }
+   },
+   "context": "Sending out a larger group of followers in pairs to the towns he plans to visit, Jesus tells them to greet each house with a blessing of peace."
+  },
+  {
+   "id": "LUK.10.20",
+   "translations": {
+    "KJV": {
+     "text": "Notwithstanding in this rejoice not, that the spirits are subject unto you; but rather rejoice, because your names are written in heaven.",
+     "displayText": "Notwithstanding in this rejoice not, that the spirits are subject unto you; but rather rejoice, because your names are written in heaven."
+    },
+    "BSB": {
+     "text": "Nevertheless, do not rejoice that the spirits submit to you, but rejoice that your names are written in heaven.”",
+     "displayText": "Nevertheless, do not rejoice that the spirits submit to you, but rejoice that your names are written in heaven.”"
+    },
+    "CPDV": {
+     "text": "Yet truly, do not choose to rejoice in this, that the spirits are subject to you; but rejoice that your names are written in heaven.”",
+     "displayText": "Yet truly, do not choose to rejoice in this, that the spirits are subject to you; but rejoice that your names are written in heaven.”"
+    }
+   },
+   "context": "When the followers he sent out return thrilled that even demons obeyed them, Jesus tells them to rejoice for a better reason."
+  },
+  {
+   "id": "LUK.10.37",
+   "translations": {
+    "KJV": {
+     "text": "And he said, He that shewed mercy on him. Then said Jesus unto him, Go, and do thou likewise.",
+     "displayText": "And he said, He that shewed mercy on him. Then said Jesus unto him, Go, and do thou likewise."
+    },
+    "BSB": {
+     "text": "“The one who showed him mercy,” replied the expert in the law. Then Jesus told him, “Go and do likewise.”",
+     "displayText": "“The one who showed him mercy,” replied the expert in the law. Then Jesus told him, “Go and do likewise.”"
+    },
+    "CPDV": {
+     "text": "Then he said, “The one who acted with mercy toward him.” And Jesus said to him, “Go, and act similarly.”",
+     "displayText": "Then he said, “The one who acted with mercy toward him.” And Jesus said to him, “Go, and act similarly.”"
+    }
+   },
+   "context": "After telling the parable of the Good Samaritan, Jesus asks an expert in the law who acted as a neighbor, then tells him to go and do the same."
+  },
+  {
+   "id": "LUK.13.12",
+   "translations": {
+    "KJV": {
+     "text": "And when Jesus saw her, he called her to him, and said unto her, Woman, thou art loosed from thine infirmity.",
+     "displayText": "And when Jesus saw her, he called her to him, and said unto her, Woman, thou art loosed from thine infirmity."
+    },
+    "BSB": {
+     "text": "When Jesus saw her, He called her over and said, “Woman, you are set free from your disability.”",
+     "displayText": "When Jesus saw her, He called her over and said, “Woman, you are set free from your disability.”"
+    },
+    "CPDV": {
+     "text": "And when Jesus saw her, he called her to himself, and he said to her, “Woman, you are released from your infirmity.”",
+     "displayText": "And when Jesus saw her, he called her to himself, and he said to her, “Woman, you are released from your infirmity.”"
+    }
+   },
+   "context": "Teaching in a synagogue on the Sabbath, Jesus notices a woman who has been bent over for eighteen years and calls her to him."
+  },
+  {
+   "id": "LUK.18.7",
+   "translations": {
+    "KJV": {
+     "text": "And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them?",
+     "displayText": "And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them?"
+    },
+    "BSB": {
+     "text": "Will not God bring about justice for His elect who cry out to Him day and night? Will He continue to defer their help?",
+     "displayText": "Will not God bring about justice for His elect who cry out to Him day and night? Will He continue to defer their help?"
+    },
+    "CPDV": {
+     "text": "So then, will not God grant the vindication of his elect, who cry out to him day and night? Or will he continue to endure them?",
+     "displayText": "So then, will not God grant the vindication of his elect, who cry out to him day and night? Or will he continue to endure them?"
+    }
+   },
+   "context": "After telling a parable about a widow who keeps pleading with an unjust judge until he grants her justice, Jesus asks how much more God will answer."
+  },
+  {
+   "id": "LUK.19.9",
+   "translations": {
+    "KJV": {
+     "text": "And Jesus said unto him, This day is salvation come to this house, forsomuch as he also is a son of Abraham.",
+     "displayText": "And Jesus said unto him, This day is salvation come to this house, forsomuch as he also is a son of Abraham."
+    },
+    "BSB": {
+     "text": "Jesus said to him, “Today salvation has come to this house, because this man too is a son of Abraham.",
+     "displayText": "Jesus said to him, “Today salvation has come to this house, because this man too is a son of Abraham."
+    },
+    "CPDV": {
+     "text": "Jesus said to him: “Today, salvation has come to this house; because of this, he too is a son of Abraham.",
+     "displayText": "Jesus said to him: “Today, salvation has come to this house; because of this, he too is a son of Abraham."
+    }
+   },
+   "context": "After the tax collector Zacchaeus welcomes Jesus to his home in Jericho and pledges to repay those he cheated, Jesus speaks over him."
+  },
+  {
+   "id": "LUK.19.40",
+   "translations": {
+    "KJV": {
+     "text": "And he answered and said unto them, I tell you that, if these should hold their peace, the stones would immediately cry out.",
+     "displayText": "And he answered and said unto them, I tell you that, if these should hold their peace, the stones would immediately cry out."
+    },
+    "BSB": {
+     "text": "“I tell you,” He answered, “if they remain silent, the very stones will cry out.”",
+     "displayText": "“I tell you,” He answered, “if they remain silent, the very stones will cry out.”"
+    },
+    "CPDV": {
+     "text": "And he said to them, “I tell you, that if these will keep silent, the stones themselves will cry out.”",
+     "displayText": "And he said to them, “I tell you, that if these will keep silent, the stones themselves will cry out.”"
+    }
+   },
+   "context": "As Jesus rides toward Jerusalem and his disciples loudly praise God, some Pharisees tell him to silence them, and this is his reply."
+  },
+  {
+   "id": "LUK.22.19",
+   "translations": {
+    "KJV": {
+     "text": "And he took bread, and gave thanks, and brake it, and gave unto them, saying, This is my body which is given for you: this do in remembrance of me.",
+     "displayText": "And he took bread, and gave thanks, and brake it, and gave unto them, saying, This is my body which is given for you: this do in remembrance of me."
+    },
+    "BSB": {
+     "text": "And He took the bread, gave thanks and broke it, and gave it to them, saying, “This is My body, given for you; do this in remembrance of Me.”",
+     "displayText": "And He took the bread, gave thanks and broke it, and gave it to them, saying, “This is My body, given for you; do this in remembrance of Me.”"
+    },
+    "CPDV": {
+     "text": "And taking bread, he gave thanks and broke it and gave it to them, saying: “This is my body, which is given for you. Do this as a commemoration of me.”",
+     "displayText": "And taking bread, he gave thanks and broke it and gave it to them, saying: “This is my body, which is given for you. Do this as a commemoration of me.”"
+    }
+   },
+   "context": "At the Passover meal on the night before his death, Jesus takes bread, gives thanks, and hands it to his apostles."
+  },
+  {
+   "id": "LUK.22.43",
+   "translations": {
+    "KJV": {
+     "text": "And there appeared an angel unto him from heaven, strengthening him.",
+     "displayText": "And there appeared an angel unto him from heaven, strengthening him."
+    },
+    "BSB": {
+     "text": "Then an angel from heaven appeared to Him and strengthened Him.",
+     "displayText": "Then an angel from heaven appeared to Him and strengthened Him."
+    },
+    "CPDV": {
+     "text": "Then an Angel appeared to him from heaven, strengthening him. And being in agony, he prayed more intensely;",
+     "displayText": "Then an Angel appeared to him from heaven, strengthening him. And being in agony, he prayed more intensely;"
+    }
+   },
+   "context": "Praying alone on the Mount of Olives on the night of his arrest, asking the Father to take this cup from him, Jesus is strengthened by an angel from heaven."
+  },
+  {
+   "id": "LUK.22.44",
+   "translations": {
+    "KJV": {
+     "text": "And being in an agony he prayed more earnestly: and his sweat was as it were great drops of blood falling down to the ground.",
+     "displayText": "And being in an agony he prayed more earnestly: and his sweat was as it were great drops of blood falling down to the ground."
+    },
+    "BSB": {
+     "text": "And in His anguish, He prayed more earnestly, and His sweat became like drops of blood falling to the ground.",
+     "displayText": "And in His anguish, He prayed more earnestly, and His sweat became like drops of blood falling to the ground."
+    },
+    "CPDV": {
+     "text": "and so his sweat became like drops of blood, running down to the ground.",
+     "displayText": "and so his sweat became like drops of blood, running down to the ground."
+    }
+   },
+   "context": "On the Mount of Olives the night he is arrested, Jesus prays in such anguish that his sweat falls to the ground like drops of blood."
+  },
+  {
+   "id": "LUK.23.42",
+   "translations": {
+    "KJV": {
+     "text": "And he said unto Jesus, Lord, remember me when thou comest into thy kingdom.",
+     "displayText": "And he said unto Jesus, Lord, remember me when thou comest into thy kingdom."
+    },
+    "BSB": {
+     "text": "Then he said, “Jesus, remember me when You come into Your kingdom!”",
+     "displayText": "Then he said, “Jesus, remember me when You come into Your kingdom!”"
+    },
+    "CPDV": {
+     "text": "And he said to Jesus, “Lord, remember me when you come into your kingdom.”",
+     "displayText": "And he said to Jesus, “Lord, remember me when you come into your kingdom.”"
+    }
+   },
+   "context": "As he hangs on a cross beside Jesus, one of the two criminals crucified with him turns to Jesus with this request."
+  },
+  {
+   "id": "LUK.24.15",
+   "translations": {
+    "KJV": {
+     "text": "And it came to pass, that, while they communed together and reasoned, Jesus himself drew near, and went with them.",
+     "displayText": "And it came to pass, that, while they communed together and reasoned, Jesus himself drew near, and went with them."
+    },
+    "BSB": {
+     "text": "And as they talked and deliberated, Jesus Himself came up and walked along with them.",
+     "displayText": "And as they talked and deliberated, Jesus Himself came up and walked along with them."
+    },
+    "CPDV": {
+     "text": "And it happened that, while they were speculating and questioning within themselves, Jesus himself, drawing near, traveled with them.",
+     "displayText": "And it happened that, while they were speculating and questioning within themselves, Jesus himself, drawing near, traveled with them."
+    }
+   },
+   "context": "On the Sunday of the resurrection, two grieving followers walking to the village of Emmaus are joined on the road by Jesus, though they don't recognize him."
+  },
+  {
+   "id": "LUK.24.21",
+   "translations": {
+    "KJV": {
+     "text": "But we trusted that it had been he which should have redeemed Israel: and beside all this, to day is the third day since these things were done.",
+     "displayText": "But we trusted that it had been he which should have redeemed Israel: and beside all this, to day is the third day since these things were done."
+    },
+    "BSB": {
+     "text": "But we were hoping He was the One who would redeem Israel. And besides all this, it is the third day since these things took place.",
+     "displayText": "But we were hoping He was the One who would redeem Israel. And besides all this, it is the third day since these things took place."
+    },
+    "CPDV": {
+     "text": "But we were hoping that he would be the Redeemer of Israel. And now, on top of all this, today is the third day since these things have happened.",
+     "displayText": "But we were hoping that he would be the Redeemer of Israel. And now, on top of all this, today is the third day since these things have happened."
+    }
+   },
+   "context": "Walking to Emmaus, a follower named Cleopas tells the stranger beside them, not knowing he is Jesus, how their hopes died with the crucifixion."
+  },
+  {
+   "id": "LUK.24.45",
+   "translations": {
+    "KJV": {
+     "text": "Then opened he their understanding, that they might understand the scriptures,",
+     "displayText": "Then opened he their understanding, that they might understand the scriptures,"
+    },
+    "BSB": {
+     "text": "Then He opened their minds to understand the Scriptures.",
+     "displayText": "Then He opened their minds to understand the Scriptures."
+    },
+    "CPDV": {
+     "text": "Then he opened their mind, so that they might understand the Scriptures.",
+     "displayText": "Then he opened their mind, so that they might understand the Scriptures."
+    }
+   },
+   "context": "Appearing to his gathered disciples in Jerusalem after his resurrection, Jesus explains how the Scriptures pointed to him."
+  },
+  {
+   "id": "JHN.11.41",
+   "translations": {
+    "KJV": {
+     "text": "Then they took away the stone from the place where the dead was laid. And Jesus lifted up his eyes, and said, Father, I thank thee that thou hast heard me.",
+     "displayText": "Then they took away the stone from the place where the dead was laid. And Jesus lifted up his eyes, and said, Father, I thank thee that thou hast heard me."
+    },
+    "BSB": {
+     "text": "So they took away the stone. Then Jesus lifted His eyes upward and said, “Father, I thank You that You have heard Me.",
+     "displayText": "So they took away the stone. Then Jesus lifted His eyes upward and said, “Father, I thank You that You have heard Me."
+    },
+    "CPDV": {
+     "text": "Therefore, they took away the stone. Then, lifting up his eyes, Jesus said: “Father, I give thanks to you because you have heard me.",
+     "displayText": "Therefore, they took away the stone. Then, lifting up his eyes, Jesus said: “Father, I give thanks to you because you have heard me."
+    }
+   },
+   "context": "Standing at the tomb of his friend Lazarus in Bethany, four days after his death, Jesus has the stone rolled away and prays aloud to his Father."
+  },
+  {
+   "id": "JHN.16.13",
+   "translations": {
+    "KJV": {
+     "text": "Howbeit when he, the Spirit of truth, is come, he will guide you into all truth: for he shall not speak of himself; but whatsoever he shall hear, that shall he speak: and he will shew you things to come.",
+     "displayText": "Howbeit when he, the Spirit of truth, is come, he will guide you into all truth: for he shall not speak of himself; but whatsoever he shall hear, that shall he speak: and he will shew you things to come."
+    },
+    "BSB": {
+     "text": "However, when the Spirit of truth comes, He will guide you into all truth. For He will not speak on His own, but He will speak what He hears, and He will declare to you what is to come.",
+     "displayText": "However, when the Spirit of truth comes, He will guide you into all truth. For He will not speak on His own, but He will speak what He hears, and He will declare to you what is to come."
+    },
+    "CPDV": {
+     "text": "But when the Spirit of truth has arrived, he will teach the whole truth to you. For he will not be speaking from himself. Instead, whatever he will hear, he will speak. And he will announce to you the things that are to come.",
+     "displayText": "But when the Spirit of truth has arrived, he will teach the whole truth to you. For he will not be speaking from himself. Instead, whatever he will hear, he will speak. And he will announce to you the things that are to come."
+    }
+   },
+   "context": "On the night before his death, Jesus tells his disciples that after he leaves, the Spirit of truth will come to guide them."
+  },
+  {
+   "id": "JHN.11.21",
+   "translations": {
+    "KJV": {
+     "text": "Then said Martha unto Jesus, Lord, if thou hadst been here, my brother had not died.",
+     "displayText": "Then said Martha unto Jesus, Lord, if thou hadst been here, my brother had not died."
+    },
+    "BSB": {
+     "text": "Martha said to Jesus, “Lord, if You had been here, my brother would not have died.",
+     "displayText": "Martha said to Jesus, “Lord, if You had been here, my brother would not have died."
+    },
+    "CPDV": {
+     "text": "And then Martha said to Jesus: “Lord, if you had been here, my brother would not have died.",
+     "displayText": "And then Martha said to Jesus: “Lord, if you had been here, my brother would not have died."
+    }
+   },
+   "context": "Arriving in Bethany four days after Lazarus has died, Jesus is met on the road by Lazarus's grieving sister Martha."
+  },
+  {
+   "id": "JHN.1.46",
+   "translations": {
+    "KJV": {
+     "text": "And Nathanael said unto him, Can there any good thing come out of Nazareth? Philip saith unto him, Come and see.",
+     "displayText": "And Nathanael said unto him, Can there any good thing come out of Nazareth? Philip saith unto him, Come and see."
+    },
+    "BSB": {
+     "text": "“Can anything good come from Nazareth?” Nathanael asked. “Come and see,” said Philip.",
+     "displayText": "“Can anything good come from Nazareth?” Nathanael asked. “Come and see,” said Philip."
+    },
+    "CPDV": {
+     "text": "And Nathanael said to him, “Can anything good be from Nazareth?” Philip said to him, “Come and see.”",
+     "displayText": "And Nathanael said to him, “Can anything good be from Nazareth?” Philip said to him, “Come and see.”"
+    }
+   },
+   "context": "When Philip excitedly tells his friend Nathanael that they have found the promised one, Jesus of Nazareth, Nathanael is doubtful."
+  },
+  {
+   "id": "JHN.5.6",
+   "translations": {
+    "KJV": {
+     "text": "When Jesus saw him lie, and knew that he had been now a long time in that case, he saith unto him, Wilt thou be made whole?",
+     "displayText": "When Jesus saw him lie, and knew that he had been now a long time in that case, he saith unto him, Wilt thou be made whole?"
+    },
+    "BSB": {
+     "text": "When Jesus saw him lying there and realized that he had spent a long time in this condition, He asked him, “Do you want to get well?”",
+     "displayText": "When Jesus saw him lying there and realized that he had spent a long time in this condition, He asked him, “Do you want to get well?”"
+    },
+    "CPDV": {
+     "text": "Then, when Jesus had seen him reclining, and when he realized that he had been afflicted for a long time, he said to him, “Do you want to be healed?”",
+     "displayText": "Then, when Jesus had seen him reclining, and when he realized that he had been afflicted for a long time, he said to him, “Do you want to be healed?”"
+    }
+   },
+   "context": "At the pool of Bethesda in Jerusalem, Jesus sees a man lying there who has been ill for thirty-eight years and asks him a simple question."
+  },
+  {
+   "id": "JHN.21.12",
+   "translations": {
+    "KJV": {
+     "text": "Jesus saith unto them, Come and dine. And none of the disciples durst ask him, Who art thou? knowing that it was the Lord.",
+     "displayText": "Jesus saith unto them, Come and dine. And none of the disciples durst ask him, Who art thou? knowing that it was the Lord."
+    },
+    "BSB": {
+     "text": "“Come, have breakfast,” Jesus said to them. None of the disciples dared to ask Him, “Who are You?” They knew it was the Lord.",
+     "displayText": "“Come, have breakfast,” Jesus said to them. None of the disciples dared to ask Him, “Who are You?” They knew it was the Lord."
+    },
+    "CPDV": {
+     "text": "Jesus said to them, “Approach and dine.” And not one of them sitting down to eat dared to ask him, “Who are you?” For they knew that it was the Lord.",
+     "displayText": "Jesus said to them, “Approach and dine.” And not one of them sitting down to eat dared to ask him, “Who are you?” For they knew that it was the Lord."
+    }
+   },
+   "context": "After the risen Jesus fills their empty nets on the Sea of Tiberias, the disciples come ashore to find him cooking breakfast over a charcoal fire."
+  }
+ ]
+}

@@ -5998,5 +5998,2005 @@
  "1PE.3.14": {
   "chapter": 3,
   "verse": 14
+ },
+ "GEN.15.1": {
+  "chapter": 15,
+  "verse": 1
+ },
+ "GEN.17.17": {
+  "chapter": 17,
+  "verse": 17
+ },
+ "GEN.18.12": {
+  "chapter": 18,
+  "verse": 12
+ },
+ "GEN.18.25": {
+  "chapter": 18,
+  "verse": 25
+ },
+ "GEN.32.10": {
+  "chapter": 32,
+  "verse": 10
+ },
+ "GEN.33.10": {
+  "chapter": 33,
+  "verse": 10
+ },
+ "GEN.37.35": {
+  "chapter": 37,
+  "verse": 35
+ },
+ "GEN.41.51": {
+  "chapter": 41,
+  "verse": 51
+ },
+ "EXO.2.25": {
+  "chapter": 2,
+  "verse": 25
+ },
+ "EXO.3.11": {
+  "chapter": 3,
+  "verse": 11
+ },
+ "EXO.4.1": {
+  "chapter": 4,
+  "verse": 1
+ },
+ "EXO.5.22": {
+  "chapter": 5,
+  "verse": 22
+ },
+ "EXO.6.9": {
+  "chapter": 6,
+  "verse": 9
+ },
+ "EXO.18.18": {
+  "chapter": 18,
+  "verse": 18
+ },
+ "LEV.19.17": {
+  "chapter": 19,
+  "verse": 17
+ },
+ "LEV.19.34": {
+  "chapter": 19,
+  "verse": 34
+ },
+ "LEV.20.26": {
+  "chapter": 20,
+  "verse": 26
+ },
+ "LEV.26.13": {
+  "chapter": 26,
+  "verse": 13
+ },
+ "LEV.26.44": {
+  "chapter": 26,
+  "verse": 44
+ },
+ "NUM.11.11": {
+  "chapter": 11,
+  "verse": 11
+ },
+ "NUM.11.14": {
+  "chapter": 11,
+  "verse": 14
+ },
+ "NUM.11.15": {
+  "chapter": 11,
+  "verse": 15
+ },
+ "NUM.13.33": {
+  "chapter": 13,
+  "verse": 34
+ },
+ "NUM.14.19": {
+  "chapter": 14,
+  "verse": 19
+ },
+ "NUM.14.20": {
+  "chapter": 14,
+  "verse": 20
+ },
+ "NUM.18.20": {
+  "chapter": 18,
+  "verse": 20
+ },
+ "DEU.2.7": {
+  "chapter": 2,
+  "verse": 7
+ },
+ "DEU.8.10": {
+  "chapter": 8,
+  "verse": 10
+ },
+ "DEU.10.18": {
+  "chapter": 10,
+  "verse": 18
+ },
+ "DEU.32.10": {
+  "chapter": 32,
+  "verse": 10
+ },
+ "DEU.34.8": {
+  "chapter": 34,
+  "verse": 8
+ },
+ "JOS.23.11": {
+  "chapter": 23,
+  "verse": 11
+ },
+ "JOS.24.17": {
+  "chapter": 24,
+  "verse": 17
+ },
+ "JDG.2.18": {
+  "chapter": 2,
+  "verse": 18
+ },
+ "JDG.6.13": {
+  "chapter": 6,
+  "verse": 13
+ },
+ "JDG.6.14": {
+  "chapter": 6,
+  "verse": 14
+ },
+ "JDG.6.15": {
+  "chapter": 6,
+  "verse": 15
+ },
+ "JDG.6.17": {
+  "chapter": 6,
+  "verse": 17
+ },
+ "JDG.6.39": {
+  "chapter": 6,
+  "verse": 39
+ },
+ "JDG.10.15": {
+  "chapter": 10,
+  "verse": 15
+ },
+ "JDG.10.16": {
+  "chapter": 10,
+  "verse": 16
+ },
+ "RUT.1.20": {
+  "chapter": 1,
+  "verse": 20
+ },
+ "RUT.1.21": {
+  "chapter": 1,
+  "verse": 21
+ },
+ "RUT.2.10": {
+  "chapter": 2,
+  "verse": 10
+ },
+ "RUT.3.11": {
+  "chapter": 3,
+  "verse": 11
+ },
+ "RUT.4.15": {
+  "chapter": 4,
+  "verse": 15
+ },
+ "1SA.1.10": {
+  "chapter": 1,
+  "verse": 10
+ },
+ "1SA.1.15": {
+  "chapter": 1,
+  "verse": 15
+ },
+ "1SA.1.18": {
+  "chapter": 1,
+  "verse": 18
+ },
+ "1SA.7.12": {
+  "chapter": 7,
+  "verse": 12
+ },
+ "1SA.25.33": {
+  "chapter": 25,
+  "verse": 33
+ },
+ "1SA.30.4": {
+  "chapter": 30,
+  "verse": 4
+ },
+ "2SA.1.26": {
+  "chapter": 1,
+  "verse": 26
+ },
+ "2SA.9.3": {
+  "chapter": 9,
+  "verse": 3
+ },
+ "2SA.9.8": {
+  "chapter": 9,
+  "verse": 8
+ },
+ "2SA.12.22": {
+  "chapter": 12,
+  "verse": 22
+ },
+ "2SA.14.14": {
+  "chapter": 14,
+  "verse": 14
+ },
+ "2SA.15.30": {
+  "chapter": 15,
+  "verse": 30
+ },
+ "2SA.16.12": {
+  "chapter": 16,
+  "verse": 12
+ },
+ "2SA.24.14": {
+  "chapter": 24,
+  "verse": 14
+ },
+ "1KI.3.7": {
+  "chapter": 3,
+  "verse": 7
+ },
+ "1KI.8.30": {
+  "chapter": 8,
+  "verse": 30
+ },
+ "1KI.19.5": {
+  "chapter": 19,
+  "verse": 5
+ },
+ "1KI.19.10": {
+  "chapter": 19,
+  "verse": 10
+ },
+ "1KI.19.13": {
+  "chapter": 19,
+  "verse": 13
+ },
+ "2KI.4.26": {
+  "chapter": 4,
+  "verse": 26
+ },
+ "2KI.5.14": {
+  "chapter": 5,
+  "verse": 14
+ },
+ "2KI.6.17": {
+  "chapter": 6,
+  "verse": 17
+ },
+ "2KI.13.4": {
+  "chapter": 13,
+  "verse": 4
+ },
+ "2KI.19.14": {
+  "chapter": 19,
+  "verse": 14
+ },
+ "2KI.20.3": {
+  "chapter": 20,
+  "verse": 3
+ },
+ "2KI.25.29": {
+  "chapter": 25,
+  "verse": 29
+ },
+ "1CH.12.18": {
+  "chapter": 12,
+  "verse": 18
+ },
+ "1CH.29.12": {
+  "chapter": 29,
+  "verse": 12
+ },
+ "1CH.29.15": {
+  "chapter": 29,
+  "verse": 15
+ },
+ "2CH.14.11": {
+  "chapter": 14,
+  "verse": 11
+ },
+ "2CH.20.3": {
+  "chapter": 20,
+  "verse": 3
+ },
+ "2CH.32.8": {
+  "chapter": 32,
+  "verse": 8
+ },
+ "2CH.33.13": {
+  "chapter": 33,
+  "verse": 13
+ },
+ "EZR.3.12": {
+  "chapter": 3,
+  "verse": 12
+ },
+ "EZR.8.23": {
+  "chapter": 8,
+  "verse": 23
+ },
+ "EZR.9.8": {
+  "chapter": 9,
+  "verse": 8
+ },
+ "EZR.9.9": {
+  "chapter": 9,
+  "verse": 9
+ },
+ "EZR.9.15": {
+  "chapter": 9,
+  "verse": 15
+ },
+ "EZR.10.4": {
+  "chapter": 10,
+  "verse": 4
+ },
+ "NEH.1.4": {
+  "chapter": 1,
+  "verse": 4
+ },
+ "NEH.1.11": {
+  "chapter": 1,
+  "verse": 11
+ },
+ "NEH.5.19": {
+  "chapter": 5,
+  "verse": 19
+ },
+ "NEH.8.9": {
+  "chapter": 8,
+  "verse": 9
+ },
+ "NEH.9.19": {
+  "chapter": 9,
+  "verse": 19
+ },
+ "NEH.9.31": {
+  "chapter": 9,
+  "verse": 31
+ },
+ "NEH.12.43": {
+  "chapter": 12,
+  "verse": 42
+ },
+ "EST.2.7": {
+  "chapter": 2,
+  "verse": 7
+ },
+ "EST.4.1": {
+  "chapter": 4,
+  "verse": 1
+ },
+ "EST.5.2": {
+  "chapter": 5,
+  "verse": 2
+ },
+ "EST.7.3": {
+  "chapter": 7,
+  "verse": 3
+ },
+ "EST.8.16": {
+  "chapter": 8,
+  "verse": 16
+ },
+ "JOB.3.25": {
+  "chapter": 3,
+  "verse": 25
+ },
+ "JOB.6.14": {
+  "chapter": 6,
+  "verse": 14
+ },
+ "JOB.7.11": {
+  "chapter": 7,
+  "verse": 11
+ },
+ "JOB.9.2": {
+  "chapter": 9,
+  "verse": 2
+ },
+ "JOB.10.8": {
+  "chapter": 10,
+  "verse": 8
+ },
+ "JOB.14.14": {
+  "chapter": 14,
+  "verse": 14
+ },
+ "JOB.16.20": {
+  "chapter": 16,
+  "verse": 21
+ },
+ "JOB.17.11": {
+  "chapter": 17,
+  "verse": 11
+ },
+ "JOB.19.21": {
+  "chapter": 19,
+  "verse": 21
+ },
+ "JOB.21.7": {
+  "chapter": 21,
+  "verse": 7
+ },
+ "JOB.23.8": {
+  "chapter": 23,
+  "verse": 8
+ },
+ "JOB.29.15": {
+  "chapter": 29,
+  "verse": 15
+ },
+ "JOB.30.20": {
+  "chapter": 30,
+  "verse": 20
+ },
+ "JOB.30.26": {
+  "chapter": 30,
+  "verse": 26
+ },
+ "JOB.42.3": {
+  "chapter": 42,
+  "verse": 3
+ },
+ "PRO.3.27": {
+  "chapter": 3,
+  "verse": 27
+ },
+ "PRO.11.24": {
+  "chapter": 11,
+  "verse": 24
+ },
+ "PRO.12.16": {
+  "chapter": 12,
+  "verse": 16
+ },
+ "PRO.14.10": {
+  "chapter": 14,
+  "verse": 10
+ },
+ "PRO.14.13": {
+  "chapter": 14,
+  "verse": 13
+ },
+ "PRO.15.4": {
+  "chapter": 15,
+  "verse": 4
+ },
+ "PRO.15.16": {
+  "chapter": 15,
+  "verse": 16
+ },
+ "PRO.15.18": {
+  "chapter": 15,
+  "verse": 18
+ },
+ "PRO.18.14": {
+  "chapter": 18,
+  "verse": 14
+ },
+ "PRO.18.19": {
+  "chapter": 18,
+  "verse": 19
+ },
+ "PRO.19.23": {
+  "chapter": 19,
+  "verse": 23
+ },
+ "PRO.20.3": {
+  "chapter": 20,
+  "verse": 3
+ },
+ "PRO.20.9": {
+  "chapter": 20,
+  "verse": 9
+ },
+ "PRO.21.23": {
+  "chapter": 21,
+  "verse": 23
+ },
+ "PRO.22.2": {
+  "chapter": 22,
+  "verse": 2
+ },
+ "PRO.23.4": {
+  "chapter": 23,
+  "verse": 4
+ },
+ "PRO.24.29": {
+  "chapter": 24,
+  "verse": 29
+ },
+ "PRO.29.23": {
+  "chapter": 29,
+  "verse": 23
+ },
+ "PRO.30.2": {
+  "chapter": 30,
+  "verse": 2
+ },
+ "PRO.31.8": {
+  "chapter": 31,
+  "verse": 8
+ },
+ "ECC.1.9": {
+  "chapter": 1,
+  "verse": 10
+ },
+ "ECC.1.18": {
+  "chapter": 1,
+  "verse": 18
+ },
+ "ECC.2.11": {
+  "chapter": 2,
+  "verse": 11
+ },
+ "ECC.2.22": {
+  "chapter": 2,
+  "verse": 22
+ },
+ "ECC.2.23": {
+  "chapter": 2,
+  "verse": 23
+ },
+ "ECC.4.1": {
+  "chapter": 4,
+  "verse": 1
+ },
+ "ECC.5.10": {
+  "chapter": 5,
+  "verse": 9
+ },
+ "ECC.6.12": {
+  "chapter": 7,
+  "verse": 1
+ },
+ "ECC.7.3": {
+  "chapter": 7,
+  "verse": 4
+ },
+ "ECC.7.10": {
+  "chapter": 7,
+  "verse": 11
+ },
+ "ECC.7.20": {
+  "chapter": 7,
+  "verse": 21
+ },
+ "ECC.7.21": {
+  "chapter": 7,
+  "verse": 22
+ },
+ "ECC.8.7": {
+  "chapter": 8,
+  "verse": 7
+ },
+ "ECC.9.7": {
+  "chapter": 9,
+  "verse": 7
+ },
+ "ECC.10.4": {
+  "chapter": 10,
+  "verse": 4
+ },
+ "ECC.11.7": {
+  "chapter": 11,
+  "verse": 7
+ },
+ "SNG.1.5": {
+  "chapter": 1,
+  "verse": 4
+ },
+ "SNG.1.15": {
+  "chapter": 1,
+  "verse": 14
+ },
+ "SNG.2.11": {
+  "chapter": 2,
+  "verse": 13
+ },
+ "SNG.3.1": {
+  "chapter": 3,
+  "verse": 1
+ },
+ "PSA.6.3": {
+  "chapter": 6,
+  "verse": 4
+ },
+ "PSA.13.2": {
+  "chapter": 12,
+  "verse": 2
+ },
+ "PSA.22.2": {
+  "chapter": 21,
+  "verse": 3
+ },
+ "PSA.22.10": {
+  "chapter": 21,
+  "verse": 11
+ },
+ "PSA.38.4": {
+  "chapter": 37,
+  "verse": 5
+ },
+ "PSA.38.18": {
+  "chapter": 37,
+  "verse": 19
+ },
+ "PSA.42.3": {
+  "chapter": 41,
+  "verse": 4
+ },
+ "PSA.42.9": {
+  "chapter": 41,
+  "verse": 10
+ },
+ "PSA.44.24": {
+  "chapter": 43,
+  "verse": 24
+ },
+ "PSA.55.5": {
+  "chapter": 54,
+  "verse": 6
+ },
+ "PSA.55.18": {
+  "chapter": 54,
+  "verse": 19
+ },
+ "PSA.69.1": {
+  "chapter": 68,
+  "verse": 2
+ },
+ "PSA.69.3": {
+  "chapter": 68,
+  "verse": 4
+ },
+ "PSA.69.5": {
+  "chapter": 68,
+  "verse": 6
+ },
+ "PSA.69.20": {
+  "chapter": 68,
+  "verse": 21
+ },
+ "PSA.69.33": {
+  "chapter": 68,
+  "verse": 34
+ },
+ "PSA.77.2": {
+  "chapter": 76,
+  "verse": 3
+ },
+ "PSA.77.4": {
+  "chapter": 76,
+  "verse": 5
+ },
+ "PSA.77.12": {
+  "chapter": 76,
+  "verse": 13
+ },
+ "PSA.88.3": {
+  "chapter": 87,
+  "verse": 4
+ },
+ "PSA.88.18": {
+  "chapter": 87,
+  "verse": 19
+ },
+ "PSA.102.2": {
+  "chapter": 101,
+  "verse": 3
+ },
+ "PSA.102.7": {
+  "chapter": 101,
+  "verse": 8
+ },
+ "PSA.143.2": {
+  "chapter": 142,
+  "verse": 2
+ },
+ "PSA.143.4": {
+  "chapter": 142,
+  "verse": 4
+ },
+ "PSA.142.5": {
+  "chapter": 141,
+  "verse": 6
+ },
+ "PSA.10.12": {
+  "chapter": 9,
+  "verse": 33
+ },
+ "PSA.32.3": {
+  "chapter": 31,
+  "verse": 3
+ },
+ "PSA.51.3": {
+  "chapter": 50,
+  "verse": 5
+ },
+ "PSA.51.9": {
+  "chapter": 50,
+  "verse": 11
+ },
+ "PSA.51.11": {
+  "chapter": 50,
+  "verse": 13
+ },
+ "PSA.51.15": {
+  "chapter": 50,
+  "verse": 17
+ },
+ "PSA.41.4": {
+  "chapter": 40,
+  "verse": 5
+ },
+ "PSA.78.38": {
+  "chapter": 77,
+  "verse": 38
+ },
+ "PSA.79.8": {
+  "chapter": 78,
+  "verse": 8
+ },
+ "PSA.85.2": {
+  "chapter": 84,
+  "verse": 3
+ },
+ "PSA.19.13": {
+  "chapter": 18,
+  "verse": 14
+ },
+ "PSA.90.8": {
+  "chapter": 89,
+  "verse": 8
+ },
+ "PSA.109.4": {
+  "chapter": 108,
+  "verse": 4
+ },
+ "PSA.34.3": {
+  "chapter": 33,
+  "verse": 4
+ },
+ "PSA.34.6": {
+  "chapter": 33,
+  "verse": 7
+ },
+ "PSA.34.14": {
+  "chapter": 33,
+  "verse": 15
+ },
+ "PSA.116.6": {
+  "chapter": 114,
+  "verse": 6
+ },
+ "PSA.116.17": {
+  "chapter": 115,
+  "verse": 8
+ },
+ "PSA.118.21": {
+  "chapter": 117,
+  "verse": 21
+ },
+ "PSA.138.1": {
+  "chapter": 137,
+  "verse": 1
+ },
+ "PSA.138.6": {
+  "chapter": 137,
+  "verse": 6
+ },
+ "PSA.100.2": {
+  "chapter": 99,
+  "verse": 2
+ },
+ "PSA.95.6": {
+  "chapter": 94,
+  "verse": 6
+ },
+ "PSA.147.1": {
+  "chapter": 146,
+  "verse": 1
+ },
+ "PSA.31.22": {
+  "chapter": 30,
+  "verse": 23
+ },
+ "PSA.120.1": {
+  "chapter": 119,
+  "verse": 1
+ },
+ "PSA.120.7": {
+  "chapter": 119,
+  "verse": 7
+ },
+ "PSA.89.9": {
+  "chapter": 88,
+  "verse": 10
+ },
+ "PSA.131.1": {
+  "chapter": 130,
+  "verse": 1
+ },
+ "PSA.3.6": {
+  "chapter": 3,
+  "verse": 7
+ },
+ "PSA.62.2": {
+  "chapter": 61,
+  "verse": 3
+ },
+ "PSA.121.4": {
+  "chapter": 120,
+  "verse": 4
+ },
+ "PSA.18.1": {
+  "chapter": 17,
+  "verse": 2
+ },
+ "PSA.84.7": {
+  "chapter": 83,
+  "verse": 8
+ },
+ "PSA.1.2": {
+  "chapter": 1,
+  "verse": 2
+ },
+ "PSA.16.7": {
+  "chapter": 15,
+  "verse": 7
+ },
+ "PSA.27.11": {
+  "chapter": 26,
+  "verse": 11
+ },
+ "PSA.119.133": {
+  "chapter": 118,
+  "verse": 133
+ },
+ "PSA.119.67": {
+  "chapter": 118,
+  "verse": 67
+ },
+ "PSA.40.11": {
+  "chapter": 39,
+  "verse": 12
+ },
+ "PSA.119.97": {
+  "chapter": 118,
+  "verse": 97
+ },
+ "PSA.139.15": {
+  "chapter": 138,
+  "verse": 15
+ },
+ "PSA.118.22": {
+  "chapter": 117,
+  "verse": 22
+ },
+ "PSA.73.3": {
+  "chapter": 72,
+  "verse": 3
+ },
+ "PSA.89.49": {
+  "chapter": 88,
+  "verse": 50
+ },
+ "PSA.137.1": {
+  "chapter": 136,
+  "verse": 1
+ },
+ "PSA.137.4": {
+  "chapter": 136,
+  "verse": 4
+ },
+ "PSA.94.17": {
+  "chapter": 93,
+  "verse": 17
+ },
+ "PSA.57.7": {
+  "chapter": 56,
+  "verse": 8
+ },
+ "PSA.119.94": {
+  "chapter": 118,
+  "verse": 94
+ },
+ "PSA.139.4": {
+  "chapter": 138,
+  "verse": 4
+ },
+ "PSA.85.5": {
+  "chapter": 84,
+  "verse": 6
+ },
+ "PSA.107.22": {
+  "chapter": 106,
+  "verse": 22
+ },
+ "PSA.119.35": {
+  "chapter": 118,
+  "verse": 35
+ },
+ "PSA.35.18": {
+  "chapter": 34,
+  "verse": 18
+ },
+ "PSA.145.10": {
+  "chapter": 144,
+  "verse": 10
+ },
+ "ISA.12.1": {
+  "chapter": 12,
+  "verse": 1
+ },
+ "ISA.30.19": {
+  "chapter": 30,
+  "verse": 19
+ },
+ "ISA.38.14": {
+  "chapter": 38,
+  "verse": 14
+ },
+ "ISA.38.19": {
+  "chapter": 38,
+  "verse": 19
+ },
+ "ISA.40.2": {
+  "chapter": 40,
+  "verse": 2
+ },
+ "ISA.43.5": {
+  "chapter": 43,
+  "verse": 5
+ },
+ "ISA.44.8": {
+  "chapter": 44,
+  "verse": 8
+ },
+ "ISA.44.21": {
+  "chapter": 44,
+  "verse": 21
+ },
+ "ISA.45.3": {
+  "chapter": 45,
+  "verse": 3
+ },
+ "ISA.49.4": {
+  "chapter": 49,
+  "verse": 4
+ },
+ "ISA.50.10": {
+  "chapter": 50,
+  "verse": 10
+ },
+ "ISA.63.15": {
+  "chapter": 63,
+  "verse": 15
+ },
+ "JER.12.1": {
+  "chapter": 12,
+  "verse": 1
+ },
+ "JER.15.18": {
+  "chapter": 15,
+  "verse": 18
+ },
+ "JER.20.7": {
+  "chapter": 20,
+  "verse": 7
+ },
+ "JER.8.18": {
+  "chapter": 8,
+  "verse": 18
+ },
+ "JER.14.9": {
+  "chapter": 14,
+  "verse": 9
+ },
+ "JER.14.19": {
+  "chapter": 14,
+  "verse": 19
+ },
+ "JER.17.17": {
+  "chapter": 17,
+  "verse": 17
+ },
+ "JER.30.10": {
+  "chapter": 30,
+  "verse": 10
+ },
+ "JER.31.20": {
+  "chapter": 31,
+  "verse": 20
+ },
+ "JER.3.12": {
+  "chapter": 3,
+  "verse": 12
+ },
+ "JER.50.20": {
+  "chapter": 50,
+  "verse": 20
+ },
+ "JER.29.7": {
+  "chapter": 29,
+  "verse": 7
+ },
+ "LAM.1.12": {
+  "chapter": 1,
+  "verse": 12
+ },
+ "LAM.2.19": {
+  "chapter": 2,
+  "verse": 19
+ },
+ "LAM.3.17": {
+  "chapter": 3,
+  "verse": 17
+ },
+ "LAM.3.18": {
+  "chapter": 3,
+  "verse": 18
+ },
+ "LAM.3.8": {
+  "chapter": 3,
+  "verse": 8
+ },
+ "EZK.18.22": {
+  "chapter": 18,
+  "verse": 22
+ },
+ "EZK.18.31": {
+  "chapter": 18,
+  "verse": 31
+ },
+ "EZK.33.11": {
+  "chapter": 33,
+  "verse": 11
+ },
+ "EZK.34.12": {
+  "chapter": 34,
+  "verse": 12
+ },
+ "EZK.34.31": {
+  "chapter": 34,
+  "verse": 31
+ },
+ "EZK.37.3": {
+  "chapter": 37,
+  "verse": 3
+ },
+ "EZK.16.6": {
+  "chapter": 16,
+  "verse": 6
+ },
+ "EZK.2.6": {
+  "chapter": 2,
+  "verse": 6
+ },
+ "DAN.2.23": {
+  "chapter": 2,
+  "verse": 23
+ },
+ "DAN.9.19": {
+  "chapter": 9,
+  "verse": 19
+ },
+ "DAN.10.11": {
+  "chapter": 10,
+  "verse": 11
+ },
+ "HOS.3.1": {
+  "chapter": 3,
+  "verse": 1
+ },
+ "HOS.11.1": {
+  "chapter": 11,
+  "verse": 1
+ },
+ "HOS.11.3": {
+  "chapter": 11,
+  "verse": 3
+ },
+ "HOS.11.9": {
+  "chapter": 11,
+  "verse": 9
+ },
+ "HOS.12.6": {
+  "chapter": 12,
+  "verse": 6
+ },
+ "HOS.14.1": {
+  "chapter": 14,
+  "verse": 2
+ },
+ "HOS.14.2": {
+  "chapter": 14,
+  "verse": 3
+ },
+ "HOS.14.3": {
+  "chapter": 14,
+  "verse": 4
+ },
+ "JOL.2.21": {
+  "chapter": 2,
+  "verse": 21
+ },
+ "JOL.2.23": {
+  "chapter": 2,
+  "verse": 23
+ },
+ "JOL.3.16": {
+  "chapter": 3,
+  "verse": 16
+ },
+ "JOL.2.14": {
+  "chapter": 2,
+  "verse": 14
+ },
+ "AMO.5.4": {
+  "chapter": 5,
+  "verse": 4
+ },
+ "AMO.7.14": {
+  "chapter": 7,
+  "verse": 14
+ },
+ "JON.2.3": {
+  "chapter": 2,
+  "verse": 4
+ },
+ "JON.2.4": {
+  "chapter": 2,
+  "verse": 5
+ },
+ "JON.2.6": {
+  "chapter": 2,
+  "verse": 7
+ },
+ "JON.4.11": {
+  "chapter": 4,
+  "verse": 11
+ },
+ "MIC.7.9": {
+  "chapter": 7,
+  "verse": 9
+ },
+ "MIC.4.5": {
+  "chapter": 4,
+  "verse": 5
+ },
+ "MIC.4.6": {
+  "chapter": 4,
+  "verse": 6
+ },
+ "MIC.5.2": {
+  "chapter": 5,
+  "verse": 2
+ },
+ "NAM.1.13": {
+  "chapter": 1,
+  "verse": 13
+ },
+ "HAB.1.3": {
+  "chapter": 1,
+  "verse": 3
+ },
+ "HAB.1.13": {
+  "chapter": 1,
+  "verse": 13
+ },
+ "HAB.2.1": {
+  "chapter": 2,
+  "verse": 1
+ },
+ "HAB.2.20": {
+  "chapter": 2,
+  "verse": 20
+ },
+ "HAB.3.2": {
+  "chapter": 3,
+  "verse": 2
+ },
+ "ZEP.3.15": {
+  "chapter": 3,
+  "verse": 15
+ },
+ "ZEP.3.16": {
+  "chapter": 3,
+  "verse": 16
+ },
+ "ZEP.3.18": {
+  "chapter": 3,
+  "verse": 18
+ },
+ "ZEP.3.13": {
+  "chapter": 3,
+  "verse": 13
+ },
+ "HAG.1.5": {
+  "chapter": 1,
+  "verse": 5
+ },
+ "HAG.1.13": {
+  "chapter": 1,
+  "verse": 13
+ },
+ "ZEC.3.4": {
+  "chapter": 3,
+  "verse": 4
+ },
+ "ZEC.8.13": {
+  "chapter": 8,
+  "verse": 13
+ },
+ "ZEC.9.12": {
+  "chapter": 9,
+  "verse": 12
+ },
+ "ZEC.13.1": {
+  "chapter": 13,
+  "verse": 1
+ },
+ "ZEC.7.9": {
+  "chapter": 7,
+  "verse": 9
+ },
+ "ZEC.2.5": {
+  "chapter": 2,
+  "verse": 5
+ },
+ "ZEC.8.19": {
+  "chapter": 8,
+  "verse": 19
+ },
+ "MAL.2.10": {
+  "chapter": 2,
+  "verse": 10
+ },
+ "MAL.3.3": {
+  "chapter": 3,
+  "verse": 3
+ },
+ "MRK.1.35": {
+  "chapter": 1,
+  "verse": 35
+ },
+ "MRK.1.11": {
+  "chapter": 1,
+  "verse": 11
+ },
+ "MRK.1.40": {
+  "chapter": 1,
+  "verse": 40
+ },
+ "MRK.2.14": {
+  "chapter": 2,
+  "verse": 14
+ },
+ "MRK.2.27": {
+  "chapter": 2,
+  "verse": 27
+ },
+ "MRK.5.19": {
+  "chapter": 5,
+  "verse": 19
+ },
+ "MRK.5.28": {
+  "chapter": 5,
+  "verse": 28
+ },
+ "MRK.5.33": {
+  "chapter": 5,
+  "verse": 33
+ },
+ "MRK.5.41": {
+  "chapter": 5,
+  "verse": 41
+ },
+ "MRK.6.7": {
+  "chapter": 6,
+  "verse": 7
+ },
+ "MRK.7.37": {
+  "chapter": 7,
+  "verse": 37
+ },
+ "MRK.8.6": {
+  "chapter": 8,
+  "verse": 6
+ },
+ "MRK.9.37": {
+  "chapter": 9,
+  "verse": 36
+ },
+ "MRK.9.41": {
+  "chapter": 9,
+  "verse": 40
+ },
+ "MRK.10.16": {
+  "chapter": 10,
+  "verse": 16
+ },
+ "MRK.10.21": {
+  "chapter": 10,
+  "verse": 21
+ },
+ "MRK.10.49": {
+  "chapter": 10,
+  "verse": 49
+ },
+ "MRK.11.22": {
+  "chapter": 11,
+  "verse": 22
+ },
+ "MRK.12.43": {
+  "chapter": 12,
+  "verse": 43
+ },
+ "MRK.14.6": {
+  "chapter": 14,
+  "verse": 6
+ },
+ "MRK.14.8": {
+  "chapter": 14,
+  "verse": 8
+ },
+ "MRK.16.7": {
+  "chapter": 16,
+  "verse": 7
+ },
+ "ACT.1.14": {
+  "chapter": 1,
+  "verse": 14
+ },
+ "ACT.2.39": {
+  "chapter": 2,
+  "verse": 39
+ },
+ "ACT.3.8": {
+  "chapter": 3,
+  "verse": 8
+ },
+ "ACT.4.13": {
+  "chapter": 4,
+  "verse": 13
+ },
+ "ACT.4.31": {
+  "chapter": 4,
+  "verse": 31
+ },
+ "ACT.5.31": {
+  "chapter": 5,
+  "verse": 31
+ },
+ "ACT.7.55": {
+  "chapter": 7,
+  "verse": 55
+ },
+ "ACT.7.59": {
+  "chapter": 7,
+  "verse": 58
+ },
+ "ACT.9.17": {
+  "chapter": 9,
+  "verse": 17
+ },
+ "ACT.9.31": {
+  "chapter": 9,
+  "verse": 31
+ },
+ "ACT.10.28": {
+  "chapter": 10,
+  "verse": 28
+ },
+ "ACT.10.36": {
+  "chapter": 10,
+  "verse": 36
+ },
+ "ACT.11.18": {
+  "chapter": 11,
+  "verse": 18
+ },
+ "ACT.12.5": {
+  "chapter": 12,
+  "verse": 5
+ },
+ "ACT.12.6": {
+  "chapter": 12,
+  "verse": 6
+ },
+ "ACT.13.2": {
+  "chapter": 13,
+  "verse": 2
+ },
+ "ACT.13.52": {
+  "chapter": 13,
+  "verse": 52
+ },
+ "ACT.16.7": {
+  "chapter": 16,
+  "verse": 7
+ },
+ "ACT.16.10": {
+  "chapter": 16,
+  "verse": 10
+ },
+ "ACT.16.14": {
+  "chapter": 16,
+  "verse": 14
+ },
+ "ACT.16.28": {
+  "chapter": 16,
+  "verse": 28
+ },
+ "ACT.17.25": {
+  "chapter": 17,
+  "verse": 25
+ },
+ "ACT.17.27": {
+  "chapter": 17,
+  "verse": 27
+ },
+ "ACT.20.37": {
+  "chapter": 20,
+  "verse": 37
+ },
+ "ACT.21.13": {
+  "chapter": 21,
+  "verse": 13
+ },
+ "ACT.21.14": {
+  "chapter": 21,
+  "verse": 14
+ },
+ "ACT.23.11": {
+  "chapter": 23,
+  "verse": 11
+ },
+ "ACT.27.35": {
+  "chapter": 27,
+  "verse": 35
+ },
+ "ACT.28.15": {
+  "chapter": 28,
+  "verse": 15
+ },
+ "ACT.22.16": {
+  "chapter": 22,
+  "verse": 16
+ },
+ "LUK.1.25": {
+  "chapter": 1,
+  "verse": 25
+ },
+ "LUK.1.30": {
+  "chapter": 1,
+  "verse": 30
+ },
+ "LUK.1.48": {
+  "chapter": 1,
+  "verse": 48
+ },
+ "LUK.2.20": {
+  "chapter": 2,
+  "verse": 20
+ },
+ "LUK.2.29": {
+  "chapter": 2,
+  "verse": 29
+ },
+ "LUK.5.5": {
+  "chapter": 5,
+  "verse": 5
+ },
+ "LUK.5.8": {
+  "chapter": 5,
+  "verse": 8
+ },
+ "LUK.5.16": {
+  "chapter": 5,
+  "verse": 16
+ },
+ "LUK.7.7": {
+  "chapter": 7,
+  "verse": 7
+ },
+ "LUK.7.15": {
+  "chapter": 7,
+  "verse": 15
+ },
+ "LUK.7.19": {
+  "chapter": 7,
+  "verse": 19
+ },
+ "LUK.10.5": {
+  "chapter": 10,
+  "verse": 5
+ },
+ "LUK.10.20": {
+  "chapter": 10,
+  "verse": 20
+ },
+ "LUK.10.37": {
+  "chapter": 10,
+  "verse": 37
+ },
+ "LUK.13.12": {
+  "chapter": 13,
+  "verse": 12
+ },
+ "LUK.18.7": {
+  "chapter": 18,
+  "verse": 7
+ },
+ "LUK.19.9": {
+  "chapter": 19,
+  "verse": 9
+ },
+ "LUK.19.40": {
+  "chapter": 19,
+  "verse": 40
+ },
+ "LUK.22.19": {
+  "chapter": 22,
+  "verse": 19
+ },
+ "LUK.22.43": {
+  "chapter": 22,
+  "verse": 43
+ },
+ "LUK.22.44": {
+  "chapter": 22,
+  "verse": 44
+ },
+ "LUK.23.42": {
+  "chapter": 23,
+  "verse": 42
+ },
+ "LUK.24.15": {
+  "chapter": 24,
+  "verse": 15
+ },
+ "LUK.24.21": {
+  "chapter": 24,
+  "verse": 21
+ },
+ "LUK.24.45": {
+  "chapter": 24,
+  "verse": 45
+ },
+ "JHN.11.41": {
+  "chapter": 11,
+  "verse": 41
+ },
+ "JHN.16.13": {
+  "chapter": 16,
+  "verse": 13
+ },
+ "JHN.11.21": {
+  "chapter": 11,
+  "verse": 21
+ },
+ "JHN.1.46": {
+  "chapter": 1,
+  "verse": 46
+ },
+ "JHN.5.6": {
+  "chapter": 5,
+  "verse": 6
+ },
+ "JHN.21.12": {
+  "chapter": 21,
+  "verse": 12
+ },
+ "MAT.14.30": {
+  "chapter": 14,
+  "verse": 30
+ },
+ "MAT.13.16": {
+  "chapter": 13,
+  "verse": 16
+ },
+ "MAT.10.8": {
+  "chapter": 10,
+  "verse": 8
+ },
+ "MAT.15.28": {
+  "chapter": 15,
+  "verse": 28
+ },
+ "2TH.1.3": {
+  "chapter": 1,
+  "verse": 3
+ },
+ "2TH.2.13": {
+  "chapter": 2,
+  "verse": 12
+ },
+ "2TH.2.15": {
+  "chapter": 2,
+  "verse": 14
+ },
+ "TIT.2.14": {
+  "chapter": 2,
+  "verse": 14
+ },
+ "PHM.1.6": {
+  "chapter": 1,
+  "verse": 6
+ },
+ "2PE.3.14": {
+  "chapter": 3,
+  "verse": 14
+ },
+ "2PE.1.19": {
+  "chapter": 1,
+  "verse": 19
+ },
+ "2JN.1.3": {
+  "chapter": 1,
+  "verse": 3
+ },
+ "3JN.1.2": {
+  "chapter": 1,
+  "verse": 2
+ },
+ "REV.3.11": {
+  "chapter": 3,
+  "verse": 11
+ },
+ "REV.3.2": {
+  "chapter": 3,
+  "verse": 2
+ },
+ "REV.4.11": {
+  "chapter": 4,
+  "verse": 11
+ },
+ "REV.5.12": {
+  "chapter": 5,
+  "verse": 12
+ },
+ "REV.7.9": {
+  "chapter": 7,
+  "verse": 9
+ },
+ "REV.7.16": {
+  "chapter": 7,
+  "verse": 16
+ },
+ "REV.11.15": {
+  "chapter": 11,
+  "verse": 15
+ },
+ "REV.19.6": {
+  "chapter": 19,
+  "verse": 6
+ },
+ "REV.19.7": {
+  "chapter": 19,
+  "verse": 7
+ },
+ "REV.21.23": {
+  "chapter": 21,
+  "verse": 23
+ },
+ "REV.22.3": {
+  "chapter": 22,
+  "verse": 3
+ },
+ "REV.2.19": {
+  "chapter": 2,
+  "verse": 19
+ },
+ "REV.3.10": {
+  "chapter": 3,
+  "verse": 10
+ },
+ "REV.6.10": {
+  "chapter": 6,
+  "verse": 10
+ },
+ "REV.2.17": {
+  "chapter": 2,
+  "verse": 17
+ },
+ "COL.1.27": {
+  "chapter": 1,
+  "verse": 27
+ },
+ "COL.1.29": {
+  "chapter": 1,
+  "verse": 29
+ },
+ "COL.3.3": {
+  "chapter": 3,
+  "verse": 3
+ },
+ "COL.4.5": {
+  "chapter": 4,
+  "verse": 5
+ },
+ "1TH.2.4": {
+  "chapter": 2,
+  "verse": 4
+ },
+ "1TH.2.8": {
+  "chapter": 2,
+  "verse": 8
+ },
+ "1TH.2.13": {
+  "chapter": 2,
+  "verse": 13
+ },
+ "1TH.4.17": {
+  "chapter": 4,
+  "verse": 17
+ },
+ "1TH.5.5": {
+  "chapter": 5,
+  "verse": 5
+ },
+ "1TH.5.8": {
+  "chapter": 5,
+  "verse": 8
+ },
+ "1TH.5.9": {
+  "chapter": 5,
+  "verse": 9
+ },
+ "COL.2.5": {
+  "chapter": 2,
+  "verse": 5
+ },
+ "1TH.5.13": {
+  "chapter": 5,
+  "verse": 13
+ },
+ "GAL.5.6": {
+  "chapter": 5,
+  "verse": 6
+ },
+ "GAL.6.1": {
+  "chapter": 6,
+  "verse": 1
+ },
+ "GAL.6.4": {
+  "chapter": 6,
+  "verse": 4
+ },
+ "GAL.6.8": {
+  "chapter": 6,
+  "verse": 8
+ },
+ "GAL.6.14": {
+  "chapter": 6,
+  "verse": 14
+ },
+ "EPH.4.15": {
+  "chapter": 4,
+  "verse": 15
+ },
+ "EPH.4.31": {
+  "chapter": 4,
+  "verse": 31
+ },
+ "ROM.4.18": {
+  "chapter": 4,
+  "verse": 18
+ },
+ "HEB.10.39": {
+  "chapter": 10,
+  "verse": 39
+ },
+ "ROM.14.1": {
+  "chapter": 14,
+  "verse": 1
+ },
+ "JUD.1.3": {
+  "chapter": 1,
+  "verse": 3
+ },
+ "ROM.6.14": {
+  "chapter": 6,
+  "verse": 14
+ },
+ "1CO.1.25": {
+  "chapter": 1,
+  "verse": 25
+ },
+ "1CO.3.6": {
+  "chapter": 3,
+  "verse": 6
+ },
+ "2TI.1.5": {
+  "chapter": 1,
+  "verse": 5
+ },
+ "1CO.12.26": {
+  "chapter": 12,
+  "verse": 26
+ },
+ "1CO.14.33": {
+  "chapter": 14,
+  "verse": 33
+ },
+ "1CO.15.19": {
+  "chapter": 15,
+  "verse": 19
+ },
+ "2CO.1.8": {
+  "chapter": 1,
+  "verse": 8
+ },
+ "2CO.1.9": {
+  "chapter": 1,
+  "verse": 9
+ },
+ "2CO.5.14": {
+  "chapter": 5,
+  "verse": 14
+ },
+ "2CO.13.14": {
+  "chapter": 13,
+  "verse": 13
+ },
+ "PHP.3.12": {
+  "chapter": 3,
+  "verse": 12
+ },
+ "1TI.1.5": {
+  "chapter": 1,
+  "verse": 5
+ },
+ "1TI.1.14": {
+  "chapter": 1,
+  "verse": 14
+ },
+ "1TI.6.8": {
+  "chapter": 6,
+  "verse": 8
+ },
+ "2TI.2.1": {
+  "chapter": 2,
+  "verse": 1
+ },
+ "2TI.2.19": {
+  "chapter": 2,
+  "verse": 19
+ },
+ "2TI.2.22": {
+  "chapter": 2,
+  "verse": 22
+ },
+ "2TI.3.14": {
+  "chapter": 3,
+  "verse": 14
+ },
+ "2TI.4.16": {
+  "chapter": 4,
+  "verse": 16
+ },
+ "HEB.4.10": {
+  "chapter": 4,
+  "verse": 10
+ },
+ "HEB.6.10": {
+  "chapter": 6,
+  "verse": 10
+ },
+ "HEB.6.18": {
+  "chapter": 6,
+  "verse": 18
+ },
+ "HEB.12.15": {
+  "chapter": 12,
+  "verse": 15
+ },
+ "HEB.13.3": {
+  "chapter": 13,
+  "verse": 3
+ },
+ "JAS.3.18": {
+  "chapter": 3,
+  "verse": 18
+ },
+ "JAS.5.8": {
+  "chapter": 5,
+  "verse": 8
+ },
+ "2TI.4.5": {
+  "chapter": 4,
+  "verse": 5
+ },
+ "1JN.2.17": {
+  "chapter": 2,
+  "verse": 17
+ },
+ "TIT.3.14": {
+  "chapter": 3,
+  "verse": 14
+ },
+ "1JN.5.15": {
+  "chapter": 5,
+  "verse": 15
+ },
+ "AMO.7.2": {
+  "chapter": 7,
+  "verse": 2
+ },
+ "ISA.64.9": {
+  "chapter": 64,
+  "verse": 9
+ },
+ "2KI.6.22": {
+  "chapter": 6,
+  "verse": 22
+ },
+ "MAT.18.27": {
+  "chapter": 18,
+  "verse": 27
+ },
+ "JON.3.10": {
+  "chapter": 3,
+  "verse": 10
+ },
+ "JOB.7.21": {
+  "chapter": 7,
+  "verse": 21
+ },
+ "EZK.34.25": {
+  "chapter": 34,
+  "verse": 25
+ },
+ "EST.10.3": {
+  "chapter": 10,
+  "verse": 3
+ },
+ "1PE.5.14": {
+  "chapter": 5,
+  "verse": 14
+ },
+ "PSA.122.8": {
+  "chapter": 121,
+  "verse": 8
+ },
+ "1KI.5.4": {
+  "chapter": 5,
+  "verse": 4
+ },
+ "LAM.5.20": {
+  "chapter": 5,
+  "verse": 20
+ },
+ "JER.9.1": {
+  "chapter": 9,
+  "verse": 1
+ },
+ "NEH.6.3": {
+  "chapter": 6,
+  "verse": 3
+ },
+ "DEU.20.1": {
+  "chapter": 20,
+  "verse": 1
+ },
+ "PHP.4.10": {
+  "chapter": 4,
+  "verse": 10
+ },
+ "2CH.20.30": {
+  "chapter": 20,
+  "verse": 30
  }
 }
