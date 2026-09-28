@@ -111,8 +111,8 @@ class ValidSelectionTests(unittest.TestCase):
     def test_fixture_has_room_beyond_total(self):
         # The fixture must outgrow TOTAL so the next expansion never has to
         # touch it first. Every id must be a verse that really exists.
-        ids = real_ids(3000)
-        self.assertEqual(len(set(ids)), 3000)
+        ids = real_ids(TOTAL + 500)
+        self.assertEqual(len(set(ids)), TOTAL + 500)
         self.assertEqual(set(ids) - _load_kjv_verse_ids(), set())
 
 

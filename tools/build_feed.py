@@ -275,8 +275,10 @@ CPDV_HEADING_HINT = _heading_hint(
 # BSB_HEADING_HINT_CONFIRMED_CONTENT above: NEH.1.11 contains "the prayer of
 # your servant" (matches the "prayer of" keyword) and REV.19.6 contains
 # "Alleluia!" spoken mid-verse by a heavenly multitude (matches the
-# "alleluia" keyword), and MRK.16.9 narrates the resurrection "on the first
-# Sabbath" (matches "the first sabbath") -- none is a heading.
+# "alleluia" keyword), MRK.16.9 narrates the resurrection "on the first
+# Sabbath" (matches "the first sabbath"), and PSA.80.4 asks how long God
+# will be "angry over the prayer of your servant" (matches "prayer of") --
+# none is a heading.
 CPDV_HEADING_HINT_CONFIRMED_CONTENT = {
     "PSA.80.4", "PSA.89.46", "PSA.102.17", "JAS.5.15", "NEH.1.11", "MRK.16.9",
     "REV.19.6"}

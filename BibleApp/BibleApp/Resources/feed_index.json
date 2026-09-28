@@ -27807,7 +27807,7 @@
     "purpose",
     "strength"
    ],
-   "tier": 2,
+   "tier": 3,
    "shard": 21
   },
   {
@@ -28562,13 +28562,14 @@
    "shard": 22
   },
   {
-   "id": "EZK.33.16",
-   "reference": "Ezekiel 33:16",
+   "id": "EZK.37.23",
+   "reference": "Ezekiel 37:23",
    "book": "EZK",
-   "chapter": 33,
-   "verse": 16,
+   "chapter": 37,
+   "verse": 23,
    "topics": [
-    "forgiveness"
+    "forgiveness",
+    "love"
    ],
    "tier": 3,
    "shard": 22
