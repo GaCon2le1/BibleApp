@@ -85,11 +85,11 @@ def valid_selection():
     """A well-formed selection: TOTAL entries, legal tiers, every topic well
     over the floor of 20."""
     ids = real_ids(TOTAL)
-    # 150 / 1250 / 600 sits inside the current TIER_BOUNDS and sums to TOTAL.
-    tiers = [1] * 150 + [2] * 1250 + [3] * 600
+    # 150 / 1600 / 750 sits inside the current TIER_BOUNDS and sums to TOTAL.
+    tiers = [1] * 150 + [2] * 1600 + [3] * 750
     selected = []
     for index, (vid, tier) in enumerate(zip(ids, tiers)):
-        # Two topics per entry, rotating: every topic lands ~333 times.
+        # Two topics per entry, rotating: every topic lands ~417 times.
         a = SORTED_TOPICS[index % len(SORTED_TOPICS)]
         b = SORTED_TOPICS[(index + 5) % len(SORTED_TOPICS)]
         selected.append({"id": vid, "tier": tier, "topics": [a, b]})

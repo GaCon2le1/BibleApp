@@ -6,7 +6,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "BibleApp" / "BibleApp" / "Resources"
 OUT_INDEX = OUT_DIR / "feed_index.json"
 SHARD_SIZE = 100
-CONTENT_VERSION = "2026-09-26.1"
+CONTENT_VERSION = "2026-09-28.1"
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from bible_source import load_source_by_index, load_source_by_name
@@ -42,6 +42,7 @@ KJV_SUPERSCRIPTIONS = {
     "PSA.89.1": "Maschil of Ethan the Ezrahite. ",
     "PSA.90.1": "A Prayer of Moses the man of God. ",
     "PSA.103.1": "A Psalm of David. ",
+    "PSA.119.9": "ב BETH. ",
     "PSA.119.25": "ד DALETH. ",
     "PSA.119.73": "י JOD. ",
     "PSA.119.81": "כ CAPH. ",
@@ -51,6 +52,7 @@ KJV_SUPERSCRIPTIONS = {
     "PSA.120.1": "A Song of degrees. ",
     "PSA.121.1": "A Song of degrees. ",
     "PSA.122.1": "A Song of degrees of David. ",
+    "PSA.125.1": "A Song of degrees. ",
     "PSA.127.1": "A Song of degrees for Solomon. ",
     "PSA.130.1": "A Song of degrees. ",
     "PSA.131.1": "A Song of degrees of David. ",
@@ -63,6 +65,7 @@ KJV_SUPERSCRIPTIONS = {
 # leading heading. Same explicit-table treatment, keyed by verse id.
 KJV_TRAILING_MARKERS = {
     "HAB.3.19": " To the chief singer on my stringed instruments.",
+    "PSA.32.4": " Selah.",
     "PSA.32.5": " Selah.",
     "PSA.32.7": " Selah.",
     "PSA.46.7": " Selah.",
@@ -70,6 +73,7 @@ KJV_TRAILING_MARKERS = {
     "PSA.61.4": " Selah.",
     "PSA.62.8": " Selah.",
     "PSA.68.19": " Selah.",
+    "PSA.77.3": " Selah.",
     "PSA.77.9": " Selah.",
     "PSA.85.2": " Selah.",
     # The closing benediction is followed by a scribal subscription noting
@@ -121,6 +125,7 @@ BSB_SUPERSCRIPTIONS = {
     "PSA.120.1": "A song of ascents. ",
     "PSA.121.1": "A song of ascents. ",
     "PSA.122.1": "A song of ascents. Of David. ",
+    "PSA.125.1": "A song of ascents. ",
     "PSA.127.1": "A song of ascents. Of Solomon. ",
     "PSA.130.1": "A song of ascents. ",
     "PSA.131.1": "A song of ascents. Of David. ",
@@ -131,6 +136,7 @@ BSB_SUPERSCRIPTIONS = {
 
 BSB_TRAILING_MARKERS = {
     "HAB.3.19": " For the choirmaster. With stringed instruments.",
+    "PSA.32.4": " Selah",
     "PSA.32.5": " Selah",
     "PSA.32.7": " Selah",
     "PSA.46.7": " Selah",
@@ -138,6 +144,7 @@ BSB_TRAILING_MARKERS = {
     "PSA.61.4": " Selah",
     "PSA.62.8": " Selah",
     "PSA.68.19": " Selah",
+    "PSA.77.3": " Selah",
     "PSA.77.9": " Selah",
     "PSA.85.2": " Selah",
     "2PE.3.18": " To Him be the glory both now and to the day of eternity. Amen.",
@@ -204,6 +211,7 @@ CPDV_SUPERSCRIPTIONS = {
     "PSA.32.1": "The understanding of David himself. ",
     "PSA.90.1": "A prayer of Moses, the man of God. ",
     "PSA.91.1": "The Praise of a Canticle, of David. ",
+    "PSA.95.1": "The Praise of a Canticle, of David himself. ",
     "PSA.96.1": "A Canticle of David himself, when the house was built after the captivity. ",
     "PSA.103.1": "To David himself. ",
     "PSA.107.1": "Alleluia. ",
@@ -211,6 +219,7 @@ CPDV_SUPERSCRIPTIONS = {
     "PSA.120.1": "A Canticle in steps. ",
     "PSA.121.1": "A Canticle in steps. ",
     "PSA.122.1": "A Canticle in steps. ",
+    "PSA.125.1": "A Canticle in steps. ",
     "PSA.127.1": "A Canticle in steps: of Solomon. ",
     "PSA.130.1": "A Canticle in steps. ",
     "PSA.131.1": "A Canticle in steps: of David. ",
@@ -228,18 +237,25 @@ CPDV_SUPERSCRIPTIONS = {
     # Lamentations 1-4 are acrostics; CPDV keeps each verse's Hebrew letter
     # name as a leading marker.
     "LAM.1.12": "LAMED. ",
+    "LAM.2.13": "MEM. ",
     "LAM.2.19": "COPH. ",
+    "LAM.3.1": "ALEPH. ",
     "LAM.3.8": "GHIMEL. ",
     "LAM.3.17": "VAU. ",
     "LAM.3.18": "VAU. ",
     "LAM.3.22": "HETH. ",
     "LAM.3.23": "HETH. ",
     "LAM.3.24": "HETH. ",
+    "LAM.3.25": "TETH. ",
     "LAM.3.26": "TETH. ",
+    "LAM.3.27": "TETH. ",
     "LAM.3.31": "CAPH. ",
     "LAM.3.32": "CAPH. ",
     "LAM.3.33": "CAPH. ",
+    "LAM.3.38": "MEM. ",
     "LAM.3.40": "NUN. ",
+    "LAM.3.42": "NUN. ",
+    "LAM.3.44": "SAMECH. ",
     "LAM.3.55": "COPH. ",
     "LAM.3.57": "COPH. ",
     "LAM.3.58": "RES. ",
@@ -262,9 +278,11 @@ CPDV_HEADING_HINT = _heading_hint(
 # BSB_HEADING_HINT_CONFIRMED_CONTENT above: NEH.1.11 contains "the prayer of
 # your servant" (matches the "prayer of" keyword) and REV.19.6 contains
 # "Alleluia!" spoken mid-verse by a heavenly multitude (matches the
-# "alleluia" keyword) -- neither is a heading.
+# "alleluia" keyword), and MRK.16.9 narrates the resurrection "on the first
+# Sabbath" (matches "the first sabbath") -- none is a heading.
 CPDV_HEADING_HINT_CONFIRMED_CONTENT = {
-    "PSA.89.46", "PSA.102.17", "JAS.5.15", "NEH.1.11", "REV.19.6"}
+    "PSA.80.4", "PSA.89.46", "PSA.102.17", "JAS.5.15", "NEH.1.11", "MRK.16.9",
+    "REV.19.6"}
 
 
 def display_text_for(vid, text, superscriptions, trailing_markers, heading_hint, table_name,
