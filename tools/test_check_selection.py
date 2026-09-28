@@ -38,11 +38,12 @@ def _load_kjv_verse_ids():
     return ids
 
 # Real book ids with their real chapter counts, so every fixture id below is a
-# verse that actually exists in the KJV (chapter N verse 1 of a real chapter).
+# verse that actually exists in the KJV (chapter N verse 1-3 of a real chapter).
 # Psalms has 150 chapters -- fixtures must never invent PSA.151.1 and beyond.
 # All 66 protestant-canon books are listed (1,189 chapters total). Every
-# real chapter has at least 2 verses, so verses 1 and 2 of each chapter give
-# 2,378 fixture ids -- enough to cover TOTAL=2000 with margin.
+# real chapter has at least 3 verses except the ones in TWO_VERSE_CHAPTERS,
+# so verses 1-3 of each chapter give 3,566 fixture ids -- enough to cover
+# TOTAL=2500 with margin.
 REAL_BOOKS = [
     ("GEN", 50), ("EXO", 40), ("LEV", 27), ("NUM", 36), ("DEU", 34),
     ("JOS", 24), ("JDG", 21), ("RUT", 4), ("1SA", 31), ("2SA", 24),
@@ -60,15 +61,20 @@ REAL_BOOKS = [
     ("REV", 22),
 ]
 
+# The only KJV chapter with fewer than 3 verses.
+TWO_VERSE_CHAPTERS = {("PSA", 117)}
+
 SORTED_TOPICS = sorted(TOPICS)
 
 
 def real_ids(count):
     """Return `count` distinct ids that resolve against the real KJV."""
     out = []
-    for verse in (1, 2):
+    for verse in (1, 2, 3):
         for book, chapters in REAL_BOOKS:
             for chapter in range(1, chapters + 1):
+                if verse == 3 and (book, chapter) in TWO_VERSE_CHAPTERS:
+                    continue
                 out.append("%s.%d.%d" % (book, chapter, verse))
                 if len(out) == count:
                     return out
@@ -101,6 +107,13 @@ class ValidSelectionTests(unittest.TestCase):
         for vid in ids:
             book, chapter, _verse = vid.split(".")
             self.assertLessEqual(int(chapter), limits[book], vid)
+
+    def test_fixture_has_room_beyond_total(self):
+        # The fixture must outgrow TOTAL so the next expansion never has to
+        # touch it first. Every id must be a verse that really exists.
+        ids = real_ids(3000)
+        self.assertEqual(len(set(ids)), 3000)
+        self.assertEqual(set(ids) - _load_kjv_verse_ids(), set())
 
 
 class ShippedSelectionTests(unittest.TestCase):
