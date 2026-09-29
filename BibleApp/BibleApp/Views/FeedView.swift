@@ -10,6 +10,9 @@ struct FeedView: View {
     @State private var isReplay = false
     @State private var seenTasks: [String: Task<Void, Never>] = [:]
     @State private var visibleID: String?
+    /// Height of the tab bar and mini-player, which float over the
+    /// full-screen cards.
+    @State private var bottomInset: CGFloat = 0
 
     var body: some View {
         ScrollView(.vertical) {
@@ -24,6 +27,7 @@ struct FeedView: View {
                               translation: state.preferredTranslation,
                               isSaved: state.savedSet.contains(entry.id),
                               onSave: { state.toggleSaved(entry.id) })
+                        .padding(.bottom, bottomInset)
                         .containerRelativeFrame(.vertical)
                         .onAppear {
                             startSeenTimer(entry)
@@ -38,6 +42,9 @@ struct FeedView: View {
         .scrollPosition(id: $visibleID)
         .scrollIndicators(.hidden)
         .ignoresSafeArea()
+        .onGeometryChange(for: CGFloat.self) { $0.safeAreaInsets.bottom } action: {
+            bottomInset = $0
+        }
         .overlay(alignment: .top) {
             HStack {
                 Label("\(state.streak)", systemImage: "flame.fill")
