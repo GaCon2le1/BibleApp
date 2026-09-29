@@ -1,4 +1,5 @@
 import ActivityKit
+import AppIntents
 import SwiftUI
 import WidgetKit
 
@@ -95,12 +96,33 @@ private struct Countdown: View {
     }
 }
 
-/// Filled in once the Lock Screen intents exist.
+/// Save, Next and End. Each runs a `LiveActivityIntent` in the app process.
 private struct SessionControls: View {
     let isSaved: Bool
 
     var body: some View {
-        EmptyView()
+        HStack {
+            Button(intent: SaveVerseIntent()) {
+                Image(systemName: isSaved ? "bookmark.fill" : "bookmark")
+            }
+            .accessibilityLabel(isSaved ? "Remove from saved" : "Save verse")
+
+            Spacer()
+
+            Button(intent: NextVerseIntent()) {
+                Label("Next", systemImage: "forward.fill")
+            }
+
+            Spacer()
+
+            Button(intent: EndSessionIntent()) {
+                Image(systemName: "stop.fill")
+            }
+            .accessibilityLabel("End session")
+        }
+        .buttonStyle(.bordered)
+        .buttonBorderShape(.capsule)
+        .font(.subheadline.weight(.semibold))
     }
 }
 
