@@ -1,0 +1,11 @@
+{
+  "episodes": [
+    {
+      "id": "test",
+      "title": "Test Episode",
+      "subtitle": "Sample narration",
+      "file": "test.mp3",
+      "durationSeconds": 1469.136
+    }
+  ]
+}
