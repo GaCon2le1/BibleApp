@@ -16,17 +16,42 @@ final class ReadingSessionController {
 
     private let store = ContentStore()
     private let fileURL = URL.applicationSupportDirectory.appending(path: "reading-session.json")
+    @ObservationIgnored private var tail: Task<Void, Never>?
 
     private init() {
         activeEndDate = PersistedSession.load(from: fileURL)?.queue.endDate
     }
 
     func start(minutes: Int, ids: [String]) async {
+        await serialized { await self.startSession(minutes: minutes, ids: ids) }
+    }
+
+    func next() async {
+        await serialized { await self.advanceSession() }
+    }
+
+    func toggleSaved() async {
+        await serialized { await self.toggleSavedVerse() }
+    }
+
+    func end() async {
+        await serialized { await self.endSession(dismissal: .default) }
+    }
+
+    /// Run on launch and on every return to the foreground. Finishes a
+    /// session that expired or was swiped away, and ends stray activities.
+    func reconcile() async {
+        await serialized { await self.reconcileSession() }
+    }
+
+    // MARK: - Operations
+
+    private func startSession(minutes: Int, ids: [String]) async {
         guard ActivityAuthorizationInfo().areActivitiesEnabled else {
             alertMessage = "Turn on Live Activities for this app in Settings to use reflection sessions."
             return
         }
-        await end(dismissal: .immediate)
+        await endSession(dismissal: .immediate)
 
         let endDate = Date.now.addingTimeInterval(TimeInterval(minutes * 60))
         guard var queue = SessionQueue(ids: Array(ids.prefix(200)), endDate: endDate),
@@ -45,17 +70,17 @@ final class ReadingSessionController {
         }
     }
 
-    func next() async {
+    private func advanceSession() async {
         guard var session = PersistedSession.load(from: fileURL) else { return }
         guard !session.queue.isExpired(now: .now) else {
-            await end()
+            await endSession(dismissal: .default)
             return
         }
         userState?.markSeen(session.queue.current)
         saveContext()
         guard session.queue.advance(),
               let state = await loadState(for: &session.queue) else {
-            await end()
+            await endSession(dismissal: .default)
             return
         }
         persist(session)
@@ -63,7 +88,7 @@ final class ReadingSessionController {
             ActivityContent(state: state, staleDate: session.queue.endDate))
     }
 
-    func toggleSaved() async {
+    private func toggleSavedVerse() async {
         guard let session = PersistedSession.load(from: fileURL),
               let activity = activity(for: session),
               let userState else { return }
@@ -74,13 +99,7 @@ final class ReadingSessionController {
         await activity.update(ActivityContent(state: state, staleDate: session.queue.endDate))
     }
 
-    func end() async {
-        await end(dismissal: .default)
-    }
-
-    /// Run on launch and on every return to the foreground. Finishes a
-    /// session that expired or was swiped away, and ends stray activities.
-    func reconcile() async {
+    private func reconcileSession() async {
         let session = PersistedSession.load(from: fileURL)
         for activity in Activity<ReadingSessionAttributes>.activities
         where activity.id != session?.activityID {
@@ -108,7 +127,7 @@ final class ReadingSessionController {
         try? context.fetch(FetchDescriptor<UserState>()).first
     }
 
-    private func end(dismissal: ActivityUIDismissalPolicy) async {
+    private func endSession(dismissal: ActivityUIDismissalPolicy) async {
         guard let session = PersistedSession.load(from: fileURL) else { return }
         finish(session)
         guard let activity = activity(for: session) else { return }
@@ -136,7 +155,23 @@ final class ReadingSessionController {
     }
 
     private func saveContext() {
-        try? context.save()
+        do {
+            try context.save()
+        } catch {
+            assertionFailure("Could not save user state: \(error)")
+        }
+    }
+
+    /// Runs `operation` after every earlier call has finished, so a burst of
+    /// Lock Screen taps is applied one at a time.
+    private func serialized(_ operation: @escaping () async -> Void) async {
+        let previous = tail
+        let current = Task {
+            await previous?.value
+            await operation()
+        }
+        tail = current
+        await current.value
     }
 
     private func activity(for session: PersistedSession) -> Activity<ReadingSessionAttributes>? {
