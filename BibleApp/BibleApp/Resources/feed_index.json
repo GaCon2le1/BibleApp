@@ -33223,16 +33223,15 @@
    "shard": 26
   },
   {
-   "id": "JOB.12.22",
-   "reference": "Job 12:22",
+   "id": "JOB.10.2",
+   "reference": "Job 10:2",
    "book": "JOB",
-   "chapter": 12,
-   "verse": 22,
+   "chapter": 10,
+   "verse": 2,
    "topics": [
-    "hope",
     "doubt"
    ],
-   "tier": 2,
+   "tier": 3,
    "shard": 26
   },
   {
@@ -33844,16 +33843,15 @@
    "shard": 26
   },
   {
-   "id": "PSA.20.4",
-   "reference": "Psalms 20:4",
+   "id": "PSA.72.3",
+   "reference": "Psalms 72:3",
    "book": "PSA",
-   "chapter": 20,
-   "verse": 4,
+   "chapter": 72,
+   "verse": 3,
    "topics": [
-    "purpose",
-    "hope"
+    "peace"
    ],
-   "tier": 2,
+   "tier": 3,
    "shard": 26
   },
   {
@@ -35039,15 +35037,16 @@
    "shard": 27
   },
   {
-   "id": "LAM.3.19",
-   "reference": "Lamentations 3:19",
-   "book": "LAM",
-   "chapter": 3,
-   "verse": 19,
+   "id": "GEN.15.2",
+   "reference": "Genesis 15:2",
+   "book": "GEN",
+   "chapter": 15,
+   "verse": 2,
    "topics": [
+    "doubt",
     "grief"
    ],
-   "tier": 2,
+   "tier": 3,
    "shard": 27
   },
   {
@@ -35780,15 +35779,16 @@
    "shard": 28
   },
   {
-   "id": "MAT.9.28",
-   "reference": "Matthew 9:28",
-   "book": "MAT",
-   "chapter": 9,
-   "verse": 28,
+   "id": "1SA.16.2",
+   "reference": "1 Samuel 16:2",
+   "book": "1SA",
+   "chapter": 16,
+   "verse": 2,
    "topics": [
+    "anxiety",
     "doubt"
    ],
-   "tier": 2,
+   "tier": 3,
    "shard": 28
   },
   {
@@ -35881,16 +35881,16 @@
    "shard": 28
   },
   {
-   "id": "MAT.28.10",
-   "reference": "Matthew 28:10",
-   "book": "MAT",
-   "chapter": 28,
-   "verse": 10,
+   "id": "2SA.14.33",
+   "reference": "2 Samuel 14:33",
+   "book": "2SA",
+   "chapter": 14,
+   "verse": 33,
    "topics": [
-    "anxiety",
-    "forgiveness"
+    "forgiveness",
+    "love"
    ],
-   "tier": 2,
+   "tier": 3,
    "shard": 28
   },
   {
@@ -36394,16 +36394,16 @@
    "shard": 28
   },
   {
-   "id": "LUK.21.18",
-   "reference": "Luke 21:18",
-   "book": "LUK",
-   "chapter": 21,
-   "verse": 18,
+   "id": "1SA.27.1",
+   "reference": "1 Samuel 27:1",
+   "book": "1SA",
+   "chapter": 27,
+   "verse": 1,
    "topics": [
     "anxiety",
-    "peace"
+    "doubt"
    ],
-   "tier": 2,
+   "tier": 3,
    "shard": 28
   },
   {
@@ -36542,15 +36542,16 @@
    "shard": 28
   },
   {
-   "id": "JHN.14.8",
-   "reference": "John 14:8",
-   "book": "JHN",
-   "chapter": 14,
-   "verse": 8,
+   "id": "JDG.18.6",
+   "reference": "Judges 18:6",
+   "book": "JDG",
+   "chapter": 18,
+   "verse": 6,
    "topics": [
-    "doubt"
+    "peace",
+    "guidance"
    ],
-   "tier": 3,
+   "tier": 2,
    "shard": 28
   },
   {

@@ -20151,10 +20151,9 @@
       ]
     },
     {
-      "id": "JOB.12.22",
-      "tier": 2,
+      "id": "JOB.10.2",
+      "tier": 3,
       "topics": [
-        "hope",
         "doubt"
       ]
     },
@@ -20527,11 +20526,10 @@
       ]
     },
     {
-      "id": "PSA.20.4",
-      "tier": 2,
+      "id": "PSA.72.3",
+      "tier": 3,
       "topics": [
-        "purpose",
-        "hope"
+        "peace"
       ]
     },
     {
@@ -21252,9 +21250,10 @@
       ]
     },
     {
-      "id": "LAM.3.19",
-      "tier": 2,
+      "id": "GEN.15.2",
+      "tier": 3,
       "topics": [
+        "doubt",
         "grief"
       ]
     },
@@ -21698,9 +21697,10 @@
       ]
     },
     {
-      "id": "MAT.9.28",
-      "tier": 2,
+      "id": "1SA.16.2",
+      "tier": 3,
       "topics": [
+        "anxiety",
         "doubt"
       ]
     },
@@ -21759,11 +21759,11 @@
       ]
     },
     {
-      "id": "MAT.28.10",
-      "tier": 2,
+      "id": "2SA.14.33",
+      "tier": 3,
       "topics": [
-        "anxiety",
-        "forgiveness"
+        "forgiveness",
+        "love"
       ]
     },
     {
@@ -22067,11 +22067,11 @@
       ]
     },
     {
-      "id": "LUK.21.18",
-      "tier": 2,
+      "id": "1SA.27.1",
+      "tier": 3,
       "topics": [
         "anxiety",
-        "peace"
+        "doubt"
       ]
     },
     {
@@ -22155,10 +22155,11 @@
       ]
     },
     {
-      "id": "JHN.14.8",
-      "tier": 3,
+      "id": "JDG.18.6",
+      "tier": 2,
       "topics": [
-        "doubt"
+        "peace",
+        "guidance"
       ]
     },
     {

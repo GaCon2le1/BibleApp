@@ -255,22 +255,22 @@
    "context": "After comparing his conception to milk curdling into cheese, Job keeps tracing, in words addressed to God, how his body took shape before birth."
   },
   {
-   "id": "JOB.12.22",
+   "id": "JOB.10.2",
    "translations": {
     "KJV": {
-     "text": "He discovereth deep things out of darkness, and bringeth out to light the shadow of death.",
-     "displayText": "He discovereth deep things out of darkness, and bringeth out to light the shadow of death."
+     "text": "I will say unto God, Do not condemn me; shew me wherefore thou contendest with me.",
+     "displayText": "I will say unto God, Do not condemn me; shew me wherefore thou contendest with me."
     },
     "BSB": {
-     "text": "He reveals the deep things of darkness and brings deep shadows into light.",
-     "displayText": "He reveals the deep things of darkness and brings deep shadows into light."
+     "text": "I will say to God: Do not condemn me! Let me know why You prosecute me.",
+     "displayText": "I will say to God: Do not condemn me! Let me know why You prosecute me."
     },
     "CPDV": {
-     "text": "He reveals the depths of the darkness, and he brings the shadow of death into the light.",
-     "displayText": "He reveals the depths of the darkness, and he brings the shadow of death into the light."
+     "text": "I will say to God: Do not be willing to condemn me. Reveal to me why you judge me this way.",
+     "displayText": "I will say to God: Do not be willing to condemn me. Reveal to me why you judge me this way."
     }
    },
-   "context": "Answering Zophar, Job shows he knows God's greatness as well as his friends do, describing how God overturns kings, elders and whole nations."
+   "context": "Feeling like a defendant standing before a judge who never names the charge, the suffering Job begins his appeal."
   },
   {
    "id": "JOB.14.15",
@@ -774,7 +774,7 @@
      "displayText": "I have seen the affliction that God has given to the sons of men, in order that they may be occupied by it."
     }
    },
-   "context": "Right after his well-known poem about a time for everything, the Preacher asks what workers gain from their toil and shares what he has observed."
+   "context": "Wondering aloud what a worker actually gains from all his effort, the Preacher steps back to look at the tasks that fill every human life."
   },
   {
    "id": "ECC.3.20",
@@ -1137,22 +1137,22 @@
    "context": "After lamenting that the faithful have vanished and boasting liars seem unstoppable, David's psalm records the Lord's own reply."
   },
   {
-   "id": "PSA.20.4",
+   "id": "PSA.72.3",
    "translations": {
     "KJV": {
-     "text": "Grant thee according to thine own heart, and fulfil all thy counsel.",
-     "displayText": "Grant thee according to thine own heart, and fulfil all thy counsel."
+     "text": "The mountains shall bring peace to the people, and the little hills, by righteousness.",
+     "displayText": "The mountains shall bring peace to the people, and the little hills, by righteousness."
     },
     "BSB": {
-     "text": "May He give you the desires of your heart and make all your plans succeed.",
-     "displayText": "May He give you the desires of your heart and make all your plans succeed."
+     "text": "May the mountains bring peace to the people, and the hills bring righteousness.",
+     "displayText": "May the mountains bring peace to the people, and the hills bring righteousness."
     },
     "CPDV": {
-     "text": "May he grant to you according to your heart, and confirm all your counsels.",
-     "displayText": "May he grant to you according to your heart, and confirm all your counsels."
+     "text": "Let the mountains take up peace for the people, and the hills, justice.",
+     "displayText": "Let the mountains take up peace for the people, and the hills, justice."
     }
    },
-   "context": "Opening with a prayer that the Lord answer in the day of trouble, David's psalm asks God to remember the king's offerings and send help from Zion."
+   "context": "Praying for the king's son to rule with justice, Solomon pictures what such a reign would mean for the whole countryside."
   },
   {
    "id": "PSA.25.15",

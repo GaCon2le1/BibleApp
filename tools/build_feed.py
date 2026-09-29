@@ -192,8 +192,8 @@ BSB_HEADING_HINT = _heading_hint(
 
 # Ids whose text trips a translation's heading hint but has been read and
 # confirmed to be ordinary verse content (e.g. "prayer offered" containing
-# "prayer of", or "sing psalms" in an epistle, and PRO.15.29, whose "hears
-# the prayer of the righteous" matches "prayer of"). Listed explicitly, per
+# "prayer of", or "sing psalms" in an epistle). PRO.15.29 contains "hears
+# the prayer of the righteous" (matches "prayer of"). Listed explicitly, per
 # translation, so a real unlisted heading still fails the build.
 BSB_HEADING_HINT_CONFIRMED_CONTENT = {"PSA.102.17", "COL.3.16", "JAS.5.15", "PRO.15.29"}
 
@@ -242,7 +242,6 @@ CPDV_SUPERSCRIPTIONS = {
     "LAM.3.8": "GHIMEL. ",
     "LAM.3.17": "VAU. ",
     "LAM.3.18": "VAU. ",
-    "LAM.3.19": "ZAIN. ",
     "LAM.3.22": "HETH. ",
     "LAM.3.23": "HETH. ",
     "LAM.3.24": "HETH. ",
