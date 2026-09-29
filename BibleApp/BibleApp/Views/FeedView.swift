@@ -9,6 +9,7 @@ struct FeedView: View {
     @State private var loadedContent: [String: VerseContent] = [:]
     @State private var isReplay = false
     @State private var seenTasks: [String: Task<Void, Never>] = [:]
+    @State private var visibleID: String?
 
     var body: some View {
         ScrollView(.vertical) {
@@ -34,6 +35,7 @@ struct FeedView: View {
             .scrollTargetLayout()
         }
         .scrollTargetBehavior(.paging)
+        .scrollPosition(id: $visibleID)
         .scrollIndicators(.hidden)
         .ignoresSafeArea()
         .overlay(alignment: .top) {
@@ -42,11 +44,19 @@ struct FeedView: View {
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(state.streak > 0 ? .orange : .secondary)
                 Spacer()
+                ReflectionButton(ids: sessionIDs)
             }
             .padding(.horizontal, 24)
             .safeAreaPadding(.top, 8)
         }
         .onAppear(perform: rebuild)
+    }
+
+    /// The Feed queue from the verse on screen onward, for a reflection
+    /// session. Falls back to the start when nothing has scrolled yet.
+    private func sessionIDs() -> [String] {
+        let start = visibleID.flatMap { id in queue.firstIndex { $0.id == id } } ?? 0
+        return queue[start...].prefix(200).map(\.id)
     }
 
     private func rebuild() {

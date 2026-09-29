@@ -54,8 +54,12 @@ struct ContentView: View {
         .onChange(of: states.first?.hasCompletedOnboarding) { _, completed in
             ads.setOnboardingComplete(completed ?? false)
         }
+        .task {
+            await ReadingSessionController.shared.reconcile()
+        }
         .onChange(of: scenePhase) { oldPhase, newPhase in
             guard newPhase == .active else { return }
+            Task { await ReadingSessionController.shared.reconcile() }
             let isColdStart = !didCompleteFirstActivation
             didCompleteFirstActivation = true
             guard isColdStart || oldPhase == .background else { return }
