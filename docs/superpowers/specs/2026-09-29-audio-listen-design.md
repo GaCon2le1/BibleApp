@@ -46,6 +46,8 @@ Rejected alternatives:
   - `isFinished(position:duration:) -> Bool`: `position >= 0.95 * duration`
     (false when `duration <= 0`).
   - `fraction(position:duration:) -> Double`: clamped to 0...1.
+- `PlaybackTime.format(_ seconds:) -> String` — `m:ss`, or `h:mm:ss` from
+  one hour; negative input shows as `0:00`.
 
 ### App target
 
@@ -57,8 +59,10 @@ Rejected alternatives:
 - `Audio/AudioPlayer` — `@Observable @MainActor` singleton wrapping
   `AVPlayer`.
   - State: `current: Episode?`, `isPlaying`, `elapsed`, `duration`.
-  - API: `play(_ episode:)` (resumes per `ResumePolicy`, or toggles if it is
-    already current), `togglePlayPause()`, `skip(by:)`, `seek(to:)`.
+  - API: `play(_ episode:)` (starts at the `ResumePolicy` position; if it is
+    already current, just resumes), `resume()`, `pause()`,
+    `togglePlayPause()`, `skip(by:)`, `seek(to:)`. Resuming a finished
+    episode restarts it from 0.
   - `AVAudioSession` category `.playback`, mode `.spokenAudio`, activated on
     first play.
   - Now Playing: title, artist “Bible App”, artwork (`AudioArtwork` asset,
