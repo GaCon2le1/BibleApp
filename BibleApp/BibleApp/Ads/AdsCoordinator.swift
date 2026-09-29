@@ -39,15 +39,19 @@ final class AdsCoordinator {
     }
 
     /// Called when the app becomes active, either at cold start or after
-    /// returning from the background.
+    /// returning from the background. Skipped while an episode is playing,
+    /// since an ad with sound would cut into it.
     func showAppOpenAdIfEligible() {
-        guard isOnboardingComplete, let rootViewController = RootViewController.current() else { return }
+        guard isOnboardingComplete, !AudioPlayer.shared.isPlaying,
+              let rootViewController = RootViewController.current() else { return }
         appOpenAd.showIfEligible(from: rootViewController)
     }
 
     /// Called every time the user switches tabs in the root nav bar.
+    /// Skipped while an episode is playing.
     func tabDidChange() {
-        guard isOnboardingComplete, let rootViewController = RootViewController.current() else { return }
+        guard isOnboardingComplete, !AudioPlayer.shared.isPlaying,
+              let rootViewController = RootViewController.current() else { return }
         interstitialAd.showIfEligible(from: rootViewController)
     }
 }
