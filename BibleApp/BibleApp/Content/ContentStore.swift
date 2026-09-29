@@ -46,6 +46,10 @@ final class ContentStore {
         return await shardStore.content(for: ids, shards: shards)
     }
 
+    func entry(for id: String) -> VerseIndexEntry? {
+        indexByID[id]
+    }
+
     private func fail(_ message: String) {
         // A decode failure is a programming or packaging error, not a user
         // condition, so make it loud in debug and recoverable in release.

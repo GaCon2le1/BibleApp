@@ -13,6 +13,6 @@ struct BibleAppApp: App {
                     await ads.requestTrackingAuthorizationIfNeeded()
                 }
         }
-        .modelContainer(for: UserState.self)
+        .modelContainer(SharedModelContainer.shared)
     }
 }
