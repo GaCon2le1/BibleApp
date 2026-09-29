@@ -9,15 +9,21 @@ struct ReflectionButton: View {
     @State private var isChoosingDuration = false
     private let session = ReadingSessionController.shared
 
+    /// Live Activities need an iPhone; iPad and iOS apps on Mac don't run them.
+    static var isSupported: Bool {
+        UIDevice.current.userInterfaceIdiom == .phone && !ProcessInfo.processInfo.isiOSAppOnMac
+    }
+
     var body: some View {
+        let now = Date.now
         Group {
-            if let endDate = session.activeEndDate, endDate > .now {
+            if let endDate = session.activeEndDate, endDate > now {
                 Button {
                     Task { await session.end() }
                 } label: {
                     HStack(spacing: 4) {
                         Image(systemName: "timer")
-                        Text(timerInterval: Date.now...endDate, countsDown: true)
+                        Text(timerInterval: now...endDate, countsDown: true)
                             .monospacedDigit()
                         Text("· End")
                     }
@@ -31,6 +37,8 @@ struct ReflectionButton: View {
                     isChoosingDuration = true
                 } label: {
                     Image(systemName: "timer")
+                        .frame(minWidth: 44, minHeight: 44)
+                        .contentShape(Rectangle())
                 }
                 .accessibilityLabel("Start reflection session")
             }

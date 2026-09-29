@@ -52,6 +52,7 @@ final class ReadingSessionController {
             return
         }
         await endSession(dismissal: .immediate)
+        await endActivities(except: nil)
 
         let endDate = Date.now.addingTimeInterval(TimeInterval(minutes * 60))
         guard var queue = SessionQueue(ids: Array(ids.prefix(200)), endDate: endDate),
@@ -101,10 +102,7 @@ final class ReadingSessionController {
 
     private func reconcileSession() async {
         let session = PersistedSession.load(from: fileURL)
-        for activity in Activity<ReadingSessionAttributes>.activities
-        where activity.id != session?.activityID {
-            await activity.end(nil, dismissalPolicy: .immediate)
-        }
+        await endActivities(except: session?.activityID)
         guard let session else {
             activeEndDate = nil
             return
@@ -135,6 +133,13 @@ final class ReadingSessionController {
         state.isComplete = true
         await activity.end(ActivityContent(state: state, staleDate: nil),
                            dismissalPolicy: dismissal)
+    }
+
+    /// Ends every reading-session activity except `id`, removing it at once.
+    private func endActivities(except id: String?) async {
+        for activity in Activity<ReadingSessionAttributes>.activities where activity.id != id {
+            await activity.end(nil, dismissalPolicy: .immediate)
+        }
     }
 
     /// Counts the last verse as read and forgets the session.

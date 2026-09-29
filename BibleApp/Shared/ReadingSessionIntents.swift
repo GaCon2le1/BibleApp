@@ -6,6 +6,7 @@ import AppIntents
 
 nonisolated struct NextVerseIntent: LiveActivityIntent {
     static let title: LocalizedStringResource = "Next Verse"
+    static let isDiscoverable = false
 
     func perform() async throws -> some IntentResult {
         #if !WIDGET_EXTENSION
@@ -17,6 +18,7 @@ nonisolated struct NextVerseIntent: LiveActivityIntent {
 
 nonisolated struct SaveVerseIntent: LiveActivityIntent {
     static let title: LocalizedStringResource = "Save Verse"
+    static let isDiscoverable = false
 
     func perform() async throws -> some IntentResult {
         #if !WIDGET_EXTENSION
@@ -28,6 +30,7 @@ nonisolated struct SaveVerseIntent: LiveActivityIntent {
 
 nonisolated struct EndSessionIntent: LiveActivityIntent {
     static let title: LocalizedStringResource = "End Reflection Session"
+    static let isDiscoverable = false
 
     func perform() async throws -> some IntentResult {
         #if !WIDGET_EXTENSION

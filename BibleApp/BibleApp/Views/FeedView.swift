@@ -44,7 +44,9 @@ struct FeedView: View {
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(state.streak > 0 ? .orange : .secondary)
                 Spacer()
-                ReflectionButton(ids: sessionIDs)
+                if ReflectionButton.isSupported {
+                    ReflectionButton(ids: sessionIDs)
+                }
             }
             .padding(.horizontal, 24)
             .safeAreaPadding(.top, 8)
