@@ -1,0 +1,1806 @@
+{
+ "schemaVersion": 3,
+ "contentVersion": "2026-09-29.1",
+ "verses": [
+  {
+   "id": "DAN.6.3",
+   "translations": {
+    "KJV": {
+     "text": "Then this Daniel was preferred above the presidents and princes, because an excellent spirit was in him; and the king thought to set him over the whole realm.",
+     "displayText": "Then this Daniel was preferred above the presidents and princes, because an excellent spirit was in him; and the king thought to set him over the whole realm."
+    },
+    "BSB": {
+     "text": "Soon, by his extraordinary spirit, Daniel distinguished himself among the administrators and satraps. So the king planned to set him over the whole kingdom.",
+     "displayText": "Soon, by his extraordinary spirit, Daniel distinguished himself among the administrators and satraps. So the king planned to set him over the whole kingdom."
+    },
+    "CPDV": {
+     "text": "And so Daniel excelled above all the leaders and governors, because a greater spirit of God was in him.",
+     "displayText": "And so Daniel excelled above all the leaders and governors, because a greater spirit of God was in him."
+    }
+   },
+   "context": "Serving as one of three chief administrators under King Darius, the exiled Daniel begins to stand out from all the other royal officials."
+  },
+  {
+   "id": "ROM.2.4",
+   "translations": {
+    "KJV": {
+     "text": "Or despisest thou the riches of his goodness and forbearance and longsuffering; not knowing that the goodness of God leadeth thee to repentance?",
+     "displayText": "Or despisest thou the riches of his goodness and forbearance and longsuffering; not knowing that the goodness of God leadeth thee to repentance?"
+    },
+    "BSB": {
+     "text": "Or do you disregard the riches of His kindness, tolerance, and patience, not realizing that God’s kindness leads you to repentance?",
+     "displayText": "Or do you disregard the riches of His kindness, tolerance, and patience, not realizing that God’s kindness leads you to repentance?"
+    },
+    "CPDV": {
+     "text": "Or do you despise the riches of his goodness and patience and forbearance? Do you not know that the kindness of God is calling you to repentance?",
+     "displayText": "Or do you despise the riches of his goodness and patience and forbearance? Do you not know that the kindness of God is calling you to repentance?"
+    }
+   },
+   "context": "Turning to readers who condemn others for sins they commit themselves, Paul challenges how they are treating God's patience toward them."
+  },
+  {
+   "id": "ROM.6.17",
+   "translations": {
+    "KJV": {
+     "text": "But God be thanked, that ye were the servants of sin, but ye have obeyed from the heart that form of doctrine which was delivered you.",
+     "displayText": "But God be thanked, that ye were the servants of sin, but ye have obeyed from the heart that form of doctrine which was delivered you."
+    },
+    "BSB": {
+     "text": "But thanks be to God that, though you once were slaves to sin, you wholeheartedly obeyed the form of teaching to which you were committed.",
+     "displayText": "But thanks be to God that, though you once were slaves to sin, you wholeheartedly obeyed the form of teaching to which you were committed."
+    },
+    "CPDV": {
+     "text": "But thanks be to God that, though you used to be the servants of sin, now you have been obedient from the heart to the very form of the doctrine into which you have been received.",
+     "displayText": "But thanks be to God that, though you used to be the servants of sin, now you have been obedient from the heart to the very form of the doctrine into which you have been received."
+    }
+   },
+   "context": "Picturing sin and righteousness as two masters competing for a person's service, Paul pauses to thank God for how the Roman believers answered the gospel."
+  },
+  {
+   "id": "ROM.8.33",
+   "translations": {
+    "KJV": {
+     "text": "Who shall lay any thing to the charge of God’s elect? It is God that justifieth.",
+     "displayText": "Who shall lay any thing to the charge of God’s elect? It is God that justifieth."
+    },
+    "BSB": {
+     "text": "Who will bring any charge against God’s elect? It is God who justifies.",
+     "displayText": "Who will bring any charge against God’s elect? It is God who justifies."
+    },
+    "CPDV": {
+     "text": "Who will make an accusation against the elect of God? God is the One who justifies;",
+     "displayText": "Who will make an accusation against the elect of God? God is the One who justifies;"
+    }
+   },
+   "context": "Using the language of a courtroom, Paul imagines someone trying to press charges against the people God has chosen for himself."
+  },
+  {
+   "id": "1CO.1.10",
+   "translations": {
+    "KJV": {
+     "text": "Now I beseech you, brethren, by the name of our Lord Jesus Christ, that ye all speak the same thing, and that there be no divisions among you; but that ye be perfectly joined together in the same mind and in the same judgment.",
+     "displayText": "Now I beseech you, brethren, by the name of our Lord Jesus Christ, that ye all speak the same thing, and that there be no divisions among you; but that ye be perfectly joined together in the same mind and in the same judgment."
+    },
+    "BSB": {
+     "text": "I appeal to you, brothers, in the name of our Lord Jesus Christ, that all of you agree together, so that there may be no divisions among you and that you may be united in mind and conviction.",
+     "displayText": "I appeal to you, brothers, in the name of our Lord Jesus Christ, that all of you agree together, so that there may be no divisions among you and that you may be united in mind and conviction."
+    },
+    "CPDV": {
+     "text": "And so, I beg you, brothers, by the name of our Lord Jesus Christ, that every one of you speak in the same way, and that there be no schisms among you. So may you become perfect, with the same mind and with the same judgment.",
+     "displayText": "And so, I beg you, brothers, by the name of our Lord Jesus Christ, that every one of you speak in the same way, and that there be no schisms among you. So may you become perfect, with the same mind and with the same judgment."
+    }
+   },
+   "context": "Having heard of quarrels in Corinth from members of Chloe's household, Paul makes the first appeal of his letter, calling the church to unity."
+  },
+  {
+   "id": "1CO.4.7",
+   "translations": {
+    "KJV": {
+     "text": "For who maketh thee to differ from another? and what hast thou that thou didst not receive? now if thou didst receive it, why dost thou glory, as if thou hadst not received it?",
+     "displayText": "For who maketh thee to differ from another? and what hast thou that thou didst not receive? now if thou didst receive it, why dost thou glory, as if thou hadst not received it?"
+    },
+    "BSB": {
+     "text": "For who makes you so superior? What do you have that you did not receive? And if you did receive it, why do you boast as though you did not?",
+     "displayText": "For who makes you so superior? What do you have that you did not receive? And if you did receive it, why do you boast as though you did not?"
+    },
+    "CPDV": {
+     "text": "For what distinguishes you from another? And what do you have that you have not received? But if you have received it, why do you glory, as if you had not received it?",
+     "displayText": "For what distinguishes you from another? And what do you have that you have not received? But if you have received it, why do you glory, as if you had not received it?"
+    }
+   },
+   "context": "Confronting Corinthian believers who took pride in siding with one teacher over another, Paul punctures their sense of superiority with a string of questions."
+  },
+  {
+   "id": "1CO.6.7",
+   "translations": {
+    "KJV": {
+     "text": "Now therefore there is utterly a fault among you, because ye go to law one with another. Why do ye not rather take wrong? why do ye not rather suffer yourselves to be defrauded?",
+     "displayText": "Now therefore there is utterly a fault among you, because ye go to law one with another. Why do ye not rather take wrong? why do ye not rather suffer yourselves to be defrauded?"
+    },
+    "BSB": {
+     "text": "The very fact that you have lawsuits among you means that you are thoroughly defeated already. Why not rather be wronged? Why not rather be cheated?",
+     "displayText": "The very fact that you have lawsuits among you means that you are thoroughly defeated already. Why not rather be wronged? Why not rather be cheated?"
+    },
+    "CPDV": {
+     "text": "Now there is certainly an offense among you, beyond everything else, when you have court cases against one another. Should you not accept injury instead? Should you not endure being cheated instead?",
+     "displayText": "Now there is certainly an offense among you, beyond everything else, when you have court cases against one another. Should you not accept injury instead? Should you not endure being cheated instead?"
+    }
+   },
+   "context": "Troubled that believers in Corinth were taking one another to court before unbelieving judges, Paul questions why they are so determined to win."
+  },
+  {
+   "id": "1CO.6.11",
+   "translations": {
+    "KJV": {
+     "text": "And such were some of you: but ye are washed, but ye are sanctified, but ye are justified in the name of the Lord Jesus, and by the Spirit of our God.",
+     "displayText": "And such were some of you: but ye are washed, but ye are sanctified, but ye are justified in the name of the Lord Jesus, and by the Spirit of our God."
+    },
+    "BSB": {
+     "text": "And that is what some of you were. But you were washed, you were sanctified, you were justified, in the name of the Lord Jesus Christ and by the Spirit of our God.",
+     "displayText": "And that is what some of you were. But you were washed, you were sanctified, you were justified, in the name of the Lord Jesus Christ and by the Spirit of our God."
+    },
+    "CPDV": {
+     "text": "And some of you were like this. But you have been absolved, but you have been sanctified, but you have been justified: all in the name of our Lord Jesus Christ and in the Spirit of our God.",
+     "displayText": "And some of you were like this. But you have been absolved, but you have been sanctified, but you have been justified: all in the name of our Lord Jesus Christ and in the Spirit of our God."
+    }
+   },
+   "context": "After listing the kinds of wrongdoers who will not inherit God's kingdom, Paul reminds the Corinthians that some of them once lived exactly that way."
+  },
+  {
+   "id": "1CO.8.1",
+   "translations": {
+    "KJV": {
+     "text": "Now as touching things offered unto idols, we know that we all have knowledge. Knowledge puffeth up, but charity edifieth.",
+     "displayText": "Now as touching things offered unto idols, we know that we all have knowledge. Knowledge puffeth up, but charity edifieth."
+    },
+    "BSB": {
+     "text": "Now about food sacrificed to idols: We know that we all have knowledge. Knowledge puffs up, but love builds up.",
+     "displayText": "Now about food sacrificed to idols: We know that we all have knowledge. Knowledge puffs up, but love builds up."
+    },
+    "CPDV": {
+     "text": "Now concerning those things that are sacrificed to idols: we know that we all have knowledge. Knowledge puffs up, but charity builds up.",
+     "displayText": "Now concerning those things that are sacrificed to idols: we know that we all have knowledge. Knowledge puffs up, but charity builds up."
+    }
+   },
+   "context": "Turning to a dispute in Corinth over eating meat that had been sacrificed to idols, Paul begins with a word to those proud of what they know."
+  },
+  {
+   "id": "2CO.1.5",
+   "translations": {
+    "KJV": {
+     "text": "For as the sufferings of Christ abound in us, so our consolation also aboundeth by Christ.",
+     "displayText": "For as the sufferings of Christ abound in us, so our consolation also aboundeth by Christ."
+    },
+    "BSB": {
+     "text": "For just as the sufferings of Christ overflow to us, so also through Christ our comfort overflows.",
+     "displayText": "For just as the sufferings of Christ overflow to us, so also through Christ our comfort overflows."
+    },
+    "CPDV": {
+     "text": "For just as the Passion of Christ abounds in us, so also, through Christ, does our consolation abound.",
+     "displayText": "For just as the Passion of Christ abounds in us, so also, through Christ, does our consolation abound."
+    }
+   },
+   "context": "Right after blessing the God who comforts him so that he can comfort others, Paul tells the Corinthians what his own troubles have in common with Christ's."
+  },
+  {
+   "id": "2CO.2.4",
+   "translations": {
+    "KJV": {
+     "text": "For out of much affliction and anguish of heart I wrote unto you with many tears; not that ye should be grieved, but that ye might know the love which I have more abundantly unto you.",
+     "displayText": "For out of much affliction and anguish of heart I wrote unto you with many tears; not that ye should be grieved, but that ye might know the love which I have more abundantly unto you."
+    },
+    "BSB": {
+     "text": "For through many tears I wrote you out of great distress and anguish of heart, not to grieve you but to let you know how much I love you.",
+     "displayText": "For through many tears I wrote you out of great distress and anguish of heart, not to grieve you but to let you know how much I love you."
+    },
+    "CPDV": {
+     "text": "For with much tribulation and anguish of heart, I wrote to you with many tears: not so that you would be sorrowful, but so that you might know the charity that I have more abundantly toward you.",
+     "displayText": "For with much tribulation and anguish of heart, I wrote to you with many tears: not so that you would be sorrowful, but so that you might know the charity that I have more abundantly toward you."
+    }
+   },
+   "context": "Explaining why he chose to write rather than make another painful visit to Corinth, Paul tells the church what that letter cost him."
+  },
+  {
+   "id": "2CO.2.13",
+   "translations": {
+    "KJV": {
+     "text": "I had no rest in my spirit, because I found not Titus my brother: but taking my leave of them, I went from thence into Macedonia.",
+     "displayText": "I had no rest in my spirit, because I found not Titus my brother: but taking my leave of them, I went from thence into Macedonia."
+    },
+    "BSB": {
+     "text": "I had no peace in my spirit, because I did not find my brother Titus there. So I said goodbye to them and went on to Macedonia.",
+     "displayText": "I had no peace in my spirit, because I did not find my brother Titus there. So I said goodbye to them and went on to Macedonia."
+    },
+    "CPDV": {
+     "text": "I had no rest within my spirit, because I was not able to find Titus, my brother. So, saying goodbye to them, I set out for Macedonia.",
+     "displayText": "I had no rest within my spirit, because I was not able to find Titus, my brother. So, saying goodbye to them, I set out for Macedonia."
+    }
+   },
+   "context": "Recalling an open door for preaching in the port city of Troas, Paul explains why he moved on while waiting for Titus to bring news from Corinth."
+  },
+  {
+   "id": "2CO.3.5",
+   "translations": {
+    "KJV": {
+     "text": "Not that we are sufficient of ourselves to think any thing as of ourselves; but our sufficiency is of God;",
+     "displayText": "Not that we are sufficient of ourselves to think any thing as of ourselves; but our sufficiency is of God;"
+    },
+    "BSB": {
+     "text": "Not that we are competent in ourselves to claim that anything comes from us, but our competence comes from God.",
+     "displayText": "Not that we are competent in ourselves to claim that anything comes from us, but our competence comes from God."
+    },
+    "CPDV": {
+     "text": "It is not that we are adequate to think anything of ourselves, as if anything was from us. But our adequacy is from God.",
+     "displayText": "It is not that we are adequate to think anything of ourselves, as if anything was from us. But our adequacy is from God."
+    }
+   },
+   "context": "Answering critics who expected letters of recommendation, Paul calls the Corinthian believers his real credentials, then says where his confidence actually comes from."
+  },
+  {
+   "id": "2CO.4.15",
+   "translations": {
+    "KJV": {
+     "text": "For all things are for your sakes, that the abundant grace might through the thanksgiving of many redound to the glory of God.",
+     "displayText": "For all things are for your sakes, that the abundant grace might through the thanksgiving of many redound to the glory of God."
+    },
+    "BSB": {
+     "text": "All this is for your benefit, so that the grace that is extending to more and more people may overflow in thanksgiving, to the glory of God.",
+     "displayText": "All this is for your benefit, so that the grace that is extending to more and more people may overflow in thanksgiving, to the glory of God."
+    },
+    "CPDV": {
+     "text": "Thus, all is for you, so that grace, abounding through many in thanksgiving, may abound to the glory of God.",
+     "displayText": "Thus, all is for you, so that grace, abounding through many in thanksgiving, may abound to the glory of God."
+    }
+   },
+   "context": "Having described being hard pressed, persecuted and struck down for Jesus' sake, Paul tells the Corinthians whose benefit all of it serves."
+  },
+  {
+   "id": "2CO.5.15",
+   "translations": {
+    "KJV": {
+     "text": "And that he died for all, that they which live should not henceforth live unto themselves, but unto him which died for them, and rose again.",
+     "displayText": "And that he died for all, that they which live should not henceforth live unto themselves, but unto him which died for them, and rose again."
+    },
+    "BSB": {
+     "text": "And He died for all, that those who live should no longer live for themselves, but for Him who died for them and was raised again.",
+     "displayText": "And He died for all, that those who live should no longer live for themselves, but for Him who died for them and was raised again."
+    },
+    "CPDV": {
+     "text": "And Christ died for all, so that even those who live might not now live for themselves, but for him who died for them and who rose again.",
+     "displayText": "And Christ died for all, so that even those who live might not now live for themselves, but for him who died for them and who rose again."
+    }
+   },
+   "context": "Reasoning from his conviction that Christ died for all, Paul spells out for the Corinthians what that death means for everyone who is still living."
+  },
+  {
+   "id": "2CO.7.5",
+   "translations": {
+    "KJV": {
+     "text": "For, when we were come into Macedonia, our flesh had no rest, but we were troubled on every side; without were fightings, within were fears.",
+     "displayText": "For, when we were come into Macedonia, our flesh had no rest, but we were troubled on every side; without were fightings, within were fears."
+    },
+    "BSB": {
+     "text": "For when we arrived in Macedonia, our bodies had no rest, but we were pressed from every direction—conflicts on the outside, fears within.",
+     "displayText": "For when we arrived in Macedonia, our bodies had no rest, but we were pressed from every direction—conflicts on the outside, fears within."
+    },
+    "CPDV": {
+     "text": "Then, too, when we had arrived in Macedonia, our flesh had no rest. Instead, we suffered every tribulation: exterior conflicts, interior fears.",
+     "displayText": "Then, too, when we had arrived in Macedonia, our flesh had no rest. Instead, we suffered every tribulation: exterior conflicts, interior fears."
+    }
+   },
+   "context": "Picking his travel story back up after a long digression, Paul describes the state he and his companions were in when they reached Macedonia."
+  },
+  {
+   "id": "2CO.8.16",
+   "translations": {
+    "KJV": {
+     "text": "But thanks be to God, which put the same earnest care into the heart of Titus for you.",
+     "displayText": "But thanks be to God, which put the same earnest care into the heart of Titus for you."
+    },
+    "BSB": {
+     "text": "But thanks be to God, who put into the heart of Titus the same devotion I have for you.",
+     "displayText": "But thanks be to God, who put into the heart of Titus the same devotion I have for you."
+    },
+    "CPDV": {
+     "text": "But thanks be to God, who has granted to the heart of Titus, this same solicitude for you.",
+     "displayText": "But thanks be to God, who has granted to the heart of Titus, this same solicitude for you."
+    }
+   },
+   "context": "Sending Titus back to Corinth to help finish gathering a gift for needy believers, Paul vouches for his coworker's genuine care for the church."
+  },
+  {
+   "id": "2CO.9.10",
+   "translations": {
+    "KJV": {
+     "text": "Now he that ministereth seed to the sower both minister bread for your food, and multiply your seed sown, and increase the fruits of your righteousness;)",
+     "displayText": "Now he that ministereth seed to the sower both minister bread for your food, and multiply your seed sown, and increase the fruits of your righteousness;)"
+    },
+    "BSB": {
+     "text": "Now He who supplies seed to the sower and bread for food will supply and multiply your store of seed and will increase the harvest of your righteousness.",
+     "displayText": "Now He who supplies seed to the sower and bread for food will supply and multiply your store of seed and will increase the harvest of your righteousness."
+    },
+    "CPDV": {
+     "text": "And he who ministers seed to the sower will offer you bread to eat, and will multiply your seed, and will increase the growth of the fruits of your justice.",
+     "displayText": "And he who ministers seed to the sower will offer you bread to eat, and will multiply your seed, and will increase the growth of the fruits of your justice."
+    }
+   },
+   "context": "Quoting a psalm about the generous person who scatters gifts to the poor, Paul carries its farming picture further for the Corinthians collecting for Jerusalem."
+  },
+  {
+   "id": "2CO.13.4",
+   "translations": {
+    "KJV": {
+     "text": "For though he was crucified through weakness, yet he liveth by the power of God. For we also are weak in him, but we shall live with him by the power of God toward you.",
+     "displayText": "For though he was crucified through weakness, yet he liveth by the power of God. For we also are weak in him, but we shall live with him by the power of God toward you."
+    },
+    "BSB": {
+     "text": "For He was indeed crucified in weakness, yet He lives by God’s power. And though we are weak in Him, yet by God’s power we will live with Him to serve you.",
+     "displayText": "For He was indeed crucified in weakness, yet He lives by God’s power. And though we are weak in Him, yet by God’s power we will live with Him to serve you."
+    },
+    "CPDV": {
+     "text": "For although he was crucified in weakness, yet he lives by the power of God. And yes, we are weak in him. But we shall live with him by the power of God among you.",
+     "displayText": "For although he was crucified in weakness, yet he lives by the power of God. And yes, we are weak in him. But we shall live with him by the power of God among you."
+    }
+   },
+   "context": "Preparing for a third visit to Corinth, where some demanded proof that Christ really spoke through him, Paul answers the charge that he is weak."
+  },
+  {
+   "id": "GAL.1.23",
+   "translations": {
+    "KJV": {
+     "text": "But they had heard only, That he which persecuted us in times past now preacheth the faith which once he destroyed.",
+     "displayText": "But they had heard only, That he which persecuted us in times past now preacheth the faith which once he destroyed."
+    },
+    "BSB": {
+     "text": "They only heard the account: “The man who formerly persecuted us is now preaching the faith he once tried to destroy.”",
+     "displayText": "They only heard the account: “The man who formerly persecuted us is now preaching the faith he once tried to destroy.”"
+    },
+    "CPDV": {
+     "text": "For they had only heard that: “He, who formerly persecuted us, now evangelizes the faith which he once fought.”",
+     "displayText": "For they had only heard that: “He, who formerly persecuted us, now evangelizes the faith which he once fought.”"
+    }
+   },
+   "context": "Recounting his first years after meeting Christ, Paul notes that the churches of Judea knew him only by reputation, and repeats what they were saying."
+  },
+  {
+   "id": "GAL.3.14",
+   "translations": {
+    "KJV": {
+     "text": "That the blessing of Abraham might come on the Gentiles through Jesus Christ; that we might receive the promise of the Spirit through faith.",
+     "displayText": "That the blessing of Abraham might come on the Gentiles through Jesus Christ; that we might receive the promise of the Spirit through faith."
+    },
+    "BSB": {
+     "text": "He redeemed us in order that the blessing promised to Abraham would come to the Gentiles in Christ Jesus, so that by faith we might receive the promise of the Spirit.",
+     "displayText": "He redeemed us in order that the blessing promised to Abraham would come to the Gentiles in Christ Jesus, so that by faith we might receive the promise of the Spirit."
+    },
+    "CPDV": {
+     "text": "This was so that the blessing of Abraham might reach the Gentiles through Christ Jesus, in order that we might receive the promise of the Spirit through faith.",
+     "displayText": "This was so that the blessing of Abraham might reach the Gentiles through Christ Jesus, in order that we might receive the promise of the Spirit through faith."
+    }
+   },
+   "context": "Tracing God's ancient promise to Abraham forward to his non-Jewish readers in Galatia, Paul names what Christ's death on the cross opened up for them."
+  },
+  {
+   "id": "GAL.4.16",
+   "translations": {
+    "KJV": {
+     "text": "Am I therefore become your enemy, because I tell you the truth?",
+     "displayText": "Am I therefore become your enemy, because I tell you the truth?"
+    },
+    "BSB": {
+     "text": "Have I now become your enemy by telling you the truth?",
+     "displayText": "Have I now become your enemy by telling you the truth?"
+    },
+    "CPDV": {
+     "text": "So then, have I become your enemy by telling you the truth?",
+     "displayText": "So then, have I become your enemy by telling you the truth?"
+    }
+   },
+   "context": "Hurt that the Galatians, who once would have given him their own eyes, had turned cold toward him, Paul confronts the change head-on."
+  },
+  {
+   "id": "GAL.4.28",
+   "translations": {
+    "KJV": {
+     "text": "Now we, brethren, as Isaac was, are the children of promise.",
+     "displayText": "Now we, brethren, as Isaac was, are the children of promise."
+    },
+    "BSB": {
+     "text": "Now you, brothers, like Isaac, are children of promise.",
+     "displayText": "Now you, brothers, like Isaac, are children of promise."
+    },
+    "CPDV": {
+     "text": "Now we, brothers, like Isaac, are sons of the promise.",
+     "displayText": "Now we, brothers, like Isaac, are sons of the promise."
+    }
+   },
+   "context": "Drawing an allegory from Abraham's two sons and their mothers, Hagar and Sarah, Paul tells the Galatians which son they resemble."
+  },
+  {
+   "id": "GAL.5.15",
+   "translations": {
+    "KJV": {
+     "text": "But if ye bite and devour one another, take heed that ye be not consumed one of another.",
+     "displayText": "But if ye bite and devour one another, take heed that ye be not consumed one of another."
+    },
+    "BSB": {
+     "text": "But if you keep on biting and devouring one another, watch out, or you will be consumed by one another.",
+     "displayText": "But if you keep on biting and devouring one another, watch out, or you will be consumed by one another."
+    },
+    "CPDV": {
+     "text": "But if you bite and devour one another, be careful that you are not consumed by one another!",
+     "displayText": "But if you bite and devour one another, be careful that you are not consumed by one another!"
+    }
+   },
+   "context": "Having summed up the whole law in the command to love your neighbor, Paul turns to the infighting he feared among the Galatian churches."
+  },
+  {
+   "id": "GAL.5.24",
+   "translations": {
+    "KJV": {
+     "text": "And they that are Christ’s have crucified the flesh with the affections and lusts.",
+     "displayText": "And they that are Christ’s have crucified the flesh with the affections and lusts."
+    },
+    "BSB": {
+     "text": "Those who belong to Christ Jesus have crucified the flesh with its passions and desires.",
+     "displayText": "Those who belong to Christ Jesus have crucified the flesh with its passions and desires."
+    },
+    "CPDV": {
+     "text": "For those who are Christ’s have crucified their flesh, along with its vices and desires.",
+     "displayText": "For those who are Christ’s have crucified their flesh, along with its vices and desires."
+    }
+   },
+   "context": "Having set the works of the flesh against the fruit of the Spirit, Paul tells the Galatians where people who belong to Christ now stand."
+  },
+  {
+   "id": "GAL.6.17",
+   "translations": {
+    "KJV": {
+     "text": "From henceforth let no man trouble me: for I bear in my body the marks of the Lord Jesus.",
+     "displayText": "From henceforth let no man trouble me: for I bear in my body the marks of the Lord Jesus."
+    },
+    "BSB": {
+     "text": "From now on let no one cause me trouble, for I bear on my body the marks of Jesus.",
+     "displayText": "From now on let no one cause me trouble, for I bear on my body the marks of Jesus."
+    },
+    "CPDV": {
+     "text": "Concerning other matters, let no one trouble me. For I carry the stigmata of the Lord Jesus in my body.",
+     "displayText": "Concerning other matters, let no one trouble me. For I carry the stigmata of the Lord Jesus in my body."
+    }
+   },
+   "context": "Ending a letter full of controversy over circumcision, Paul makes one last personal request of the Galatians before his closing blessing."
+  },
+  {
+   "id": "EPH.1.7",
+   "translations": {
+    "KJV": {
+     "text": "In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace;",
+     "displayText": "In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace;"
+    },
+    "BSB": {
+     "text": "In Him we have redemption through His blood, the forgiveness of our trespasses, according to the riches of His grace",
+     "displayText": "In Him we have redemption through His blood, the forgiveness of our trespasses, according to the riches of His grace"
+    },
+    "CPDV": {
+     "text": "In him, we have redemption through his blood: the remission of sins in accord with the riches of his grace,",
+     "displayText": "In him, we have redemption through his blood: the remission of sins in accord with the riches of his grace,"
+    }
+   },
+   "context": "In the middle of one long sentence of praise, Paul moves from God's plan to adopt believers as his children to what Christ's death accomplished for them."
+  },
+  {
+   "id": "EPH.2.17",
+   "translations": {
+    "KJV": {
+     "text": "And came and preached peace to you which were afar off, and to them that were nigh.",
+     "displayText": "And came and preached peace to you which were afar off, and to them that were nigh."
+    },
+    "BSB": {
+     "text": "He came and preached peace to you who were far away and peace to those who were near.",
+     "displayText": "He came and preached peace to you who were far away and peace to those who were near."
+    },
+    "CPDV": {
+     "text": "And upon arriving, he evangelized peace to you who were far away, and peace to those who were near.",
+     "displayText": "And upon arriving, he evangelized peace to you who were far away, and peace to those who were near."
+    }
+   },
+   "context": "Describing what Christ did for both Jews and Gentiles, Paul borrows language from Isaiah about people who are far away and people who are near."
+  },
+  {
+   "id": "EPH.2.18",
+   "translations": {
+    "KJV": {
+     "text": "For through him we both have access by one Spirit unto the Father.",
+     "displayText": "For through him we both have access by one Spirit unto the Father."
+    },
+    "BSB": {
+     "text": "For through Him we both have access to the Father by one Spirit.",
+     "displayText": "For through Him we both have access to the Father by one Spirit."
+    },
+    "CPDV": {
+     "text": "For by him, we both have access, in the one Spirit, to the Father.",
+     "displayText": "For by him, we both have access, in the one Spirit, to the Father."
+    }
+   },
+   "context": "For non-Jewish readers who had once been strangers to Israel's God, Paul describes what Christ has opened up for them and for Jewish believers alike."
+  },
+  {
+   "id": "EPH.3.7",
+   "translations": {
+    "KJV": {
+     "text": "Whereof I was made a minister, according to the gift of the grace of God given unto me by the effectual working of his power.",
+     "displayText": "Whereof I was made a minister, according to the gift of the grace of God given unto me by the effectual working of his power."
+    },
+    "BSB": {
+     "text": "I became a servant of this gospel by the gift of God’s grace, given me through the working of His power.",
+     "displayText": "I became a servant of this gospel by the gift of God’s grace, given me through the working of His power."
+    },
+    "CPDV": {
+     "text": "Of this Gospel, I have been made a minister, according to the gift of the grace of God, which has been given to me by means of the operation of his virtue.",
+     "displayText": "Of this Gospel, I have been made a minister, according to the gift of the grace of God, which has been given to me by means of the operation of his virtue."
+    }
+   },
+   "context": "Explaining the once-hidden mystery that Gentiles share fully in God's promises, Paul describes how he himself came to carry that message."
+  },
+  {
+   "id": "EPH.4.16",
+   "translations": {
+    "KJV": {
+     "text": "From whom the whole body fitly joined together and compacted by that which every joint supplieth, according to the effectual working in the measure of every part, maketh increase of the body unto the edifying of itself in love.",
+     "displayText": "From whom the whole body fitly joined together and compacted by that which every joint supplieth, according to the effectual working in the measure of every part, maketh increase of the body unto the edifying of itself in love."
+    },
+    "BSB": {
+     "text": "From Him the whole body, fitted and held together by every supporting ligament, grows and builds itself up in love through the work of each individual part.",
+     "displayText": "From Him the whole body, fitted and held together by every supporting ligament, grows and builds itself up in love through the work of each individual part."
+    },
+    "CPDV": {
+     "text": "For in him, the whole body is joined closely together, by every underlying joint, through the function allotted to each part, bringing improvement to the body, toward its edification in charity.",
+     "displayText": "For in him, the whole body is joined closely together, by every underlying joint, through the function allotted to each part, bringing improvement to the body, toward its edification in charity."
+    }
+   },
+   "context": "Finishing a long thought about the gifts Christ gives to his church, Paul compares the whole community of believers to a living body."
+  },
+  {
+   "id": "EPH.5.18",
+   "translations": {
+    "KJV": {
+     "text": "And be not drunk with wine, wherein is excess; but be filled with the Spirit;",
+     "displayText": "And be not drunk with wine, wherein is excess; but be filled with the Spirit;"
+    },
+    "BSB": {
+     "text": "Do not get drunk on wine, which leads to reckless indiscretion. Instead, be filled with the Spirit.",
+     "displayText": "Do not get drunk on wine, which leads to reckless indiscretion. Instead, be filled with the Spirit."
+    },
+    "CPDV": {
+     "text": "And do not choose to be inebriated by wine, for this is self-indulgence. Instead, be filled with the Holy Spirit,",
+     "displayText": "And do not choose to be inebriated by wine, for this is self-indulgence. Instead, be filled with the Holy Spirit,"
+    }
+   },
+   "context": "Among practical instructions for believers living in a pagan city, Paul contrasts two very different things a person can be filled with."
+  },
+  {
+   "id": "EPH.6.16",
+   "translations": {
+    "KJV": {
+     "text": "Above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked.",
+     "displayText": "Above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked."
+    },
+    "BSB": {
+     "text": "In addition to all this, take up the shield of faith, with which you can extinguish all the flaming arrows of the evil one.",
+     "displayText": "In addition to all this, take up the shield of faith, with which you can extinguish all the flaming arrows of the evil one."
+    },
+    "CPDV": {
+     "text": "In all things, take up the shield of faith, with which you may be able to extinguish all the fiery darts of the most wicked one.",
+     "displayText": "In all things, take up the shield of faith, with which you may be able to extinguish all the fiery darts of the most wicked one."
+    }
+   },
+   "context": "Working through a soldier's equipment piece by piece, Paul has named the belt, the breastplate and the footwear before turning to the shield."
+  },
+  {
+   "id": "EPH.6.17",
+   "translations": {
+    "KJV": {
+     "text": "And take the helmet of salvation, and the sword of the Spirit, which is the word of God:",
+     "displayText": "And take the helmet of salvation, and the sword of the Spirit, which is the word of God:"
+    },
+    "BSB": {
+     "text": "And take the helmet of salvation and the sword of the Spirit, which is the word of God.",
+     "displayText": "And take the helmet of salvation and the sword of the Spirit, which is the word of God."
+    },
+    "CPDV": {
+     "text": "And take up the helmet of salvation and the sword of the Spirit (which is the Word of God).",
+     "displayText": "And take up the helmet of salvation and the sword of the Spirit (which is the Word of God)."
+    }
+   },
+   "context": "For the final pieces of God's armor, Paul names protection for the head and a weapon for the hand, and says what each one is."
+  },
+  {
+   "id": "PHP.1.7",
+   "translations": {
+    "KJV": {
+     "text": "Even as it is meet for me to think this of you all, because I have you in my heart; inasmuch as both in my bonds, and in the defence and confirmation of the gospel, ye all are partakers of my grace.",
+     "displayText": "Even as it is meet for me to think this of you all, because I have you in my heart; inasmuch as both in my bonds, and in the defence and confirmation of the gospel, ye all are partakers of my grace."
+    },
+    "BSB": {
+     "text": "It is right for me to feel this way about all of you, since I have you in my heart. For in my chains and in my defense and confirmation of the gospel, you are all partners in grace with me.",
+     "displayText": "It is right for me to feel this way about all of you, since I have you in my heart. For in my chains and in my defense and confirmation of the gospel, you are all partners in grace with me."
+    },
+    "CPDV": {
+     "text": "So then, it is right for me to feel this way about all of you, because I hold you in my heart, and because, in my chains and in the defense and confirmation of the Gospel, you all are partakers of my joy.",
+     "displayText": "So then, it is right for me to feel this way about all of you, because I hold you in my heart, and because, in my chains and in the defense and confirmation of the Gospel, you all are partakers of my joy."
+    }
+   },
+   "context": "Having just voiced confidence in God's work among the Philippians, Paul explains why he feels so deeply attached to them."
+  },
+  {
+   "id": "PHP.1.12",
+   "translations": {
+    "KJV": {
+     "text": "But I would ye should understand, brethren, that the things which happened unto me have fallen out rather unto the furtherance of the gospel;",
+     "displayText": "But I would ye should understand, brethren, that the things which happened unto me have fallen out rather unto the furtherance of the gospel;"
+    },
+    "BSB": {
+     "text": "Now I want you to know, brothers, that my circumstances have actually served to advance the gospel.",
+     "displayText": "Now I want you to know, brothers, that my circumstances have actually served to advance the gospel."
+    },
+    "CPDV": {
+     "text": "Now, brothers, I want you to know that the things concerning me happened for the advancement of the Gospel,",
+     "displayText": "Now, brothers, I want you to know that the things concerning me happened for the advancement of the Gospel,"
+    }
+   },
+   "context": "Turning from his prayer for the Philippians to news of his own situation, Paul begins to update them on his imprisonment."
+  },
+  {
+   "id": "PHP.2.17",
+   "translations": {
+    "KJV": {
+     "text": "Yea, and if I be offered upon the sacrifice and service of your faith, I joy, and rejoice with you all.",
+     "displayText": "Yea, and if I be offered upon the sacrifice and service of your faith, I joy, and rejoice with you all."
+    },
+    "BSB": {
+     "text": "But even if I am being poured out like a drink offering on the sacrifice and service of your faith, I am glad and rejoice with all of you.",
+     "displayText": "But even if I am being poured out like a drink offering on the sacrifice and service of your faith, I am glad and rejoice with all of you."
+    },
+    "CPDV": {
+     "text": "Moreover, if I am to be immolated because of the sacrifice and service of your faith, I rejoice and give thanks with all of you.",
+     "displayText": "Moreover, if I am to be immolated because of the sacrifice and service of your faith, I rejoice and give thanks with all of you."
+    }
+   },
+   "context": "Aware that his imprisonment might end in his death, Paul tells the Philippians how he feels about that prospect."
+  },
+  {
+   "id": "PHP.3.18",
+   "translations": {
+    "KJV": {
+     "text": "(For many walk, of whom I have told you often, and now tell you even weeping, that they are the enemies of the cross of Christ:",
+     "displayText": "(For many walk, of whom I have told you often, and now tell you even weeping, that they are the enemies of the cross of Christ:"
+    },
+    "BSB": {
+     "text": "For as I have often told you before, and now say again even with tears: Many live as enemies of the cross of Christ.",
+     "displayText": "For as I have often told you before, and now say again even with tears: Many live as enemies of the cross of Christ."
+    },
+    "CPDV": {
+     "text": "For many persons, about whom I have often told you (and now tell you, weeping,) are walking as enemies of the cross of Christ.",
+     "displayText": "For many persons, about whom I have often told you (and now tell you, weeping,) are walking as enemies of the cross of Christ."
+    }
+   },
+   "context": "After asking the Philippians to imitate him and others who live the same way, Paul grows emotional as he warns them about a very different example."
+  },
+  {
+   "id": "PHP.4.2",
+   "translations": {
+    "KJV": {
+     "text": "I beseech Euodias, and beseech Syntyche, that they be of the same mind in the Lord.",
+     "displayText": "I beseech Euodias, and beseech Syntyche, that they be of the same mind in the Lord."
+    },
+    "BSB": {
+     "text": "I urge Euodia and Syntyche to agree with each other in the Lord.",
+     "displayText": "I urge Euodia and Syntyche to agree with each other in the Lord."
+    },
+    "CPDV": {
+     "text": "I ask Euodia, and I beg Syntyche, to have the same understanding in the Lord.",
+     "displayText": "I ask Euodia, and I beg Syntyche, to have the same understanding in the Lord."
+    }
+   },
+   "context": "Two women in the Philippian church who had once labored beside Paul for the gospel had fallen into disagreement, and he appeals to them personally."
+  },
+  {
+   "id": "PHP.4.14",
+   "translations": {
+    "KJV": {
+     "text": "Notwithstanding ye have well done, that ye did communicate with my affliction.",
+     "displayText": "Notwithstanding ye have well done, that ye did communicate with my affliction."
+    },
+    "BSB": {
+     "text": "Nevertheless, you have done well to share in my affliction.",
+     "displayText": "Nevertheless, you have done well to share in my affliction."
+    },
+    "CPDV": {
+     "text": "Yet truly, you have done well by sharing in my tribulation.",
+     "displayText": "Yet truly, you have done well by sharing in my tribulation."
+    }
+   },
+   "context": "Careful not to sound ungrateful after saying he can manage in any situation, Paul affirms the Philippians for the gift they sent him in prison."
+  },
+  {
+   "id": "ROM.5.11",
+   "translations": {
+    "KJV": {
+     "text": "And not only so, but we also joy in God through our Lord Jesus Christ, by whom we have now received the atonement.",
+     "displayText": "And not only so, but we also joy in God through our Lord Jesus Christ, by whom we have now received the atonement."
+    },
+    "BSB": {
+     "text": "Not only that, but we also rejoice in God through our Lord Jesus Christ, through whom we have now received reconciliation.",
+     "displayText": "Not only that, but we also rejoice in God through our Lord Jesus Christ, through whom we have now received reconciliation."
+    },
+    "CPDV": {
+     "text": "And not only that, but we also glory in God through our Lord Jesus Christ, through whom we have now received reconciliation.",
+     "displayText": "And not only that, but we also glory in God through our Lord Jesus Christ, through whom we have now received reconciliation."
+    }
+   },
+   "context": "Rounding off a run of 'how much more' arguments about Christ's death, Paul adds a note of present-day joy for the believers in Rome."
+  },
+  {
+   "id": "COL.1.15",
+   "translations": {
+    "KJV": {
+     "text": "Who is the image of the invisible God, the firstborn of every creature:",
+     "displayText": "Who is the image of the invisible God, the firstborn of every creature:"
+    },
+    "BSB": {
+     "text": "The Son is the image of the invisible God, the firstborn over all creation.",
+     "displayText": "The Son is the image of the invisible God, the firstborn over all creation."
+    },
+    "CPDV": {
+     "text": "He is the image of the invisible God, the first-born of every creature.",
+     "displayText": "He is the image of the invisible God, the first-born of every creature."
+    }
+   },
+   "context": "Having thanked the Father for bringing believers into the kingdom of his beloved Son, Paul begins a sweeping description of who that Son is."
+  },
+  {
+   "id": "COL.1.28",
+   "translations": {
+    "KJV": {
+     "text": "Whom we preach, warning every man, and teaching every man in all wisdom; that we may present every man perfect in Christ Jesus:",
+     "displayText": "Whom we preach, warning every man, and teaching every man in all wisdom; that we may present every man perfect in Christ Jesus:"
+    },
+    "BSB": {
+     "text": "We proclaim Him, admonishing and teaching everyone with all wisdom, so that we may present everyone perfect in Christ.",
+     "displayText": "We proclaim Him, admonishing and teaching everyone with all wisdom, so that we may present everyone perfect in Christ."
+    },
+    "CPDV": {
+     "text": "We are announcing him, correcting every man and teaching every man, with all wisdom, so that we may offer every man perfect in Christ Jesus.",
+     "displayText": "We are announcing him, correcting every man and teaching every man, with all wisdom, so that we may offer every man perfect in Christ Jesus."
+    }
+   },
+   "context": "Commissioned by God as a servant of the church, Paul sums up how he and his fellow workers make Christ known and what they are aiming for."
+  },
+  {
+   "id": "COL.2.16",
+   "translations": {
+    "KJV": {
+     "text": "Let no man therefore judge you in meat, or in drink, or in respect of an holyday, or of the new moon, or of the sabbath days:",
+     "displayText": "Let no man therefore judge you in meat, or in drink, or in respect of an holyday, or of the new moon, or of the sabbath days:"
+    },
+    "BSB": {
+     "text": "Therefore let no one judge you by what you eat or drink, or with regard to a feast, a New Moon, or a Sabbath.",
+     "displayText": "Therefore let no one judge you by what you eat or drink, or with regard to a feast, a New Moon, or a Sabbath."
+    },
+    "CPDV": {
+     "text": "Therefore, let no one judge you as concerns food or drink, or a particular feast day, or feast days of new moons, or of Sabbaths.",
+     "displayText": "Therefore, let no one judge you as concerns food or drink, or a particular feast day, or feast days of new moons, or of Sabbaths."
+    }
+   },
+   "context": "Facing teachers in Colossae who insisted on special diets and religious calendars, Paul draws a practical conclusion from Christ's victory on the cross."
+  },
+  {
+   "id": "1TH.2.2",
+   "translations": {
+    "KJV": {
+     "text": "But even after that we had suffered before, and were shamefully entreated, as ye know, at Philippi, we were bold in our God to speak unto you the gospel of God with much contention.",
+     "displayText": "But even after that we had suffered before, and were shamefully entreated, as ye know, at Philippi, we were bold in our God to speak unto you the gospel of God with much contention."
+    },
+    "BSB": {
+     "text": "As you are aware, we had already endured suffering and shameful treatment in Philippi. But in the face of strong opposition, we were bold in our God to speak to you the gospel of God.",
+     "displayText": "As you are aware, we had already endured suffering and shameful treatment in Philippi. But in the face of strong opposition, we were bold in our God to speak to you the gospel of God."
+    },
+    "CPDV": {
+     "text": "Instead, having previously suffered and been treated shamefully, as you know, at Philippi, we had confidence in our God, so as to speak the Gospel of God to you with much solicitude.",
+     "displayText": "Instead, having previously suffered and been treated shamefully, as you know, at Philippi, we had confidence in our God, so as to speak the Gospel of God to you with much solicitude."
+    }
+   },
+   "context": "Paul and Silas had been beaten and jailed in Philippi shortly before reaching Thessalonica, and Paul reminds the church how that first visit began."
+  },
+  {
+   "id": "1TH.2.19",
+   "translations": {
+    "KJV": {
+     "text": "For what is our hope, or joy, or crown of rejoicing? Are not even ye in the presence of our Lord Jesus Christ at his coming?",
+     "displayText": "For what is our hope, or joy, or crown of rejoicing? Are not even ye in the presence of our Lord Jesus Christ at his coming?"
+    },
+    "BSB": {
+     "text": "After all, who is our hope, our joy, our crown of boasting, if it is not you yourselves in the presence of our Lord Jesus at His coming?",
+     "displayText": "After all, who is our hope, our joy, our crown of boasting, if it is not you yourselves in the presence of our Lord Jesus at His coming?"
+    },
+    "CPDV": {
+     "text": "For what is our hope, and our joy, and our crown of glory? Is it not you, before our Lord Jesus Christ at his return?",
+     "displayText": "For what is our hope, and our joy, and our crown of glory? Is it not you, before our Lord Jesus Christ at his return?"
+    }
+   },
+   "context": "Looking ahead to the Lord's return, Paul asks the young church in Thessalonica a question about what will make all his work worthwhile."
+  },
+  {
+   "id": "1TH.3.10",
+   "translations": {
+    "KJV": {
+     "text": "Night and day praying exceedingly that we might see your face, and might perfect that which is lacking in your faith?",
+     "displayText": "Night and day praying exceedingly that we might see your face, and might perfect that which is lacking in your faith?"
+    },
+    "BSB": {
+     "text": "Night and day we pray most earnestly that we may see you face to face and supply what is lacking from your faith.",
+     "displayText": "Night and day we pray most earnestly that we may see you face to face and supply what is lacking from your faith."
+    },
+    "CPDV": {
+     "text": "For night and day, ever more abundantly, we are praying that we may see your face, and that we may complete those things that are lacking in your faith.",
+     "displayText": "For night and day, ever more abundantly, we are praying that we may see your face, and that we may complete those things that are lacking in your faith."
+    }
+   },
+   "context": "Though cheered by Timothy's report, Paul still wants to finish what he started in Thessalonica, and he tells the believers how he prays about it."
+  },
+  {
+   "id": "1TH.3.11",
+   "translations": {
+    "KJV": {
+     "text": "Now God himself and our Father, and our Lord Jesus Christ, direct our way unto you.",
+     "displayText": "Now God himself and our Father, and our Lord Jesus Christ, direct our way unto you."
+    },
+    "BSB": {
+     "text": "Now may our God and Father Himself, and our Lord Jesus, direct our way to you.",
+     "displayText": "Now may our God and Father Himself, and our Lord Jesus, direct our way to you."
+    },
+    "CPDV": {
+     "text": "But may God our Father himself, and our Lord Jesus Christ, direct our way to you.",
+     "displayText": "But may God our Father himself, and our Lord Jesus Christ, direct our way to you."
+    }
+   },
+   "context": "Still unable to travel back to Thessalonica, Paul turns from describing his prayers to praying one aloud in the letter itself."
+  },
+  {
+   "id": "1TH.4.16",
+   "translations": {
+    "KJV": {
+     "text": "For the Lord himself shall descend from heaven with a shout, with the voice of the archangel, and with the trump of God: and the dead in Christ shall rise first:",
+     "displayText": "For the Lord himself shall descend from heaven with a shout, with the voice of the archangel, and with the trump of God: and the dead in Christ shall rise first:"
+    },
+    "BSB": {
+     "text": "For the Lord Himself will descend from heaven with a loud command, with the voice of an archangel, and with the trumpet of God, and the dead in Christ will be the first to rise.",
+     "displayText": "For the Lord Himself will descend from heaven with a loud command, with the voice of an archangel, and with the trumpet of God, and the dead in Christ will be the first to rise."
+    },
+    "CPDV": {
+     "text": "For the Lord himself, with a command and with the voice of an Archangel and with a trumpet of God, shall descend from heaven. And the dead, who are in Christ, shall rise up first.",
+     "displayText": "For the Lord himself, with a command and with the voice of an Archangel and with a trumpet of God, shall descend from heaven. And the dead, who are in Christ, shall rise up first."
+    }
+   },
+   "context": "Having promised that the living will not go ahead of believers who have died, Paul describes the sounds that will announce the Lord's arrival."
+  },
+  {
+   "id": "2TH.3.10",
+   "translations": {
+    "KJV": {
+     "text": "For even when we were with you, this we commanded you, that if any would not work, neither should he eat.",
+     "displayText": "For even when we were with you, this we commanded you, that if any would not work, neither should he eat."
+    },
+    "BSB": {
+     "text": "For even while we were with you, we gave you this command: “If anyone is unwilling to work, he shall not eat.”",
+     "displayText": "For even while we were with you, we gave you this command: “If anyone is unwilling to work, he shall not eat.”"
+    },
+    "CPDV": {
+     "text": "Then, too, while we were with you, we insisted on this to you: that if anyone was not willing to work, neither should he eat.",
+     "displayText": "Then, too, while we were with you, we insisted on this to you: that if anyone was not willing to work, neither should he eat."
+    }
+   },
+   "context": "Some believers in Thessalonica had stopped working and were living off others, so Paul reminds the church of a rule he had given them in person."
+  },
+  {
+   "id": "2TH.3.15",
+   "translations": {
+    "KJV": {
+     "text": "Yet count him not as an enemy, but admonish him as a brother.",
+     "displayText": "Yet count him not as an enemy, but admonish him as a brother."
+    },
+    "BSB": {
+     "text": "Yet do not regard him as an enemy, but warn him as a brother.",
+     "displayText": "Yet do not regard him as an enemy, but warn him as a brother."
+    },
+    "CPDV": {
+     "text": "But do not be willing to consider him as an enemy; instead, correct him as a brother.",
+     "displayText": "But do not be willing to consider him as an enemy; instead, correct him as a brother."
+    }
+   },
+   "context": "After telling the church to keep away from any idle believer who ignores this letter's instructions, Paul adds how they should still treat such a person."
+  },
+  {
+   "id": "1TI.4.10",
+   "translations": {
+    "KJV": {
+     "text": "For therefore we both labour and suffer reproach, because we trust in the living God, who is the Saviour of all men, specially of those that believe.",
+     "displayText": "For therefore we both labour and suffer reproach, because we trust in the living God, who is the Saviour of all men, specially of those that believe."
+    },
+    "BSB": {
+     "text": "To this end we labor and strive, because we have set our hope on the living God, who is the Savior of everyone, and especially of those who believe.",
+     "displayText": "To this end we labor and strive, because we have set our hope on the living God, who is the Savior of everyone, and especially of those who believe."
+    },
+    "CPDV": {
+     "text": "For this reason we labor and are maligned: because we hope in the living God, who is the Savior of all men, most especially of the faithful.",
+     "displayText": "For this reason we labor and are maligned: because we hope in the living God, who is the Savior of all men, most especially of the faithful."
+    }
+   },
+   "context": "Explaining to Timothy why he and his coworkers keep pushing through toil and criticism, Paul names the one they have staked everything on."
+  },
+  {
+   "id": "1TI.4.13",
+   "translations": {
+    "KJV": {
+     "text": "Till I come, give attendance to reading, to exhortation, to doctrine.",
+     "displayText": "Till I come, give attendance to reading, to exhortation, to doctrine."
+    },
+    "BSB": {
+     "text": "Until I come, devote yourself to the public reading of Scripture, to exhortation, and to teaching.",
+     "displayText": "Until I come, devote yourself to the public reading of Scripture, to exhortation, and to teaching."
+    },
+    "CPDV": {
+     "text": "Until I arrive, attend to reading, to exhortation, and to doctrine.",
+     "displayText": "Until I arrive, attend to reading, to exhortation, and to doctrine."
+    }
+   },
+   "context": "Timothy had been left in Ephesus while Paul traveled on, and here he is told what to prioritize in the church until Paul returns."
+  },
+  {
+   "id": "1TI.4.16",
+   "translations": {
+    "KJV": {
+     "text": "Take heed unto thyself, and unto the doctrine; continue in them: for in doing this thou shalt both save thyself, and them that hear thee.",
+     "displayText": "Take heed unto thyself, and unto the doctrine; continue in them: for in doing this thou shalt both save thyself, and them that hear thee."
+    },
+    "BSB": {
+     "text": "Pay close attention to your life and to your teaching. Persevere in these things, for by so doing you will save both yourself and those who hear you.",
+     "displayText": "Pay close attention to your life and to your teaching. Persevere in these things, for by so doing you will save both yourself and those who hear you."
+    },
+    "CPDV": {
+     "text": "Pay attention to yourself and to doctrine. Pursue these things. For in doing so, you will save both yourself and those who listen to you.",
+     "displayText": "Pay attention to yourself and to doctrine. Pursue these things. For in doing so, you will save both yourself and those who listen to you."
+    }
+   },
+   "context": "Wrapping up a series of personal charges to his young coworker, Paul tells Timothy what is at stake in how he lives and teaches."
+  },
+  {
+   "id": "1TI.5.25",
+   "translations": {
+    "KJV": {
+     "text": "Likewise also the good works of some are manifest beforehand; and they that are otherwise cannot be hid.",
+     "displayText": "Likewise also the good works of some are manifest beforehand; and they that are otherwise cannot be hid."
+    },
+    "BSB": {
+     "text": "In the same way, good deeds are obvious, and even the ones that are inconspicuous cannot remain hidden.",
+     "displayText": "In the same way, good deeds are obvious, and even the ones that are inconspicuous cannot remain hidden."
+    },
+    "CPDV": {
+     "text": "Similarly, too, good deeds have been made manifest, but even when they are not, they cannot remain hidden.",
+     "displayText": "Similarly, too, good deeds have been made manifest, but even when they are not, they cannot remain hidden."
+    }
+   },
+   "context": "In advice to Timothy about church elders, including not laying hands on anyone too hastily, Paul notes that some people's sins are not obvious at first."
+  },
+  {
+   "id": "2TI.1.3",
+   "translations": {
+    "KJV": {
+     "text": "I thank God, whom I serve from my forefathers with pure conscience, that without ceasing I have remembrance of thee in my prayers night and day;",
+     "displayText": "I thank God, whom I serve from my forefathers with pure conscience, that without ceasing I have remembrance of thee in my prayers night and day;"
+    },
+    "BSB": {
+     "text": "I thank God, whom I serve with a clear conscience as did my forefathers, as I constantly remember you night and day in my prayers.",
+     "displayText": "I thank God, whom I serve with a clear conscience as did my forefathers, as I constantly remember you night and day in my prayers."
+    },
+    "CPDV": {
+     "text": "I give thanks to God, whom I serve, as my forefathers did, with a pure conscience. For without ceasing I hold the remembrance of you in my prayers, night and day,",
+     "displayText": "I give thanks to God, whom I serve, as my forefathers did, with a pure conscience. For without ceasing I hold the remembrance of you in my prayers, night and day,"
+    }
+   },
+   "context": "Right after his greeting, Paul begins this deeply personal letter to Timothy the way he began many others, with thanks to God."
+  },
+  {
+   "id": "2TI.1.13",
+   "translations": {
+    "KJV": {
+     "text": "Hold fast the form of sound words, which thou hast heard of me, in faith and love which is in Christ Jesus.",
+     "displayText": "Hold fast the form of sound words, which thou hast heard of me, in faith and love which is in Christ Jesus."
+    },
+    "BSB": {
+     "text": "Hold on to the pattern of sound teaching you have heard from me, with the faith and love that are in Christ Jesus.",
+     "displayText": "Hold on to the pattern of sound teaching you have heard from me, with the faith and love that are in Christ Jesus."
+    },
+    "CPDV": {
+     "text": "Hold to the kind of sound words that you have heard from me in the faith and love which is in Christ Jesus.",
+     "displayText": "Hold to the kind of sound words that you have heard from me in the faith and love which is in Christ Jesus."
+    }
+   },
+   "context": "Shifting from his own confidence to Timothy's responsibility, Paul reminds his younger coworker of the teaching he heard directly from him."
+  },
+  {
+   "id": "2TI.1.16",
+   "translations": {
+    "KJV": {
+     "text": "The Lord give mercy unto the house of Onesiphorus; for he oft refreshed me, and was not ashamed of my chain:",
+     "displayText": "The Lord give mercy unto the house of Onesiphorus; for he oft refreshed me, and was not ashamed of my chain:"
+    },
+    "BSB": {
+     "text": "May the Lord grant mercy to the household of Onesiphorus, because he has often refreshed me and was unashamed of my chains.",
+     "displayText": "May the Lord grant mercy to the household of Onesiphorus, because he has often refreshed me and was unashamed of my chains."
+    },
+    "CPDV": {
+     "text": "May the Lord have mercy on the house of Onesiphorus, because he has often refreshed me, and he has not been ashamed of my chains.",
+     "displayText": "May the Lord have mercy on the house of Onesiphorus, because he has often refreshed me, and he has not been ashamed of my chains."
+    }
+   },
+   "context": "Stung that so many in the province of Asia had abandoned him, Paul singles out one friend's household that did the opposite."
+  },
+  {
+   "id": "2TI.2.7",
+   "translations": {
+    "KJV": {
+     "text": "Consider what I say; and the Lord give thee understanding in all things.",
+     "displayText": "Consider what I say; and the Lord give thee understanding in all things."
+    },
+    "BSB": {
+     "text": "Consider what I am saying, for the Lord will give you insight into all things.",
+     "displayText": "Consider what I am saying, for the Lord will give you insight into all things."
+    },
+    "CPDV": {
+     "text": "Understand what I am saying. For the Lord will give you understanding in all things.",
+     "displayText": "Understand what I am saying. For the Lord will give you understanding in all things."
+    }
+   },
+   "context": "After packing a soldier, an athlete and a farmer into three quick comparisons, Paul asks Timothy to think them through."
+  },
+  {
+   "id": "2TI.2.10",
+   "translations": {
+    "KJV": {
+     "text": "Therefore I endure all things for the elect’s sakes, that they may also obtain the salvation which is in Christ Jesus with eternal glory.",
+     "displayText": "Therefore I endure all things for the elect’s sakes, that they may also obtain the salvation which is in Christ Jesus with eternal glory."
+    },
+    "BSB": {
+     "text": "For this reason I endure all things for the sake of the elect, so that they too may obtain the salvation that is in Christ Jesus, with eternal glory.",
+     "displayText": "For this reason I endure all things for the sake of the elect, so that they too may obtain the salvation that is in Christ Jesus, with eternal glory."
+    },
+    "CPDV": {
+     "text": "I endure all things for this reason: for the sake of the elect, so that they, too, may obtain the salvation which is in Christ Jesus, with heavenly glory.",
+     "displayText": "I endure all things for this reason: for the sake of the elect, so that they, too, may obtain the salvation which is in Christ Jesus, with heavenly glory."
+    }
+   },
+   "context": "Chained like a criminal yet insisting that God's word cannot be chained, Paul tells Timothy who his suffering is for."
+  },
+  {
+   "id": "PHM.1.18",
+   "translations": {
+    "KJV": {
+     "text": "If he hath wronged thee, or oweth thee ought, put that on mine account;",
+     "displayText": "If he hath wronged thee, or oweth thee ought, put that on mine account;"
+    },
+    "BSB": {
+     "text": "But if he has wronged you in any way or owes you anything, charge it to my account.",
+     "displayText": "But if he has wronged you in any way or owes you anything, charge it to my account."
+    },
+    "CPDV": {
+     "text": "But if he has harmed you in any way, or if he is in your debt, charge it to me.",
+     "displayText": "But if he has harmed you in any way, or if he is in your debt, charge it to me."
+    }
+   },
+   "context": "In his letter to Philemon, Paul is sending Onesimus back to the master he had been separated from, and he takes up the matter of anything Onesimus owes."
+  },
+  {
+   "id": "HEB.1.3",
+   "translations": {
+    "KJV": {
+     "text": "Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;",
+     "displayText": "Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;"
+    },
+    "BSB": {
+     "text": "The Son is the radiance of God’s glory and the exact representation of His nature, upholding all things by His powerful word. After He had provided purification for sins, He sat down at the right hand of the Majesty on high.",
+     "displayText": "The Son is the radiance of God’s glory and the exact representation of His nature, upholding all things by His powerful word. After He had provided purification for sins, He sat down at the right hand of the Majesty on high."
+    },
+    "CPDV": {
+     "text": "And since the Son is the brightness of his glory, and the figure of his substance, and is carrying all things by the Word of his virtue, thereby accomplishing a purging of sins, he sits at the right hand of Majesty on high.",
+     "displayText": "And since the Son is the brightness of his glory, and the figure of his substance, and is carrying all things by the Word of his virtue, thereby accomplishing a purging of sins, he sits at the right hand of Majesty on high."
+    }
+   },
+   "context": "Contrasting God's past messages through the prophets with his final word through his Son, the writer of Hebrews opens the letter by describing who that Son is."
+  },
+  {
+   "id": "HEB.1.14",
+   "translations": {
+    "KJV": {
+     "text": "Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation?",
+     "displayText": "Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation?"
+    },
+    "BSB": {
+     "text": "Are not the angels ministering spirits sent to serve those who will inherit salvation?",
+     "displayText": "Are not the angels ministering spirits sent to serve those who will inherit salvation?"
+    },
+    "CPDV": {
+     "text": "Are they not all spirits of ministration, sent to minister for the sake of those who shall receive the inheritance of salvation?",
+     "displayText": "Are they not all spirits of ministration, sent to minister for the sake of those who shall receive the inheritance of salvation?"
+    }
+   },
+   "context": "After quoting a string of Old Testament passages to show the Son is greater than the angels, the writer of Hebrews turns to what the angels are for."
+  },
+  {
+   "id": "HEB.2.17",
+   "translations": {
+    "KJV": {
+     "text": "Wherefore in all things it behoved him to be made like unto his brethren, that he might be a merciful and faithful high priest in things pertaining to God, to make reconciliation for the sins of the people.",
+     "displayText": "Wherefore in all things it behoved him to be made like unto his brethren, that he might be a merciful and faithful high priest in things pertaining to God, to make reconciliation for the sins of the people."
+    },
+    "BSB": {
+     "text": "For this reason He had to be made like His brothers in every way, so that He might become a merciful and faithful high priest in service to God, in order to make atonement for the sins of the people.",
+     "displayText": "For this reason He had to be made like His brothers in every way, so that He might become a merciful and faithful high priest in service to God, in order to make atonement for the sins of the people."
+    },
+    "CPDV": {
+     "text": "Therefore, it is fitting for him to be made similar to his brothers in all things, so that he might become a merciful and faithful High Priest before God, in order that he might bring forgiveness to the offenses of the people.",
+     "displayText": "Therefore, it is fitting for him to be made similar to his brothers in all things, so that he might become a merciful and faithful High Priest before God, in order that he might bring forgiveness to the offenses of the people."
+    }
+   },
+   "context": "Explaining why the Son shared fully in human flesh and blood, the writer of Hebrews introduces Jesus as high priest, a theme the rest of the letter develops."
+  },
+  {
+   "id": "HEB.5.7",
+   "translations": {
+    "KJV": {
+     "text": "Who in the days of his flesh, when he had offered up prayers and supplications with strong crying and tears unto him that was able to save him from death, and was heard in that he feared;",
+     "displayText": "Who in the days of his flesh, when he had offered up prayers and supplications with strong crying and tears unto him that was able to save him from death, and was heard in that he feared;"
+    },
+    "BSB": {
+     "text": "During the days of Jesus’ earthly life, He offered up prayers and petitions with loud cries and tears to the One who could save Him from death, and He was heard because of His reverence.",
+     "displayText": "During the days of Jesus’ earthly life, He offered up prayers and petitions with loud cries and tears to the One who could save Him from death, and He was heard because of His reverence."
+    },
+    "CPDV": {
+     "text": "It is Christ who, in the days of his flesh, with a strong cry and tears, offered prayers and supplications to the One who was able to save him from death, and who was heard because of his reverence.",
+     "displayText": "It is Christ who, in the days of his flesh, with a strong cry and tears, offered prayers and supplications to the One who was able to save him from death, and who was heard because of his reverence."
+    }
+   },
+   "context": "Having shown that Christ did not appoint himself high priest, the writer of Hebrews recalls the kind of anguished praying the Gospels describe in Gethsemane."
+  },
+  {
+   "id": "HEB.5.8",
+   "translations": {
+    "KJV": {
+     "text": "Though he were a Son, yet learned he obedience by the things which he suffered;",
+     "displayText": "Though he were a Son, yet learned he obedience by the things which he suffered;"
+    },
+    "BSB": {
+     "text": "Although He was a Son, He learned obedience from what He suffered.",
+     "displayText": "Although He was a Son, He learned obedience from what He suffered."
+    },
+    "CPDV": {
+     "text": "And although, certainly, he is the Son of God, he learned obedience by the things that he suffered.",
+     "displayText": "And although, certainly, he is the Son of God, he learned obedience by the things that he suffered."
+    }
+   },
+   "context": "Still dwelling on Jesus' life on earth, the writer of Hebrews makes a striking claim about what God's own Son went through."
+  },
+  {
+   "id": "HEB.11.11",
+   "translations": {
+    "KJV": {
+     "text": "Through faith also Sara herself received strength to conceive seed, and was delivered of a child when she was past age, because she judged him faithful who had promised.",
+     "displayText": "Through faith also Sara herself received strength to conceive seed, and was delivered of a child when she was past age, because she judged him faithful who had promised."
+    },
+    "BSB": {
+     "text": "By faith Sarah, even though she was barren and beyond the proper age, was enabled to conceive a child, because she considered Him faithful who had promised.",
+     "displayText": "By faith Sarah, even though she was barren and beyond the proper age, was enabled to conceive a child, because she considered Him faithful who had promised."
+    },
+    "CPDV": {
+     "text": "By faith also, Sarah herself, being barren, received the ability to conceive offspring, even though she was past that age in life. For she believed him to be faithful, who had promised.",
+     "displayText": "By faith also, Sarah herself, being barren, received the ability to conceive offspring, even though she was past that age in life. For she believed him to be faithful, who had promised."
+    }
+   },
+   "context": "Moving from Abraham's journeys to his household, the writer of Hebrews turns to his wife, who had waited many years for the son God promised."
+  },
+  {
+   "id": "HEB.12.7",
+   "translations": {
+    "KJV": {
+     "text": "If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not?",
+     "displayText": "If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not?"
+    },
+    "BSB": {
+     "text": "Endure suffering as discipline; God is treating you as sons. For what son is not disciplined by his father?",
+     "displayText": "Endure suffering as discipline; God is treating you as sons. For what son is not disciplined by his father?"
+    },
+    "CPDV": {
+     "text": "Persevere in discipline. God presents you to himself as sons. But what son is there, whom his father does not correct?",
+     "displayText": "Persevere in discipline. God presents you to himself as sons. But what son is there, whom his father does not correct?"
+    }
+   },
+   "context": "Having quoted Proverbs about the Lord correcting those he loves, the writer of Hebrews applies it to readers growing weary under opposition."
+  },
+  {
+   "id": "HEB.13.7",
+   "translations": {
+    "KJV": {
+     "text": "Remember them which have the rule over you, who have spoken unto you the word of God: whose faith follow, considering the end of their conversation.",
+     "displayText": "Remember them which have the rule over you, who have spoken unto you the word of God: whose faith follow, considering the end of their conversation."
+    },
+    "BSB": {
+     "text": "Remember your leaders who spoke the word of God to you. Consider the outcome of their way of life and imitate their faith.",
+     "displayText": "Remember your leaders who spoke the word of God to you. Consider the outcome of their way of life and imitate their faith."
+    },
+    "CPDV": {
+     "text": "Remember your leaders, who have spoken the Word of God to you, whose faith you imitate, by observing the goal of their way of life:",
+     "displayText": "Remember your leaders, who have spoken the Word of God to you, whose faith you imitate, by observing the goal of their way of life:"
+    }
+   },
+   "context": "In a run of short closing instructions, the writer of Hebrews turns readers' thoughts to the people who first taught them God's word."
+  },
+  {
+   "id": "JAS.1.9",
+   "translations": {
+    "KJV": {
+     "text": "Let the brother of low degree rejoice in that he is exalted:",
+     "displayText": "Let the brother of low degree rejoice in that he is exalted:"
+    },
+    "BSB": {
+     "text": "The brother in humble circumstances should exult in his high position.",
+     "displayText": "The brother in humble circumstances should exult in his high position."
+    },
+    "CPDV": {
+     "text": "Now a humble brother should glory in his exaltation,",
+     "displayText": "Now a humble brother should glory in his exaltation,"
+    }
+   },
+   "context": "Turning from prayer for wisdom to the gap between rich and poor in the church, James first speaks to believers of humble means."
+  },
+  {
+   "id": "JAS.1.13",
+   "translations": {
+    "KJV": {
+     "text": "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:",
+     "displayText": "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:"
+    },
+    "BSB": {
+     "text": "When tempted, no one should say, “God is tempting me.” For God cannot be tempted by evil, nor does He tempt anyone.",
+     "displayText": "When tempted, no one should say, “God is tempting me.” For God cannot be tempted by evil, nor does He tempt anyone."
+    },
+    "CPDV": {
+     "text": "No one should say, when he is tempted, that he was tempted by God. For God does not entice toward evils, and he himself tempts no one.",
+     "displayText": "No one should say, when he is tempted, that he was tempted by God. For God does not entice toward evils, and he himself tempts no one."
+    }
+   },
+   "context": "Having praised those who endure testing, James heads off an excuse people are quick to make when they give in to temptation."
+  },
+  {
+   "id": "JAS.1.18",
+   "translations": {
+    "KJV": {
+     "text": "Of his own will begat he us with the word of truth, that we should be a kind of firstfruits of his creatures.",
+     "displayText": "Of his own will begat he us with the word of truth, that we should be a kind of firstfruits of his creatures."
+    },
+    "BSB": {
+     "text": "He chose to give us birth through the word of truth, that we would be a kind of firstfruits of His creation.",
+     "displayText": "He chose to give us birth through the word of truth, that we would be a kind of firstfruits of His creation."
+    },
+    "CPDV": {
+     "text": "For by his own will he produced us through the Word of truth, so that we might be a kind of beginning among his creatures.",
+     "displayText": "For by his own will he produced us through the Word of truth, so that we might be a kind of beginning among his creatures."
+    }
+   },
+   "context": "Contrasting desire that gives birth to sin and death with the unchanging Father of lights, James tells his readers what that Father chose to do for them."
+  },
+  {
+   "id": "JAS.1.25",
+   "translations": {
+    "KJV": {
+     "text": "But whoso looketh into the perfect law of liberty, and continueth therein, he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed.",
+     "displayText": "But whoso looketh into the perfect law of liberty, and continueth therein, he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed."
+    },
+    "BSB": {
+     "text": "But the one who looks intently into the perfect law of freedom, and continues to do so—not being a forgetful hearer, but an effective doer—he will be blessed in what he does.",
+     "displayText": "But the one who looks intently into the perfect law of freedom, and continues to do so—not being a forgetful hearer, but an effective doer—he will be blessed in what he does."
+    },
+    "CPDV": {
+     "text": "But he who gazes upon the perfect law of liberty, and who remains in it, is not a forgetful hearer, but instead a doer of the work. He shall be blessed in what he does.",
+     "displayText": "But he who gazes upon the perfect law of liberty, and who remains in it, is not a forgetful hearer, but instead a doer of the work. He shall be blessed in what he does."
+    }
+   },
+   "context": "Having pictured someone who glances in a mirror and immediately forgets his own face, James describes the opposite kind of person."
+  },
+  {
+   "id": "JAS.2.5",
+   "translations": {
+    "KJV": {
+     "text": "Hearken, my beloved brethren, Hath not God chosen the poor of this world rich in faith, and heirs of the kingdom which he hath promised to them that love him?",
+     "displayText": "Hearken, my beloved brethren, Hath not God chosen the poor of this world rich in faith, and heirs of the kingdom which he hath promised to them that love him?"
+    },
+    "BSB": {
+     "text": "Listen, my beloved brothers: Has not God chosen the poor of this world to be rich in faith and to inherit the kingdom He promised those who love Him?",
+     "displayText": "Listen, my beloved brothers: Has not God chosen the poor of this world to be rich in faith and to inherit the kingdom He promised those who love Him?"
+    },
+    "CPDV": {
+     "text": "My most beloved brothers, listen. Has not God chosen the poor in this world to be rich in faith and heirs of the kingdom that God has promised to those who love him?",
+     "displayText": "My most beloved brothers, listen. Has not God chosen the poor in this world to be rich in faith and heirs of the kingdom that God has promised to those who love him?"
+    }
+   },
+   "context": "Rebuking a congregation that gave the best seats to the rich and made the poor stand, James asks them a pointed question about whom God has chosen."
+  },
+  {
+   "id": "JAS.3.2",
+   "translations": {
+    "KJV": {
+     "text": "For in many things we offend all. If any man offend not in word, the same is a perfect man, and able also to bridle the whole body.",
+     "displayText": "For in many things we offend all. If any man offend not in word, the same is a perfect man, and able also to bridle the whole body."
+    },
+    "BSB": {
+     "text": "We all stumble in many ways. If anyone is never at fault in what he says, he is a perfect man, able to control his whole body.",
+     "displayText": "We all stumble in many ways. If anyone is never at fault in what he says, he is a perfect man, able to control his whole body."
+    },
+    "CPDV": {
+     "text": "For we all offend in many ways. If anyone does not offend in word, he is a perfect man. And he is then able, as if with a bridle, to lead the whole body around.",
+     "displayText": "For we all offend in many ways. If anyone does not offend in word, he is a perfect man. And he is then able, as if with a bridle, to lead the whole body around."
+    }
+   },
+   "context": "Right after cautioning that few should become teachers because they will be judged more strictly, James includes himself among those who fail."
+  },
+  {
+   "id": "JAS.3.13",
+   "translations": {
+    "KJV": {
+     "text": "Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.",
+     "displayText": "Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom."
+    },
+    "BSB": {
+     "text": "Who is wise and understanding among you? Let him show it by his good conduct, by deeds done in the humility that comes from wisdom.",
+     "displayText": "Who is wise and understanding among you? Let him show it by his good conduct, by deeds done in the humility that comes from wisdom."
+    },
+    "CPDV": {
+     "text": "Who is wise and well-taught among you? Let him show, by means of good conversation, his work in the meekness of wisdom.",
+     "displayText": "Who is wise and well-taught among you? Let him show, by means of good conversation, his work in the meekness of wisdom."
+    }
+   },
+   "context": "After lamenting that blessing and cursing pour from the same mouth, James shifts from speech to the kind of life that proves real wisdom."
+  },
+  {
+   "id": "JAS.3.16",
+   "translations": {
+    "KJV": {
+     "text": "For where envying and strife is, there is confusion and every evil work.",
+     "displayText": "For where envying and strife is, there is confusion and every evil work."
+    },
+    "BSB": {
+     "text": "For where jealousy and selfish ambition exist, there will be disorder and every evil practice.",
+     "displayText": "For where jealousy and selfish ambition exist, there will be disorder and every evil practice."
+    },
+    "CPDV": {
+     "text": "For wherever envy and contention is, there too is inconstancy and every depraved work.",
+     "displayText": "For wherever envy and contention is, there too is inconstancy and every depraved work."
+    }
+   },
+   "context": "Warning that bitter rivalry in the heart is nothing to boast about, James looks at what happens to a community where it is allowed to grow."
+  },
+  {
+   "id": "JAS.4.1",
+   "translations": {
+    "KJV": {
+     "text": "From whence come wars and fightings among you? come they not hence, even of your lusts that war in your members?",
+     "displayText": "From whence come wars and fightings among you? come they not hence, even of your lusts that war in your members?"
+    },
+    "BSB": {
+     "text": "What causes conflicts and quarrels among you? Don’t they come from the passions at war within you?",
+     "displayText": "What causes conflicts and quarrels among you? Don’t they come from the passions at war within you?"
+    },
+    "CPDV": {
+     "text": "Where do wars and contentions among you come from? Is it not from this: from your own desires, which battle within your members?",
+     "displayText": "Where do wars and contentions among you come from? Is it not from this: from your own desires, which battle within your members?"
+    }
+   },
+   "context": "Moving from his praise of peacemakers to the fights breaking out among his readers, James asks a blunt question about where they come from."
+  },
+  {
+   "id": "JAS.4.6",
+   "translations": {
+    "KJV": {
+     "text": "But he giveth more grace. Wherefore he saith, God resisteth the proud, but giveth grace unto the humble.",
+     "displayText": "But he giveth more grace. Wherefore he saith, God resisteth the proud, but giveth grace unto the humble."
+    },
+    "BSB": {
+     "text": "But He gives us more grace. This is why it says: “God opposes the proud, but gives grace to the humble.”",
+     "displayText": "But He gives us more grace. This is why it says: “God opposes the proud, but gives grace to the humble.”"
+    },
+    "CPDV": {
+     "text": "But he gives a greater grace. Therefore he says: “God resists the arrogant, but he gives grace to the humble.”",
+     "displayText": "But he gives a greater grace. Therefore he says: “God resists the arrogant, but he gives grace to the humble.”"
+    }
+   },
+   "context": "Right after rebuking readers for their worldly cravings and divided loyalty, James turns to God's grace and quotes a line from Proverbs."
+  },
+  {
+   "id": "JAS.5.14",
+   "translations": {
+    "KJV": {
+     "text": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord:",
+     "displayText": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord:"
+    },
+    "BSB": {
+     "text": "Is any one of you sick? He should call the elders of the church to pray over him and anoint him with oil in the name of the Lord.",
+     "displayText": "Is any one of you sick? He should call the elders of the church to pray over him and anoint him with oil in the name of the Lord."
+    },
+    "CPDV": {
+     "text": "Is anyone ill among you? Let him bring in the priests of the Church, and let them pray over him, anointing him with oil in the name of the Lord.",
+     "displayText": "Is anyone ill among you? Let him bring in the priests of the Church, and let them pray over him, anointing him with oil in the name of the Lord."
+    }
+   },
+   "context": "After telling the suffering to pray and the cheerful to sing, James takes up a third case: a believer laid low by illness."
+  },
+  {
+   "id": "1PE.1.17",
+   "translations": {
+    "KJV": {
+     "text": "And if ye call on the Father, who without respect of persons judgeth according to every man’s work, pass the time of your sojourning here in fear:",
+     "displayText": "And if ye call on the Father, who without respect of persons judgeth according to every man’s work, pass the time of your sojourning here in fear:"
+    },
+    "BSB": {
+     "text": "Since you call on a Father who judges each one’s work impartially, conduct yourselves in reverent fear during your stay as foreigners.",
+     "displayText": "Since you call on a Father who judges each one’s work impartially, conduct yourselves in reverent fear during your stay as foreigners."
+    },
+    "CPDV": {
+     "text": "And if you invoke as Father him who, without showing favoritism to persons, judges according to each one’s work, then act in fear during the time of your sojourning here.",
+     "displayText": "And if you invoke as Father him who, without showing favoritism to persons, judges according to each one’s work, then act in fear during the time of your sojourning here."
+    }
+   },
+   "context": "Right after quoting God's call to be holy because he is holy, Peter reminds his scattered readers who it is they pray to."
+  },
+  {
+   "id": "1PE.1.21",
+   "translations": {
+    "KJV": {
+     "text": "Who by him do believe in God, that raised him up from the dead, and gave him glory; that your faith and hope might be in God.",
+     "displayText": "Who by him do believe in God, that raised him up from the dead, and gave him glory; that your faith and hope might be in God."
+    },
+    "BSB": {
+     "text": "Through Him you believe in God, who raised Him from the dead and glorified Him; and so your faith and hope are in God.",
+     "displayText": "Through Him you believe in God, who raised Him from the dead and glorified Him; and so your faith and hope are in God."
+    },
+    "CPDV": {
+     "text": "Through him, you have been faithful to God, who raised him up from the dead and gave him glory, so that your faith and hope would be in God.",
+     "displayText": "Through him, you have been faithful to God, who raised him up from the dead and gave him glory, so that your faith and hope would be in God."
+    }
+   },
+   "context": "Having described Christ as a spotless lamb known before the world began, Peter traces where his readers' trust ultimately rests."
+  },
+  {
+   "id": "1PE.2.11",
+   "translations": {
+    "KJV": {
+     "text": "Dearly beloved, I beseech you as strangers and pilgrims, abstain from fleshly lusts, which war against the soul;",
+     "displayText": "Dearly beloved, I beseech you as strangers and pilgrims, abstain from fleshly lusts, which war against the soul;"
+    },
+    "BSB": {
+     "text": "Beloved, I urge you, as foreigners and exiles, to abstain from the desires of the flesh, which war against your soul.",
+     "displayText": "Beloved, I urge you, as foreigners and exiles, to abstain from the desires of the flesh, which war against your soul."
+    },
+    "CPDV": {
+     "text": "Most beloved, I beg you, as new arrivals and sojourners, to abstain from carnal desires, which battle against the soul.",
+     "displayText": "Most beloved, I beg you, as new arrivals and sojourners, to abstain from carnal desires, which battle against the soul."
+    }
+   },
+   "context": "Turning from who believers are to how they should live among neighbors who slander them, Peter opens a new section with a personal appeal."
+  },
+  {
+   "id": "1PE.5.4",
+   "translations": {
+    "KJV": {
+     "text": "And when the chief Shepherd shall appear, ye shall receive a crown of glory that fadeth not away.",
+     "displayText": "And when the chief Shepherd shall appear, ye shall receive a crown of glory that fadeth not away."
+    },
+    "BSB": {
+     "text": "And when the Chief Shepherd appears, you will receive the crown of glory that will never fade away.",
+     "displayText": "And when the Chief Shepherd appears, you will receive the crown of glory that will never fade away."
+    },
+    "CPDV": {
+     "text": "And when the Leader of pastors will have appeared, you shall secure an unfading crown of glory.",
+     "displayText": "And when the Leader of pastors will have appeared, you shall secure an unfading crown of glory."
+    }
+   },
+   "context": "Speaking as a fellow elder to the church leaders who shepherd God's flock, Peter looks ahead to the reward awaiting them."
+  },
+  {
+   "id": "1PE.5.12",
+   "translations": {
+    "KJV": {
+     "text": "By Silvanus, a faithful brother unto you, as I suppose, I have written briefly, exhorting, and testifying that this is the true grace of God wherein ye stand.",
+     "displayText": "By Silvanus, a faithful brother unto you, as I suppose, I have written briefly, exhorting, and testifying that this is the true grace of God wherein ye stand."
+    },
+    "BSB": {
+     "text": "Through Silvanus, whom I regard as a faithful brother, I have written to you briefly, encouraging you and testifying that this is the true grace of God. Stand firm in it.",
+     "displayText": "Through Silvanus, whom I regard as a faithful brother, I have written to you briefly, encouraging you and testifying that this is the true grace of God. Stand firm in it."
+    },
+    "CPDV": {
+     "text": "I have written briefly, through Sylvanus, whom I consider to be a faithful brother to you, begging and testifying that this is the true grace of God, in which you have been established.",
+     "displayText": "I have written briefly, through Sylvanus, whom I consider to be a faithful brother to you, begging and testifying that this is the true grace of God, in which you have been established."
+    }
+   },
+   "context": "Adding a personal note at the very end, Peter mentions the coworker who helped with the letter and sums up why he wrote it."
+  },
+  {
+   "id": "2PE.1.4",
+   "translations": {
+    "KJV": {
+     "text": "Whereby are given unto us exceeding great and precious promises: that by these ye might be partakers of the divine nature, having escaped the corruption that is in the world through lust.",
+     "displayText": "Whereby are given unto us exceeding great and precious promises: that by these ye might be partakers of the divine nature, having escaped the corruption that is in the world through lust."
+    },
+    "BSB": {
+     "text": "Through these He has given us His precious and magnificent promises, so that through them you may become partakers of the divine nature, now that you have escaped the corruption in the world caused by evil desires.",
+     "displayText": "Through these He has given us His precious and magnificent promises, so that through them you may become partakers of the divine nature, now that you have escaped the corruption in the world caused by evil desires."
+    },
+    "CPDV": {
+     "text": "Through Christ, he has given us the greatest and most precious promises, so that by these things you may become sharers in the Divine Nature, fleeing from the corruption of that desire which is in the world.",
+     "displayText": "Through Christ, he has given us the greatest and most precious promises, so that by these things you may become sharers in the Divine Nature, fleeing from the corruption of that desire which is in the world."
+    }
+   },
+   "context": "Before he lists the qualities his readers should add to their faith, Peter explains what God has already set in motion for them."
+  },
+  {
+   "id": "2PE.1.21",
+   "translations": {
+    "KJV": {
+     "text": "For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost.",
+     "displayText": "For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost."
+    },
+    "BSB": {
+     "text": "For no such prophecy was ever brought forth by the will of man, but men spoke from God as they were carried along by the Holy Spirit.",
+     "displayText": "For no such prophecy was ever brought forth by the will of man, but men spoke from God as they were carried along by the Holy Spirit."
+    },
+    "CPDV": {
+     "text": "For prophecy was not conveyed by human will at any time. Instead, holy men were speaking about God while inspired by the Holy Spirit.",
+     "displayText": "For prophecy was not conveyed by human will at any time. Instead, holy men were speaking about God while inspired by the Holy Spirit."
+    }
+   },
+   "context": "Anticipating the false teachers he is about to warn against, Peter tells his readers where the prophets' words in Scripture really came from."
+  },
+  {
+   "id": "1JN.1.8",
+   "translations": {
+    "KJV": {
+     "text": "If we say that we have no sin, we deceive ourselves, and the truth is not in us.",
+     "displayText": "If we say that we have no sin, we deceive ourselves, and the truth is not in us."
+    },
+    "BSB": {
+     "text": "If we say we have no sin, we deceive ourselves, and the truth is not in us.",
+     "displayText": "If we say we have no sin, we deceive ourselves, and the truth is not in us."
+    },
+    "CPDV": {
+     "text": "If we claim that we have no sin, then we are deceiving ourselves and the truth is not in us.",
+     "displayText": "If we claim that we have no sin, then we are deceiving ourselves and the truth is not in us."
+    }
+   },
+   "context": "In a series of 'if we say' statements weighing people's claims against their lives, John turns to a claim some were making about sin."
+  },
+  {
+   "id": "1JN.2.2",
+   "translations": {
+    "KJV": {
+     "text": "And he is the propitiation for our sins: and not for ours only, but also for the sins of the whole world.",
+     "displayText": "And he is the propitiation for our sins: and not for ours only, but also for the sins of the whole world."
+    },
+    "BSB": {
+     "text": "He Himself is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world.",
+     "displayText": "He Himself is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world."
+    },
+    "CPDV": {
+     "text": "And he is the propitiation for our sins. And not only for our sins, but also for those of the whole world.",
+     "displayText": "And he is the propitiation for our sins. And not only for our sins, but also for those of the whole world."
+    }
+   },
+   "context": "Still reassuring believers who have sinned, John widens the scope of what Jesus Christ, the Righteous One, has done."
+  },
+  {
+   "id": "1JN.2.6",
+   "translations": {
+    "KJV": {
+     "text": "He that saith he abideth in him ought himself also so to walk, even as he walked.",
+     "displayText": "He that saith he abideth in him ought himself also so to walk, even as he walked."
+    },
+    "BSB": {
+     "text": "Whoever claims to abide in Him must walk as Jesus walked.",
+     "displayText": "Whoever claims to abide in Him must walk as Jesus walked."
+    },
+    "CPDV": {
+     "text": "Whoever declares himself to remain in him, ought to walk just as he himself walked.",
+     "displayText": "Whoever declares himself to remain in him, ought to walk just as he himself walked."
+    }
+   },
+   "context": "Offering practical tests for anyone who claims to know God, John moves from keeping his commandments to the example Jesus left."
+  },
+  {
+   "id": "1JN.2.10",
+   "translations": {
+    "KJV": {
+     "text": "He that loveth his brother abideth in the light, and there is none occasion of stumbling in him.",
+     "displayText": "He that loveth his brother abideth in the light, and there is none occasion of stumbling in him."
+    },
+    "BSB": {
+     "text": "Whoever loves his brother remains in the light, and there is no cause of stumbling in him.",
+     "displayText": "Whoever loves his brother remains in the light, and there is no cause of stumbling in him."
+    },
+    "CPDV": {
+     "text": "Whoever loves his brother abides in the light, and there is no cause of offense in him.",
+     "displayText": "Whoever loves his brother abides in the light, and there is no cause of offense in him."
+    }
+   },
+   "context": "Contrasting a darkness that is passing away with the true light already shining, John takes up how believers treat one another."
+  },
+  {
+   "id": "1JN.2.28",
+   "translations": {
+    "KJV": {
+     "text": "And now, little children, abide in him; that, when he shall appear, we may have confidence, and not be ashamed before him at his coming.",
+     "displayText": "And now, little children, abide in him; that, when he shall appear, we may have confidence, and not be ashamed before him at his coming."
+    },
+    "BSB": {
+     "text": "And now, little children, remain in Christ, so that when He appears, we may be confident and unashamed before Him at His coming.",
+     "displayText": "And now, little children, remain in Christ, so that when He appears, we may be confident and unashamed before Him at His coming."
+    },
+    "CPDV": {
+     "text": "And now, little sons, abide in him, so that when he appears, we may have faith, and we may not be confounded by him at his advent.",
+     "displayText": "And now, little sons, abide in him, so that when he appears, we may have faith, and we may not be confounded by him at his advent."
+    }
+   },
+   "context": "After warning about people trying to lead his readers astray, John turns their eyes toward the day Christ appears."
+  },
+  {
+   "id": "1JN.3.14",
+   "translations": {
+    "KJV": {
+     "text": "We know that we have passed from death unto life, because we love the brethren. He that loveth not his brother abideth in death.",
+     "displayText": "We know that we have passed from death unto life, because we love the brethren. He that loveth not his brother abideth in death."
+    },
+    "BSB": {
+     "text": "We know that we have passed from death to life, because we love our brothers. The one who does not love remains in death.",
+     "displayText": "We know that we have passed from death to life, because we love our brothers. The one who does not love remains in death."
+    },
+    "CPDV": {
+     "text": "We know that we have passed from death to life. For we love as brothers. Whoever does not love, abides in death.",
+     "displayText": "We know that we have passed from death to life. For we love as brothers. Whoever does not love, abides in death."
+    }
+   },
+   "context": "After recalling Cain's murder of his brother and warning that the world may hate them, John gives his readers a way to know where they stand."
+  },
+  {
+   "id": "1JN.3.17",
+   "translations": {
+    "KJV": {
+     "text": "But whoso hath this world’s good, and seeth his brother have need, and shutteth up his bowels of compassion from him, how dwelleth the love of God in him?",
+     "displayText": "But whoso hath this world’s good, and seeth his brother have need, and shutteth up his bowels of compassion from him, how dwelleth the love of God in him?"
+    },
+    "BSB": {
+     "text": "If anyone with earthly possessions sees his brother in need, but withholds his compassion from him, how can the love of God abide in him?",
+     "displayText": "If anyone with earthly possessions sees his brother in need, but withholds his compassion from him, how can the love of God abide in him?"
+    },
+    "CPDV": {
+     "text": "Whoever possesses the goods of this world, and sees his brother to be in need, and yet closes his heart to him: in what way does the love of God abide in him?",
+     "displayText": "Whoever possesses the goods of this world, and sees his brother to be in need, and yet closes his heart to him: in what way does the love of God abide in him?"
+    }
+   },
+   "context": "Moving from the ultimate sacrifice to a far more ordinary test, John pictures a comfortable believer face to face with someone in need."
+  },
+  {
+   "id": "1JN.4.14",
+   "translations": {
+    "KJV": {
+     "text": "And we have seen and do testify that the Father sent the Son to be the Saviour of the world.",
+     "displayText": "And we have seen and do testify that the Father sent the Son to be the Saviour of the world."
+    },
+    "BSB": {
+     "text": "And we have seen and testify that the Father has sent His Son to be the Savior of the world.",
+     "displayText": "And we have seen and testify that the Father has sent His Son to be the Savior of the world."
+    },
+    "CPDV": {
+     "text": "And we have seen, and we testify, that the Father has sent his Son to be the Savior of the world.",
+     "displayText": "And we have seen, and we testify, that the Father has sent his Son to be the Savior of the world."
+    }
+   },
+   "context": "Speaking for those who had seen Jesus with their own eyes, John adds personal testimony to his reflections on God's love."
+  },
+  {
+   "id": "1JN.4.17",
+   "translations": {
+    "KJV": {
+     "text": "Herein is our love made perfect, that we may have boldness in the day of judgment: because as he is, so are we in this world.",
+     "displayText": "Herein is our love made perfect, that we may have boldness in the day of judgment: because as he is, so are we in this world."
+    },
+    "BSB": {
+     "text": "In this way, love has been perfected among us, so that we may have confidence on the day of judgment; for in this world we are just like Him.",
+     "displayText": "In this way, love has been perfected among us, so that we may have confidence on the day of judgment; for in this world we are just like Him."
+    },
+    "CPDV": {
+     "text": "In this way, the love of God is perfected with us, so that we may have confidence on the day of judgment. For as he is, so also are we, in this world.",
+     "displayText": "In this way, the love of God is perfected with us, so that we may have confidence on the day of judgment. For as he is, so also are we, in this world."
+    }
+   },
+   "context": "Bringing his reflection on living in God's love to a point, John turns to how believers can face the day of judgment."
+  },
+  {
+   "id": "1JN.5.5",
+   "translations": {
+    "KJV": {
+     "text": "Who is he that overcometh the world, but he that believeth that Jesus is the Son of God?",
+     "displayText": "Who is he that overcometh the world, but he that believeth that Jesus is the Son of God?"
+    },
+    "BSB": {
+     "text": "Who then overcomes the world? Only he who believes that Jesus is the Son of God.",
+     "displayText": "Who then overcomes the world? Only he who believes that Jesus is the Son of God."
+    },
+    "CPDV": {
+     "text": "Who is it that overcomes the world? Only he who believes that Jesus is the Son of God!",
+     "displayText": "Who is it that overcomes the world? Only he who believes that Jesus is the Son of God!"
+    }
+   },
+   "context": "With false teachers denying the truth about Jesus in view, John poses a question about who truly wins against the world."
+  },
+  {
+   "id": "1JN.5.18",
+   "translations": {
+    "KJV": {
+     "text": "We know that whosoever is born of God sinneth not; but he that is begotten of God keepeth himself, and that wicked one toucheth him not.",
+     "displayText": "We know that whosoever is born of God sinneth not; but he that is begotten of God keepeth himself, and that wicked one toucheth him not."
+    },
+    "BSB": {
+     "text": "We know that anyone born of God does not keep on sinning; the One who was born of God protects him, and the evil one cannot touch him.",
+     "displayText": "We know that anyone born of God does not keep on sinning; the One who was born of God protects him, and the evil one cannot touch him."
+    },
+    "CPDV": {
+     "text": "We know that everyone who is born of God does not sin. Instead, rebirth in God preserves him, and the evil one cannot touch him.",
+     "displayText": "We know that everyone who is born of God does not sin. Instead, rebirth in God preserves him, and the evil one cannot touch him."
+    }
+   },
+   "context": "Having urged his readers to pray for a fellow believer caught in sin, John closes his letter with a set of things he wants them to be sure of."
+  },
+  {
+   "id": "REV.3.21",
+   "translations": {
+    "KJV": {
+     "text": "To him that overcometh will I grant to sit with me in my throne, even as I also overcame, and am set down with my Father in his throne.",
+     "displayText": "To him that overcometh will I grant to sit with me in my throne, even as I also overcame, and am set down with my Father in his throne."
+    },
+    "BSB": {
+     "text": "To the one who overcomes, I will grant the right to sit with Me on My throne, just as I overcame and sat down with My Father on His throne.",
+     "displayText": "To the one who overcomes, I will grant the right to sit with Me on My throne, just as I overcame and sat down with My Father on His throne."
+    },
+    "CPDV": {
+     "text": "Whoever prevails, I will grant to him to sit with me on my throne, just as I also have overcome and have sat down with my Father on his throne.",
+     "displayText": "Whoever prevails, I will grant to him to sit with me on my throne, just as I also have overcome and have sat down with my Father on his throne."
+    }
+   },
+   "context": "In the last of the seven messages to the churches of Asia, the risen Jesus closes with his final promise to the church in Laodicea."
+  },
+  {
+   "id": "REV.15.4",
+   "translations": {
+    "KJV": {
+     "text": "Who shall not fear thee, O Lord, and glorify thy name? for thou only art holy: for all nations shall come and worship before thee; for thy judgments are made manifest.",
+     "displayText": "Who shall not fear thee, O Lord, and glorify thy name? for thou only art holy: for all nations shall come and worship before thee; for thy judgments are made manifest."
+    },
+    "BSB": {
+     "text": "Who will not fear You, O Lord, and glorify Your name? For You alone are holy. All nations will come and worship before You, for Your righteous acts have been revealed.”",
+     "displayText": "Who will not fear You, O Lord, and glorify Your name? For You alone are holy. All nations will come and worship before You, for Your righteous acts have been revealed.”"
+    },
+    "CPDV": {
+     "text": "Who shall not fear you, O Lord, and magnify your name? For you alone are blessed. For all nations shall approach and adore in your sight, because your judgments are manifest.”",
+     "displayText": "Who shall not fear you, O Lord, and magnify your name? For you alone are blessed. For all nations shall approach and adore in your sight, because your judgments are manifest.”"
+    }
+   },
+   "context": "In John's vision, those who conquered the beast stand beside a sea of glass mixed with fire, singing the song of Moses and the Lamb."
+  }
+ ]
+}

@@ -6,7 +6,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "BibleApp" / "BibleApp" / "Resources"
 OUT_INDEX = OUT_DIR / "feed_index.json"
 SHARD_SIZE = 100
-CONTENT_VERSION = "2026-09-28.1"
+CONTENT_VERSION = "2026-09-29.1"
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from bible_source import load_source_by_index, load_source_by_name
@@ -192,9 +192,10 @@ BSB_HEADING_HINT = _heading_hint(
 
 # Ids whose text trips a translation's heading hint but has been read and
 # confirmed to be ordinary verse content (e.g. "prayer offered" containing
-# "prayer of", or "sing psalms" in an epistle). Listed explicitly, per
+# "prayer of", or "sing psalms" in an epistle, and PRO.15.29, whose "hears
+# the prayer of the righteous" matches "prayer of"). Listed explicitly, per
 # translation, so a real unlisted heading still fails the build.
-BSB_HEADING_HINT_CONFIRMED_CONTENT = {"PSA.102.17", "COL.3.16", "JAS.5.15"}
+BSB_HEADING_HINT_CONFIRMED_CONTENT = {"PSA.102.17", "COL.3.16", "JAS.5.15", "PRO.15.29"}
 
 # CPDV keeps a Psalm's heading as its own separate verse for most psalms,
 # but not all -- for these ids the heading is folded into the same verse as
@@ -234,12 +235,14 @@ CPDV_SUPERSCRIPTIONS = {
     # Lamentations 1-4 are acrostics; CPDV keeps each verse's Hebrew letter
     # name as a leading marker.
     "LAM.1.12": "LAMED. ",
+    "LAM.1.20": "RES. ",
     "LAM.2.13": "MEM. ",
     "LAM.2.19": "COPH. ",
     "LAM.3.1": "ALEPH. ",
     "LAM.3.8": "GHIMEL. ",
     "LAM.3.17": "VAU. ",
     "LAM.3.18": "VAU. ",
+    "LAM.3.19": "ZAIN. ",
     "LAM.3.22": "HETH. ",
     "LAM.3.23": "HETH. ",
     "LAM.3.24": "HETH. ",
@@ -250,10 +253,14 @@ CPDV_SUPERSCRIPTIONS = {
     "LAM.3.32": "CAPH. ",
     "LAM.3.33": "CAPH. ",
     "LAM.3.38": "MEM. ",
+    "LAM.3.39": "MEM. ",
     "LAM.3.40": "NUN. ",
+    "LAM.3.41": "NUN. ",
     "LAM.3.42": "NUN. ",
     "LAM.3.44": "SAMECH. ",
+    "LAM.3.54": "SADE. ",
     "LAM.3.55": "COPH. ",
+    "LAM.3.56": "COPH. ",
     "LAM.3.57": "COPH. ",
     "LAM.3.58": "RES. ",
 }
@@ -276,12 +283,14 @@ CPDV_HEADING_HINT = _heading_hint(
 # your servant" (matches the "prayer of" keyword) and REV.19.6 contains
 # "Alleluia!" spoken mid-verse by a heavenly multitude (matches the
 # "alleluia" keyword), MRK.16.9 narrates the resurrection "on the first
-# Sabbath" (matches "the first sabbath"), and PSA.80.4 asks how long God
-# will be "angry over the prayer of your servant" (matches "prayer of") --
-# none is a heading.
+# Sabbath" (matches "the first sabbath"), PSA.80.4 asks how long God
+# will be "angry over the prayer of your servant" (matches "prayer of"),
+# 2CH.7.15 promises attentive ears "to the prayer of him who shall pray in
+# this place" (matches "prayer of"), and DAN.9.17 asks God to "heed ... the
+# prayer of your servant" (matches "prayer of") -- none is a heading.
 CPDV_HEADING_HINT_CONFIRMED_CONTENT = {
     "PSA.80.4", "PSA.89.46", "PSA.102.17", "JAS.5.15", "NEH.1.11", "MRK.16.9",
-    "REV.19.6"}
+    "REV.19.6", "2CH.7.15", "DAN.9.17"}
 
 
 def display_text_for(vid, text, superscriptions, trailing_markers, heading_hint, table_name,

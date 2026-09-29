@@ -9,7 +9,7 @@ import json, pathlib, re, sys
 
 TOPICS = {"anxiety", "hope", "love", "forgiveness", "strength", "guidance",
           "peace", "doubt", "purpose", "gratitude", "grief", "worth"}
-TOTAL = 2500
+TOTAL = 3000
 TOPIC_FLOOR = 20          # every topic must sustain its own feed
 # Floors are the counts the first 400-verse curation actually reached (see
 # data/curation/selection.json's history); growth above them is not
@@ -17,10 +17,10 @@ TOPIC_FLOOR = 20          # every topic must sustain its own feed
 # newcomer would recognise out of context" is a rare property, and the
 # original curation needed several review rounds to hold 85 honestly.
 # Ceilings are generous so each expansion (600 -> 1000 -> 1500 -> 2000
-# -> 2500) can land wherever real material actually supports it (so far
-# always skewed toward tier 2/3) without the checker mistaking that skew
-# for an error.
-TIER_BOUNDS = {1: (85, 300), 2: (214, 1900), 3: (101, 950)}
+# -> 2500 -> 3000) can land wherever real material actually supports it
+# (so far always skewed toward tier 2/3) without the checker mistaking
+# that skew for an error.
+TIER_BOUNDS = {1: (85, 300), 2: (214, 2300), 3: (101, 1300)}
 MAX_TOPICS = 3
 ENTRY_KEYS = {"id", "tier", "topics"}
 ID_RE = re.compile(r"^[A-Z0-9]{3}\.[0-9]+\.[0-9]+$")

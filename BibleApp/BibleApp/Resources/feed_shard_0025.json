@@ -1,0 +1,1806 @@
+{
+ "schemaVersion": 3,
+ "contentVersion": "2026-09-29.1",
+ "verses": [
+  {
+   "id": "GEN.3.9",
+   "translations": {
+    "KJV": {
+     "text": "And the Lord God called unto Adam, and said unto him, Where art thou?",
+     "displayText": "And the Lord God called unto Adam, and said unto him, Where art thou?"
+    },
+    "BSB": {
+     "text": "But the LORD God called out to the man, “Where are you?”",
+     "displayText": "But the LORD God called out to the man, “Where are you?”"
+    },
+    "CPDV": {
+     "text": "And the Lord God called Adam and said to him: “Where are you?”",
+     "displayText": "And the Lord God called Adam and said to him: “Where are you?”"
+    }
+   },
+   "context": "After Adam and Eve eat the forbidden fruit and hide among the trees at the sound of God walking in the garden, God calls out to Adam."
+  },
+  {
+   "id": "GEN.3.21",
+   "translations": {
+    "KJV": {
+     "text": "Unto Adam also and to his wife did the Lord God make coats of skins, and clothed them.",
+     "displayText": "Unto Adam also and to his wife did the Lord God make coats of skins, and clothed them."
+    },
+    "BSB": {
+     "text": "And the LORD God made garments of skin for Adam and his wife, and He clothed them.",
+     "displayText": "And the LORD God made garments of skin for Adam and his wife, and He clothed them."
+    },
+    "CPDV": {
+     "text": "The Lord God also made for Adam and his wife garments from skins, and he clothed them.",
+     "displayText": "The Lord God also made for Adam and his wife garments from skins, and he clothed them."
+    }
+   },
+   "context": "After pronouncing the painful consequences of their disobedience, God himself provides for Adam and Eve, who had covered themselves with fig leaves."
+  },
+  {
+   "id": "GEN.32.24",
+   "translations": {
+    "KJV": {
+     "text": "And Jacob was left alone; and there wrestled a man with him until the breaking of the day.",
+     "displayText": "And Jacob was left alone; and there wrestled a man with him until the breaking of the day."
+    },
+    "BSB": {
+     "text": "So Jacob was left all alone, and there a man wrestled with him until daybreak.",
+     "displayText": "So Jacob was left all alone, and there a man wrestled with him until daybreak."
+    },
+    "CPDV": {
+     "text": "he remained alone. And behold, a man wrestled with him until morning.",
+     "displayText": "he remained alone. And behold, a man wrestled with him until morning."
+    }
+   },
+   "context": "Afraid to face Esau, the brother he had cheated years before, Jacob sends his family and everything he owns across the Jabbok and stays behind."
+  },
+  {
+   "id": "GEN.42.36",
+   "translations": {
+    "KJV": {
+     "text": "And Jacob their father said unto them, Me have ye bereaved of my children: Joseph is not, and Simeon is not, and ye will take Benjamin away: all these things are against me.",
+     "displayText": "And Jacob their father said unto them, Me have ye bereaved of my children: Joseph is not, and Simeon is not, and ye will take Benjamin away: all these things are against me."
+    },
+    "BSB": {
+     "text": "Their father Jacob said to them, “You have deprived me of my sons. Joseph is gone and Simeon is no more. Now you want to take Benjamin. Everything is going against me!”",
+     "displayText": "Their father Jacob said to them, “You have deprived me of my sons. Joseph is gone and Simeon is no more. Now you want to take Benjamin. Everything is going against me!”"
+    },
+    "CPDV": {
+     "text": "Their father Jacob said, “You have caused me to be without children. Joseph is not living, Simeon is held in chains, and Benjamin you would carry away. All these evils have fallen back upon me.”",
+     "displayText": "Their father Jacob said, “You have caused me to be without children. Joseph is not living, Simeon is held in chains, and Benjamin you would carry away. All these evils have fallen back upon me.”"
+    }
+   },
+   "context": "Back from buying grain in Egypt, Jacob's sons report that Simeon is held there and Benjamin must go next, and their father, still mourning Joseph, cries out."
+  },
+  {
+   "id": "GEN.45.24",
+   "translations": {
+    "KJV": {
+     "text": "So he sent his brethren away, and they departed: and he said unto them, See that ye fall not out by the way.",
+     "displayText": "So he sent his brethren away, and they departed: and he said unto them, See that ye fall not out by the way."
+    },
+    "BSB": {
+     "text": "Then Joseph sent his brothers on their way, and as they were leaving, he said to them, “Do not quarrel on the way!”",
+     "displayText": "Then Joseph sent his brothers on their way, and as they were leaving, he said to them, “Do not quarrel on the way!”"
+    },
+    "CPDV": {
+     "text": "Thus he sent away his brothers, and as they set out he said, “Do not become angry on the way.”",
+     "displayText": "Thus he sent away his brothers, and as they set out he said, “Do not become angry on the way.”"
+    }
+   },
+   "context": "Having revealed himself to the brothers who once sold him into slavery, Joseph loads them with gifts and sends them home to bring their father Jacob to Egypt."
+  },
+  {
+   "id": "GEN.49.18",
+   "translations": {
+    "KJV": {
+     "text": "I have waited for thy salvation, O Lord.",
+     "displayText": "I have waited for thy salvation, O Lord."
+    },
+    "BSB": {
+     "text": "I await Your salvation, O LORD.",
+     "displayText": "I await Your salvation, O LORD."
+    },
+    "CPDV": {
+     "text": "I will wait for your salvation, O Lord.",
+     "displayText": "I will wait for your salvation, O Lord."
+    }
+   },
+   "context": "In the middle of blessing each of his twelve sons from his deathbed, the aged Jacob pauses to speak directly to God."
+  },
+  {
+   "id": "EXO.2.24",
+   "translations": {
+    "KJV": {
+     "text": "And God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob.",
+     "displayText": "And God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob."
+    },
+    "BSB": {
+     "text": "So God heard their groaning, and He remembered His covenant with Abraham, Isaac, and Jacob.",
+     "displayText": "So God heard their groaning, and He remembered His covenant with Abraham, Isaac, and Jacob."
+    },
+    "CPDV": {
+     "text": "And he heard their groaning, and he also remembered the covenant which he formed with Abraham, Isaac, and Jacob.",
+     "displayText": "And he heard their groaning, and he also remembered the covenant which he formed with Abraham, Isaac, and Jacob."
+    }
+   },
+   "context": "Years pass while Moses lives as a foreigner in Midian, and back in Egypt, after the old king dies, the enslaved Israelites keep crying out under their burdens."
+  },
+  {
+   "id": "EXO.4.13",
+   "translations": {
+    "KJV": {
+     "text": "And he said, O my Lord, send, I pray thee, by the hand of him whom thou wilt send.",
+     "displayText": "And he said, O my Lord, send, I pray thee, by the hand of him whom thou wilt send."
+    },
+    "BSB": {
+     "text": "But Moses replied, “Please, Lord, send someone else.”",
+     "displayText": "But Moses replied, “Please, Lord, send someone else.”"
+    },
+    "CPDV": {
+     "text": "But he said, “I beg you, O Lord, send whomever else you would send.”",
+     "displayText": "But he said, “I beg you, O Lord, send whomever else you would send.”"
+    }
+   },
+   "context": "Having run out of excuses, and even after God's promise to give him the words, Moses makes a final, blunter plea at the burning bush."
+  },
+  {
+   "id": "GEN.2.2",
+   "translations": {
+    "KJV": {
+     "text": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.",
+     "displayText": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made."
+    },
+    "BSB": {
+     "text": "And by the seventh day God had finished the work He had been doing; so on that day He rested from all His work.",
+     "displayText": "And by the seventh day God had finished the work He had been doing; so on that day He rested from all His work."
+    },
+    "CPDV": {
+     "text": "And on the seventh day, God fulfilled his work, which he had made. And on the seventh day he rested from all his work, which he had accomplished.",
+     "displayText": "And on the seventh day, God fulfilled his work, which he had made. And on the seventh day he rested from all his work, which he had accomplished."
+    }
+   },
+   "context": "Closing the account of creation, after six days of forming the heavens, the earth and all that lives in them, Genesis describes the seventh day."
+  },
+  {
+   "id": "EXO.32.30",
+   "translations": {
+    "KJV": {
+     "text": "And it came to pass on the morrow, that Moses said unto the people, Ye have sinned a great sin: and now I will go up unto the Lord; peradventure I shall make an atonement for your sin.",
+     "displayText": "And it came to pass on the morrow, that Moses said unto the people, Ye have sinned a great sin: and now I will go up unto the Lord; peradventure I shall make an atonement for your sin."
+    },
+    "BSB": {
+     "text": "The next day Moses said to the people, “You have committed a great sin. Now I will go up to the LORD; perhaps I can make atonement for your sin.”",
+     "displayText": "The next day Moses said to the people, “You have committed a great sin. Now I will go up to the LORD; perhaps I can make atonement for your sin.”"
+    },
+    "CPDV": {
+     "text": "Then, when the next day arrived, Moses spoke to the people: “You have sinned the greatest sin. I will ascend to the Lord. Perhaps, in some way, I might be able to entreat him for your wickedness.”",
+     "displayText": "Then, when the next day arrived, Moses spoke to the people: “You have sinned the greatest sin. I will ascend to the Lord. Perhaps, in some way, I might be able to entreat him for your wickedness.”"
+    }
+   },
+   "context": "The day after the golden calf and the bloodshed that followed in the camp, Moses confronts the people and tells them what he plans to do."
+  },
+  {
+   "id": "EXO.33.15",
+   "translations": {
+    "KJV": {
+     "text": "And he said unto him, If thy presence go not with me, carry us not up hence.",
+     "displayText": "And he said unto him, If thy presence go not with me, carry us not up hence."
+    },
+    "BSB": {
+     "text": "“If Your Presence does not go with us,” Moses replied, “do not lead us up from here.",
+     "displayText": "“If Your Presence does not go with us,” Moses replied, “do not lead us up from here."
+    },
+    "CPDV": {
+     "text": "And Moses said: “If you will not yourself precede us, then do not lead us away from this place.",
+     "displayText": "And Moses said: “If you will not yourself precede us, then do not lead us away from this place."
+    }
+   },
+   "context": "Still pleading for Israel at the tent of meeting, Moses answers God's promise of his Presence by making clear how much depends on it."
+  },
+  {
+   "id": "LEV.6.13",
+   "translations": {
+    "KJV": {
+     "text": "The fire shall ever be burning upon the altar; it shall never go out.",
+     "displayText": "The fire shall ever be burning upon the altar; it shall never go out."
+    },
+    "BSB": {
+     "text": "The fire shall be kept burning on the altar continually; it must not be extinguished.",
+     "displayText": "The fire shall be kept burning on the altar continually; it must not be extinguished."
+    },
+    "CPDV": {
+     "text": "This is the perpetual fire which shall never fail upon the altar.",
+     "displayText": "This is the perpetual fire which shall never fail upon the altar."
+    }
+   },
+   "context": "Giving Moses the rules Aaron and his sons must follow for the burnt offering, God stresses one duty about the altar more than once."
+  },
+  {
+   "id": "LEV.10.3",
+   "translations": {
+    "KJV": {
+     "text": "Then Moses said unto Aaron, This is it that the Lord spake, saying, I will be sanctified in them that come nigh me, and before all the people I will be glorified. And Aaron held his peace.",
+     "displayText": "Then Moses said unto Aaron, This is it that the Lord spake, saying, I will be sanctified in them that come nigh me, and before all the people I will be glorified. And Aaron held his peace."
+    },
+    "BSB": {
+     "text": "Then Moses said to Aaron, “This is what the LORD meant when He said: ‘To those who come near Me I will show My holiness, and in the sight of all the people I will reveal My glory.’” But Aaron remained silent.",
+     "displayText": "Then Moses said to Aaron, “This is what the LORD meant when He said: ‘To those who come near Me I will show My holiness, and in the sight of all the people I will reveal My glory.’” But Aaron remained silent."
+    },
+    "CPDV": {
+     "text": "And Moses said to Aaron: “This is what the Lord has spoken: ‘I will be sanctified in those who approach me, and I will be glorified in the sight of all the people.’” And upon hearing this, Aaron was silent.",
+     "displayText": "And Moses said to Aaron: “This is what the Lord has spoken: ‘I will be sanctified in those who approach me, and I will be glorified in the sight of all the people.’” And upon hearing this, Aaron was silent."
+    }
+   },
+   "context": "Moments after fire from the Lord kills Aaron's sons Nadab and Abihu for offering unauthorized fire, Moses speaks to their grieving father."
+  },
+  {
+   "id": "LEV.19.10",
+   "translations": {
+    "KJV": {
+     "text": "And thou shalt not glean thy vineyard, neither shalt thou gather every grape of thy vineyard; thou shalt leave them for the poor and stranger: I am the Lord your God.",
+     "displayText": "And thou shalt not glean thy vineyard, neither shalt thou gather every grape of thy vineyard; thou shalt leave them for the poor and stranger: I am the Lord your God."
+    },
+    "BSB": {
+     "text": "You must not strip your vineyard bare or gather its fallen grapes. Leave them for the poor and the foreigner. I am the LORD your God.",
+     "displayText": "You must not strip your vineyard bare or gather its fallen grapes. Leave them for the poor and the foreigner. I am the LORD your God."
+    },
+    "CPDV": {
+     "text": "Neither shall you gather the clusters or individual grapes which fall down in your vineyard, but you shall leave them for paupers and travelers to take. I am the Lord your God.",
+     "displayText": "Neither shall you gather the clusters or individual grapes which fall down in your vineyard, but you shall leave them for paupers and travelers to take. I am the Lord your God."
+    }
+   },
+   "context": "Right after telling Israel not to reap to the very edges of their fields, God turns through Moses to the grape harvest."
+  },
+  {
+   "id": "LEV.23.3",
+   "translations": {
+    "KJV": {
+     "text": "Six days shall work be done: but the seventh day is the sabbath of rest, an holy convocation; ye shall do no work therein: it is the sabbath of the Lord in all your dwellings.",
+     "displayText": "Six days shall work be done: but the seventh day is the sabbath of rest, an holy convocation; ye shall do no work therein: it is the sabbath of the Lord in all your dwellings."
+    },
+    "BSB": {
+     "text": "For six days work may be done, but the seventh day is a Sabbath of complete rest, a day of sacred assembly. You must not do any work; wherever you live, it is a Sabbath to the LORD.",
+     "displayText": "For six days work may be done, but the seventh day is a Sabbath of complete rest, a day of sacred assembly. You must not do any work; wherever you live, it is a Sabbath to the LORD."
+    },
+    "CPDV": {
+     "text": "For six days you shall do work; the seventh day, because it is the rest of the Sabbath, shall be called holy. You shall do no work on that day; it is the Sabbath of the Lord in all your dwelling places.",
+     "displayText": "For six days you shall do work; the seventh day, because it is the rest of the Sabbath, shall be called holy. You shall do no work on that day; it is the Sabbath of the Lord in all your dwelling places."
+    }
+   },
+   "context": "Opening a list of Israel's appointed feasts and sacred assemblies, God tells Moses what comes first, before any yearly festival."
+  },
+  {
+   "id": "LEV.25.23",
+   "translations": {
+    "KJV": {
+     "text": "The land shall not be sold for ever: for the land is mine; for ye are strangers and sojourners with me.",
+     "displayText": "The land shall not be sold for ever: for the land is mine; for ye are strangers and sojourners with me."
+    },
+    "BSB": {
+     "text": "The land must not be sold permanently, because it is Mine, and you are but foreigners and residents with Me.",
+     "displayText": "The land must not be sold permanently, because it is Mine, and you are but foreigners and residents with Me."
+    },
+    "CPDV": {
+     "text": "Also, the land shall not be sold in perpetuity, for it is mine, and you are newcomers and settlers to me.",
+     "displayText": "Also, the land shall not be sold in perpetuity, for it is mine, and you are newcomers and settlers to me."
+    }
+   },
+   "context": "In laws for the Jubilee, when every fiftieth year family land returned to its original owners, God tells Israel who truly owns the land."
+  },
+  {
+   "id": "LEV.26.9",
+   "translations": {
+    "KJV": {
+     "text": "For I will have respect unto you, and make you fruitful, and multiply you, and establish my covenant with you.",
+     "displayText": "For I will have respect unto you, and make you fruitful, and multiply you, and establish my covenant with you."
+    },
+    "BSB": {
+     "text": "I will turn toward you and make you fruitful and multiply you, and I will establish My covenant with you.",
+     "displayText": "I will turn toward you and make you fruitful and multiply you, and I will establish My covenant with you."
+    },
+    "CPDV": {
+     "text": "I will look with favor upon you, and I will cause you to increase; you will be multiplied, and I will confirm my covenant with you.",
+     "displayText": "I will look with favor upon you, and I will cause you to increase; you will be multiplied, and I will confirm my covenant with you."
+    }
+   },
+   "context": "In a passage of promises for a faithful Israel, God follows a picture of five soldiers routing a hundred with a promise about the nation's growth."
+  },
+  {
+   "id": "NUM.11.17",
+   "translations": {
+    "KJV": {
+     "text": "And I will come down and talk with thee there: and I will take of the spirit which is upon thee, and will put it upon them; and they shall bear the burden of the people with thee, that thou bear it not thyself alone.",
+     "displayText": "And I will come down and talk with thee there: and I will take of the spirit which is upon thee, and will put it upon them; and they shall bear the burden of the people with thee, that thou bear it not thyself alone."
+    },
+    "BSB": {
+     "text": "And I will come down and speak with you there, and I will take some of the Spirit that is on you and put that Spirit on them. They will help you bear the burden of the people, so that you do not have to bear it by yourself.",
+     "displayText": "And I will come down and speak with you there, and I will take some of the Spirit that is on you and put that Spirit on them. They will help you bear the burden of the people, so that you do not have to bear it by yourself."
+    },
+    "CPDV": {
+     "text": "so that I may descend and speak to you. And I will take from your spirit, and I will deliver it to them, so that, with you, they may sustain the burden of the people, and so that you will not be weighed down alone.",
+     "displayText": "so that I may descend and speak to you. And I will take from your spirit, and I will deliver it to them, so that, with you, they may sustain the burden of the people, and so that you will not be weighed down alone."
+    }
+   },
+   "context": "God responds to Moses' desperate prayer by telling him to gather seventy of Israel's elders at the Tent of Meeting."
+  },
+  {
+   "id": "EXO.14.31",
+   "translations": {
+    "KJV": {
+     "text": "And Israel saw that great work which the Lord did upon the Egyptians: and the people feared the Lord, and believed the Lord, and his servant Moses.",
+     "displayText": "And Israel saw that great work which the Lord did upon the Egyptians: and the people feared the Lord, and believed the Lord, and his servant Moses."
+    },
+    "BSB": {
+     "text": "When Israel saw the great power that the LORD had exercised over the Egyptians, the people feared the LORD and believed in Him and in His servant Moses.",
+     "displayText": "When Israel saw the great power that the LORD had exercised over the Egyptians, the people feared the LORD and believed in Him and in His servant Moses."
+    },
+    "CPDV": {
+     "text": "And they saw the Egyptians dead on the shore of the sea and the great hand that the Lord had exercised against them. And the people feared the Lord, and they believed in the Lord and in Moses his servant.",
+     "displayText": "And they saw the Egyptians dead on the shore of the sea and the great hand that the Lord had exercised against them. And the people feared the Lord, and they believed in the Lord and in Moses his servant."
+    }
+   },
+   "context": "Safe on the far side of the sea they had crossed on dry ground, the Israelites see the bodies of Pharaoh's soldiers washed up on the shore."
+  },
+  {
+   "id": "NUM.21.8",
+   "translations": {
+    "KJV": {
+     "text": "And the Lord said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.",
+     "displayText": "And the Lord said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live."
+    },
+    "BSB": {
+     "text": "Then the LORD said to Moses, “Make a fiery serpent and mount it on a pole. When anyone who is bitten looks at it, he will live.”",
+     "displayText": "Then the LORD said to Moses, “Make a fiery serpent and mount it on a pole. When anyone who is bitten looks at it, he will live.”"
+    },
+    "CPDV": {
+     "text": "And the Lord said to him: “Make a bronze serpent, and place it as a sign. Whoever, having been struck, gazes upon it, shall live.”",
+     "displayText": "And the Lord said to him: “Make a bronze serpent, and place it as a sign. Whoever, having been struck, gazes upon it, shall live.”"
+    }
+   },
+   "context": "After Moses prays for the people, who have been dying from venomous snake bites in the wilderness, God gives him an unusual instruction."
+  },
+  {
+   "id": "NUM.23.20",
+   "translations": {
+    "KJV": {
+     "text": "Behold, I have received commandment to bless: and he hath blessed; and I cannot reverse it.",
+     "displayText": "Behold, I have received commandment to bless: and he hath blessed; and I cannot reverse it."
+    },
+    "BSB": {
+     "text": "I have indeed received a command to bless; He has blessed, and I cannot change it.",
+     "displayText": "I have indeed received a command to bless; He has blessed, and I cannot change it."
+    },
+    "CPDV": {
+     "text": "I was led here to bless, and I have no strength to hinder the blessing.",
+     "displayText": "I was led here to bless, and I have no strength to hinder the blessing."
+    }
+   },
+   "context": "Standing beside Balak and the princes of Moab on the heights of Pisgah, Balaam tells the king of Moab why he cannot give him the curse on Israel he wants."
+  },
+  {
+   "id": "NUM.24.5",
+   "translations": {
+    "KJV": {
+     "text": "How goodly are thy tents, O Jacob, and thy tabernacles, O Israel!",
+     "displayText": "How goodly are thy tents, O Jacob, and thy tabernacles, O Israel!"
+    },
+    "BSB": {
+     "text": "How lovely are your tents, O Jacob, your dwellings, O Israel!",
+     "displayText": "How lovely are your tents, O Jacob, your dwellings, O Israel!"
+    },
+    "CPDV": {
+     "text": "‘How beautiful are your tabernacles, O Jacob, and your tents, O Israel!",
+     "displayText": "‘How beautiful are your tabernacles, O Jacob, and your tents, O Israel!"
+    }
+   },
+   "context": "Looking out over Israel camped tribe by tribe in the wilderness, Balaam feels the Spirit of God come on him and begins his third oracle."
+  },
+  {
+   "id": "DEU.1.21",
+   "translations": {
+    "KJV": {
+     "text": "Behold, the Lord thy God hath set the land before thee: go up and possess it, as the Lord God of thy fathers hath said unto thee; fear not, neither be discouraged.",
+     "displayText": "Behold, the Lord thy God hath set the land before thee: go up and possess it, as the Lord God of thy fathers hath said unto thee; fear not, neither be discouraged."
+    },
+    "BSB": {
+     "text": "See, the LORD your God has placed the land before you. Go up and take possession of it as the LORD, the God of your fathers, has told you. Do not be afraid or discouraged.”",
+     "displayText": "See, the LORD your God has placed the land before you. Go up and take possession of it as the LORD, the God of your fathers, has told you. Do not be afraid or discouraged.”"
+    },
+    "CPDV": {
+     "text": "Gaze upon the land that the Lord your God gives to you. Ascend and possess it, just as the Lord our God has spoken to your fathers. Do not be afraid, and do not become terrified by anything.’",
+     "displayText": "Gaze upon the land that the Lord your God gives to you. Ascend and possess it, just as the Lord our God has spoken to your fathers. Do not be afraid, and do not become terrified by anything.’"
+    }
+   },
+   "context": "Retelling Israel's journey from Mount Horeb, Moses recalls what he said when the people first reached Kadesh-barnea at the edge of the Amorite hill country."
+  },
+  {
+   "id": "DEU.4.7",
+   "translations": {
+    "KJV": {
+     "text": "For what nation is there so great, who hath God so nigh unto them, as the Lord our God is in all things that we call upon him for?",
+     "displayText": "For what nation is there so great, who hath God so nigh unto them, as the Lord our God is in all things that we call upon him for?"
+    },
+    "BSB": {
+     "text": "For what nation is great enough to have a god as near to them as the LORD our God is to us whenever we call on Him?",
+     "displayText": "For what nation is great enough to have a god as near to them as the LORD our God is to us whenever we call on Him?"
+    },
+    "CPDV": {
+     "text": "Neither is there any other nation so great, which has its gods so near to them, as our God is present to all our petitions.",
+     "displayText": "Neither is there any other nation so great, which has its gods so near to them, as our God is present to all our petitions."
+    }
+   },
+   "context": "Urging Israel to keep God's laws carefully in the land ahead, Moses says the surrounding nations will notice, and asks what makes this people truly great."
+  },
+  {
+   "id": "DEU.4.39",
+   "translations": {
+    "KJV": {
+     "text": "Know therefore this day, and consider it in thine heart, that the Lord he is God in heaven above, and upon the earth beneath: there is none else.",
+     "displayText": "Know therefore this day, and consider it in thine heart, that the Lord he is God in heaven above, and upon the earth beneath: there is none else."
+    },
+    "BSB": {
+     "text": "Know therefore this day and take to heart that the LORD is God in heaven above and on the earth below; there is no other.",
+     "displayText": "Know therefore this day and take to heart that the LORD is God in heaven above and on the earth below; there is no other."
+    },
+    "CPDV": {
+     "text": "Therefore, know on this day and consider in your heart, that the Lord himself is God in heaven above, and on earth below, and there is no other.",
+     "displayText": "Therefore, know on this day and consider in your heart, that the Lord himself is God in heaven above, and on earth below, and there is no other."
+    }
+   },
+   "context": "Recalling how God spoke from the fire and brought them out of Egypt with great power, Moses draws the conclusion he wants Israel to carry into the new land."
+  },
+  {
+   "id": "DEU.6.6",
+   "translations": {
+    "KJV": {
+     "text": "And these words, which I command thee this day, shall be in thine heart:",
+     "displayText": "And these words, which I command thee this day, shall be in thine heart:"
+    },
+    "BSB": {
+     "text": "These words I am commanding you today are to be upon your hearts.",
+     "displayText": "These words I am commanding you today are to be upon your hearts."
+    },
+    "CPDV": {
+     "text": "And these words, which I instruct to you this day, shall be in your heart.",
+     "displayText": "And these words, which I instruct to you this day, shall be in your heart."
+    }
+   },
+   "context": "Right after calling Israel to love God with all their heart, soul and strength, Moses tells the people where these commands belong."
+  },
+  {
+   "id": "DEU.7.7",
+   "translations": {
+    "KJV": {
+     "text": "The Lord did not set his love upon you, nor choose you, because ye were more in number than any people; for ye were the fewest of all people:",
+     "displayText": "The Lord did not set his love upon you, nor choose you, because ye were more in number than any people; for ye were the fewest of all people:"
+    },
+    "BSB": {
+     "text": "The LORD did not set His affection on you and choose you because you were more numerous than the other peoples, for you were the fewest of all peoples.",
+     "displayText": "The LORD did not set His affection on you and choose you because you were more numerous than the other peoples, for you were the fewest of all peoples."
+    },
+    "CPDV": {
+     "text": "It is not because you surpass all the nations in number that the Lord has joined with you and has chosen you, for you are the least numerous of any people.",
+     "displayText": "It is not because you surpass all the nations in number that the Lord has joined with you and has chosen you, for you are the least numerous of any people."
+    }
+   },
+   "context": "Having called Israel God's treasured possession among all peoples, Moses heads off any pride the nation might take in being chosen."
+  },
+  {
+   "id": "DEU.30.6",
+   "translations": {
+    "KJV": {
+     "text": "And the Lord thy God will circumcise thine heart, and the heart of thy seed, to love the Lord thy God with all thine heart, and with all thy soul, that thou mayest live.",
+     "displayText": "And the Lord thy God will circumcise thine heart, and the heart of thy seed, to love the Lord thy God with all thine heart, and with all thy soul, that thou mayest live."
+    },
+    "BSB": {
+     "text": "The LORD your God will circumcise your hearts and the hearts of your descendants, and you will love Him with all your heart and with all your soul, so that you may live.",
+     "displayText": "The LORD your God will circumcise your hearts and the hearts of your descendants, and you will love Him with all your heart and with all your soul, so that you may live."
+    },
+    "CPDV": {
+     "text": "The Lord your God will circumcise your heart, and the heart of your offspring, so that you may love the Lord your God with your entire heart and with your entire soul, so that you may be able to live.",
+     "displayText": "The Lord your God will circumcise your heart, and the heart of your offspring, so that you may love the Lord your God with your entire heart and with your entire soul, so that you may be able to live."
+    }
+   },
+   "context": "Looking far ahead to a time when Israel will be scattered among the nations and then brought home, Moses describes what God will do inside his people."
+  },
+  {
+   "id": "DEU.30.11",
+   "translations": {
+    "KJV": {
+     "text": "For this commandment which I command thee this day, it is not hidden from thee, neither is it far off.",
+     "displayText": "For this commandment which I command thee this day, it is not hidden from thee, neither is it far off."
+    },
+    "BSB": {
+     "text": "For this commandment I give you today is not too difficult for you or beyond your reach.",
+     "displayText": "For this commandment I give you today is not too difficult for you or beyond your reach."
+    },
+    "CPDV": {
+     "text": "This commandment, which I entrust to you today, is not high above you, nor has it been placed far away.",
+     "displayText": "This commandment, which I entrust to you today, is not high above you, nor has it been placed far away."
+    }
+   },
+   "context": "Having set before Israel the blessings and curses of the covenant made in Moab, Moses turns to whether the people can actually keep God's commands."
+  },
+  {
+   "id": "DEU.33.28",
+   "translations": {
+    "KJV": {
+     "text": "Israel then shall dwell in safety alone: the fountain of Jacob shall be upon a land of corn and wine; also his heavens shall drop down dew.",
+     "displayText": "Israel then shall dwell in safety alone: the fountain of Jacob shall be upon a land of corn and wine; also his heavens shall drop down dew."
+    },
+    "BSB": {
+     "text": "So Israel dwells securely; the fountain of Jacob lives untroubled in a land of grain and new wine, where even the heavens drip with dew.",
+     "displayText": "So Israel dwells securely; the fountain of Jacob lives untroubled in a land of grain and new wine, where even the heavens drip with dew."
+    },
+    "CPDV": {
+     "text": "Israel shall live in confidence and alone, as the eye of Jacob in a land of grain and of wine; and the heavens shall be misty with dew.",
+     "displayText": "Israel shall live in confidence and alone, as the eye of Jacob in a land of grain and of wine; and the heavens shall be misty with dew."
+    }
+   },
+   "context": "Finishing his blessings on the tribes one by one, the aged Moses turns to the whole nation and the God who shelters it."
+  },
+  {
+   "id": "JOS.6.27",
+   "translations": {
+    "KJV": {
+     "text": "So the Lord was with Joshua; and his fame was noised throughout all the country.",
+     "displayText": "So the Lord was with Joshua; and his fame was noised throughout all the country."
+    },
+    "BSB": {
+     "text": "So the LORD was with Joshua, and his fame spread throughout the land.",
+     "displayText": "So the LORD was with Joshua, and his fame spread throughout the land."
+    },
+    "CPDV": {
+     "text": "And so the Lord was with Joshua, and his name was made known throughout all the land.",
+     "displayText": "And so the Lord was with Joshua, and his name was made known throughout all the land."
+    }
+   },
+   "context": "After the walls of Jericho fall and Rahab's family is spared, the account of Israel's first victory in Canaan closes with a word about Joshua."
+  },
+  {
+   "id": "JOS.10.14",
+   "translations": {
+    "KJV": {
+     "text": "And there was no day like that before it or after it, that the Lord hearkened unto the voice of a man: for the Lord fought for Israel.",
+     "displayText": "And there was no day like that before it or after it, that the Lord hearkened unto the voice of a man: for the Lord fought for Israel."
+    },
+    "BSB": {
+     "text": "There has been no day like it before or since, when the LORD listened to the voice of a man, because the LORD fought for Israel.",
+     "displayText": "There has been no day like it before or since, when the LORD listened to the voice of a man, because the LORD fought for Israel."
+    },
+    "CPDV": {
+     "text": "Never before and never after was there so long a day, as when the Lord obeyed the voice of a man, and fought for Israel.",
+     "displayText": "Never before and never after was there so long a day, as when the Lord obeyed the voice of a man, and fought for Israel."
+    }
+   },
+   "context": "Defending Gibeon against five Amorite kings, Joshua asks for the sun and moon to stand still, and the narrator pauses over what happened that day."
+  },
+  {
+   "id": "JOS.21.43",
+   "translations": {
+    "KJV": {
+     "text": "And the Lord gave unto Israel all the land which he sware to give unto their fathers; and they possessed it, and dwelt therein.",
+     "displayText": "And the Lord gave unto Israel all the land which he sware to give unto their fathers; and they possessed it, and dwelt therein."
+    },
+    "BSB": {
+     "text": "Thus the LORD gave Israel all the land He had sworn to give their fathers, and they took possession of it and settled in it.",
+     "displayText": "Thus the LORD gave Israel all the land He had sworn to give their fathers, and they took possession of it and settled in it."
+    },
+    "CPDV": {
+     "text": "And the Lord God gave to Israel all the land that he had sworn he would deliver to their fathers. And they possessed it, and they lived in it.",
+     "displayText": "And the Lord God gave to Israel all the land that he had sworn he would deliver to their fathers. And they possessed it, and they lived in it."
+    }
+   },
+   "context": "Centuries after God promised a homeland to Abraham, Isaac and Jacob, the tribes of Israel are now living in towns and fields spread across Canaan."
+  },
+  {
+   "id": "JOS.23.8",
+   "translations": {
+    "KJV": {
+     "text": "But cleave unto the Lord your God, as ye have done unto this day.",
+     "displayText": "But cleave unto the Lord your God, as ye have done unto this day."
+    },
+    "BSB": {
+     "text": "Instead, you shall hold fast to the LORD your God, as you have done to this day.",
+     "displayText": "Instead, you shall hold fast to the LORD your God, as you have done to this day."
+    },
+    "CPDV": {
+     "text": "Instead, cling to the Lord your God, just as you have done even to this day.",
+     "displayText": "Instead, cling to the Lord your God, just as you have done even to this day."
+    }
+   },
+   "context": "Warning Israel's leaders not to call on or bow to the gods of the nations still living around them, Joshua sets out what they should do instead."
+  },
+  {
+   "id": "JOS.24.14",
+   "translations": {
+    "KJV": {
+     "text": "Now therefore fear the Lord, and serve him in sincerity and in truth: and put away the gods which your fathers served on the other side of the flood, and in Egypt; and serve ye the Lord.",
+     "displayText": "Now therefore fear the Lord, and serve him in sincerity and in truth: and put away the gods which your fathers served on the other side of the flood, and in Egypt; and serve ye the Lord."
+    },
+    "BSB": {
+     "text": "Now, therefore, fear the LORD and serve Him in sincerity and truth; cast aside the gods your fathers served beyond the Euphrates and in Egypt, and serve the LORD.",
+     "displayText": "Now, therefore, fear the LORD and serve Him in sincerity and truth; cast aside the gods your fathers served beyond the Euphrates and in Egypt, and serve the LORD."
+    },
+    "CPDV": {
+     "text": "Now therefore, fear the Lord, and serve him with a perfect and very sincere heart. And take away the gods that your fathers served in Mesopotamia and in Egypt, and serve the Lord.",
+     "displayText": "Now therefore, fear the Lord, and serve him with a perfect and very sincere heart. And take away the gods that your fathers served in Mesopotamia and in Egypt, and serve the Lord."
+    }
+   },
+   "context": "Having reminded Israel that they live in cities they did not build and eat from vineyards they did not plant, Joshua calls for a response."
+  },
+  {
+   "id": "JDG.6.40",
+   "translations": {
+    "KJV": {
+     "text": "And God did so that night: for it was dry upon the fleece only, and there was dew on all the ground.",
+     "displayText": "And God did so that night: for it was dry upon the fleece only, and there was dew on all the ground."
+    },
+    "BSB": {
+     "text": "And that night God did so. Only the fleece was dry, and dew covered the ground.",
+     "displayText": "And that night God did so. Only the fleece was dry, and dew covered the ground."
+    },
+    "CPDV": {
+     "text": "And that night, God did as he had requested. And it was dry only on the fleece, and there was dew on all the ground.",
+     "displayText": "And that night, God did as he had requested. And it was dry only on the fleece, and there was dew on all the ground."
+    }
+   },
+   "context": "Worried he is pressing his luck, Gideon has asked God not to be angry with one more fleece test before he leads Israel against Midian."
+  },
+  {
+   "id": "JDG.7.2",
+   "translations": {
+    "KJV": {
+     "text": "And the Lord said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me.",
+     "displayText": "And the Lord said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me."
+    },
+    "BSB": {
+     "text": "Then the LORD said to Gideon, “You have too many people for Me to deliver Midian into their hands, lest Israel glorify themselves over Me, saying, ‘My own hand has saved me.’",
+     "displayText": "Then the LORD said to Gideon, “You have too many people for Me to deliver Midian into their hands, lest Israel glorify themselves over Me, saying, ‘My own hand has saved me.’"
+    },
+    "CPDV": {
+     "text": "And the Lord said to Gideon: “The people with you are many, but Midian shall not be delivered into their hands, for then Israel might glory against me, and say, ‘I was freed by my own power.’",
+     "displayText": "And the Lord said to Gideon: “The people with you are many, but Midian shall not be delivered into their hands, for then Israel might glory against me, and say, ‘I was freed by my own power.’"
+    }
+   },
+   "context": "Camped by the spring of Harod with the Midianite army in the valley to the north, Gideon has gathered a large force, and God speaks to him about its size."
+  },
+  {
+   "id": "JDG.8.23",
+   "translations": {
+    "KJV": {
+     "text": "And Gideon said unto them, I will not rule over you, neither shall my son rule over you: the Lord shall rule over you.",
+     "displayText": "And Gideon said unto them, I will not rule over you, neither shall my son rule over you: the Lord shall rule over you."
+    },
+    "BSB": {
+     "text": "But Gideon replied, “I will not rule over you, nor will my son. The LORD shall rule over you.”",
+     "displayText": "But Gideon replied, “I will not rule over you, nor will my son. The LORD shall rule over you.”"
+    },
+    "CPDV": {
+     "text": "And he said to them: “I will not rule over you. Neither shall my son rule over you. Instead, the Lord shall rule over you.”",
+     "displayText": "And he said to them: “I will not rule over you. Neither shall my son rule over you. Instead, the Lord shall rule over you.”"
+    }
+   },
+   "context": "After Gideon's small army routs Midian and he executes its kings Zebah and Zalmunna, the grateful Israelites ask him to found a ruling dynasty."
+  },
+  {
+   "id": "JDG.10.10",
+   "translations": {
+    "KJV": {
+     "text": "And the children of Israel cried unto the Lord, saying, We have sinned against thee, both because we have forsaken our God, and also served Baalim.",
+     "displayText": "And the children of Israel cried unto the Lord, saying, We have sinned against thee, both because we have forsaken our God, and also served Baalim."
+    },
+    "BSB": {
+     "text": "Then the Israelites cried out to the LORD, saying, “We have sinned against You, for we have indeed forsaken our God and served the Baals.”",
+     "displayText": "Then the Israelites cried out to the LORD, saying, “We have sinned against You, for we have indeed forsaken our God and served the Baals.”"
+    },
+    "CPDV": {
+     "text": "And crying out to the Lord, they said: “We have sinned against you. For we have forsaken the Lord our God, and we have served the Baals.”",
+     "displayText": "And crying out to the Lord, they said: “We have sinned against you. For we have forsaken the Lord our God, and we have served the Baals.”"
+    }
+   },
+   "context": "For eighteen years the Ammonites and Philistines have oppressed the Israelites east of the Jordan, and as the Ammonites cross the river to attack, the people finally cry out."
+  },
+  {
+   "id": "JDG.13.18",
+   "translations": {
+    "KJV": {
+     "text": "And the angel of the Lord said unto him, Why askest thou thus after my name, seeing it is secret?",
+     "displayText": "And the angel of the Lord said unto him, Why askest thou thus after my name, seeing it is secret?"
+    },
+    "BSB": {
+     "text": "“Why do you ask my name,” said the angel of the LORD, “since it is beyond comprehension?”",
+     "displayText": "“Why do you ask my name,” said the angel of the LORD, “since it is beyond comprehension?”"
+    },
+    "CPDV": {
+     "text": "And he answered him, “Why do you ask my name, which is a wonder?”",
+     "displayText": "And he answered him, “Why do you ask my name, which is a wonder?”"
+    }
+   },
+   "context": "Manoah, who does not yet realize his visitor is the angel of the Lord, asks for his name so he can honor him when his promise of a son comes true."
+  },
+  {
+   "id": "JDG.15.18",
+   "translations": {
+    "KJV": {
+     "text": "And he was sore athirst, and called on the Lord, and said, Thou hast given this great deliverance into the hand of thy servant: and now shall I die for thirst, and fall into the hand of the uncircumcised?",
+     "displayText": "And he was sore athirst, and called on the Lord, and said, Thou hast given this great deliverance into the hand of thy servant: and now shall I die for thirst, and fall into the hand of the uncircumcised?"
+    },
+    "BSB": {
+     "text": "And being very thirsty, Samson cried out to the LORD, “You have accomplished this great deliverance through Your servant. Must I now die of thirst and fall into the hands of the uncircumcised?”",
+     "displayText": "And being very thirsty, Samson cried out to the LORD, “You have accomplished this great deliverance through Your servant. Must I now die of thirst and fall into the hands of the uncircumcised?”"
+    },
+    "CPDV": {
+     "text": "And being very thirsty, he cried out to the Lord, and he said: “You have given, to the hand of your servant, this very great salvation and victory. But see that I am dying of thirst, and so I will fall into the hands of the uncircumcised.”",
+     "displayText": "And being very thirsty, he cried out to the Lord, and he said: “You have given, to the hand of your servant, this very great salvation and victory. But see that I am dying of thirst, and so I will fall into the hands of the uncircumcised.”"
+    }
+   },
+   "context": "Having killed a thousand Philistines with a donkey's jawbone at Lehi, Samson is suddenly desperate with thirst."
+  },
+  {
+   "id": "RUT.1.14",
+   "translations": {
+    "KJV": {
+     "text": "And they lifted up their voice, and wept again: and Orpah kissed her mother in law; but Ruth clave unto her.",
+     "displayText": "And they lifted up their voice, and wept again: and Orpah kissed her mother in law; but Ruth clave unto her."
+    },
+    "BSB": {
+     "text": "Again they wept aloud, and Orpah kissed her mother-in-law goodbye, but Ruth clung to her.",
+     "displayText": "Again they wept aloud, and Orpah kissed her mother-in-law goodbye, but Ruth clung to her."
+    },
+    "CPDV": {
+     "text": "In response, they lifted up their voice and began to weep again. Orpah kissed her mother-in-law, and then turned back. Ruth clung to her mother-in-law.",
+     "displayText": "In response, they lifted up their voice and began to weep again. Orpah kissed her mother-in-law, and then turned back. Ruth clung to her mother-in-law."
+    }
+   },
+   "context": "On the road back to Judah, Naomi urges her two widowed daughters-in-law to return to their mothers' homes in Moab, since she has no more sons to give them."
+  },
+  {
+   "id": "RUT.2.4",
+   "translations": {
+    "KJV": {
+     "text": "And, behold, Boaz came from Beth–lehem, and said unto the reapers, The Lord be with you. And they answered him, The Lord bless thee.",
+     "displayText": "And, behold, Boaz came from Beth–lehem, and said unto the reapers, The Lord be with you. And they answered him, The Lord bless thee."
+    },
+    "BSB": {
+     "text": "Just then Boaz arrived from Bethlehem and said to the harvesters, “The LORD be with you.” “The LORD bless you,” they replied.",
+     "displayText": "Just then Boaz arrived from Bethlehem and said to the harvesters, “The LORD be with you.” “The LORD bless you,” they replied."
+    },
+    "CPDV": {
+     "text": "And behold, he came out of Bethlehem and said to the reapers, “The Lord be with you.” They answered him, “May the Lord bless you.”",
+     "displayText": "And behold, he came out of Bethlehem and said to the reapers, “The Lord be with you.” They answered him, “May the Lord bless you.”"
+    }
+   },
+   "context": "While Ruth is gleaning in a field that happens to belong to Boaz, a relative of Naomi's late husband, the owner himself arrives from town."
+  },
+  {
+   "id": "RUT.3.1",
+   "translations": {
+    "KJV": {
+     "text": "Then Naomi her mother in law said unto her, My daughter, shall I not seek rest for thee, that it may be well with thee?",
+     "displayText": "Then Naomi her mother in law said unto her, My daughter, shall I not seek rest for thee, that it may be well with thee?"
+    },
+    "BSB": {
+     "text": "One day Ruth’s mother-in-law Naomi said to her, “My daughter, should I not seek a resting place for you, that it may be well with you?",
+     "displayText": "One day Ruth’s mother-in-law Naomi said to her, “My daughter, should I not seek a resting place for you, that it may be well with you?"
+    },
+    "CPDV": {
+     "text": "But afterwards, when she returned to her mother-in-law, Naomi said to her: “My daughter, I will seek rest for you, and I will provide so that it may be well with you.",
+     "displayText": "But afterwards, when she returned to her mother-in-law, Naomi said to her: “My daughter, I will seek rest for you, and I will provide so that it may be well with you."
+    }
+   },
+   "context": "As the harvest season in Bethlehem draws to a close, Naomi turns her thoughts to the future of Ruth, the widowed Moabite daughter-in-law who has cared for her."
+  },
+  {
+   "id": "RUT.3.10",
+   "translations": {
+    "KJV": {
+     "text": "And he said, Blessed be thou of the Lord, my daughter: for thou hast shewed more kindness in the latter end than at the beginning, inasmuch as thou followedst not young men, whether poor or rich.",
+     "displayText": "And he said, Blessed be thou of the Lord, my daughter: for thou hast shewed more kindness in the latter end than at the beginning, inasmuch as thou followedst not young men, whether poor or rich."
+    },
+    "BSB": {
+     "text": "Then Boaz said, “May the LORD bless you, my daughter. You have shown more kindness now than before, because you have not run after the younger men, whether rich or poor.",
+     "displayText": "Then Boaz said, “May the LORD bless you, my daughter. You have shown more kindness now than before, because you have not run after the younger men, whether rich or poor."
+    },
+    "CPDV": {
+     "text": "And he said, “You are blessed by the Lord, daughter, and you have excelled beyond your earlier benevolence, because you have not followed young men, whether poor or rich.",
+     "displayText": "And he said, “You are blessed by the Lord, daughter, and you have excelled beyond your earlier benevolence, because you have not followed young men, whether poor or rich."
+    }
+   },
+   "context": "Startled awake at midnight to find Ruth lying at his feet and asking him to spread his garment over her, Boaz responds warmly."
+  },
+  {
+   "id": "RUT.3.18",
+   "translations": {
+    "KJV": {
+     "text": "Then said she, Sit still, my daughter, until thou know how the matter will fall: for the man will not be in rest, until he have finished the thing this day.",
+     "displayText": "Then said she, Sit still, my daughter, until thou know how the matter will fall: for the man will not be in rest, until he have finished the thing this day."
+    },
+    "BSB": {
+     "text": "“Wait, my daughter,” said Naomi, “until you find out how things go, for he will not rest unless he has resolved the matter today.”",
+     "displayText": "“Wait, my daughter,” said Naomi, “until you find out how things go, for he will not rest unless he has resolved the matter today.”"
+    },
+    "CPDV": {
+     "text": "And Naomi said, “Wait, daughter, until we see how things will turn out. For the man will not rest until he has accomplished what he said.”",
+     "displayText": "And Naomi said, “Wait, daughter, until we see how things will turn out. For the man will not rest until he has accomplished what he said.”"
+    }
+   },
+   "context": "Ruth comes home at dawn from the threshing floor with six measures of barley from Boaz and tells Naomi everything, and Naomi, who knows the man, answers her."
+  },
+  {
+   "id": "RUT.4.16",
+   "translations": {
+    "KJV": {
+     "text": "And Naomi took the child, and laid it in her bosom, and became nurse unto it.",
+     "displayText": "And Naomi took the child, and laid it in her bosom, and became nurse unto it."
+    },
+    "BSB": {
+     "text": "And Naomi took the child, placed him on her lap, and became a nurse to him.",
+     "displayText": "And Naomi took the child, placed him on her lap, and became a nurse to him."
+    },
+    "CPDV": {
+     "text": "And taking up the boy, Naomi placed him on her bosom, and she took on the duties of carrying him and nursing him.",
+     "displayText": "And taking up the boy, Naomi placed him on her bosom, and she took on the duties of carrying him and nursing him."
+    }
+   },
+   "context": "Naomi, who once came back to Bethlehem saying the Lord had brought her home empty, is handed the newborn son that Ruth has borne to Boaz."
+  },
+  {
+   "id": "1SA.2.6",
+   "translations": {
+    "KJV": {
+     "text": "The Lord killeth, and maketh alive: he bringeth down to the grave, and bringeth up.",
+     "displayText": "The Lord killeth, and maketh alive: he bringeth down to the grave, and bringeth up."
+    },
+    "BSB": {
+     "text": "The LORD brings death and gives life; He brings down to Sheol and raises up.",
+     "displayText": "The LORD brings death and gives life; He brings down to Sheol and raises up."
+    },
+    "CPDV": {
+     "text": "The Lord brings death, and he gives life. He leads away to death, and he brings back again.",
+     "displayText": "The Lord brings death, and he gives life. He leads away to death, and he brings back again."
+    }
+   },
+   "context": "Having left her young son Samuel to serve at the house of the Lord in Shiloh, Hannah prays a song about how God reverses people's fortunes."
+  },
+  {
+   "id": "1SA.7.3",
+   "translations": {
+    "KJV": {
+     "text": "And Samuel spake unto all the house of Israel, saying, If ye do return unto the Lord with all your hearts, then put away the strange gods and Ashtaroth from among you, and prepare your hearts unto the Lord, and serve him only: and he will deliver you out of the hand of the Philistines.",
+     "displayText": "And Samuel spake unto all the house of Israel, saying, If ye do return unto the Lord with all your hearts, then put away the strange gods and Ashtaroth from among you, and prepare your hearts unto the Lord, and serve him only: and he will deliver you out of the hand of the Philistines."
+    },
+    "BSB": {
+     "text": "Then Samuel said to all the house of Israel, “If you are returning to the LORD with all your hearts, then rid yourselves of the foreign gods and Ashtoreths among you, prepare your hearts for the LORD, and serve Him only. And He will deliver you from the hand of the Philistines.”",
+     "displayText": "Then Samuel said to all the house of Israel, “If you are returning to the LORD with all your hearts, then rid yourselves of the foreign gods and Ashtoreths among you, prepare your hearts for the LORD, and serve Him only. And He will deliver you from the hand of the Philistines.”"
+    },
+    "CPDV": {
+     "text": "Then Samuel spoke to the entire house of Israel, saying: “If you would return to the Lord with your whole heart, take away strange gods from among you, the Baals and Ashtaroth, and prepare your hearts for the Lord, and serve him alone. And he will rescue you from the hand of the Philistines.”",
+     "displayText": "Then Samuel spoke to the entire house of Israel, saying: “If you would return to the Lord with your whole heart, take away strange gods from among you, the Baals and Ashtaroth, and prepare your hearts for the Lord, and serve him alone. And he will rescue you from the hand of the Philistines.”"
+    }
+   },
+   "context": "Twenty years after the ark came back from the Philistines to Kiriath-jearim, as Israel mourns and seeks God, Samuel speaks to the whole nation."
+  },
+  {
+   "id": "1SA.12.21",
+   "translations": {
+    "KJV": {
+     "text": "And turn ye not aside: for then should ye go after vain things, which cannot profit nor deliver; for they are vain.",
+     "displayText": "And turn ye not aside: for then should ye go after vain things, which cannot profit nor deliver; for they are vain."
+    },
+    "BSB": {
+     "text": "Do not turn aside after worthless things that cannot profit you or deliver you, for they are empty.",
+     "displayText": "Do not turn aside after worthless things that cannot profit you or deliver you, for they are empty."
+    },
+    "CPDV": {
+     "text": "And do not choose to turn aside after vanities, which will never benefit you, nor rescue you, since they are empty.",
+     "displayText": "And do not choose to turn aside after vanities, which will never benefit you, nor rescue you, since they are empty."
+    }
+   },
+   "context": "Telling the terrified Israelites not to fear even though asking for a king was wrong, Samuel adds a warning about what they might chase instead."
+  },
+  {
+   "id": "1SA.20.3",
+   "translations": {
+    "KJV": {
+     "text": "And David sware moreover, and said, Thy father certainly knoweth that I have found grace in thine eyes; and he saith, Let not Jonathan know this, lest he be grieved: but truly as the Lord liveth, and as thy soul liveth, there is but a step between me and death.",
+     "displayText": "And David sware moreover, and said, Thy father certainly knoweth that I have found grace in thine eyes; and he saith, Let not Jonathan know this, lest he be grieved: but truly as the Lord liveth, and as thy soul liveth, there is but a step between me and death."
+    },
+    "BSB": {
+     "text": "But David again vowed, “Your father knows very well that I have found favor in your eyes, and he has said, ‘Jonathan must not know of this, or he will be grieved.’ As surely as the LORD lives and as you yourself live, there is but a step between me and death.”",
+     "displayText": "But David again vowed, “Your father knows very well that I have found favor in your eyes, and he has said, ‘Jonathan must not know of this, or he will be grieved.’ As surely as the LORD lives and as you yourself live, there is but a step between me and death.”"
+    },
+    "CPDV": {
+     "text": "And he swore again to David. And David said: “Your father certainly knows that I have found favor in your sight, and so he will say, ‘Let Jonathan not know this, lest he be saddened.’ So truly, as the Lord lives, and as your soul lives, there is only one step (if I may say it) separating me from death.”",
+     "displayText": "And he swore again to David. And David said: “Your father certainly knows that I have found favor in your sight, and so he will say, ‘Let Jonathan not know this, lest he be saddened.’ So truly, as the Lord lives, and as your soul lives, there is only one step (if I may say it) separating me from death.”"
+    }
+   },
+   "context": "Having fled to Jonathan from Naioth in Ramah, David hears his friend insist that King Saul would never plot against him without telling his own son."
+  },
+  {
+   "id": "1SA.20.41",
+   "translations": {
+    "KJV": {
+     "text": "And as soon as the lad was gone, David arose out of a place toward the south, and fell on his face to the ground, and bowed himself three times: and they kissed one another, and wept one with another, until David exceeded.",
+     "displayText": "And as soon as the lad was gone, David arose out of a place toward the south, and fell on his face to the ground, and bowed himself three times: and they kissed one another, and wept one with another, until David exceeded."
+    },
+    "BSB": {
+     "text": "When the young man had gone, David got up from the south side of the stone, fell facedown, and bowed three times. Then he and Jonathan kissed each other and wept together—though David wept more.",
+     "displayText": "When the young man had gone, David got up from the south side of the stone, fell facedown, and bowed three times. Then he and Jonathan kissed each other and wept together—though David wept more."
+    },
+    "CPDV": {
+     "text": "And when the boy had gone away, David rose up from his place, which turned toward the south, and falling prone on the ground, he reverenced three times. And kissing one another, they wept together, but David more so.",
+     "displayText": "And when the boy had gone away, David rose up from his place, which turned toward the south, and falling prone on the ground, he reverenced three times. And kissing one another, they wept together, but David more so."
+    }
+   },
+   "context": "Hiding in the field where he and Jonathan agreed to meet, David waits by a stone until Jonathan's servant boy, who knows nothing of their plan, is sent back to the city."
+  },
+  {
+   "id": "1SA.24.10",
+   "translations": {
+    "KJV": {
+     "text": "Behold, this day thine eyes have seen how that the Lord had delivered thee to day into mine hand in the cave: and some bade me kill thee: but mine eye spared thee; and I said, I will not put forth mine hand against my lord; for he is the Lord’s anointed.",
+     "displayText": "Behold, this day thine eyes have seen how that the Lord had delivered thee to day into mine hand in the cave: and some bade me kill thee: but mine eye spared thee; and I said, I will not put forth mine hand against my lord; for he is the Lord’s anointed."
+    },
+    "BSB": {
+     "text": "Behold, this day you have seen with your own eyes that the LORD delivered you into my hand in the cave. I was told to kill you, but I spared you and said, ‘I will not lift my hand against my lord, since he is the LORD’s anointed.’",
+     "displayText": "Behold, this day you have seen with your own eyes that the LORD delivered you into my hand in the cave. I was told to kill you, but I spared you and said, ‘I will not lift my hand against my lord, since he is the LORD’s anointed.’"
+    },
+    "CPDV": {
+     "text": "Behold, this day your eyes have seen that the Lord has delivered you into my hand, in the cave. And I thought that I might kill you. But my eye has spared you. For I said: I will not extend my hand against my lord, for he is the Christ of the Lord.",
+     "displayText": "Behold, this day your eyes have seen that the Lord has delivered you into my hand, in the cave. And I thought that I might kill you. But my eye has spared you. For I said: I will not extend my hand against my lord, for he is the Christ of the Lord."
+    }
+   },
+   "context": "Having spared King Saul in a cave at En-gedi and cut off only the corner of his robe, David steps out and calls after the king who has been hunting him."
+  },
+  {
+   "id": "1SA.25.35",
+   "translations": {
+    "KJV": {
+     "text": "So David received of her hand that which she had brought him, and said unto her, Go up in peace to thine house; see, I have hearkened to thy voice, and have accepted thy person.",
+     "displayText": "So David received of her hand that which she had brought him, and said unto her, Go up in peace to thine house; see, I have hearkened to thy voice, and have accepted thy person."
+    },
+    "BSB": {
+     "text": "Then David accepted from her hand what she had brought him, and he said to her, “Go home in peace. See, I have heeded your voice and granted your request.”",
+     "displayText": "Then David accepted from her hand what she had brought him, and he said to her, “Go home in peace. See, I have heeded your voice and granted your request.”"
+    },
+    "CPDV": {
+     "text": "Then David received from her hand all that she had brought to him. And he said to her: “Go in peace to your own house. Behold, I have heeded your voice, and I have honored your face.”",
+     "displayText": "Then David received from her hand all that she had brought to him. And he said to her: “Go in peace to your own house. Behold, I have heeded your voice, and I have honored your face.”"
+    }
+   },
+   "context": "Talked out of slaughtering Nabal's household by Nabal's wise wife Abigail, David now turns to the gifts of food she has brought him."
+  },
+  {
+   "id": "JOS.7.7",
+   "translations": {
+    "KJV": {
+     "text": "And Joshua said, Alas, O Lord God, wherefore hast thou at all brought this people over Jordan, to deliver us into the hand of the Amorites, to destroy us? would to God we had been content, and dwelt on the other side Jordan!",
+     "displayText": "And Joshua said, Alas, O Lord God, wherefore hast thou at all brought this people over Jordan, to deliver us into the hand of the Amorites, to destroy us? would to God we had been content, and dwelt on the other side Jordan!"
+    },
+    "BSB": {
+     "text": "“O, Lord GOD,” Joshua said, “why did You ever bring this people across the Jordan to deliver us into the hand of the Amorites to be destroyed? If only we had been content to stay on the other side of the Jordan!",
+     "displayText": "“O, Lord GOD,” Joshua said, “why did You ever bring this people across the Jordan to deliver us into the hand of the Amorites to be destroyed? If only we had been content to stay on the other side of the Jordan!"
+    },
+    "CPDV": {
+     "text": "And Joshua said: “Alas, O Lord God! Why would you want to lead this people over the river Jordan, so that you might deliver us into the hand of the Amorite and destroy us? I wish that we had remained beyond the Jordan, as when we began.",
+     "displayText": "And Joshua said: “Alas, O Lord God! Why would you want to lead this people over the river Jordan, so that you might deliver us into the hand of the Amorite and destroy us? I wish that we had remained beyond the Jordan, as when we began."
+    }
+   },
+   "context": "After Israel's small force is routed at the little town of Ai, Joshua tears his clothes and lies facedown before the ark until evening."
+  },
+  {
+   "id": "2SA.1.19",
+   "translations": {
+    "KJV": {
+     "text": "The beauty of Israel is slain upon thy high places: how are the mighty fallen!",
+     "displayText": "The beauty of Israel is slain upon thy high places: how are the mighty fallen!"
+    },
+    "BSB": {
+     "text": "“Your glory, O Israel, lies slain on your heights. How the mighty have fallen!",
+     "displayText": "“Your glory, O Israel, lies slain on your heights. How the mighty have fallen!"
+    },
+    "CPDV": {
+     "text": "The illustrious of Israel have been killed upon your mountains. How could the valiant have fallen?",
+     "displayText": "The illustrious of Israel have been killed upon your mountains. How could the valiant have fallen?"
+    }
+   },
+   "context": "Having heard that Saul and his son Jonathan died in battle against the Philistines, David composes a lament for them called the Song of the Bow."
+  },
+  {
+   "id": "2SA.7.20",
+   "translations": {
+    "KJV": {
+     "text": "And what can David say more unto thee? for thou, Lord God, knowest thy servant.",
+     "displayText": "And what can David say more unto thee? for thou, Lord God, knowest thy servant."
+    },
+    "BSB": {
+     "text": "What more can David say to You? For You know Your servant, O Lord GOD.",
+     "displayText": "What more can David say to You? For You know Your servant, O Lord GOD."
+    },
+    "CPDV": {
+     "text": "Therefore, what more will David be able to say to you? For you know your servant, O Lord God.",
+     "displayText": "Therefore, what more will David be able to say to you? For you know your servant, O Lord God."
+    }
+   },
+   "context": "Still stunned that God's promise reaches beyond his own lifetime to the future of his house, King David continues his prayer of thanks."
+  },
+  {
+   "id": "2SA.12.16",
+   "translations": {
+    "KJV": {
+     "text": "David therefore besought God for the child; and David fasted, and went in, and lay all night upon the earth.",
+     "displayText": "David therefore besought God for the child; and David fasted, and went in, and lay all night upon the earth."
+    },
+    "BSB": {
+     "text": "David pleaded with God for the boy. He fasted and went into his house and spent the night lying in sackcloth on the ground.",
+     "displayText": "David pleaded with God for the boy. He fasted and went into his house and spent the night lying in sackcloth on the ground."
+    },
+    "CPDV": {
+     "text": "And David begged the Lord on behalf of the little one. And David fasted strictly, and entering alone, he lay upon the ground.",
+     "displayText": "And David begged the Lord on behalf of the little one. And David fasted strictly, and entering alone, he lay upon the ground."
+    }
+   },
+   "context": "When the infant son Bathsheba bore him falls seriously ill, as the prophet Nathan had warned, King David turns to God on the child's behalf."
+  },
+  {
+   "id": "2SA.13.37",
+   "translations": {
+    "KJV": {
+     "text": "But Absalom fled, and went to Talmai, the son of Ammihud, king of Geshur. And David mourned for his son every day.",
+     "displayText": "But Absalom fled, and went to Talmai, the son of Ammihud, king of Geshur. And David mourned for his son every day."
+    },
+    "BSB": {
+     "text": "Now Absalom fled and went to Talmai son of Ammihud, the king of Geshur. But David mourned for his son every day.",
+     "displayText": "Now Absalom fled and went to Talmai son of Ammihud, the king of Geshur. But David mourned for his son every day."
+    },
+    "CPDV": {
+     "text": "But Absalom, fleeing, went to Talmai, the son of Ammihud, the king of Geshur. Then David mourned for his son every day.",
+     "displayText": "But Absalom, fleeing, went to Talmai, the son of Ammihud, the king of Geshur. Then David mourned for his son every day."
+    }
+   },
+   "context": "After Absalom has his half-brother Amnon killed for assaulting his sister Tamar, King David's household weeps and Absalom runs for his life."
+  },
+  {
+   "id": "2SA.15.21",
+   "translations": {
+    "KJV": {
+     "text": "And Ittai answered the king, and said, As the Lord liveth, and as my lord the king liveth, surely in what place my lord the king shall be, whether in death or life, even there also will thy servant be.",
+     "displayText": "And Ittai answered the king, and said, As the Lord liveth, and as my lord the king liveth, surely in what place my lord the king shall be, whether in death or life, even there also will thy servant be."
+    },
+    "BSB": {
+     "text": "But Ittai answered the king, “As surely as the LORD lives, and as my lord the king lives, wherever my lord the king may be, whether it means life or death, there will your servant be!”",
+     "displayText": "But Ittai answered the king, “As surely as the LORD lives, and as my lord the king lives, wherever my lord the king may be, whether it means life or death, there will your servant be!”"
+    },
+    "CPDV": {
+     "text": "And Ittai responded to the king, by saying, “As the Lord lives, and as my lord the king lives, in whatever place you will be, my lord the king, whether in death or in life, your servant will be there.”",
+     "displayText": "And Ittai responded to the king, by saying, “As the Lord lives, and as my lord the king lives, in whatever place you will be, my lord the king, whether in death or in life, your servant will be there.”"
+    }
+   },
+   "context": "Fleeing Jerusalem as his son Absalom seizes power, King David urges Ittai of Gath, a foreigner who had only just joined him, to go back."
+  },
+  {
+   "id": "2SA.15.26",
+   "translations": {
+    "KJV": {
+     "text": "But if he thus say, I have no delight in thee; behold, here am I, let him do to me as seemeth good unto him.",
+     "displayText": "But if he thus say, I have no delight in thee; behold, here am I, let him do to me as seemeth good unto him."
+    },
+    "BSB": {
+     "text": "But if He should say, ‘I do not delight in you,’ then here I am; let Him do to me whatever seems good to Him.”",
+     "displayText": "But if He should say, ‘I do not delight in you,’ then here I am; let Him do to me whatever seems good to Him.”"
+    },
+    "CPDV": {
+     "text": "But if he will say to me, ‘You are not pleasing,’ I am ready. Let him do whatever is good in his own sight.”",
+     "displayText": "But if he will say to me, ‘You are not pleasing,’ I am ready. Let him do whatever is good in his own sight.”"
+    }
+   },
+   "context": "Crossing the Kidron Valley as he flees, David sends the priest Zadok back to Jerusalem with the ark and speaks about whether he will ever see the city again."
+  },
+  {
+   "id": "2SA.24.10",
+   "translations": {
+    "KJV": {
+     "text": "And David’s heart smote him after that he had numbered the people. And David said unto the Lord, I have sinned greatly in that I have done: and now, I beseech thee, O Lord, take away the iniquity of thy servant; for I have done very foolishly.",
+     "displayText": "And David’s heart smote him after that he had numbered the people. And David said unto the Lord, I have sinned greatly in that I have done: and now, I beseech thee, O Lord, take away the iniquity of thy servant; for I have done very foolishly."
+    },
+    "BSB": {
+     "text": "After David had numbered the troops, his conscience was stricken and he said to the LORD, “I have sinned greatly in what I have done. Now, O LORD, I beg You to take away the iniquity of Your servant, for I have acted very foolishly.”",
+     "displayText": "After David had numbered the troops, his conscience was stricken and he said to the LORD, “I have sinned greatly in what I have done. Now, O LORD, I beg You to take away the iniquity of Your servant, for I have acted very foolishly.”"
+    },
+    "CPDV": {
+     "text": "Then the heart of David struck him, after the people were numbered. And David said to the Lord: “I have sinned greatly in what I have done. But I pray that you, O Lord, may take away the iniquity of your servant. For I have acted very foolishly.”",
+     "displayText": "Then the heart of David struck him, after the people were numbered. And David said to the Lord: “I have sinned greatly in what I have done. But I pray that you, O Lord, may take away the iniquity of your servant. For I have acted very foolishly.”"
+    }
+   },
+   "context": "Joab returns after nearly ten months of counting Israel's fighting men for the census he had urged King David not to take."
+  },
+  {
+   "id": "1KI.3.5",
+   "translations": {
+    "KJV": {
+     "text": "In Gibeon the Lord appeared to Solomon in a dream by night: and God said, Ask what I shall give thee.",
+     "displayText": "In Gibeon the Lord appeared to Solomon in a dream by night: and God said, Ask what I shall give thee."
+    },
+    "BSB": {
+     "text": "One night at Gibeon the LORD appeared to Solomon in a dream, and God said, “Ask, and I will give it to you!”",
+     "displayText": "One night at Gibeon the LORD appeared to Solomon in a dream, and God said, “Ask, and I will give it to you!”"
+    },
+    "CPDV": {
+     "text": "Then the Lord appeared to Solomon, through a dream in the night, saying, “Request whatever you wish, so that I may give it to you.”",
+     "displayText": "Then the Lord appeared to Solomon, through a dream in the night, saying, “Request whatever you wish, so that I may give it to you.”"
+    }
+   },
+   "context": "Early in his reign, Solomon travels to the great high place at Gibeon and offers a thousand burnt offerings on its altar."
+  },
+  {
+   "id": "1KI.8.18",
+   "translations": {
+    "KJV": {
+     "text": "And the Lord said unto David my father, Whereas it was in thine heart to build an house unto my name, thou didst well that it was in thine heart.",
+     "displayText": "And the Lord said unto David my father, Whereas it was in thine heart to build an house unto my name, thou didst well that it was in thine heart."
+    },
+    "BSB": {
+     "text": "But the LORD said to my father David, ‘Since it was in your heart to build a house for My Name, you have done well to have this in your heart.",
+     "displayText": "But the LORD said to my father David, ‘Since it was in your heart to build a house for My Name, you have done well to have this in your heart."
+    },
+    "CPDV": {
+     "text": "But the Lord said to my father David: ‘Since you have planned in your heart to build a house to my name, you have done well by considering this plan in your mind.",
+     "displayText": "But the Lord said to my father David: ‘Since you have planned in your heart to build a house to my name, you have done well by considering this plan in your mind."
+    }
+   },
+   "context": "Speaking to the assembled nation at the dedication of the new temple, King Solomon recalls the plan that had long been in his father David's heart."
+  },
+  {
+   "id": "1KI.8.58",
+   "translations": {
+    "KJV": {
+     "text": "That he may incline our hearts unto him, to walk in all his ways, and to keep his commandments, and his statutes, and his judgments, which he commanded our fathers.",
+     "displayText": "That he may incline our hearts unto him, to walk in all his ways, and to keep his commandments, and his statutes, and his judgments, which he commanded our fathers."
+    },
+    "BSB": {
+     "text": "May He incline our hearts to Himself, to walk in all His ways and to keep the commandments and statutes and ordinances He commanded our fathers.",
+     "displayText": "May He incline our hearts to Himself, to walk in all His ways and to keep the commandments and statutes and ordinances He commanded our fathers."
+    },
+    "CPDV": {
+     "text": "But may he incline our hearts to himself, so that we may walk in all his ways, and keep his commandments, and his ceremonies, and whatever judgments he commanded to our fathers.",
+     "displayText": "But may he incline our hearts to himself, so that we may walk in all his ways, and keep his commandments, and his ceremonies, and whatever judgments he commanded to our fathers."
+    }
+   },
+   "context": "Having asked that God stay with Israel as he stayed with their ancestors, King Solomon goes on in his blessing to ask for something within the people themselves."
+  },
+  {
+   "id": "1KI.17.6",
+   "translations": {
+    "KJV": {
+     "text": "And the ravens brought him bread and flesh in the morning, and bread and flesh in the evening; and he drank of the brook.",
+     "displayText": "And the ravens brought him bread and flesh in the morning, and bread and flesh in the evening; and he drank of the brook."
+    },
+    "BSB": {
+     "text": "The ravens would bring him bread and meat in the morning and evening, and he would drink from the brook.",
+     "displayText": "The ravens would bring him bread and meat in the morning and evening, and he would drink from the brook."
+    },
+    "CPDV": {
+     "text": "And the ravens carried bread and flesh to him in the morning, and likewise bread and flesh in the evening. And he drank from the torrent.",
+     "displayText": "And the ravens carried bread and flesh to him in the morning, and likewise bread and flesh in the evening. And he drank from the torrent."
+    }
+   },
+   "context": "After announcing a drought to King Ahab, Elijah obeys God's command to hide by the Brook of Cherith east of the Jordan."
+  },
+  {
+   "id": "1KI.17.24",
+   "translations": {
+    "KJV": {
+     "text": "And the woman said to Elijah, Now by this I know that thou art a man of God, and that the word of the Lord in thy mouth is truth.",
+     "displayText": "And the woman said to Elijah, Now by this I know that thou art a man of God, and that the word of the Lord in thy mouth is truth."
+    },
+    "BSB": {
+     "text": "Then the woman said to Elijah, “Now I know that you are a man of God and that the word of the LORD from your mouth is truth.”",
+     "displayText": "Then the woman said to Elijah, “Now I know that you are a man of God and that the word of the LORD from your mouth is truth.”"
+    },
+    "CPDV": {
+     "text": "And the woman said to Elijah: “By this, I now realize that you are a man of God, and that the word of the Lord in your mouth is true.”",
+     "displayText": "And the woman said to Elijah: “By this, I now realize that you are a man of God, and that the word of the Lord in your mouth is true.”"
+    }
+   },
+   "context": "When the son of the widow who has been sheltering Elijah in Zarephath dies and is brought back to life, Elijah carries the boy down to his mother."
+  },
+  {
+   "id": "1KI.18.37",
+   "translations": {
+    "KJV": {
+     "text": "Hear me, O Lord, hear me, that this people may know that thou art the Lord God, and that thou hast turned their heart back again.",
+     "displayText": "Hear me, O Lord, hear me, that this people may know that thou art the Lord God, and that thou hast turned their heart back again."
+    },
+    "BSB": {
+     "text": "Answer me, O LORD! Answer me, so that this people will know that You, the LORD, are God, and that You have turned their hearts back again.”",
+     "displayText": "Answer me, O LORD! Answer me, so that this people will know that You, the LORD, are God, and that You have turned their hearts back again.”"
+    },
+    "CPDV": {
+     "text": "Heed me, O Lord, heed me, so that this people may learn that you are the Lord God, and that you have converted their heart again.”",
+     "displayText": "Heed me, O Lord, heed me, so that this people may learn that you are the Lord God, and that you have converted their heart again.”"
+    }
+   },
+   "context": "On Mount Carmel, after Baal's prophets have shouted all day with no answer, Elijah drenches his altar and sacrifice with water and then prays."
+  },
+  {
+   "id": "1KI.18.44",
+   "translations": {
+    "KJV": {
+     "text": "And it came to pass at the seventh time, that he said, Behold, there ariseth a little cloud out of the sea, like a man’s hand. And he said, Go up, say unto Ahab, Prepare thy chariot, and get thee down, that the rain stop thee not.",
+     "displayText": "And it came to pass at the seventh time, that he said, Behold, there ariseth a little cloud out of the sea, like a man’s hand. And he said, Go up, say unto Ahab, Prepare thy chariot, and get thee down, that the rain stop thee not."
+    },
+    "BSB": {
+     "text": "On the seventh time the servant reported, “There is a cloud as small as a man’s hand rising from the sea.” And Elijah replied, “Go and tell Ahab, ‘Prepare your chariot and go down before the rain stops you.’”",
+     "displayText": "On the seventh time the servant reported, “There is a cloud as small as a man’s hand rising from the sea.” And Elijah replied, “Go and tell Ahab, ‘Prepare your chariot and go down before the rain stops you.’”"
+    },
+    "CPDV": {
+     "text": "And at the seventh time, behold, a little cloud ascended from the sea like the footstep of a man. And he said: “Ascend, and say to Ahab, ‘Yoke your chariot, and descend; otherwise, the rain may prevent you.’”",
+     "displayText": "And at the seventh time, behold, a little cloud ascended from the sea like the footstep of a man. And he said: “Ascend, and say to Ahab, ‘Yoke your chariot, and descend; otherwise, the rain may prevent you.’”"
+    }
+   },
+   "context": "At the end of a long drought, Elijah crouches on the summit of Carmel with his face between his knees and keeps sending his servant to look toward the sea."
+  },
+  {
+   "id": "1KI.19.21",
+   "translations": {
+    "KJV": {
+     "text": "And he returned back from him, and took a yoke of oxen, and slew them, and boiled their flesh with the instruments of the oxen, and gave unto the people, and they did eat. Then he arose, and went after Elijah, and ministered unto him.",
+     "displayText": "And he returned back from him, and took a yoke of oxen, and slew them, and boiled their flesh with the instruments of the oxen, and gave unto the people, and they did eat. Then he arose, and went after Elijah, and ministered unto him."
+    },
+    "BSB": {
+     "text": "So Elisha turned back from him, took his pair of oxen, and slaughtered them. With the oxen’s equipment, he cooked the meat and gave it to the people, and they ate. Then he set out to follow and serve Elijah.",
+     "displayText": "So Elisha turned back from him, took his pair of oxen, and slaughtered them. With the oxen’s equipment, he cooked the meat and gave it to the people, and they ate. Then he set out to follow and serve Elijah."
+    },
+    "CPDV": {
+     "text": "Then, turning back from him, he took a pair of oxen, and he slew them. And he cooked the flesh with the plow of the oxen. And he gave it to the people, and they ate. And rising up, he went and followed Elijah, and he ministered to him.",
+     "displayText": "Then, turning back from him, he took a pair of oxen, and he slew them. And he cooked the flesh with the plow of the oxen. And he gave it to the people, and they ate. And rising up, he went and followed Elijah, and he ministered to him."
+    }
+   },
+   "context": "When the prophet Elijah throws his cloak over Elisha as he plows with the twelfth pair of oxen, Elisha asks to kiss his parents goodbye first."
+  },
+  {
+   "id": "2KI.2.9",
+   "translations": {
+    "KJV": {
+     "text": "And it came to pass, when they were gone over, that Elijah said unto Elisha, Ask what I shall do for thee, before I be taken away from thee. And Elisha said, I pray thee, let a double portion of thy spirit be upon me.",
+     "displayText": "And it came to pass, when they were gone over, that Elijah said unto Elisha, Ask what I shall do for thee, before I be taken away from thee. And Elisha said, I pray thee, let a double portion of thy spirit be upon me."
+    },
+    "BSB": {
+     "text": "After they had crossed over, Elijah said to Elisha, “Tell me, what can I do for you before I am taken away from you?” “Please, let me inherit a double portion of your spirit,” Elisha replied.",
+     "displayText": "After they had crossed over, Elijah said to Elisha, “Tell me, what can I do for you before I am taken away from you?” “Please, let me inherit a double portion of your spirit,” Elisha replied."
+    },
+    "CPDV": {
+     "text": "And when they had gone across, Elijah said to Elisha, “Ask what you wish that I may do for you, before I am taken from you.” And Elisha said, “I beg you, that twice your spirit may be accomplished in me.”",
+     "displayText": "And when they had gone across, Elijah said to Elisha, “Ask what you wish that I may do for you, before I am taken from you.” And Elisha said, “I beg you, that twice your spirit may be accomplished in me.”"
+    }
+   },
+   "context": "Knowing God will take Elijah away that day, Elisha refuses to leave his side, and the two cross the Jordan on dry ground after Elijah strikes the water."
+  },
+  {
+   "id": "2KI.2.12",
+   "translations": {
+    "KJV": {
+     "text": "And Elisha saw it, and he cried, My father, my father, the chariot of Israel, and the horsemen thereof. And he saw him no more: and he took hold of his own clothes, and rent them in two pieces.",
+     "displayText": "And Elisha saw it, and he cried, My father, my father, the chariot of Israel, and the horsemen thereof. And he saw him no more: and he took hold of his own clothes, and rent them in two pieces."
+    },
+    "BSB": {
+     "text": "As Elisha watched, he cried out, “My father, my father, the chariots and horsemen of Israel!” And he saw Elijah no more. So taking hold of his own clothes, he tore them in two.",
+     "displayText": "As Elisha watched, he cried out, “My father, my father, the chariots and horsemen of Israel!” And he saw Elijah no more. So taking hold of his own clothes, he tore them in two."
+    },
+    "CPDV": {
+     "text": "Then Elisha saw it, and he cried out: “My father, my father! The chariot of Israel with its driver!” And he saw him no more. And he took hold of his own garments, and he tore them into two parts.",
+     "displayText": "Then Elisha saw it, and he cried out: “My father, my father! The chariot of Israel with its driver!” And he saw him no more. And he took hold of his own garments, and he tore them into two parts."
+    }
+   },
+   "context": "Walking and talking with Elijah beyond the Jordan, Elisha sees a chariot and horses of fire suddenly separate them as his master is taken up."
+  },
+  {
+   "id": "2KI.4.2",
+   "translations": {
+    "KJV": {
+     "text": "And Elisha said unto her, What shall I do for thee? tell me, what hast thou in the house? And she said, Thine handmaid hath not any thing in the house, save a pot of oil.",
+     "displayText": "And Elisha said unto her, What shall I do for thee? tell me, what hast thou in the house? And she said, Thine handmaid hath not any thing in the house, save a pot of oil."
+    },
+    "BSB": {
+     "text": "“How can I help you?” asked Elisha. “Tell me, what do you have in the house?” She answered, “Your servant has nothing in the house but a jar of oil.”",
+     "displayText": "“How can I help you?” asked Elisha. “Tell me, what do you have in the house?” She answered, “Your servant has nothing in the house but a jar of oil.”"
+    },
+    "CPDV": {
+     "text": "And Elisha said to her: “What do you want me to do for you? Tell me, what do you have in your house?” And she responded, “I, your handmaid, do not have anything in my house, except a little oil, with which I may be anointed.”",
+     "displayText": "And Elisha said to her: “What do you want me to do for you? Tell me, what do you have in your house?” And she responded, “I, your handmaid, do not have anything in my house, except a little oil, with which I may be anointed.”"
+    }
+   },
+   "context": "A widow whose husband was one of the prophets' disciples begs Elisha for help, because a creditor is coming to take her two sons as slaves."
+  },
+  {
+   "id": "2KI.5.13",
+   "translations": {
+    "KJV": {
+     "text": "And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean?",
+     "displayText": "And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean?"
+    },
+    "BSB": {
+     "text": "Naaman’s servants, however, approached him and said, “My father, if the prophet had told you to do some great thing, would you not have done it? How much more, then, when he tells you, ‘Wash and be cleansed’?”",
+     "displayText": "Naaman’s servants, however, approached him and said, “My father, if the prophet had told you to do some great thing, would you not have done it? How much more, then, when he tells you, ‘Wash and be cleansed’?”"
+    },
+    "CPDV": {
+     "text": "his servants approached him, and they said to him: “If the prophet had told you, father, to do something great, certainly you ought to have done it. How much more so, now that he has said to you: ‘Wash, and you will be clean?’”",
+     "displayText": "his servants approached him, and they said to him: “If the prophet had told you, father, to do something great, certainly you ought to have done it. How much more so, now that he has said to you: ‘Wash, and you will be clean?’”"
+    }
+   },
+   "context": "Insulted that Elisha only sent a messenger telling him to wash in the Jordan, the Aramean commander Naaman storms off in a rage."
+  },
+  {
+   "id": "2KI.5.15",
+   "translations": {
+    "KJV": {
+     "text": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all the earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant.",
+     "displayText": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all the earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant."
+    },
+    "BSB": {
+     "text": "Then Naaman and all his attendants went back to the man of God, stood before him, and declared, “Now I know for sure that there is no God in all the earth except in Israel. So please accept a gift from your servant.”",
+     "displayText": "Then Naaman and all his attendants went back to the man of God, stood before him, and declared, “Now I know for sure that there is no God in all the earth except in Israel. So please accept a gift from your servant.”"
+    },
+    "CPDV": {
+     "text": "And returning to the man of God, with his entire retinue, he arrived, and stood before him, and he said: “Truly, I know there is no other God, in all the earth, except in Israel. And so I beg you to accept a blessing from your servant.”",
+     "displayText": "And returning to the man of God, with his entire retinue, he arrived, and stood before him, and he said: “Truly, I know there is no other God, in all the earth, except in Israel. And so I beg you to accept a blessing from your servant.”"
+    }
+   },
+   "context": "Healed of leprosy after dipping seven times in the Jordan, Naaman returns with his whole entourage to the house of the prophet Elisha."
+  },
+  {
+   "id": "2KI.6.15",
+   "translations": {
+    "KJV": {
+     "text": "And when the servant of the man of God was risen early, and gone forth, behold, an host compassed the city both with horses and chariots. And his servant said unto him, Alas, my master! how shall we do?",
+     "displayText": "And when the servant of the man of God was risen early, and gone forth, behold, an host compassed the city both with horses and chariots. And his servant said unto him, Alas, my master! how shall we do?"
+    },
+    "BSB": {
+     "text": "When the servant of the man of God got up and went out early in the morning, an army with horses and chariots had surrounded the city. So he asked Elisha, “Oh, my master, what are we to do?”",
+     "displayText": "When the servant of the man of God got up and went out early in the morning, an army with horses and chariots had surrounded the city. So he asked Elisha, “Oh, my master, what are we to do?”"
+    },
+    "CPDV": {
+     "text": "Now the servant of the man of God, arising at first light, went out and saw the army all around the city, with horses and chariots. And he reported it to him, saying: “Alas, alas, alas, my lord! What shall we do?”",
+     "displayText": "Now the servant of the man of God, arising at first light, went out and saw the army all around the city, with horses and chariots. And he reported it to him, saying: “Alas, alas, alas, my lord! What shall we do?”"
+    }
+   },
+   "context": "Furious that Elisha keeps warning Israel's king about his plans, the king of Aram sends horses, chariots and a great army by night to seize the prophet at Dothan."
+  },
+  {
+   "id": "2KI.6.23",
+   "translations": {
+    "KJV": {
+     "text": "And he prepared great provision for them: and when they had eaten and drunk, he sent them away, and they went to their master. So the bands of Syria came no more into the land of Israel.",
+     "displayText": "And he prepared great provision for them: and when they had eaten and drunk, he sent them away, and they went to their master. So the bands of Syria came no more into the land of Israel."
+    },
+    "BSB": {
+     "text": "So the king prepared a great feast for them, and after they had finished eating and drinking, he sent them away, and they returned to their master. And the Aramean raiders did not come into the land of Israel again.",
+     "displayText": "So the king prepared a great feast for them, and after they had finished eating and drinking, he sent them away, and they returned to their master. And the Aramean raiders did not come into the land of Israel again."
+    },
+    "CPDV": {
+     "text": "And a great preparation of foods was placed before them. And they ate and drank. And he dismissed them. And they went away to their lord. And the robbers of Syria no longer came into the land of Israel.",
+     "displayText": "And a great preparation of foods was placed before them. And they ate and drank. And he dismissed them. And they went away to their lord. And the robbers of Syria no longer came into the land of Israel."
+    }
+   },
+   "context": "Holding a captured band of Aramean raiders inside Samaria, Israel's king follows Elisha's surprising advice to treat his enemies as guests."
+  },
+  {
+   "id": "1CH.4.9",
+   "translations": {
+    "KJV": {
+     "text": "And Jabez was more honourable than his brethren: and his mother called his name Jabez, saying, Because I bare him with sorrow.",
+     "displayText": "And Jabez was more honourable than his brethren: and his mother called his name Jabez, saying, Because I bare him with sorrow."
+    },
+    "BSB": {
+     "text": "Now Jabez was more honorable than his brothers. His mother had named him Jabez, saying, “Because I bore him in pain.”",
+     "displayText": "Now Jabez was more honorable than his brothers. His mother had named him Jabez, saying, “Because I bore him in pain.”"
+    },
+    "CPDV": {
+     "text": "But Jabez was renowned, more so than his brothers, and his mother called his name Jabez, saying, “For I bore him in sorrow.”",
+     "displayText": "But Jabez was renowned, more so than his brothers, and his mother called his name Jabez, saying, “For I bore him in sorrow.”"
+    }
+   },
+   "context": "In Hebrew the name Jabez echoes the word for pain, and this otherwise unknown man from Judah's clans is given only two verses in the whole Bible."
+  },
+  {
+   "id": "1CH.13.8",
+   "translations": {
+    "KJV": {
+     "text": "And David and all Israel played before God with all their might, and with singing, and with harps, and with psalteries, and with timbrels, and with cymbals, and with trumpets.",
+     "displayText": "And David and all Israel played before God with all their might, and with singing, and with harps, and with psalteries, and with timbrels, and with cymbals, and with trumpets."
+    },
+    "BSB": {
+     "text": "David and all the Israelites were celebrating before God with all their might, with songs and on harps and lyres, with tambourines, cymbals, and trumpets.",
+     "displayText": "David and all the Israelites were celebrating before God with all their might, with songs and on harps and lyres, with tambourines, cymbals, and trumpets."
+    },
+    "CPDV": {
+     "text": "Now David and all of Israel were playing before God, with all of their ability, in songs, and with harps, and psalteries, and timbrels, and cymbals, and trumpets.",
+     "displayText": "Now David and all of Israel were playing before God, with all of their ability, in songs, and with harps, and psalteries, and timbrels, and cymbals, and trumpets."
+    }
+   },
+   "context": "Bringing the ark of God from Kiriath-jearim on a new cart, David gathers Israelites from all over the land to accompany it."
+  },
+  {
+   "id": "1CH.22.12",
+   "translations": {
+    "KJV": {
+     "text": "Only the Lord give thee wisdom and understanding, and give thee charge concerning Israel, that thou mayest keep the law of the Lord thy God.",
+     "displayText": "Only the Lord give thee wisdom and understanding, and give thee charge concerning Israel, that thou mayest keep the law of the Lord thy God."
+    },
+    "BSB": {
+     "text": "Above all, may the LORD give you insight and understanding when He puts you in command over Israel, so that you may keep the Law of the LORD your God.",
+     "displayText": "Above all, may the LORD give you insight and understanding when He puts you in command over Israel, so that you may keep the Law of the LORD your God."
+    },
+    "CPDV": {
+     "text": "Also, may the Lord give you prudence and understanding, so that you may be able to rule Israel and to guard the law of the Lord your God.",
+     "displayText": "Also, may the Lord give you prudence and understanding, so that you may be able to rule Israel and to guard the law of the Lord your God."
+    }
+   },
+   "context": "Having told Solomon that God chose him, a man of peace, to build the temple, David turns from the building project to the kind of king his son must be."
+  },
+  {
+   "id": "1CH.23.25",
+   "translations": {
+    "KJV": {
+     "text": "For David said, The Lord God of Israel hath given rest unto his people, that they may dwell in Jerusalem for ever:",
+     "displayText": "For David said, The Lord God of Israel hath given rest unto his people, that they may dwell in Jerusalem for ever:"
+    },
+    "BSB": {
+     "text": "For David had said, “The LORD, the God of Israel, has given rest to His people and has come to dwell in Jerusalem forever.",
+     "displayText": "For David had said, “The LORD, the God of Israel, has given rest to His people and has come to dwell in Jerusalem forever."
+    },
+    "CPDV": {
+     "text": "For David said: “The Lord, the God of Israel, has given rest to his people, and a habitation in Jerusalem even unto eternity.",
+     "displayText": "For David said: “The Lord, the God of Israel, has given rest to his people, and a habitation in Jerusalem even unto eternity."
+    }
+   },
+   "context": "As the aging King David organizes the Levites for service in the future temple, he explains why their old duty of carrying the tabernacle is ending."
+  },
+  {
+   "id": "1CH.29.17",
+   "translations": {
+    "KJV": {
+     "text": "I know also, my God, that thou triest the heart, and hast pleasure in uprightness. As for me, in the uprightness of mine heart I have willingly offered all these things: and now have I seen with joy thy people, which are present here, to offer willingly unto thee.",
+     "displayText": "I know also, my God, that thou triest the heart, and hast pleasure in uprightness. As for me, in the uprightness of mine heart I have willingly offered all these things: and now have I seen with joy thy people, which are present here, to offer willingly unto thee."
+    },
+    "BSB": {
+     "text": "I know, my God, that You test the heart and delight in uprightness. All these things I have given willingly and with an upright heart, and now I have seen Your people who are present here giving joyfully and willingly to You.",
+     "displayText": "I know, my God, that You test the heart and delight in uprightness. All these things I have given willingly and with an upright heart, and now I have seen Your people who are present here giving joyfully and willingly to You."
+    },
+    "CPDV": {
+     "text": "I know, my God, that you test hearts, and that you love simplicity. Therefore, in the simplicity of my heart, I also have offered all these things joyfully. And I have seen, with immense gladness, your people, who have been found here, offering their donations to you.",
+     "displayText": "I know, my God, that you test hearts, and that you love simplicity. Therefore, in the simplicity of my heart, I also have offered all these things joyfully. And I have seen, with immense gladness, your people, who have been found here, offering their donations to you."
+    }
+   },
+   "context": "Having given his own treasure of gold and silver toward the temple Solomon will build, the aged King David watches the leaders of Israel follow his lead."
+  },
+  {
+   "id": "2CH.7.15",
+   "translations": {
+    "KJV": {
+     "text": "Now mine eyes shall be open, and mine ears attent unto the prayer that is made in this place.",
+     "displayText": "Now mine eyes shall be open, and mine ears attent unto the prayer that is made in this place."
+    },
+    "BSB": {
+     "text": "Now My eyes will be open and My ears attentive to the prayers offered in this place.",
+     "displayText": "Now My eyes will be open and My ears attentive to the prayers offered in this place."
+    },
+    "CPDV": {
+     "text": "Also, my eyes will be open, and my ears will be attentive, to the prayer of him who shall pray in this place.",
+     "displayText": "Also, my eyes will be open, and my ears will be attentive, to the prayer of him who shall pray in this place."
+    }
+   },
+   "context": "God answers the long prayer Solomon offered at the temple's dedication, taking up the king's own request that God watch over this house day and night."
+  },
+  {
+   "id": "2CH.13.18",
+   "translations": {
+    "KJV": {
+     "text": "Thus the children of Israel were brought under at that time, and the children of Judah prevailed, because they relied upon the Lord God of their fathers.",
+     "displayText": "Thus the children of Israel were brought under at that time, and the children of Judah prevailed, because they relied upon the Lord God of their fathers."
+    },
+    "BSB": {
+     "text": "Thus the Israelites were subdued at that time, and the men of Judah prevailed because they relied on the LORD, the God of their fathers.",
+     "displayText": "Thus the Israelites were subdued at that time, and the men of Judah prevailed because they relied on the LORD, the God of their fathers."
+    },
+    "CPDV": {
+     "text": "And the sons of Israel were humiliated at that time. And the sons of Judah were very greatly strengthened, because they had trusted in the Lord, the God of their fathers.",
+     "displayText": "And the sons of Israel were humiliated at that time. And the sons of Judah were very greatly strengthened, because they had trusted in the Lord, the God of their fathers."
+    }
+   },
+   "context": "When King Abijah of Judah is ambushed front and rear by the larger army of Jeroboam of Israel, the men of Judah cry out and the priests blow the trumpets."
+  },
+  {
+   "id": "2CH.14.6",
+   "translations": {
+    "KJV": {
+     "text": "And he built fenced cities in Judah: for the land had rest, and he had no war in those years; because the Lord had given him rest.",
+     "displayText": "And he built fenced cities in Judah: for the land had rest, and he had no war in those years; because the Lord had given him rest."
+    },
+    "BSB": {
+     "text": "Because the land was at peace, Asa built fortified cities in Judah. In those days no one made war with him, because the LORD had given him rest.",
+     "displayText": "Because the land was at peace, Asa built fortified cities in Judah. In those days no one made war with him, because the LORD had given him rest."
+    },
+    "CPDV": {
+     "text": "Also, he built fortified cities in Judah. For it was quiet, and in his time no wars had arisen. For the Lord was generously granting peace.",
+     "displayText": "Also, he built fortified cities in Judah. For it was quiet, and in his time no wars had arisen. For the Lord was generously granting peace."
+    }
+   },
+   "context": "Early in his reign, King Asa of Judah tears down foreign altars and idols and commands the people to seek the Lord, and the kingdom enjoys a time of quiet."
+  },
+  {
+   "id": "2CH.15.17",
+   "translations": {
+    "KJV": {
+     "text": "But the high places were not taken away out of Israel: nevertheless the heart of Asa was perfect all his days.",
+     "displayText": "But the high places were not taken away out of Israel: nevertheless the heart of Asa was perfect all his days."
+    },
+    "BSB": {
+     "text": "The high places were not removed from Israel, but Asa’s heart was fully devoted all his days.",
+     "displayText": "The high places were not removed from Israel, but Asa’s heart was fully devoted all his days."
+    },
+    "CPDV": {
+     "text": "But some high places were left in Israel. Even so, the heart of Asa was perfect during all his days.",
+     "displayText": "But some high places were left in Israel. Even so, the heart of Asa was perfect during all his days."
+    }
+   },
+   "context": "After King Asa deposes the queen mother Maacah for making an Asherah pole and burns it in the Kidron Valley, the chronicler sums up the king's reforms."
+  },
+  {
+   "id": "2CH.20.9",
+   "translations": {
+    "KJV": {
+     "text": "If, when evil cometh upon us, as the sword, judgment, or pestilence, or famine, we stand before this house, and in thy presence, (for thy name is in this house,) and cry unto thee in our affliction, then thou wilt hear and help.",
+     "displayText": "If, when evil cometh upon us, as the sword, judgment, or pestilence, or famine, we stand before this house, and in thy presence, (for thy name is in this house,) and cry unto thee in our affliction, then thou wilt hear and help."
+    },
+    "BSB": {
+     "text": "‘If disaster comes upon us—whether sword or judgment, plague or famine—we will stand before this temple and before You, for Your Name is in this temple. We will cry out to You in our distress, and You will hear us and save us.’",
+     "displayText": "‘If disaster comes upon us—whether sword or judgment, plague or famine—we will stand before this temple and before You, for Your Name is in this temple. We will cry out to You in our distress, and You will hear us and save us.’"
+    },
+    "CPDV": {
+     "text": "‘If evils will have fallen upon us, the sword of judgment, or pestilence, or famine, we will stand in your sight before this house, in which your name is invoked, and we will cry out to you in our tribulations. And you will heed us and accomplish our salvation.’",
+     "displayText": "‘If evils will have fallen upon us, the sword of judgment, or pestilence, or famine, we will stand in your sight before this house, in which your name is invoked, and we will cry out to you in our tribulations. And you will heed us and accomplish our salvation.’"
+    }
+   },
+   "context": "With armies from Ammon, Moab and Mount Seir marching on Judah, Jehoshaphat stands in the temple courtyard and reminds God of what Israel said when building it."
+  },
+  {
+   "id": "2CH.30.20",
+   "translations": {
+    "KJV": {
+     "text": "And the Lord hearkened to Hezekiah, and healed the people.",
+     "displayText": "And the Lord hearkened to Hezekiah, and healed the people."
+    },
+    "BSB": {
+     "text": "And the LORD heard Hezekiah and healed the people.",
+     "displayText": "And the LORD heard Hezekiah and healed the people."
+    },
+    "CPDV": {
+     "text": "And the Lord heeded him, and was reconciled to the people.",
+     "displayText": "And the Lord heeded him, and was reconciled to the people."
+    }
+   },
+   "context": "At King Hezekiah's great Passover in Jerusalem, many worshippers from the northern tribes eat the meal without being ritually purified, and the king prays for them."
+  },
+  {
+   "id": "2CH.32.26",
+   "translations": {
+    "KJV": {
+     "text": "Notwithstanding Hezekiah humbled himself for the pride of his heart, both he and the inhabitants of Jerusalem, so that the wrath of the Lord came not upon them in the days of Hezekiah.",
+     "displayText": "Notwithstanding Hezekiah humbled himself for the pride of his heart, both he and the inhabitants of Jerusalem, so that the wrath of the Lord came not upon them in the days of Hezekiah."
+    },
+    "BSB": {
+     "text": "Then Hezekiah humbled the pride of his heart—he and the people of Jerusalem—so that the wrath of the LORD did not come upon them during the days of Hezekiah.",
+     "displayText": "Then Hezekiah humbled the pride of his heart—he and the people of Jerusalem—so that the wrath of the LORD did not come upon them during the days of Hezekiah."
+    },
+    "CPDV": {
+     "text": "And after this, he was humbled, because he had exalted his heart, both he and the inhabitants of Jerusalem. And therefore the wrath of the Lord did not overwhelm them in the days of Hezekiah.",
+     "displayText": "And after this, he was humbled, because he had exalted his heart, both he and the inhabitants of Jerusalem. And therefore the wrath of the Lord did not overwhelm them in the days of Hezekiah."
+    }
+   },
+   "context": "After God rescues Jerusalem from Sennacherib of Assyria and heals Hezekiah of a deadly illness, the king grows proud instead of grateful."
+  },
+  {
+   "id": "2CH.34.3",
+   "translations": {
+    "KJV": {
+     "text": "For in the eighth year of his reign, while he was yet young, he began to seek after the God of David his father: and in the twelfth year he began to purge Judah and Jerusalem from the high places, and the groves, and the carved images, and the molten images.",
+     "displayText": "For in the eighth year of his reign, while he was yet young, he began to seek after the God of David his father: and in the twelfth year he began to purge Judah and Jerusalem from the high places, and the groves, and the carved images, and the molten images."
+    },
+    "BSB": {
+     "text": "In the eighth year of his reign, while he was still young, Josiah began to seek the God of his father David, and in the twelfth year he began to cleanse Judah and Jerusalem of the high places, the Asherah poles, the carved idols, and the cast images.",
+     "displayText": "In the eighth year of his reign, while he was still young, Josiah began to seek the God of his father David, and in the twelfth year he began to cleanse Judah and Jerusalem of the high places, the Asherah poles, the carved idols, and the cast images."
+    },
+    "CPDV": {
+     "text": "Now in the eighth year of his reign, when he was still a boy, he began to seek the God of his father David. And in the twelfth year after he had begun to reign, he cleansed Judah and Jerusalem from the high places, and the sacred groves, and the idols, and the graven images.",
+     "displayText": "Now in the eighth year of his reign, when he was still a boy, he began to seek the God of his father David. And in the twelfth year after he had begun to reign, he cleansed Judah and Jerusalem from the high places, and the sacred groves, and the idols, and the graven images."
+    }
+   },
+   "context": "Josiah became king of Judah at only eight years old, and the chronicler traces how his faith and his reforms grew as he came of age."
+  },
+  {
+   "id": "EZR.1.6",
+   "translations": {
+    "KJV": {
+     "text": "And all they that were about them strengthened their hands with vessels of silver, with gold, with goods, and with beasts, and with precious things, beside all that was willingly offered.",
+     "displayText": "And all they that were about them strengthened their hands with vessels of silver, with gold, with goods, and with beasts, and with precious things, beside all that was willingly offered."
+    },
+    "BSB": {
+     "text": "And all their neighbors supported them with articles of silver and gold, with goods and livestock, and with valuables, in addition to all their freewill offerings.",
+     "displayText": "And all their neighbors supported them with articles of silver and gold, with goods and livestock, and with valuables, in addition to all their freewill offerings."
+    },
+    "CPDV": {
+     "text": "And all those who were all around assisted their hands with vessels of silver and gold, with goods and cattle, with equipment, in addition to whatever they had offered freely.",
+     "displayText": "And all those who were all around assisted their hands with vessels of silver and gold, with goods and cattle, with equipment, in addition to whatever they had offered freely."
+    }
+   },
+   "context": "When Persia's King Cyrus lets the exiles return to rebuild the temple in Jerusalem, the families of Judah and Benjamin prepare for the long journey home."
+  },
+  {
+   "id": "GEN.35.3",
+   "translations": {
+    "KJV": {
+     "text": "And let us arise, and go up to Beth–el; and I will make there an altar unto God, who answered me in the day of my distress, and was with me in the way which I went.",
+     "displayText": "And let us arise, and go up to Beth–el; and I will make there an altar unto God, who answered me in the day of my distress, and was with me in the way which I went."
+    },
+    "BSB": {
+     "text": "Then let us arise and go to Bethel. I will build an altar there to God, who answered me in my day of distress. He has been with me wherever I have gone.”",
+     "displayText": "Then let us arise and go to Bethel. I will build an altar there to God, who answered me in my day of distress. He has been with me wherever I have gone.”"
+    },
+    "CPDV": {
+     "text": "Arise, and let us go up to Bethel, so that we may make an altar there to God, who heeded me in the day of my tribulation, and who accompanied me on my journey.”",
+     "displayText": "Arise, and let us go up to Bethel, so that we may make an altar there to God, who heeded me in the day of my tribulation, and who accompanied me on my journey.”"
+    }
+   },
+   "context": "Told by God to go back to Bethel, where God had appeared to him as he fled from Esau, Jacob has his household get rid of their foreign gods."
+  },
+  {
+   "id": "NEH.4.20",
+   "translations": {
+    "KJV": {
+     "text": "In what place therefore ye hear the sound of the trumpet, resort ye thither unto us: our God shall fight for us.",
+     "displayText": "In what place therefore ye hear the sound of the trumpet, resort ye thither unto us: our God shall fight for us."
+    },
+    "BSB": {
+     "text": "Wherever you hear the sound of the horn, rally to us there. Our God will fight for us!”",
+     "displayText": "Wherever you hear the sound of the horn, rally to us there. Our God will fight for us!”"
+    },
+    "CPDV": {
+     "text": "At whatever place you hear the sound of the trumpet, rush to that place for us. Our God will fight on our behalf.",
+     "displayText": "At whatever place you hear the sound of the trumpet, rush to that place for us. Our God will fight on our behalf."
+    }
+   },
+   "context": "With enemies threatening to attack, Nehemiah has half his men stand guard while the builders work with swords at their sides, spread thin along Jerusalem's wall."
+  },
+  {
+   "id": "EZR.6.14",
+   "translations": {
+    "KJV": {
+     "text": "And the elders of the Jews builded, and they prospered through the prophesying of Haggai the prophet and Zechariah the son of Iddo. And they builded, and finished it, according to the commandment of the God of Israel, and according to the commandment of Cyrus, and Darius, and Artaxerxes king of Persia.",
+     "displayText": "And the elders of the Jews builded, and they prospered through the prophesying of Haggai the prophet and Zechariah the son of Iddo. And they builded, and finished it, according to the commandment of the God of Israel, and according to the commandment of Cyrus, and Darius, and Artaxerxes king of Persia."
+    },
+    "BSB": {
+     "text": "So the Jewish elders built and prospered through the prophesying of Haggai the prophet and Zechariah son of Iddo. They finished building according to the command of the God of Israel and the decrees of Cyrus, Darius, and Artaxerxes, kings of Persia.",
+     "displayText": "So the Jewish elders built and prospered through the prophesying of Haggai the prophet and Zechariah son of Iddo. They finished building according to the command of the God of Israel and the decrees of Cyrus, Darius, and Artaxerxes, kings of Persia."
+    },
+    "CPDV": {
+     "text": "Then the elders of the Jews were building and prospering, in accord with the prophecy of Haggai, the prophet, and Zechariah, the son of Iddo. And they built and constructed by the order of the God of Israel, and by the order of Cyrus and Darius, as well as Artaxerxes, the kings of the Persians.",
+     "displayText": "Then the elders of the Jews were building and prospering, in accord with the prophecy of Haggai, the prophet, and Zechariah, the son of Iddo. And they built and constructed by the order of the God of Israel, and by the order of Cyrus and Darius, as well as Artaxerxes, the kings of the Persians."
+    }
+   },
+   "context": "Once King Darius of Persia confirms Cyrus's decree and orders the local governor not to interfere, the Jewish elders press on with rebuilding the temple."
+  },
+  {
+   "id": "EZR.10.1",
+   "translations": {
+    "KJV": {
+     "text": "Now when Ezra had prayed, and when he had confessed, weeping and casting himself down before the house of God, there assembled unto him out of Israel a very great congregation of men and women and children: for the people wept very sore.",
+     "displayText": "Now when Ezra had prayed, and when he had confessed, weeping and casting himself down before the house of God, there assembled unto him out of Israel a very great congregation of men and women and children: for the people wept very sore."
+    },
+    "BSB": {
+     "text": "While Ezra prayed and made this confession, weeping and falling facedown before the house of God, a very large assembly of Israelites—men, women, and children—gathered around him, and the people wept bitterly as well.",
+     "displayText": "While Ezra prayed and made this confession, weeping and falling facedown before the house of God, a very large assembly of Israelites—men, women, and children—gathered around him, and the people wept bitterly as well."
+    },
+    "CPDV": {
+     "text": "Therefore, as Ezra was praying, and imploring, and weeping in this way, and was prostrate before the temple of God, an exceedingly great assembly of men and women and children was gathered to him from Israel. And the people wept with a great weeping.",
+     "displayText": "Therefore, as Ezra was praying, and imploring, and weeping in this way, and was prostrate before the temple of God, an exceedingly great assembly of men and women and children was gathered to him from Israel. And the people wept with a great weeping."
+    }
+   },
+   "context": "Devastated to learn how many of the returned exiles have broken faith with God, Ezra has prayed a long confession on the people's behalf at the temple."
+  },
+  {
+   "id": "NEH.1.10",
+   "translations": {
+    "KJV": {
+     "text": "Now these are thy servants and thy people, whom thou hast redeemed by thy great power, and by thy strong hand.",
+     "displayText": "Now these are thy servants and thy people, whom thou hast redeemed by thy great power, and by thy strong hand."
+    },
+    "BSB": {
+     "text": "They are Your servants and Your people. You redeemed them by Your great power and mighty hand.",
+     "displayText": "They are Your servants and Your people. You redeemed them by Your great power and mighty hand."
+    },
+    "CPDV": {
+     "text": "And these same are your servants and your people, whom you have redeemed by your great strength and by your powerful hand.",
+     "displayText": "And these same are your servants and your people, whom you have redeemed by your great strength and by your powerful hand."
+    }
+   },
+   "context": "Grieving over news that Jerusalem's walls lie broken, Nehemiah confesses Israel's sins in prayer and reminds God of his promise to gather the scattered exiles."
+  },
+  {
+   "id": "NEH.2.8",
+   "translations": {
+    "KJV": {
+     "text": "And a letter unto Asaph the keeper of the king’s forest, that he may give me timber to make beams for the gates of the palace which appertained to the house, and for the wall of the city, and for the house that I shall enter into. And the king granted me, according to the good hand of my God upon me.",
+     "displayText": "And a letter unto Asaph the keeper of the king’s forest, that he may give me timber to make beams for the gates of the palace which appertained to the house, and for the wall of the city, and for the house that I shall enter into. And the king granted me, according to the good hand of my God upon me."
+    },
+    "BSB": {
+     "text": "And may I have a letter to Asaph, keeper of the king’s forest, so that he will give me timber to make beams for the gates of the citadel to the temple, for the city wall, and for the house I will occupy.” And because the gracious hand of my God was upon me, the king granted my requests.",
+     "displayText": "And may I have a letter to Asaph, keeper of the king’s forest, so that he will give me timber to make beams for the gates of the citadel to the temple, for the city wall, and for the house I will occupy.” And because the gracious hand of my God was upon me, the king granted my requests."
+    },
+    "CPDV": {
+     "text": "and a letter to Asaph, the keeper of the king’s forest, so that he may give me timber, in order that I may be able to cover the gates of the tower of the house, and the walls of the city, and the house that I will enter.” And the king granted to me in accord with the good hand of my God, who is with me.",
+     "displayText": "and a letter to Asaph, the keeper of the king’s forest, so that he may give me timber, in order that I may be able to cover the gates of the tower of the house, and the walls of the city, and the house that I will enter.” And the king granted to me in accord with the good hand of my God, who is with me."
+    }
+   },
+   "context": "Given a chance to speak to King Artaxerxes, Nehemiah asks to be sent to rebuild Jerusalem and then requests letters to make the journey and the work possible."
+  },
+  {
+   "id": "NEH.2.17",
+   "translations": {
+    "KJV": {
+     "text": "Then said I unto them, Ye see the distress that we are in, how Jerusalem lieth waste, and the gates thereof are burned with fire: come, and let us build up the wall of Jerusalem, that we be no more a reproach.",
+     "displayText": "Then said I unto them, Ye see the distress that we are in, how Jerusalem lieth waste, and the gates thereof are burned with fire: come, and let us build up the wall of Jerusalem, that we be no more a reproach."
+    },
+    "BSB": {
+     "text": "Then I said to them, “You see the trouble we are in. Jerusalem lies in ruins, and its gates have been burned down. Come, let us rebuild the wall of Jerusalem, so that we will no longer be a disgrace.”",
+     "displayText": "Then I said to them, “You see the trouble we are in. Jerusalem lies in ruins, and its gates have been burned down. Come, let us rebuild the wall of Jerusalem, so that we will no longer be a disgrace.”"
+    },
+    "CPDV": {
+     "text": "And so I said to them: “You know the affliction in which we are, because Jerusalem is desolate, and its gates have been consumed by fire. Come, and let us rebuild the walls of Jerusalem, and let us no longer be in disgrace.”",
+     "displayText": "And so I said to them: “You know the affliction in which we are, because Jerusalem is desolate, and its gates have been consumed by fire. Come, and let us rebuild the walls of Jerusalem, and let us no longer be in disgrace.”"
+    }
+   },
+   "context": "Nearly a century and a half after Babylon burned Jerusalem, Nehemiah, newly arrived from the Persian court, speaks to the priests, nobles and officials of Judah."
+  },
+  {
+   "id": "NEH.6.11",
+   "translations": {
+    "KJV": {
+     "text": "And I said, Should such a man as I flee? and who is there, that, being as I am, would go into the temple to save his life? I will not go in.",
+     "displayText": "And I said, Should such a man as I flee? and who is there, that, being as I am, would go into the temple to save his life? I will not go in."
+    },
+    "BSB": {
+     "text": "But I replied, “Should a man like me run away? Should one like me go into the temple to save his own life? I will not go!”",
+     "displayText": "But I replied, “Should a man like me run away? Should one like me go into the temple to save his own life? I will not go!”"
+    },
+    "CPDV": {
+     "text": "And I said: “How could anyone like me flee? And who like me should enter the temple, so that he may live? I will not enter.”",
+     "displayText": "And I said: “How could anyone like me flee? And who like me should enter the temple, so that he may live? I will not enter.”"
+    }
+   },
+   "context": "A man named Shemaiah warns Nehemiah that assassins are coming at night and urges him to hide inside the temple with the doors shut."
+  },
+  {
+   "id": "NEH.9.6",
+   "translations": {
+    "KJV": {
+     "text": "Thou, even thou, art Lord alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee.",
+     "displayText": "Thou, even thou, art Lord alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee."
+    },
+    "BSB": {
+     "text": "You alone are the LORD. You created the heavens, the highest heavens with all their host, the earth and all that is on it, the seas and all that is in them. You give life to all things, and the host of heaven worships You.",
+     "displayText": "You alone are the LORD. You created the heavens, the highest heavens with all their host, the earth and all that is on it, the seas and all that is in them. You give life to all things, and the host of heaven worships You."
+    },
+    "CPDV": {
+     "text": "You yourself alone, O Lord, made heaven, and the heaven of the heavens, and all their host, the earth and all things that are in it, the seas and all things that are in them. And you gave life to all these things. And the host of heaven adores you.",
+     "displayText": "You yourself alone, O Lord, made heaven, and the heaven of the heavens, and all their host, the earth and all things that are in it, the seas and all things that are in them. And you gave life to all these things. And the host of heaven adores you."
+    }
+   },
+   "context": "After the returned exiles spend hours hearing the Law read and confessing their sins, the Levites lead them in a long prayer that begins with creation."
+  }
+ ]
+}

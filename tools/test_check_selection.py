@@ -43,7 +43,7 @@ def _load_kjv_verse_ids():
 # All 66 protestant-canon books are listed (1,189 chapters total). Every
 # real chapter has at least 3 verses except the ones in TWO_VERSE_CHAPTERS,
 # so verses 1-3 of each chapter give 3,566 fixture ids -- enough to cover
-# TOTAL=2500 with margin.
+# TOTAL=3000 with margin.
 REAL_BOOKS = [
     ("GEN", 50), ("EXO", 40), ("LEV", 27), ("NUM", 36), ("DEU", 34),
     ("JOS", 24), ("JDG", 21), ("RUT", 4), ("1SA", 31), ("2SA", 24),
@@ -85,11 +85,11 @@ def valid_selection():
     """A well-formed selection: TOTAL entries, legal tiers, every topic well
     over the floor of 20."""
     ids = real_ids(TOTAL)
-    # 150 / 1600 / 750 sits inside the current TIER_BOUNDS and sums to TOTAL.
-    tiers = [1] * 150 + [2] * 1600 + [3] * 750
+    # 150 / 1950 / 900 sits inside the current TIER_BOUNDS and sums to TOTAL.
+    tiers = [1] * 150 + [2] * 1950 + [3] * 900
     selected = []
     for index, (vid, tier) in enumerate(zip(ids, tiers)):
-        # Two topics per entry, rotating: every topic lands ~417 times.
+        # Two topics per entry, rotating: every topic lands ~500 times.
         a = SORTED_TOPICS[index % len(SORTED_TOPICS)]
         b = SORTED_TOPICS[(index + 5) % len(SORTED_TOPICS)]
         selected.append({"id": vid, "tier": tier, "topics": [a, b]})
