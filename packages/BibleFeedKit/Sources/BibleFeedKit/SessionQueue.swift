@@ -14,6 +14,26 @@ public struct SessionQueue: Codable, Equatable, Sendable {
         self.position = 0
     }
 
+    private enum CodingKeys: String, CodingKey {
+        case ids, endDate, position
+    }
+
+    /// Rejects a file the initializer could never have produced, so a
+    /// corrupt session can't trap `current`.
+    public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        let ids = try container.decode([String].self, forKey: .ids)
+        let position = try container.decode(Int.self, forKey: .position)
+        guard ids.indices.contains(position) else {
+            throw DecodingError.dataCorruptedError(
+                forKey: .position, in: container,
+                debugDescription: "Session position is outside its ids.")
+        }
+        self.ids = ids
+        self.endDate = try container.decode(Date.self, forKey: .endDate)
+        self.position = position
+    }
+
     public var current: String { ids[position] }
 
     /// Verses reached so far, counting the one on screen.
