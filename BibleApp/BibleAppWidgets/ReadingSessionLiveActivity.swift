@@ -7,6 +7,7 @@ struct ReadingSessionLiveActivity: Widget {
     var body: some WidgetConfiguration {
         ActivityConfiguration(for: ReadingSessionAttributes.self) { context in
             LockScreenView(context: context)
+                .widgetURL(Self.feedURL)
         } dynamicIsland: { context in
             let isDone = context.isStale || context.state.isComplete
             return DynamicIsland {
@@ -37,8 +38,12 @@ struct ReadingSessionLiveActivity: Widget {
             } minimal: {
                 Countdown(endDate: context.attributes.endDate, isDone: isDone)
             }
+            .widgetURL(Self.feedURL)
         }
     }
+
+    /// Tapping the activity body opens the app on the Feed tab.
+    private static let feedURL = URL(string: "bibleapp://feed")
 }
 
 private struct LockScreenView: View {
@@ -86,10 +91,11 @@ private struct Countdown: View {
     let isDone: Bool
 
     var body: some View {
-        if isDone || endDate <= .now {
+        let now = Date.now
+        if isDone || endDate <= now {
             Image(systemName: "checkmark")
         } else {
-            Text(timerInterval: Date.now...endDate, countsDown: true)
+            Text(timerInterval: now...endDate, countsDown: true)
                 .monospacedDigit()
                 .multilineTextAlignment(.trailing)
         }

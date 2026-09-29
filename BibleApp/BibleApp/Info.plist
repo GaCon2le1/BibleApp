@@ -3,6 +3,17 @@
 <plist version="1.0">
 <dict>
 	<!-- TODO: replace with the app's real AdMob App ID before release. -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.trailbyte.bible.widget</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>bibleapp</string>
+			</array>
+		</dict>
+	</array>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>GADIsAdManagerApp</key>

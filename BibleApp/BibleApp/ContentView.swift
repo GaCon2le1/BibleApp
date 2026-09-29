@@ -38,6 +38,11 @@ struct ContentView: View {
                     .onChange(of: selectedTab) { _, _ in
                         ads.tabDidChange()
                     }
+                    .onOpenURL { url in
+                        if url.scheme == "bibleapp" && url.host == "feed" {
+                            selectedTab = .feed
+                        }
+                    }
                 } else {
                     OnboardingView(state: state)
                 }
