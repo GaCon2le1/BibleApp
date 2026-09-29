@@ -4,6 +4,7 @@ import SwiftData
 private enum RootTab: Hashable {
     case feed
     case saved
+    case listen
 }
 
 struct ContentView: View {
@@ -13,6 +14,8 @@ struct ContentView: View {
     @State private var store = ContentStore()
     @State private var selectedTab: RootTab = .feed
     @State private var didCompleteFirstActivation = false
+    @State private var isPlayerPresented = false
+    private let audio = AudioPlayer.shared
     let ads: AdsCoordinator
 
     var body: some View {
@@ -34,6 +37,22 @@ struct ContentView: View {
                         LibraryView(store: store, state: state)
                             .tabItem { Label("Saved", systemImage: "bookmark") }
                             .tag(RootTab.saved)
+                        ListenView { isPlayerPresented = true }
+                            .tabItem { Label("Listen", systemImage: "headphones") }
+                            .tag(RootTab.listen)
+                    }
+                    .tabViewBottomAccessory(isEnabled: audio.current != nil) {
+                        MiniPlayerView { isPlayerPresented = true }
+                    }
+                    .sheet(isPresented: $isPlayerPresented) {
+                        PlayerView()
+                    }
+                    .alert("Playback",
+                           isPresented: Binding(get: { audio.alertMessage != nil },
+                                                set: { if !$0 { audio.alertMessage = nil } })) {
+                        Button("OK", role: .cancel) {}
+                    } message: {
+                        Text(audio.alertMessage ?? "")
                     }
                     .onChange(of: selectedTab) { _, _ in
                         ads.tabDidChange()

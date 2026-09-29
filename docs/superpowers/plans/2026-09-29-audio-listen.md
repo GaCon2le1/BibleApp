@@ -840,6 +840,7 @@ private struct EpisodeRow: View {
 
 ```swift
 import SwiftUI
+import BibleFeedKit
 
 /// The loaded episode above the tab bar, on every tab.
 struct MiniPlayerView: View {
