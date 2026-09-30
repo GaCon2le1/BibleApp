@@ -58,8 +58,11 @@ struct ContentView: View {
                         ads.tabDidChange()
                     }
                     .onOpenURL { url in
-                        if url.scheme == "bibleapp" && url.host == "feed" {
-                            selectedTab = .feed
+                        guard url.scheme == "bibleapp" else { return }
+                        switch url.host {
+                        case "feed": selectedTab = .feed
+                        case "listen": selectedTab = .listen
+                        default: break
                         }
                     }
                 } else {
@@ -80,6 +83,7 @@ struct ContentView: View {
         }
         .task {
             await ReadingSessionController.shared.reconcile()
+            LyricsActivityController.shared.endStray()
         }
         .onChange(of: scenePhase) { oldPhase, newPhase in
             guard newPhase == .active else { return }

@@ -15,13 +15,14 @@ final class AudioPlayer {
     private(set) var isPlaying = false
     private(set) var elapsed: Double = 0
     private(set) var duration: Double = 0
-    /// The transcript line being spoken, shown as the Now Playing title.
+    /// The transcript line being spoken, for the player and lyrics card.
     private(set) var currentLine: String?
     private(set) var hasTranscript = false
     var alertMessage: String?
 
     @ObservationIgnored private let player = AVPlayer()
     @ObservationIgnored private let progress = PlaybackProgressStore()
+    @ObservationIgnored private let lyrics = LyricsActivityController.shared
     @ObservationIgnored private let artwork = UIImage(named: "AudioArtwork").map(AudioPlayer.makeArtwork)
     @ObservationIgnored private let log = Logger(subsystem: "com.trailbyte.bible", category: "audio")
     @ObservationIgnored private var transcript: Transcript?
@@ -68,6 +69,9 @@ final class AudioPlayer {
         if start > 0 {
             player.seek(to: CMTime(seconds: start, preferredTimescale: 600))
         }
+        if transcript == nil {
+            lyrics.end()
+        }
         resume()
     }
 
@@ -83,6 +87,7 @@ final class AudioPlayer {
         player.play()
         isPlaying = true
         updateNowPlaying()
+        startOrUpdateLyrics()
     }
 
     func pause() {
@@ -90,6 +95,7 @@ final class AudioPlayer {
         isPlaying = false
         saveProgress()
         updateNowPlaying()
+        publishLyrics()
     }
 
     func togglePlayPause() {
@@ -109,6 +115,7 @@ final class AudioPlayer {
                     toleranceBefore: .zero, toleranceAfter: .zero)
         saveProgress()
         updateNowPlaying()
+        publishLyrics()
     }
 
     // MARK: - Playback events
@@ -122,13 +129,32 @@ final class AudioPlayer {
         }
     }
 
-    /// Follows the transcript to `elapsed`, refreshing Now Playing only
+    /// Follows the transcript to `elapsed`, updating the lyrics card only
     /// when the line changes.
     private func refreshLine() {
         let line = transcript?.line(at: elapsed)?.text
         guard line != currentLine else { return }
         currentLine = line
-        updateNowPlaying()
+        publishLyrics()
+    }
+
+    /// Starts the card for the loaded episode if needed, else updates it.
+    private func startOrUpdateLyrics() {
+        guard let current, transcript != nil else { return }
+        lyrics.start(episode: current, state: lyricsState())
+    }
+
+    private func publishLyrics() {
+        guard transcript != nil else { return }
+        lyrics.update(lyricsState())
+    }
+
+    private func lyricsState() -> ListeningAttributes.ContentState {
+        let window = transcript?.window(at: elapsed)
+        return ListeningAttributes.ContentState(previous: window?.previous,
+                                                current: window?.current,
+                                                next: window?.next,
+                                                isPlaying: isPlaying)
     }
 
     private func itemDidEnd(_ item: ObjectIdentifier?) {
@@ -137,6 +163,7 @@ final class AudioPlayer {
         elapsed = duration
         saveProgress()
         updateNowPlaying()
+        lyrics.end()
     }
 
     private func itemStatusChanged(_ status: AVPlayerItem.Status) {
@@ -169,6 +196,7 @@ final class AudioPlayer {
             isPlaying = false
             saveProgress()
             updateNowPlaying()
+            publishLyrics()
         case .ended:
             if resumeAfterInterruption, options.contains(.shouldResume) {
                 resume()
@@ -287,10 +315,8 @@ final class AudioPlayer {
             return
         }
         var info: [String: Any] = [
-            // Karaoke: the spoken line takes the title slot, which the
-            // expanded Dynamic Island and Lock Screen show most prominently.
-            MPMediaItemPropertyTitle: currentLine ?? current.title,
-            MPMediaItemPropertyArtist: currentLine == nil ? "Bible App" : current.title,
+            MPMediaItemPropertyTitle: current.title,
+            MPMediaItemPropertyArtist: "Bible App",
             MPMediaItemPropertyAlbumTitle: current.subtitle,
             MPMediaItemPropertyPlaybackDuration: duration,
             MPNowPlayingInfoPropertyElapsedPlaybackTime: elapsed,
