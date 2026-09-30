@@ -42,3 +42,27 @@ private let transcript = Transcript(lines: [
     let decoded = try Transcript.decode(Data(json.utf8))
     #expect(decoded.lines == [TranscriptLine(start: 1.25, text: "Một"), TranscriptLine(start: 5.5, text: "Hai")])
 }
+
+@Test func indexFollowsLineStarts() {
+    #expect(transcript.index(at: 1) == nil)
+    #expect(transcript.index(at: 2) == 0)
+    #expect(transcript.index(at: 6) == 1)
+    #expect(transcript.index(at: 99) == 2)
+}
+
+@Test func windowBeforeTheFirstLineShowsItAsNext() {
+    #expect(transcript.window(at: 0) == LyricWindow(previous: nil, current: nil, next: "Một"))
+}
+
+@Test func windowInTheMiddleHasBothNeighbours() {
+    #expect(transcript.window(at: 6) == LyricWindow(previous: "Một", current: "Hai", next: "Ba"))
+}
+
+@Test func windowAtTheFirstAndLastLines() {
+    #expect(transcript.window(at: 2) == LyricWindow(previous: nil, current: "Một", next: "Hai"))
+    #expect(transcript.window(at: 99) == LyricWindow(previous: "Hai", current: "Ba", next: nil))
+}
+
+@Test func windowOfEmptyTranscriptIsEmpty() {
+    #expect(Transcript(lines: []).window(at: 5) == LyricWindow(previous: nil, current: nil, next: nil))
+}
