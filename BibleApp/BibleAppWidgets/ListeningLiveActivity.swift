@@ -34,6 +34,9 @@ struct ListeningLiveActivity: Widget {
                         }
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
+                    // Keeps the first letters clear of the island's rounded
+                    // bottom corners.
+                    .padding(.horizontal, 12)
                 }
             } compactLeading: {
                 Image(systemName: "quote.bubble.fill")
