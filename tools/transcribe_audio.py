@@ -100,7 +100,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("mp3", type=pathlib.Path)
     parser.add_argument("--model", type=pathlib.Path, default=DEFAULT_MODEL)
-    parser.add_argument("--language", default="vi")
+    parser.add_argument("--language", default="auto",
+                        help="whisper language code, or auto to detect it")
     args = parser.parse_args()
 
     lines = build_lines(parse_whisper_json(run_whisper(args.mp3, args.model, args.language)))

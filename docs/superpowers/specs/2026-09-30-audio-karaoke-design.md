@@ -16,7 +16,7 @@ karaoke style, and in the in-app player.
 | Mechanism | Rewrite the system Now Playing title as the current line (option A). No custom Live Activity, so the island never splits in two |
 | Where text shows | Expanded Dynamic Island and Lock Screen (the compact island has no room for text; it keeps artwork + waveform), plus the in-app `PlayerView` |
 | Transcript source | Generated offline with whisper.cpp by a repo script; the output JSON is hand-editable and bundled next to the mp3 |
-| Language / model | The episodes are Vietnamese narration. `ggml-large-v3-turbo.bin` (~1.6 GB, kept in `~/.cache/whisper/`, never committed) with `-l vi`; `small.en` hallucinated English and multilingual `small` misspelled many Vietnamese words |
+| Language / model | Episodes may be English or Vietnamese, so the language is auto-detected. `ggml-large-v3-turbo.bin` (~1.6 GB, kept in `~/.cache/whisper/`, never committed); `small.en` hallucinated on Vietnamese and multilingual `small` misspelled many Vietnamese words |
 | Line size | At most 80 characters, split at sentence punctuation first |
 | Granularity | One line at a time; no per-word highlighting |
 
@@ -36,13 +36,13 @@ karaoke style, and in the in-app player.
 - `collapse_repeats(segments)` — drops a segment whose text equals the
   previous one (whisper's repetition loop over music), extending the
   previous segment's `end` instead.
-- `main`: `transcribe_audio.py <mp3> [--model PATH] [--language vi]` →
+- `main`: `transcribe_audio.py <mp3> [--model PATH] [--language auto]` →
   converts to 16 kHz mono WAV with ffmpeg in a temp dir, runs
   `whisper-cli -l <language> -oj`, writes
   `<same folder>/<basename>.transcript.json` as
   `{"lines": [{"start", "end", "text"}]}` (UTF-8, no `\u` escapes,
   indented). Default model `~/.cache/whisper/ggml-large-v3-turbo.bin`,
-  default language `vi`.
+  default language `auto`.
 
 ### `BibleFeedKit` (TDD)
 

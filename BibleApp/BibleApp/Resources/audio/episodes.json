@@ -4,8 +4,9 @@
       "id": "test",
       "title": "Test Episode",
       "subtitle": "Sample narration",
-      "file": "test.mp3",
-      "durationSeconds": 1469.136
+      "file": "test.m4a",
+      "durationSeconds": 300.048,
+      "transcript": "test.transcript.json"
     }
   ]
 }
