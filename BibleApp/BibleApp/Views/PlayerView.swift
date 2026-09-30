@@ -16,7 +16,7 @@ struct PlayerView: View {
                 .resizable()
                 .scaledToFit()
                 .clipShape(RoundedRectangle(cornerRadius: 24))
-                .frame(maxWidth: 280)
+                .frame(maxWidth: 240)
                 .shadow(radius: 16, y: 8)
             VStack(spacing: 6) {
                 Text(audio.current?.title ?? "")
@@ -25,6 +25,15 @@ struct PlayerView: View {
                 Text(audio.current?.subtitle ?? "")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
+            }
+            if audio.hasTranscript {
+                Text(audio.currentLine ?? "")
+                    .font(.system(.title3, design: .serif))
+                    .multilineTextAlignment(.center)
+                    .lineLimit(3, reservesSpace: true)
+                    .frame(maxWidth: .infinity)
+                    .contentTransition(.opacity)
+                    .animation(.easeInOut(duration: 0.25), value: audio.currentLine)
             }
             scrubber
             controls

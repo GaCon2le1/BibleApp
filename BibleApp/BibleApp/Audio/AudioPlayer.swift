@@ -15,12 +15,16 @@ final class AudioPlayer {
     private(set) var isPlaying = false
     private(set) var elapsed: Double = 0
     private(set) var duration: Double = 0
+    /// The transcript line being spoken, shown as the Now Playing title.
+    private(set) var currentLine: String?
+    private(set) var hasTranscript = false
     var alertMessage: String?
 
     @ObservationIgnored private let player = AVPlayer()
     @ObservationIgnored private let progress = PlaybackProgressStore()
     @ObservationIgnored private let artwork = UIImage(named: "AudioArtwork").map(AudioPlayer.makeArtwork)
     @ObservationIgnored private let log = Logger(subsystem: "com.trailbyte.bible", category: "audio")
+    @ObservationIgnored private var transcript: Transcript?
     @ObservationIgnored private var statusObservation: NSKeyValueObservation?
     @ObservationIgnored private var lastSavedElapsed: Double = 0
     @ObservationIgnored private var didConfigureSession = false
@@ -29,7 +33,7 @@ final class AudioPlayer {
     private init() {
         Self.registerRemoteCommands()
         observeSystemEvents()
-        player.addPeriodicTimeObserver(forInterval: CMTime(seconds: 0.5, preferredTimescale: 600),
+        player.addPeriodicTimeObserver(forInterval: CMTime(seconds: 0.25, preferredTimescale: 600),
                                        queue: .main) { [weak self] time in
             MainActor.assumeIsolated { self?.tick(time.seconds) }
         }
@@ -54,10 +58,13 @@ final class AudioPlayer {
         player.replaceCurrentItem(with: item)
         current = episode
         duration = episode.durationSeconds
+        transcript = EpisodeLibrary.transcript(for: episode)
+        hasTranscript = transcript != nil
         let start = ResumePolicy.startPosition(saved: progress.position(for: episode.id),
                                                duration: duration)
         elapsed = start
         lastSavedElapsed = start
+        currentLine = transcript?.line(at: start)?.text
         if start > 0 {
             player.seek(to: CMTime(seconds: start, preferredTimescale: 600))
         }
@@ -70,6 +77,7 @@ final class AudioPlayer {
         if duration > 0, elapsed >= duration - 0.5 {
             // Finished earlier: play again from the start.
             elapsed = 0
+            currentLine = transcript?.line(at: 0)?.text
             player.seek(to: .zero)
         }
         player.play()
@@ -96,6 +104,7 @@ final class AudioPlayer {
         guard current != nil else { return }
         let target = min(max(seconds, 0), duration)
         elapsed = target
+        currentLine = transcript?.line(at: target)?.text
         player.seek(to: CMTime(seconds: target, preferredTimescale: 600),
                     toleranceBefore: .zero, toleranceAfter: .zero)
         saveProgress()
@@ -107,9 +116,19 @@ final class AudioPlayer {
     private func tick(_ seconds: Double) {
         guard isPlaying, seconds.isFinite else { return }
         elapsed = seconds
+        refreshLine()
         if abs(seconds - lastSavedElapsed) >= 5 {
             saveProgress()
         }
+    }
+
+    /// Follows the transcript to `elapsed`, refreshing Now Playing only
+    /// when the line changes.
+    private func refreshLine() {
+        let line = transcript?.line(at: elapsed)?.text
+        guard line != currentLine else { return }
+        currentLine = line
+        updateNowPlaying()
     }
 
     private func itemDidEnd(_ item: ObjectIdentifier?) {
@@ -268,8 +287,10 @@ final class AudioPlayer {
             return
         }
         var info: [String: Any] = [
-            MPMediaItemPropertyTitle: current.title,
-            MPMediaItemPropertyArtist: "Bible App",
+            // Karaoke: the spoken line takes the title slot, which the
+            // expanded Dynamic Island and Lock Screen show most prominently.
+            MPMediaItemPropertyTitle: currentLine ?? current.title,
+            MPMediaItemPropertyArtist: currentLine == nil ? "Bible App" : current.title,
             MPMediaItemPropertyAlbumTitle: current.subtitle,
             MPMediaItemPropertyPlaybackDuration: duration,
             MPNowPlayingInfoPropertyElapsedPlaybackTime: elapsed,
