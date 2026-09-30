@@ -39,3 +39,14 @@ import Foundation
     #expect(PlaybackTime.format(.nan) == "0:00")
     #expect(PlaybackTime.format(.infinity) == "0:00")
 }
+
+@Test func catalogReadsOptionalTranscript() throws {
+    let json = """
+    {"episodes": [{"id": "a", "title": "A", "subtitle": "S", "file": "a.mp3",
+                   "durationSeconds": 10, "transcript": "a.transcript.json"},
+                  {"id": "b", "title": "B", "subtitle": "S", "file": "b.mp3",
+                   "durationSeconds": 10}]}
+    """
+    let episodes = try EpisodeCatalog.decode(Data(json.utf8))
+    #expect(episodes.map(\.transcript) == ["a.transcript.json", nil])
+}

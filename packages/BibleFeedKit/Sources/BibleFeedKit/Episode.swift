@@ -8,13 +8,17 @@ public struct Episode: Codable, Identifiable, Hashable, Sendable {
     /// Bundle file name including its extension, e.g. "test.mp3".
     public let file: String
     public let durationSeconds: Double
+    /// Bundle file name of the karaoke transcript, if the episode has one.
+    public let transcript: String?
 
-    public init(id: String, title: String, subtitle: String, file: String, durationSeconds: Double) {
+    public init(id: String, title: String, subtitle: String, file: String,
+                durationSeconds: Double, transcript: String? = nil) {
         self.id = id
         self.title = title
         self.subtitle = subtitle
         self.file = file
         self.durationSeconds = durationSeconds
+        self.transcript = transcript
     }
 }
 
