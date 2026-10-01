@@ -94,13 +94,13 @@ struct ContentView: View {
         }
         .task(id: "\(store.index.count)-\(states.first?.preferredTranslationRaw ?? "")") {
             guard !store.index.isEmpty, let state = states.first else { return }
-            await VerseWidgetUpdater.refresh(store: store, translation: state.preferredTranslation)
+            await VerseWidgetUpdater.refresh(store: store, state: state)
         }
         .onChange(of: scenePhase) { oldPhase, newPhase in
             guard newPhase == .active else { return }
             Task { await ReadingSessionController.shared.reconcile() }
             if let state = states.first {
-                Task { await VerseWidgetUpdater.refresh(store: store, translation: state.preferredTranslation) }
+                Task { await VerseWidgetUpdater.refresh(store: store, state: state) }
             }
             let isColdStart = !didCompleteFirstActivation
             didCompleteFirstActivation = true

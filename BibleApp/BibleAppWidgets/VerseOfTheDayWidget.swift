@@ -31,8 +31,28 @@ struct VerseWidgetView: View {
 
     var body: some View {
         content
+            .id(entry.snapshot.id)
+            .transition(.blurReplace)
             .widgetURL(entry.snapshot.url)
             .containerBackground(.fill.tertiary, for: .widget)
+    }
+
+    /// Reference plus a bookmark button. The icon follows a pending tap from
+    /// the widget first, so it flips immediately, before the app next runs.
+    private func footer(_ s: VerseWidgetSnapshot, font: Font) -> some View {
+        let isSaved = VerseWidgetStore.savedOverrides()[s.id] ?? s.isSaved
+        return HStack {
+            Text(s.reference).font(font.weight(.semibold)).foregroundStyle(.secondary)
+            Spacer(minLength: 0)
+            Button(intent: ToggleVerseSavedIntent(verseID: s.id, saved: !isSaved)) {
+                Image(systemName: isSaved ? "bookmark.fill" : "bookmark")
+                    .font(.callout)
+                    .foregroundStyle(isSaved ? Color.accentColor : .secondary)
+                    .contentTransition(.symbolEffect(.replace))
+            }
+            .buttonStyle(.plain)
+            .invalidatableContent()
+        }
     }
 
     @ViewBuilder private var content: some View {
@@ -52,7 +72,7 @@ struct VerseWidgetView: View {
                     .lineLimit(5)
                     .minimumScaleFactor(0.8)
                 Spacer(minLength: 0)
-                Text(s.reference).font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                footer(s, font: .caption)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
         default:
@@ -62,7 +82,7 @@ struct VerseWidgetView: View {
                     .lineLimit(6)
                     .minimumScaleFactor(0.7)
                 Spacer(minLength: 0)
-                Text(s.reference).font(.caption2.weight(.semibold)).foregroundStyle(.secondary)
+                footer(s, font: .caption2)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
         }
