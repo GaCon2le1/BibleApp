@@ -13,6 +13,7 @@ struct ContentView: View {
     @Query private var states: [UserState]
     @State private var store = ContentStore()
     @State private var selectedTab: RootTab = .feed
+    @State private var pinnedVerseID: String?
     @State private var didCompleteFirstActivation = false
     @State private var isPlayerPresented = false
     private let audio = AudioPlayer.shared
@@ -31,7 +32,7 @@ struct ContentView: View {
             } else if let state = states.first {
                 if state.hasCompletedOnboarding {
                     TabView(selection: $selectedTab) {
-                        FeedView(store: store, state: state)
+                        FeedView(store: store, state: state, pinnedID: pinnedVerseID)
                             .tabItem { Label("Feed", systemImage: "book") }
                             .tag(RootTab.feed)
                         LibraryView(store: store, state: state)
@@ -62,6 +63,12 @@ struct ContentView: View {
                         switch url.host {
                         case "feed": selectedTab = .feed
                         case "listen": selectedTab = .listen
+                        case "verse":
+                            let id = url.lastPathComponent
+                            if !id.isEmpty, id != "/" {
+                                pinnedVerseID = id
+                                selectedTab = .feed
+                            }
                         default: break
                         }
                     }
@@ -85,9 +92,16 @@ struct ContentView: View {
             await ReadingSessionController.shared.reconcile()
             LyricsActivityController.shared.endStray()
         }
+        .task(id: "\(store.index.count)-\(states.first?.preferredTranslationRaw ?? "")") {
+            guard !store.index.isEmpty, let state = states.first else { return }
+            await VerseWidgetUpdater.refresh(store: store, translation: state.preferredTranslation)
+        }
         .onChange(of: scenePhase) { oldPhase, newPhase in
             guard newPhase == .active else { return }
             Task { await ReadingSessionController.shared.reconcile() }
+            if let state = states.first {
+                Task { await VerseWidgetUpdater.refresh(store: store, translation: state.preferredTranslation) }
+            }
             let isColdStart = !didCompleteFirstActivation
             didCompleteFirstActivation = true
             guard isColdStart || oldPhase == .background else { return }

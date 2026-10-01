@@ -4,6 +4,7 @@ import BibleFeedKit
 struct FeedView: View {
     let store: ContentStore
     let state: UserState
+    let pinnedID: String?
 
     @State private var queue: [VerseIndexEntry] = []
     @State private var loadedContent: [String: VerseContent] = [:]
@@ -59,6 +60,7 @@ struct FeedView: View {
             .safeAreaPadding(.top, 8)
         }
         .onAppear(perform: rebuild)
+        .onChange(of: pinnedID) { _, _ in rebuild() }
     }
 
     /// The Feed queue from the verse on screen onward, for a reflection
@@ -74,9 +76,15 @@ struct FeedView: View {
                                   seen: state.seenSet,
                                   saved: state.savedSet,
                                   seed: UInt64.random(in: 0...UInt64.max))
-        queue = result.verses
+        var verses = result.verses
+        if let pinnedID, let pinned = store.entry(for: pinnedID) {
+            verses.removeAll { $0.id == pinned.id }
+            verses.insert(pinned, at: 0)
+        }
+        queue = verses
         isReplay = result.isReplay
         loadContent(around: 0)
+        if pinnedID != nil, !isReplay { visibleID = queue.first?.id }
     }
 
     /// Fetches content for the card at `position` plus the next one, since
